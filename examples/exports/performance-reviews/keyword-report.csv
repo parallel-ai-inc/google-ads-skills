@@ -1,0 +1,23 @@
+Search keyword report
+"October 14, 2026 - November 12, 2026"
+Keyword status,Keyword,Match type,Campaign,Ad group,Status,Status reasons,Final URL,Currency code,Avg. CPM,Impr.,Interactions,Interaction rate,Avg. cost,Cost,Conv. rate,Conversions,Cost / conv.,Quality Score,Exp. CTR,Ad relevance,Landing page exp.
+Enabled,[24 hour plumber],Exact match,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,775.76,"1,650",160,9.70%,8.00,"1,280.00",16.25%,26.00,49.23,8,Above average,Above average,Average
+Enabled,"""emergency plumber""",Phrase match,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,654.23,"5,200",420,8.08%,8.10,"3,402.00",9.05%,38.00,89.53,7,Average,Above average,Average
+Enabled,emergency plumbing service,Broad match,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,474.36,"3,900",210,5.38%,8.81,"1,850.00",5.71%,12.00,154.17,6,Average,Average,Average
+Enabled,plumbing jobs,Broad match,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,228.57,"2,800",95,3.39%,6.74,640.00,0.00%,0.00, --,3,Below average,Below average,Average
+Enabled,"""burst pipe repair""",Phrase match,Plumbing | Emergency,Burst Pipes,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,766.67,"1,500",140,9.33%,8.21,"1,150.00",9.29%,13.00,88.46,7,Average,Above average,Average
+Enabled,frozen pipe repair,Broad match,Plumbing | Emergency,Burst Pipes,Eligible, --,https://www.northsideplumbing.com/emergency/,USD,283.33,300,10,3.33%,8.50,85.00,0.00%,0.00, --, --, --, --, --
+Paused,[burst pipe plumber],Exact match,Plumbing | Emergency,Burst Pipes,Paused, --,https://www.northsideplumbing.com/emergency/,USD,525.00,400,28,7.00%,7.50,210.00,0.00%,0.00, --,5,Average,Average,Average
+Enabled,"""water heater repair""",Phrase match,Plumbing | Water Heaters,Repair,Eligible, --,https://www.northsideplumbing.com/water-heaters/,USD,642.85,"2,600",236,9.08%,7.08,"1,671.40",7.20%,17.00,98.32,4,Average,Above average,Below average
+Enabled,[water heater replacement],Exact match,Plumbing | Water Heaters,Repair,Eligible, --,https://www.northsideplumbing.com/water-heaters/,USD,766.67,900,80,8.89%,8.62,690.00,10.00%,8.00,86.25,5,Average,Above average,Below average
+Enabled,"""water heater installation""",Phrase match,Plumbing | Water Heaters,Install,Eligible, --,https://www.northsideplumbing.com/water-heaters/,USD,668.95,"2,100",172,8.19%,8.17,"1,404.80",6.40%,11.00,127.71,4,Average,Average,Below average
+Enabled,tankless water heater,Broad match,Plumbing | Water Heaters,Install,Eligible, --,https://www.northsideplumbing.com/water-heaters/,USD,536.84,"1,900",120,6.32%,8.50,"1,020.00",3.33%,4.00,255.00,3,Below average,Average,Below average
+Enabled,"""drain cleaning""",Phrase match,Drain Cleaning | Search,Drains,Eligible, --,https://www.northsideplumbing.com/drain-cleaning/,USD,609.68,"3,100",300,9.68%,6.30,"1,890.00",10.00%,30.00,63.00,7,Above average,Above average,Average
+Enabled,[clogged drain],Exact match,Drain Cleaning | Search,Drains,Eligible, --,https://www.northsideplumbing.com/drain-cleaning/,USD,640.00,"1,000",110,11.00%,5.82,640.00,8.18%,9.00,71.11,7,Average,Above average,Average
+Enabled,diy drain unclog,Broad match,Drain Cleaning | Search,Drains,Eligible, --,https://www.northsideplumbing.com/drain-cleaning/,USD,164.29,"1,400",70,5.00%,3.29,230.00,0.00%,0.00, --,4,Below average,Average,Average
+Enabled,hydro jetting,Broad match,Drain Cleaning | Search,Hydro Jetting,Eligible, --,https://www.northsideplumbing.com/drain-cleaning/,USD,685.71,700,60,8.57%,8.00,480.00,3.33%,2.00,240.00,5,Average,Average,Average
+Enabled,[northside plumbing],Exact match,Brand,Brand,Eligible, --,https://www.northsideplumbing.com/,USD,288.89,900,180,20.00%,1.44,260.00,22.22%,40.00,6.50,10,Above average,Above average,Above average
+Total: Keywords in your account,,,,,,,,,,"30,350","2,391",7.88%,7.07,"16,903.20",8.78%,210.00,80.49,,,,
+Total: All but removed keywords,,,,,,,,,,"30,350","2,391",7.88%,7.07,"16,903.20",8.78%,210.00,80.49,,,,
+Total: Account,,,,,,,,,,"30,350","2,391",7.88%,7.28,"17,415.50",8.78%,210.00,82.93,,,,
+Total: Search,,,,,,,,,,"30,350","2,391",7.88%,7.07,"16,903.20",8.78%,210.00,80.49,,,,

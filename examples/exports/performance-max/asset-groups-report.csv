@@ -1,0 +1,13 @@
+Asset group report
+"October 14, 2026 - November 12, 2026"
+Asset group status,Asset group,Campaign,Status,Ad strength,Currency code,Impr.,Clicks,Cost,Conversions,Conv. value
+Enabled,Water Heaters | Shop,PMax | Plumbing Supplies,Eligible,Good,USD,"88,044","2,668","3,600.00",40.00,"22,000.00"
+Enabled,Faucets and Fixtures,PMax | Plumbing Supplies,Eligible,Excellent,USD,"114,309","2,931","2,700.00",52.00,"12,500.00"
+Enabled,Drain Tools,PMax | Plumbing Supplies,Eligible,Average,USD,"40,638","1,042","2,100.00",3.00,210.00
+Enabled,Pipe Fittings,PMax | Plumbing Supplies,Eligible,Good,USD,"17,680",442,600.00,9.00,"1,100.00"
+Enabled,Clearance,PMax | Plumbing Supplies,Eligible,Good,USD,"5,044",194,450.00,0.00,0.00
+Enabled,Water Heaters | General,PMax | Water Heater Leads,Eligible,Poor,USD,"45,507","1,379","2,900.00",6.00,0.00
+Enabled,Tankless Install,PMax | Water Heater Leads,Eligible,Good,USD,"26,250",875,"1,900.00",22.00,0.00
+Enabled,Boiler Service,PMax | Water Heater Leads,Eligible,Good,USD,0,0,0.00,0.00,0.00
+Enabled,Spring Promo | All,PMax | Spring Promo,Campaign paused,Pending,USD,"2,295",85,120.00,1.00,0.00
+Total: Account, --, --, --, --,USD,"339,767","9,616","14,370.00",133.00,"35,810.00"

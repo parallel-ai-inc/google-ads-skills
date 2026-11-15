@@ -1,0 +1,485 @@
+{
+ "kind": "experiment",
+ "form": "arms",
+ "report": "experiment-arms-by-day.csv",
+ "title_rows": [
+  "Experiment report",
+  "September 24, 2026 - November 11, 2026"
+ ],
+ "confidence": 0.95,
+ "split": 0.5,
+ "google_result": [],
+ "results": [
+  {
+   "metric": "Impr.",
+   "control": 11561.0,
+   "trial": 10523.0,
+   "difference": -0.08978462070755122,
+   "low": -0.20310375196908714,
+   "high": 0.03964855995702843,
+   "p": 0.16065808451683394,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Clicks",
+   "control": 793.0,
+   "trial": 716.0,
+   "difference": -0.09709962168978559,
+   "low": -0.20140901832267466,
+   "high": 0.020834334292703316,
+   "p": 0.10058033184819037,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Cost",
+   "control": 5989.509999999999,
+   "trial": 6210.049999999998,
+   "difference": 0.036821042121976344,
+   "low": -0.08494577499402745,
+   "high": 0.1747914429660009,
+   "p": 0.5620813864549654,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Conversions",
+   "control": 94.0,
+   "trial": 110.0,
+   "difference": 0.17021276595744683,
+   "low": -0.09477475045901207,
+   "high": 0.5127703500362581,
+   "p": 0.22340638729149953,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Conv. value",
+   "control": 19820.11,
+   "trial": 22986.920000000002,
+   "difference": 0.15977761980130278,
+   "low": -0.10615008363076439,
+   "high": 0.5048210026752855,
+   "p": 0.2570938795372819,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "CTR",
+   "control": 0.06859268229391921,
+   "trial": 0.0680414330514112,
+   "difference": -0.00803656052034707,
+   "low": -0.042644324728312255,
+   "high": 0.02782225110333858,
+   "p": 0.6487449735341331,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Avg. CPC",
+   "control": 7.552976040353089,
+   "trial": 8.673254189944132,
+   "difference": 0.14832274637252407,
+   "low": 0.13431079257019052,
+   "high": 0.16250778752503092,
+   "p": 0.0,
+   "significant": true,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "Higher, worse",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Conv. rate",
+   "control": 0.11853720050441362,
+   "trial": 0.15363128491620112,
+   "difference": 0.29605966955901586,
+   "low": 0.040321825032345826,
+   "high": 0.61466444963336,
+   "p": 0.022006188180972774,
+   "significant": true,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "Higher, better",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Cost / conv.",
+   "control": 63.71819148936169,
+   "trial": 56.454999999999984,
+   "difference": -0.11398929127758373,
+   "low": -0.2906581366298434,
+   "high": 0.10668073676225864,
+   "p": 0.2781951850441782,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  },
+  {
+   "metric": "Conv. value / cost",
+   "control": 3.3091371414356106,
+   "trial": 3.7015676202285017,
+   "difference": 0.11858997134903948,
+   "low": -0.10707518979290076,
+   "high": 0.40128654697413624,
+   "p": 0.3210736333992976,
+   "significant": false,
+   "source": "ours",
+   "method": "days paired, delta method on the log ratio",
+   "verdict": "No clear difference",
+   "difference_source": "our arithmetic from the two arms"
+  }
+ ],
+ "google_significance_used": false,
+ "arms": {
+  "days": 42,
+  "from": "2026-10-01",
+  "to": "2026-11-11",
+  "rows_skipped": 14,
+  "trial_share_of_impressions": 0.47649882267705124,
+  "totals": {
+   "control": {
+    "impressions": 11561.0,
+    "clicks": 793.0,
+    "cost": 5989.509999999999,
+    "conversions": 94.0,
+    "conv_value": 19820.11
+   },
+   "trial": {
+    "impressions": 10523.0,
+    "clicks": 716.0,
+    "cost": 6210.049999999998,
+    "conversions": 110.0,
+    "conv_value": 22986.920000000002
+   }
+  },
+  "daily": [
+   [
+    "2026-10-01",
+    1.0,
+    3.0,
+    197.88,
+    109.34
+   ],
+   [
+    "2026-10-02",
+    1.0,
+    1.0,
+    72.48,
+    129.43
+   ],
+   [
+    "2026-10-03",
+    2.0,
+    2.0,
+    58.35,
+    123.28
+   ],
+   [
+    "2026-10-04",
+    2.0,
+    2.0,
+    84.93,
+    152.36
+   ],
+   [
+    "2026-10-05",
+    4.0,
+    4.0,
+    204.01,
+    173.73
+   ],
+   [
+    "2026-10-06",
+    2.0,
+    1.0,
+    246.56,
+    159.94
+   ],
+   [
+    "2026-10-07",
+    2.0,
+    5.0,
+    131.92,
+    179.96
+   ],
+   [
+    "2026-10-08",
+    1.0,
+    2.0,
+    147.98,
+    167.87
+   ],
+   [
+    "2026-10-09",
+    2.0,
+    4.0,
+    159.7,
+    153.38
+   ],
+   [
+    "2026-10-10",
+    2.0,
+    3.0,
+    115.27,
+    216.15
+   ],
+   [
+    "2026-10-11",
+    3.0,
+    1.0,
+    130.05,
+    63.11
+   ],
+   [
+    "2026-10-12",
+    1.0,
+    4.0,
+    146.34,
+    195.5
+   ],
+   [
+    "2026-10-13",
+    4.0,
+    2.0,
+    144.31,
+    142.53
+   ],
+   [
+    "2026-10-14",
+    2.0,
+    3.0,
+    121.97,
+    159.48
+   ],
+   [
+    "2026-10-15",
+    4.0,
+    2.0,
+    224.01,
+    150.79
+   ],
+   [
+    "2026-10-16",
+    2.0,
+    3.0,
+    144.45,
+    180.68
+   ],
+   [
+    "2026-10-17",
+    5.0,
+    3.0,
+    139.6,
+    104.95
+   ],
+   [
+    "2026-10-18",
+    1.0,
+    1.0,
+    109.64,
+    53.47
+   ],
+   [
+    "2026-10-19",
+    3.0,
+    2.0,
+    216.9,
+    124.09
+   ],
+   [
+    "2026-10-20",
+    2.0,
+    1.0,
+    205.4,
+    197.45
+   ],
+   [
+    "2026-10-21",
+    1.0,
+    1.0,
+    164.44,
+    156.29
+   ],
+   [
+    "2026-10-22",
+    0.0,
+    2.0,
+    174.85,
+    136.8
+   ],
+   [
+    "2026-10-23",
+    3.0,
+    7.0,
+    98.15,
+    242.61
+   ],
+   [
+    "2026-10-24",
+    1.0,
+    1.0,
+    65.77,
+    95.17
+   ],
+   [
+    "2026-10-25",
+    1.0,
+    4.0,
+    83.76,
+    75.82
+   ],
+   [
+    "2026-10-26",
+    6.0,
+    3.0,
+    170.56,
+    180.96
+   ],
+   [
+    "2026-10-27",
+    2.0,
+    5.0,
+    146.49,
+    300.71
+   ],
+   [
+    "2026-10-28",
+    3.0,
+    3.0,
+    186.53,
+    135.04
+   ],
+   [
+    "2026-10-29",
+    1.0,
+    3.0,
+    140.18,
+    107.24
+   ],
+   [
+    "2026-10-30",
+    4.0,
+    1.0,
+    147.61,
+    92.07
+   ],
+   [
+    "2026-10-31",
+    0.0,
+    0.0,
+    97.98,
+    109.53
+   ],
+   [
+    "2026-11-01",
+    0.0,
+    4.0,
+    108.14,
+    168.32
+   ],
+   [
+    "2026-11-02",
+    6.0,
+    5.0,
+    266.76,
+    236.89
+   ],
+   [
+    "2026-11-03",
+    2.0,
+    2.0,
+    141.11,
+    152.32
+   ],
+   [
+    "2026-11-04",
+    2.0,
+    4.0,
+    144.96,
+    170.98
+   ],
+   [
+    "2026-11-05",
+    2.0,
+    3.0,
+    119.17,
+    164.98
+   ],
+   [
+    "2026-11-06",
+    6.0,
+    1.0,
+    137.86,
+    79.98
+   ],
+   [
+    "2026-11-07",
+    1.0,
+    2.0,
+    108.7,
+    92.85
+   ],
+   [
+    "2026-11-08",
+    1.0,
+    1.0,
+    52.76,
+    112.34
+   ],
+   [
+    "2026-11-09",
+    2.0,
+    5.0,
+    153.22,
+    158.75
+   ],
+   [
+    "2026-11-10",
+    2.0,
+    2.0,
+    160.83,
+    142.48
+   ],
+   [
+    "2026-11-11",
+    2.0,
+    2.0,
+    117.93,
+    160.43
+   ]
+  ]
+ },
+ "reconcile": {
+  "checked": false,
+  "matches": null,
+  "rows_total": {
+   "cost": 14305.25,
+   "clicks": 1773.0
+  },
+  "file_total": null,
+  "label": null
+ },
+ "main_metric": "Conversions"
+}

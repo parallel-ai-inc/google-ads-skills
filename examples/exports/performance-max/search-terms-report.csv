@@ -1,0 +1,31 @@
+Search terms report
+"October 14, 2026 - November 12, 2026"
+Search term,Match type,Added/Excluded,Campaign,Ad group,Keyword,Currency code,Clicks,Impr.,Cost,Campaign type,Conversions,Conv. value
+northside plumbing, --,None,PMax | Plumbing Supplies, --, --,USD,342,"9,576",420.00,Performance Max,22.00,"3,900.00"
+northside plumbing supply, --,None,PMax | Plumbing Supplies, --, --,USD,161,"3,864",310.00,Performance Max,16.00,"2,800.00"
+northside plumbing near me, --,None,PMax | Water Heater Leads, --, --,USD,98,"1,960",150.00,Performance Max,6.00,0.00
+tankless water heater 50 gallon, --,None,PMax | Plumbing Supplies, --, --,USD,291,"5,820",640.00,Performance Max,9.00,"5,400.00"
+rheem water heater 40 gallon, --,None,PMax | Plumbing Supplies, --, --,USD,224,"5,152",520.00,Performance Max,7.00,"4,100.00"
+kitchen faucet with sprayer, --,None,PMax | Plumbing Supplies, --, --,USD,177,"4,425",380.00,Performance Max,11.00,"2,300.00"
+pipe fittings near me, --,None,PMax | Plumbing Supplies, --, --,USD,43,"1,333",85.00,Performance Max,2.00,180.00
+water heater installation near me, --,None,PMax | Water Heater Leads, --, --,USD,423,"16,920",900.00,Performance Max,10.00,0.00
+water heater replacement cost, --,None,PMax | Water Heater Leads, --, --,USD,229,"4,580",420.00,Performance Max,3.00,0.00
+tankless water heater installer, --,None,PMax | Water Heater Leads, --, --,USD,179,"3,222",380.00,Performance Max,5.00,0.00
+drain snake 25 ft, --,None,PMax | Plumbing Supplies, --, --,USD,124,"4,588",260.00,Performance Max,0.00,0.00
+toilet auger, --,None,PMax | Plumbing Supplies, --, --,USD,110,"4,070",190.00,Performance Max,0.00,0.00
+how to unclog a drain without a snake, --,None,PMax | Plumbing Supplies, --, --,USD,64,"1,472",140.00,Performance Max,0.00,0.00
+plumbing jobs near me, --,None,PMax | Plumbing Supplies, --, --,USD,49,"1,813",110.00,Performance Max,0.00,0.00
+plumber jobs denver, --,None,PMax | Water Heater Leads, --, --,USD,40,880,95.00,Performance Max,0.00,0.00
+water heater repair jobs, --,None,PMax | Water Heater Leads, --, --,USD,29,696,60.00,Performance Max,0.00,0.00
+free water heater, --,None,PMax | Plumbing Supplies, --, --,USD,29,783,70.00,Performance Max,0.00,0.00
+water heater diy install, --,None,PMax | Plumbing Supplies, --, --,USD,64,"1,216",120.00,Performance Max,0.00,0.00
+diy drain cleaning, --,None,PMax | Plumbing Supplies, --, --,USD,40,"1,080",75.00,Performance Max,0.00,0.00
+pex fittings, --,None,PMax | Plumbing Supplies, --, --,USD,22,792,20.00,Performance Max,0.00,0.00
+faucet aerator, --,None,PMax | Plumbing Supplies, --, --,USD,12,360,15.00,Performance Max,0.00,0.00
+emergency plumber,Phrase match,None,Plumbing | Emergency,Main,"""emergency plumber""",USD,160,"5,440",820.00,Search,9.00,0.00
+24 hour plumber,Phrase match,None,Plumbing | Emergency,Main,"""24 hour plumber""",USD,79,"1,501",410.00,Search,4.00,0.00
+water heater repair,Phrase match,None,Plumbing | Water Heaters,Main,"""water heater repair""",USD,84,"2,268",530.00,Search,5.00,0.00
+northside plumbing,Phrase match,None,Brand,Main,"""northside plumbing""",USD,30,750,120.00,Search,11.00,0.00
+Total: Account, --, --, --, --, --,USD, --, --,"8,870.00", --, --, --
+Total: Search, --, --, --, --, --,USD, --, --,"2,260.00", --, --, --
+Total: Performance Max, --, --, --, --, --,USD, --, --,"6,610.00", --, --, --

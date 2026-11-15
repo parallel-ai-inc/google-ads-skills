@@ -1,0 +1,8 @@
+Search keyword report
+"October 14, 2026 - November 12, 2026"
+Keyword status,Keyword,Match type,Campaign,Ad group,Clicks,Cost
+Enabled,emergency plumber,Phrase match,Plumbing | Emergency,Emergency,410,"3,402.00"
+Enabled,[24 hour plumber],Exact match,Plumbing | Emergency,Emergency,148,"1,273.40"
+Enabled,plumber free estimate,Broad match,Plumbing | Emergency,Emergency,99,689.30
+Enabled,water heater repair,Phrase match,Plumbing | Water Heaters,Repair,236,"1,671.40"
+Enabled,water heater installation,Phrase match,Plumbing | Water Heaters,Install,172,"1,404.80"

@@ -1,0 +1,39 @@
+{
+ "steps": [
+  {
+   "step": 1,
+   "campaign": "Plumbing | Emergancy",
+   "change": "budget",
+   "to": 300,
+   "why": "Limited by budget."
+  },
+  {
+   "step": 1,
+   "campaign": "Drain Cleaning | Search",
+   "change": "budget",
+   "to": 200,
+   "why": "Needs more budget."
+  },
+  {
+   "step": 1,
+   "campaign": "Gas Line | Demand Gen",
+   "change": "target_cpa",
+   "to": 91,
+   "why": "Give it room to convert."
+  },
+  {
+   "step": 1,
+   "campaign": "Plumbing | Water Heaters",
+   "change": "target_roas",
+   "to": 3.6,
+   "why": "Its return is about 12.34 times cost."
+  },
+  {
+   "step": 1,
+   "campaign": "Plumbing | Water Heaters",
+   "change": "budget",
+   "to": 200,
+   "why": "More room."
+  }
+ ]
+}

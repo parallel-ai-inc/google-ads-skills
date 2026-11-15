@@ -1,0 +1,296 @@
+{
+ "brief": {
+  "business": "Northside Plumbing, a residential plumber serving Denver and Aurora.",
+  "offer": "Sewer line repair, trenchless sewer line replacement and sewer camera inspection.",
+  "goal": "Booked sewer jobs from people whose sewer line has failed or who are buying a home.",
+  "primary_conversion": "Booked appointment (online booking form)",
+  "hypothesis": "Searches for sewer line repair, replacement and inspection in Denver and Aurora book jobs at a cost the business can carry, kept apart from drain cleaning.",
+  "success_metric": "Booked sewer appointments and cost per booking over the first 30 days.",
+  "early_warning": "Spend with no bookings after 14 days, or search terms about septic tanks or drain cleaning.",
+  "assumptions": [
+   "Maximize conversions, because the booking conversion already records in the account.",
+   "Search Partners is off until results on Google Search are known.",
+   "AI Max is off, because the person wants searches matched to the keywords in the plan at launch.",
+   "Locations are Denver and Aurora only, the places the person named.",
+   "One responsive search ad in the replacement and inspection ad groups. A second can follow once there is a different message to test."
+  ],
+  "owners": {
+   "build": "Sam",
+   "tracking": "Lee",
+   "landing_pages": "",
+   "approval": "Dana",
+   "launch": "Sam"
+  },
+  "ready": {
+   "conversion_tracking": "yes",
+   "billing": "yes",
+   "landing_pages": "unknown",
+   "budget_approved": "yes",
+   "locations_confirmed": "yes",
+   "ad_copy_approved": "no"
+  }
+ },
+ "negative_keyword_list": {
+  "name": "Northside | Never relevant",
+  "keywords": [
+   {
+    "text": "jobs",
+    "match": "phrase",
+    "why": "Job seekers"
+   },
+   {
+    "text": "salary",
+    "match": "phrase",
+    "why": "Job seekers"
+   },
+   {
+    "text": "diy",
+    "match": "phrase",
+    "why": "Do it yourself"
+   },
+   {
+    "text": "how to",
+    "match": "phrase",
+    "why": "Do it yourself"
+   },
+   {
+    "text": "course",
+    "match": "phrase",
+    "why": "Training"
+   }
+  ]
+ },
+ "campaigns": [
+  {
+   "name": "Sewer Line | Search",
+   "daily_budget": 120,
+   "bid_strategy": "Maximize conversions",
+   "target_cpa": null,
+   "target_roas_percent": null,
+   "networks": [
+    "Google Search"
+   ],
+   "ai_max": "off",
+   "locations": [
+    "Denver, Colorado, United States",
+    "Aurora, Colorado, United States"
+   ],
+   "start_date": "2026-12-01",
+   "end_date": "",
+   "negatives": [
+    {
+     "text": "septic",
+     "match": "phrase",
+     "why": "The business does not service septic systems"
+    },
+    {
+     "text": "drain cleaning",
+     "match": "phrase",
+     "why": "Drain cleaning searches belong to the Drain Cleaning campaign"
+    }
+   ],
+   "ad_groups": [
+    {
+     "name": "Sewer Line Repair",
+     "max_cpc": null,
+     "keywords": [
+      {
+       "text": "sewer line repair",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer line repair",
+       "match": "exact",
+       "final_url": ""
+      },
+      {
+       "text": "broken sewer line",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer pipe repair",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "main sewer line repair",
+       "match": "exact",
+       "final_url": ""
+      }
+     ],
+     "negatives": [
+      {
+       "text": "replacement",
+       "match": "phrase",
+       "why": "Sends replacement searches to the replacement ad group"
+      }
+     ],
+     "ads": [
+      {
+       "final_url": "https://www.northsideplumbing.example/sewer-line-repair",
+       "path_1": "sewer-line",
+       "path_2": "repair",
+       "headlines": [
+        "Sewer Line Repair in Denver",
+        "Broken Sewer Line? Call Us",
+        "Licensed Denver Plumbers",
+        "Same Day Sewer Repair",
+        "Camera Inspection First",
+        "Upfront Written Quotes",
+        "Fix the Pipe, Not the Lawn",
+        "Sewer Pipe Repair Experts",
+        "Serving Denver and Aurora",
+        "Main Sewer Line Repair",
+        "Northside Plumbing",
+        "Book a Sewer Repair Today"
+       ],
+       "descriptions": [
+        "We find the break with a camera and show you the video before any digging starts.",
+        "Licensed and insured plumbers. Written quote before work begins. No surprise fees.",
+        "Sewer backing up? We repair main sewer lines across Denver and Aurora.",
+        "Most repairs finished in one day. Book online or call to schedule a visit."
+       ]
+      },
+      {
+       "final_url": "https://www.northsideplumbing.example/sewer-line-repair",
+       "path_1": "sewer-line",
+       "path_2": "repair",
+       "headlines": [
+        "Sewer Line Repair Specialists",
+        "Trenchless Repair Options",
+        "Stop Sewer Backups for Good",
+        "Denver Sewer Line Repair",
+        "Video Camera Diagnosis",
+        "Written Quote Before We Dig",
+        "Licensed and Insured",
+        "Repair Broken Sewer Pipes"
+       ],
+       "descriptions": [
+        "Trenchless repair can save your yard. We tell you if it fits before we start.",
+        "See the camera video of your line and get a written quote. No surprise fees.",
+        "Local plumbers serving Denver and Aurora. Book a sewer line repair today."
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Sewer Line Replacement",
+     "max_cpc": null,
+     "keywords": [
+      {
+       "text": "sewer line replacement",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer line replacement",
+       "match": "exact",
+       "final_url": ""
+      },
+      {
+       "text": "trenchless sewer replacement",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "replace sewer line",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer line replacement cost",
+       "match": "phrase",
+       "final_url": ""
+      }
+     ],
+     "negatives": [
+      {
+       "text": "repair",
+       "match": "phrase",
+       "why": "Sends repair searches to the repair ad group"
+      }
+     ],
+     "ads": [
+      {
+       "final_url": "https://www.northsideplumbing.example/sewer-line-replacement",
+       "path_1": "sewer-line",
+       "path_2": "replacement",
+       "headlines": [
+        "Sewer Line Replacement",
+        "Trenchless Replacement",
+        "Replace Your Sewer Line",
+        "Denver Sewer Replacement",
+        "Less Digging, Less Mess",
+        "Written Quote Before We Dig",
+        "Licensed Denver Plumbers",
+        "Clear Upfront Pricing",
+        "Old Clay Pipe? Replace It",
+        "Serving Denver and Aurora",
+        "Sewer Line Replacement Cost"
+       ],
+       "descriptions": [
+        "Trenchless sewer line replacement with less digging. Ask if your line qualifies.",
+        "Camera inspection first, then a written quote for the full replacement.",
+        "Licensed and insured plumbers serving Denver and Aurora. Book an estimate today.",
+        "We replace failing clay, cast iron and Orangeburg sewer pipes with modern pipe."
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Sewer Camera Inspection",
+     "max_cpc": null,
+     "keywords": [
+      {
+       "text": "sewer camera inspection",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer line inspection",
+       "match": "phrase",
+       "final_url": ""
+      },
+      {
+       "text": "sewer scope inspection",
+       "match": "exact",
+       "final_url": ""
+      },
+      {
+       "text": "sewer line camera inspection",
+       "match": "exact",
+       "final_url": ""
+      }
+     ],
+     "negatives": [],
+     "ads": [
+      {
+       "final_url": "https://www.northsideplumbing.example/sewer-camera-inspection",
+       "path_1": "sewer",
+       "path_2": "inspection",
+       "headlines": [
+        "Sewer Camera Inspection",
+        "See Inside Your Sewer Line",
+        "Sewer Line Inspection",
+        "Buying a Home? Scope It",
+        "Video of Your Sewer Line",
+        "Licensed Denver Plumbers",
+        "Same Week Appointments",
+        "Find Roots, Cracks, Breaks",
+        "Sewer Scope Inspection",
+        "Serving Denver and Aurora"
+       ],
+       "descriptions": [
+        "A camera inspection shows roots, cracks and breaks. You get the video and a report.",
+        "Buying a home? Scope the sewer line before you close. Book an inspection today.",
+        "Licensed plumbers serving Denver and Aurora. Clear pricing before we start."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

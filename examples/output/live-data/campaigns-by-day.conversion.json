@@ -1,0 +1,47 @@
+{
+ "report": "campaigns-by-day",
+ "file": "campaigns-by-day.csv",
+ "rows": 232,
+ "check": {
+  "rows_written": 232,
+  "rows_read_back": 232,
+  "date_range_read_back": [
+   "2026-09-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Impr.": 61907.0,
+   "Clicks": 4308.0,
+   "Cost": 27454.73,
+   "Conversions": 815.21,
+   "Conv. value": 264320.7
+  },
+  "matches": true,
+  "by_column": {
+   "Impr.": {
+    "rows": 61907.0,
+    "total_row": 61907.0
+   },
+   "Clicks": {
+    "rows": 4308.0,
+    "total_row": 4308.0
+   },
+   "Cost": {
+    "rows": 27454.73,
+    "total_row": 27454.73
+   },
+   "Conversions": {
+    "rows": 815.21,
+    "total_row": 815.21
+   },
+   "Conv. value": {
+    "rows": 264320.7,
+    "total_row": 264320.7
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-09-14",
+ "end": "2026-11-12"
+}

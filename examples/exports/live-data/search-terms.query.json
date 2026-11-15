@@ -1,0 +1,228 @@
+{
+  "kind": "report",
+  "report": "search-terms",
+  "title": "Search terms report",
+  "file": "search-terms-report.csv",
+  "total": "Total: Search terms",
+  "customer_id": "1234567890",
+  "start": "2026-10-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "search_term_view",
+    "fields": [
+      "search_term_view.search_term",
+      "segments.search_term_match_type",
+      "search_term_view.status",
+      "campaign.name",
+      "ad_group.name",
+      "campaign.advertising_channel_type",
+      "metrics.impressions",
+      "metrics.clicks",
+      "metrics.ctr",
+      "metrics.average_cpc",
+      "metrics.cost_micros",
+      "metrics.conversions",
+      "metrics.cost_per_conversion",
+      "metrics.conversions_value"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-10-14' AND '2026-11-12'"
+    ],
+    "orderings": [
+      "metrics.cost_micros DESC"
+    ],
+    "limit": 10000
+  },
+  "result": "search-terms.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Search term",
+      "field": "search_term_view.search_term",
+      "kind": "text"
+    },
+    {
+      "header": "Match type",
+      "field": "segments.search_term_match_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Added/Excluded",
+      "field": "search_term_view.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Ad group",
+      "field": "ad_group.name",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign type",
+      "field": "campaign.advertising_channel_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Impr.",
+      "field": "metrics.impressions",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Clicks",
+      "field": "metrics.clicks",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "CTR",
+      "field": "metrics.ctr",
+      "kind": "percent"
+    },
+    {
+      "header": "Avg. CPC",
+      "field": "metrics.average_cpc",
+      "kind": "micros"
+    },
+    {
+      "header": "Cost",
+      "field": "metrics.cost_micros",
+      "kind": "micros",
+      "sum": true
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Cost / conv.",
+      "field": "metrics.cost_per_conversion",
+      "kind": "micros"
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true
+    }
+  ],
+  "needs": [
+    "search_term_view.search_term",
+    "metrics.cost_micros"
+  ],
+  "gaps": [
+    "The Keyword column is left out, so no search is split or dropped by keyword.",
+    "Google leaves low volume searches out of search results, as it does in the interface."
+  ],
+  "readers": [
+    "search terms skill: python3 scripts/measure.py FILE --work WORK --brand \"...\"",
+    "account audit: python3 scripts/audit.py --work WORK --campaigns CAMPAIGNS --search-terms FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "search_term_view.search_term",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "segments.search_term_match_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "search_term_view.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists campaign as attributed to search_term_view"
+    },
+    {
+      "field": "ad_group.name",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists ad_group as attributed to search_term_view"
+    },
+    {
+      "field": "campaign.advertising_channel_type",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists campaign as attributed to search_term_view"
+    },
+    {
+      "field": "metrics.impressions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.clicks",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.ctr",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.average_cpc",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.cost_per_conversion",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "metrics.conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "used to filter search_term_view in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with search_term_view in working queries"
+    }
+  ]
+}

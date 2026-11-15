@@ -1,0 +1,11 @@
+Change history report
+"September 14, 2026 - November 13, 2026"
+Date & time,User,Campaign,Ad group,Changes
+"Nov 13, 2026, 8:02:10 AM",sam@northside.example,Plumbing | Emergency, --,Ad schedule changed
+"Nov 8, 2026, 10:21:40 AM",sam@northside.example,Drain Cleaning | Search, --,Budget changed from 120.00 to 150.00
+"Nov 5, 2026, 3:12:09 PM",sam@northside.example,Drain Cleaning | Search, --,"Bid strategy changed from Maximize conversions to Target CPA
+Target CPA set to 50.00"
+"Oct 13, 2026, 11:00:41 AM",sam@northside.example,Gas Line | Demand Gen, --,Campaign created
+"Oct 6, 2026, 4:30:00 PM",sam@northside.example,Plumbing | Holiday Promo, --,Status changed from Enabled to Paused
+"Sep 30, 2026, 2:15:33 PM",sam@northside.example,Plumbing | Water Heaters, --,Target ROAS changed from 450% to 400%
+"Sep 22, 2026, 9:40:12 AM",sam@northside.example,Sewer Line | Search, --,Keywords added: 6

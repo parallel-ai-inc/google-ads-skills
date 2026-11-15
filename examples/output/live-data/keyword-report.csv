@@ -1,0 +1,12 @@
+Search keyword report
+"October 14, 2026 - November 12, 2026"
+Keyword status,Keyword,Match type,Campaign,Ad group,Status,Currency code,Impr.,Clicks,CTR,Avg. CPC,Cost,Conversions,Cost / conv.,Conv. value,Quality Score,Exp. CTR,Ad relevance,Landing page exp.
+Enabled,"""emergency plumber""",Phrase match,Plumbing | Emergency,Emergency, --,USD,"5,330",410,7.69%,8.30,"3,403.00",52.00,65.44,"15,600.00",7,Above average,Average,Average
+Enabled,[24 hour plumber],Exact match,Plumbing | Emergency,Emergency, --,USD,"1,924",148,7.69%,8.60,"1,272.80",26.00,48.95,"7,800.00",8,Above average,Above average,Average
+Enabled,"""burst pipe repair""",Phrase match,Plumbing | Emergency,Burst Pipes, --,USD,"1,105",85,7.69%,8.20,697.00,10.00,69.70,"3,000.00",6,Average,Average,Average
+Enabled,"""water heater repair""",Phrase match,Plumbing | Water Heaters,Repair, --,USD,"2,080",160,7.69%,7.00,"1,120.00",12.00,93.33,"3,600.00",4,Average,Average,Below average
+Enabled,[water heater installation],Exact match,Plumbing | Water Heaters,Install, --,USD,"2,106",162,7.69%,7.90,"1,279.80",11.00,116.35,"3,300.00",7,Average,Above average,Average
+Enabled,drain cleaning,Broad match,Drain Cleaning | Search,Drains,Campaign paused,USD,"3,250",250,7.69%,6.10,"1,525.00",20.00,76.25,"6,000.00",5,Below average,Average,Average
+Enabled,[northside plumbing],Exact match,Brand,Brand, --,USD,"4,290",330,7.69%,1.50,495.00,98.00,5.05,"29,400.00",10,Above average,Above average,Above average
+Enabled,"""commercial water heater""",Phrase match,Plumbing | Water Heaters,Install, --,USD,0,0,0.00%,0.00,0.00,0.00,0.00,0.00, --, --, --, --
+Total: All but removed keywords, --, --, --, --, --,USD,"20,085","1,545", --, --,"9,792.60",229.00, --,"68,700.00", --, --, --, --

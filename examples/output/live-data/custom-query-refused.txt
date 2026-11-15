@@ -1,0 +1,3 @@
+I won't run this query. These fields are not in the known fields:
+- metrics.cost. Nearest known: metrics.cost_micros, metrics.cost_per_conversion, metrics.ctr, metrics.clicks, metrics.conversions.
+Pick from the nearest names, or look the resource up with the metadata tool (metadata_get_resource_metadata).

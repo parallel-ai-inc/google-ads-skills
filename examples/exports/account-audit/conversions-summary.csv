@@ -1,0 +1,8 @@
+Conversion actions
+"October 14, 2026 - November 12, 2026"
+Conversion action,Action optimization,Conversion source,Category,Count,Tracking status,Conversions,All conv.
+Contact form submit,Primary,Website,Submit lead form,One,Recording conversions,70.00,70.00
+GA4 generate_lead,Primary,Google Analytics 4 (web),Submit lead form,Every,Recording conversions,77.00,77.00
+Calls from ads,Primary,Call from ads,Phone call lead,One,Recording conversions,20.00,20.00
+Thank you page view,Secondary,Website,Page view,Every,Recording conversions,0.00,160.00
+Old quote form,Secondary,Website,Request quote,One,Removed,0.00,0.00

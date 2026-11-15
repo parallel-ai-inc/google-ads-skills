@@ -1,0 +1,26 @@
+[
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/1001",
+  "ad_group.name": "Emergency"
+ },
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/1002",
+  "ad_group.name": "Burst Pipes"
+ },
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/2001",
+  "ad_group.name": "Repair"
+ },
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/2002",
+  "ad_group.name": "Install"
+ },
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/3001",
+  "ad_group.name": "Drains"
+ },
+ {
+  "ad_group.resource_name": "customers/1234567890/adGroups/4001",
+  "ad_group.name": "Brand"
+ }
+]

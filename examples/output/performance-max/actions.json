@@ -1,0 +1,13 @@
+{"actions": [
+ {"finding": "F2", "kind": "fix", "action": "Check the drain tool prices against their benchmarks first. Then move the drain tools that still do not convert into their own listing group so they stop taking budget from water heaters and faucets", "where": "Merchant Center prices, then listing groups in Drain Tools", "label": "Practitioner rule", "priority": 1},
+ {"finding": "F5", "kind": "fix", "action": "Official: Google recommends Ad strength of Good or Excellent. Practitioner rule: add headlines, long headlines, images and a video to Water Heaters | General and Drain Tools before judging them on cost", "where": "Assets in those asset groups", "label": "Both", "priority": 2},
+ {"finding": "F3", "kind": "fix", "action": "Add the job seeker and free searches below as exact match negatives after review", "where": "Negative keywords on each campaign", "label": "Practitioner rule", "priority": 3},
+ {"finding": "F14", "kind": "investigate", "action": "Confirm with the business whether the Brand Search campaign should own brand searches, and if so add an exact match brand keyword there before adding brand exclusions", "label": "Practitioner rule", "priority": 4},
+ {"finding": "F12", "kind": "investigate", "action": "Read the Display diagnostics and image coverage in PMax | Plumbing Supplies before any change", "label": "Official", "priority": 5}
+],
+"negatives": [
+ {"search": "plumbing jobs near me", "campaign": "PMax | Plumbing Supplies", "reason": "Job seekers"},
+ {"search": "plumber jobs denver", "campaign": "PMax | Water Heater Leads", "reason": "Job seekers"},
+ {"search": "water heater repair jobs", "campaign": "PMax | Water Heater Leads", "reason": "Job seekers"},
+ {"search": "free water heater", "campaign": "PMax | Plumbing Supplies", "reason": "Looking for free products"}
+]}

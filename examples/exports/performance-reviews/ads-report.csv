@@ -1,0 +1,16 @@
+Ad report
+"October 14, 2026 - November 12, 2026"
+Ad status,Ad,Campaign,Ad group,Status,Ad type,Ad strength,Currency code,Impr.,Clicks,CTR,Cost,Conversions,Cost / conv.
+Enabled,24/7 Emergency Plumber | Here in 60 Minutes | Licensed and Insured,Plumbing | Emergency,Emergency,Eligible,Responsive search ad,Excellent,USD,"9,000",640,7.11%,"5,300.00",66.00,80.30
+Enabled,Emergency Plumbing Service | Fair Upfront Prices | Call Now,Plumbing | Emergency,Emergency,Eligible,Responsive search ad,Average,USD,"6,000",300,5.00%,"2,500.00",12.00,208.33
+Enabled,Burst Pipe Repair | Same Day Service,Plumbing | Emergency,Burst Pipes,Eligible,Responsive search ad,Good,USD,"1,100",80,7.27%,650.00,7.00,92.86
+Enabled,Frozen Pipes? We Fix Them Fast,Plumbing | Emergency,Burst Pipes,Eligible,Responsive search ad,Good,USD,"1,000",72,7.20%,585.00,6.00,97.50
+Enabled,Water Heater Repair Today | Upfront Pricing,Plumbing | Water Heaters,Repair,Eligible,Responsive search ad,Good,USD,"2,000",170,8.50%,"1,300.00",14.00,92.86
+Enabled,No Hot Water? | Repairs in Hours,Plumbing | Water Heaters,Repair,Eligible,Responsive search ad,Poor,USD,"1,500",146,9.73%,"1,061.40",11.00,96.49
+Enabled,Water Heater Installation | Tank and Tankless,Plumbing | Water Heaters,Install,Eligible,Responsive search ad,Average,USD,"4,000",292,7.30%,"2,424.80",15.00,161.65
+Enabled,Drain Cleaning Experts | Clogs Cleared Today,Drain Cleaning | Search,Drains,Eligible,Responsive search ad,Excellent,USD,"4,000",380,9.50%,"2,300.00",34.00,67.65
+Enabled,Clogged Drain? | Fast Local Plumbers,Drain Cleaning | Search,Drains,Eligible,Responsive search ad,Good,USD,300,25,8.33%,160.00,0.00, --
+Enabled,Hydro Jetting Specialists,Drain Cleaning | Search,Hydro Jetting,Disapproved,Responsive search ad,Good,USD,400,30,7.50%,357.00,1.00,357.00
+Paused,Sewer Line Jetting | Book Online,Drain Cleaning | Search,Hydro Jetting,Paused,Responsive search ad,Average,USD,200,12,6.00%,123.00,0.00, --
+Enabled,Northside Plumbing | Official Site,Brand,Brand,Eligible,Responsive search ad,Excellent,USD,900,180,20.00%,260.00,40.00,6.50
+Total: Account,,,,,,,,"30,400","2,327",7.65%,"17,021.20",206.00,82.63

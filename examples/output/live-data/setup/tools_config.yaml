@@ -1,0 +1,9 @@
+# Google Ads MCP server: read only.
+# Only the read tools are on: list accessible customers, search, and resource metadata.
+# The write tools (assets and labels) are off. Keep them off.
+namespaces:
+  customers: true
+  search: true
+  metadata: true
+  labels: false
+  assets: false

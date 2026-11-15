@@ -1,0 +1,263 @@
+{
+  "kind": "report",
+  "report": "ads",
+  "title": "Ads report",
+  "file": "ads-report.csv",
+  "total": "Total: Filtered ads",
+  "customer_id": "1234567890",
+  "start": "2026-10-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "ad_group_ad",
+    "fields": [
+      "ad_group_ad.status",
+      "ad_group_ad.ad.responsive_search_ad.headlines",
+      "ad_group_ad.ad.name",
+      "ad_group_ad.ad.id",
+      "ad_group_ad.ad.type",
+      "ad_group_ad.ad_strength",
+      "campaign.name",
+      "ad_group.name",
+      "campaign.status",
+      "ad_group.status",
+      "ad_group_ad.policy_summary.approval_status",
+      "ad_group_ad.ad.final_urls",
+      "metrics.impressions",
+      "metrics.clicks",
+      "metrics.cost_micros",
+      "metrics.conversions"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-10-14' AND '2026-11-12'",
+      "ad_group_ad.status != 'REMOVED'",
+      "ad_group.status != 'REMOVED'",
+      "campaign.status != 'REMOVED'"
+    ],
+    "orderings": [
+      "metrics.cost_micros DESC"
+    ],
+    "limit": 6
+  },
+  "result": "ads.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Ad status",
+      "field": "ad_group_ad.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Ad",
+      "field": "ad_group_ad.ad.responsive_search_ad.headlines",
+      "kind": "ad_name",
+      "inputs": [
+        "ad_group_ad.ad.name",
+        "ad_group_ad.ad.id"
+      ]
+    },
+    {
+      "header": "Ad type",
+      "field": "ad_group_ad.ad.type",
+      "kind": "enum"
+    },
+    {
+      "header": "Ad strength",
+      "field": "ad_group_ad.ad_strength",
+      "kind": "enum"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Ad group",
+      "field": "ad_group.name",
+      "kind": "text"
+    },
+    {
+      "header": "Status",
+      "field": "campaign.status",
+      "kind": "parents",
+      "inputs": [
+        "ad_group.status"
+      ]
+    },
+    {
+      "header": "Approval status",
+      "field": "ad_group_ad.policy_summary.approval_status",
+      "kind": "enum"
+    },
+    {
+      "header": "Final URL",
+      "field": "ad_group_ad.ad.final_urls",
+      "kind": "first"
+    },
+    {
+      "header": "Impr.",
+      "field": "metrics.impressions",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Clicks",
+      "field": "metrics.clicks",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Cost",
+      "field": "metrics.cost_micros",
+      "kind": "micros",
+      "sum": true
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    }
+  ],
+  "needs": [
+    "ad_group_ad.ad.id",
+    "metrics.cost_micros"
+  ],
+  "gaps": [
+    "The Ad column shows the first headline of a responsive search ad, else the ad's name, else its ID.",
+    "Policy details are not in this file. Approval status is."
+  ],
+  "readers": [
+    "account audit: python3 scripts/audit.py --work WORK --campaigns CAMPAIGNS --ads FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "ad_group_ad.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad.responsive_search_ad.headlines",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad.id",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad.type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad_strength",
+      "used_in": "select",
+      "status": "hand",
+      "note": "added by hand from Google's field reference for ad_group_ad"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists campaign as attributed to ad_group_ad"
+    },
+    {
+      "field": "ad_group.name",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists ad_group as attributed to ad_group_ad"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists campaign as attributed to ad_group_ad"
+    },
+    {
+      "field": "ad_group.status",
+      "used_in": "select",
+      "status": "hand",
+      "note": "Google lists ad_group as attributed to ad_group_ad"
+    },
+    {
+      "field": "ad_group_ad.policy_summary.approval_status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.ad.final_urls",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "metrics.impressions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "ad_group_ad accepts any metrics field in working queries"
+    },
+    {
+      "field": "metrics.clicks",
+      "used_in": "select",
+      "status": "seen",
+      "note": "ad_group_ad accepts any metrics field in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "ad_group_ad accepts any metrics field in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "ad_group_ad accepts any metrics field in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "used to filter ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group_ad.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with ad_group_ad in working queries"
+    },
+    {
+      "field": "ad_group.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "used to filter ad_group_ad in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "condition",
+      "status": "hand",
+      "note": "Google lists campaign as attributed to ad_group_ad"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "ad_group_ad accepts any metrics field in working queries"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "kind": "report",
+  "report": "conversion-actions",
+  "title": "Conversion actions",
+  "file": "conversion-actions-summary.csv",
+  "total": "Total: Conversion actions",
+  "customer_id": "1234567890",
+  "start": "2026-10-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "conversion_action",
+    "fields": [
+      "conversion_action.name",
+      "conversion_action.primary_for_goal",
+      "conversion_action.type",
+      "conversion_action.category",
+      "conversion_action.counting_type",
+      "conversion_action.click_through_lookback_window_days",
+      "conversion_action.view_through_lookback_window_days",
+      "conversion_action.attribution_model_settings.attribution_model"
+    ],
+    "conditions": [
+      "conversion_action.status = 'ENABLED'"
+    ],
+    "orderings": [
+      "conversion_action.name ASC"
+    ],
+    "limit": 10000
+  },
+  "result": "conversion-actions.result.json",
+  "joins": [
+    {
+      "name": "conversions-by-action",
+      "result": "conversions-by-action.result.json",
+      "field_checks": [
+        {
+          "field": "segments.conversion_action_name",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "metrics.conversions",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "metrics.conversions_value",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "metrics.all_conversions",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "metrics.all_conversions_value",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "segments.date",
+          "used_in": "condition",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        }
+      ],
+      "parameters": {
+        "customer_id": "1234567890",
+        "resource": "campaign",
+        "fields": [
+          "segments.conversion_action_name",
+          "metrics.conversions",
+          "metrics.conversions_value",
+          "metrics.all_conversions",
+          "metrics.all_conversions_value"
+        ],
+        "conditions": [
+          "segments.date BETWEEN '2026-10-14' AND '2026-11-12'"
+        ],
+        "limit": 10000
+      }
+    }
+  ],
+  "join_key": [
+    "segments.conversion_action_name",
+    "conversion_action.name"
+  ],
+  "columns": [
+    {
+      "header": "Conversion action",
+      "field": "conversion_action.name",
+      "kind": "text"
+    },
+    {
+      "header": "Action optimization",
+      "field": "conversion_action.primary_for_goal",
+      "kind": "primary"
+    },
+    {
+      "header": "Conversion source",
+      "field": "conversion_action.type",
+      "kind": "enum"
+    },
+    {
+      "header": "Category",
+      "field": "conversion_action.category",
+      "kind": "enum"
+    },
+    {
+      "header": "Count",
+      "field": "conversion_action.counting_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Click-through conv. window",
+      "field": "conversion_action.click_through_lookback_window_days",
+      "kind": "days"
+    },
+    {
+      "header": "View-through conv. window",
+      "field": "conversion_action.view_through_lookback_window_days",
+      "kind": "days"
+    },
+    {
+      "header": "Attribution model",
+      "field": "conversion_action.attribution_model_settings.attribution_model",
+      "kind": "enum"
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true,
+      "join": "conversions-by-action"
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true,
+      "join": "conversions-by-action"
+    },
+    {
+      "header": "All conv.",
+      "field": "metrics.all_conversions",
+      "kind": "decimal",
+      "sum": true,
+      "join": "conversions-by-action"
+    },
+    {
+      "header": "All conv. value",
+      "field": "metrics.all_conversions_value",
+      "kind": "decimal",
+      "sum": true,
+      "join": "conversions-by-action"
+    }
+  ],
+  "needs": [
+    "conversion_action.name"
+  ],
+  "gaps": [
+    "The tracking status (such as Recording conversions) is not in this file. Checks that need it show as not run.",
+    "Conversions are matched to actions by name."
+  ],
+  "readers": [
+    "conversion tracking: python3 scripts/audit_actions.py FILE --out OUTPUT",
+    "account audit: python3 scripts/audit.py --work WORK --campaigns CAMPAIGNS --conversions FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "conversion_action.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.primary_for_goal",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.category",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.counting_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.click_through_lookback_window_days",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.view_through_lookback_window_days",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.attribution_model_settings.attribution_model",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    },
+    {
+      "field": "conversion_action.name",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with conversion_action in working queries"
+    }
+  ]
+}

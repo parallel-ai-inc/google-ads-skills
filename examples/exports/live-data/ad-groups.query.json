@@ -1,0 +1,228 @@
+{
+  "kind": "report",
+  "report": "ad-groups",
+  "title": "Ad group report",
+  "file": "ad-group-report.csv",
+  "total": "Total: Filtered ad groups",
+  "customer_id": "1234567890",
+  "start": "2026-10-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "ad_group",
+    "fields": [
+      "ad_group.status",
+      "ad_group.name",
+      "campaign.name",
+      "campaign.status",
+      "ad_group.type",
+      "metrics.impressions",
+      "metrics.clicks",
+      "metrics.ctr",
+      "metrics.average_cpc",
+      "metrics.cost_micros",
+      "metrics.conversions",
+      "metrics.cost_per_conversion",
+      "metrics.conversions_value"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-10-14' AND '2026-11-12'",
+      "ad_group.status != 'REMOVED'",
+      "campaign.status != 'REMOVED'"
+    ],
+    "orderings": [
+      "metrics.cost_micros DESC"
+    ],
+    "limit": 10000
+  },
+  "result": "ad-groups.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Ad group status",
+      "field": "ad_group.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Ad group",
+      "field": "ad_group.name",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Status",
+      "field": "campaign.status",
+      "kind": "parents"
+    },
+    {
+      "header": "Ad group type",
+      "field": "ad_group.type",
+      "kind": "enum"
+    },
+    {
+      "header": "Impr.",
+      "field": "metrics.impressions",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Clicks",
+      "field": "metrics.clicks",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "CTR",
+      "field": "metrics.ctr",
+      "kind": "percent"
+    },
+    {
+      "header": "Avg. CPC",
+      "field": "metrics.average_cpc",
+      "kind": "micros"
+    },
+    {
+      "header": "Cost",
+      "field": "metrics.cost_micros",
+      "kind": "micros",
+      "sum": true
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Cost / conv.",
+      "field": "metrics.cost_per_conversion",
+      "kind": "micros"
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true
+    }
+  ],
+  "needs": [
+    "ad_group.name",
+    "metrics.cost_micros"
+  ],
+  "gaps": [
+    "Status shows only a paused or removed campaign. Google's other serving reasons are not in this file."
+  ],
+  "readers": [
+    "account audit: python3 scripts/audit.py --work WORK --campaigns CAMPAIGNS --ad-groups FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "ad_group.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "ad_group.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "ad_group.type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.impressions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.clicks",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.ctr",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.average_cpc",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.cost_per_conversion",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "used to filter ad_group in working queries"
+    },
+    {
+      "field": "ad_group.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with ad_group in working queries"
+    }
+  ]
+}

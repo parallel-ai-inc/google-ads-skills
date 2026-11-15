@@ -1,0 +1,52 @@
+[
+ {
+  "change_event.change_date_time": "2026-11-10 09:12:03.204118",
+  "change_event.user_email": "manager@example.com",
+  "change_event.client_type": "GOOGLE_ADS_WEB_CLIENT",
+  "change_event.change_resource_type": "CAMPAIGN_BUDGET",
+  "change_event.resource_change_operation": "UPDATE",
+  "change_event.changed_fields": "amountMicros",
+  "change_event.campaign": "customers/1234567890/campaigns/111",
+  "change_event.ad_group": ""
+ },
+ {
+  "change_event.change_date_time": "2026-11-05 16:40:11.000000",
+  "change_event.user_email": "manager@example.com",
+  "change_event.client_type": "GOOGLE_ADS_WEB_CLIENT",
+  "change_event.change_resource_type": "CAMPAIGN",
+  "change_event.resource_change_operation": "UPDATE",
+  "change_event.changed_fields": "status",
+  "change_event.campaign": "customers/1234567890/campaigns/333",
+  "change_event.ad_group": ""
+ },
+ {
+  "change_event.change_date_time": "2026-10-30 09:02:44.517000",
+  "change_event.user_email": "manager@example.com",
+  "change_event.client_type": "GOOGLE_ADS_WEB_CLIENT",
+  "change_event.change_resource_type": "AD_GROUP_CRITERION",
+  "change_event.resource_change_operation": "CREATE",
+  "change_event.changed_fields": "keyword.text,keyword.matchType,status",
+  "change_event.campaign": "customers/1234567890/campaigns/333",
+  "change_event.ad_group": "customers/1234567890/adGroups/3001"
+ },
+ {
+  "change_event.change_date_time": "2026-10-28 11:00:41.000000",
+  "change_event.user_email": "manager@example.com",
+  "change_event.client_type": "GOOGLE_ADS_WEB_CLIENT",
+  "change_event.change_resource_type": "CAMPAIGN",
+  "change_event.resource_change_operation": "UPDATE",
+  "change_event.changed_fields": "biddingStrategyType,maximizeConversions",
+  "change_event.campaign": "customers/1234567890/campaigns/222",
+  "change_event.ad_group": ""
+ },
+ {
+  "change_event.change_date_time": "2026-10-21 07:30:00.000000",
+  "change_event.user_email": "Recommendations",
+  "change_event.client_type": "GOOGLE_ADS_RECOMMENDATIONS",
+  "change_event.change_resource_type": "AD_GROUP_AD",
+  "change_event.resource_change_operation": "UPDATE",
+  "change_event.changed_fields": "status",
+  "change_event.campaign": "customers/1234567890/campaigns/222",
+  "change_event.ad_group": "customers/1234567890/adGroups/2002"
+ }
+]

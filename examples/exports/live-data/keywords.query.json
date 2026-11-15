@@ -1,0 +1,316 @@
+{
+  "kind": "report",
+  "report": "keywords",
+  "title": "Search keyword report",
+  "file": "keyword-report.csv",
+  "total": "Total: All but removed keywords",
+  "customer_id": "1234567890",
+  "start": "2026-10-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "keyword_view",
+    "fields": [
+      "ad_group_criterion.status",
+      "ad_group_criterion.keyword.text",
+      "ad_group_criterion.keyword.match_type",
+      "campaign.name",
+      "ad_group.name",
+      "campaign.status",
+      "ad_group.status",
+      "metrics.impressions",
+      "metrics.clicks",
+      "metrics.ctr",
+      "metrics.average_cpc",
+      "metrics.cost_micros",
+      "metrics.conversions",
+      "metrics.cost_per_conversion",
+      "metrics.conversions_value",
+      "ad_group_criterion.quality_info.quality_score",
+      "ad_group_criterion.quality_info.search_predicted_ctr",
+      "ad_group_criterion.quality_info.creative_quality_score",
+      "ad_group_criterion.quality_info.post_click_quality_score"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-10-14' AND '2026-11-12'",
+      "ad_group_criterion.status != 'REMOVED'",
+      "ad_group_criterion.negative = FALSE",
+      "ad_group.status != 'REMOVED'",
+      "campaign.status != 'REMOVED'"
+    ],
+    "orderings": [
+      "metrics.cost_micros DESC"
+    ],
+    "limit": 10000
+  },
+  "result": "keywords.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Keyword status",
+      "field": "ad_group_criterion.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Keyword",
+      "field": "ad_group_criterion.keyword.text",
+      "kind": "keyword",
+      "inputs": [
+        "ad_group_criterion.keyword.match_type"
+      ]
+    },
+    {
+      "header": "Match type",
+      "field": "ad_group_criterion.keyword.match_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Ad group",
+      "field": "ad_group.name",
+      "kind": "text"
+    },
+    {
+      "header": "Status",
+      "field": "campaign.status",
+      "kind": "parents",
+      "inputs": [
+        "ad_group.status"
+      ]
+    },
+    {
+      "header": "Impr.",
+      "field": "metrics.impressions",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Clicks",
+      "field": "metrics.clicks",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "CTR",
+      "field": "metrics.ctr",
+      "kind": "percent"
+    },
+    {
+      "header": "Avg. CPC",
+      "field": "metrics.average_cpc",
+      "kind": "micros"
+    },
+    {
+      "header": "Cost",
+      "field": "metrics.cost_micros",
+      "kind": "micros",
+      "sum": true
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Cost / conv.",
+      "field": "metrics.cost_per_conversion",
+      "kind": "micros"
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Quality Score",
+      "field": "ad_group_criterion.quality_info.quality_score",
+      "kind": "int"
+    },
+    {
+      "header": "Exp. CTR",
+      "field": "ad_group_criterion.quality_info.search_predicted_ctr",
+      "kind": "enum"
+    },
+    {
+      "header": "Ad relevance",
+      "field": "ad_group_criterion.quality_info.creative_quality_score",
+      "kind": "enum"
+    },
+    {
+      "header": "Landing page exp.",
+      "field": "ad_group_criterion.quality_info.post_click_quality_score",
+      "kind": "enum"
+    }
+  ],
+  "needs": [
+    "ad_group_criterion.keyword.text",
+    "metrics.cost_micros"
+  ],
+  "gaps": [
+    "Status shows only a paused or removed campaign or ad group. Google's other serving reasons are not in this file."
+  ],
+  "readers": [
+    "account audit: python3 scripts/audit.py --work WORK --campaigns CAMPAIGNS --keywords FILE",
+    "search terms skill, to protect the account's own keywords: python3 scripts/check_negatives.py --work WORK --keywords FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "ad_group_criterion.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.keyword.text",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.keyword.match_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "select",
+      "status": "attributed",
+      "note": "other campaign fields are read with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group.status",
+      "used_in": "select",
+      "status": "attributed",
+      "note": "other ad_group fields are read with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.impressions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.clicks",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.ctr",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.average_cpc",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.cost_per_conversion",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.quality_info.quality_score",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.quality_info.search_predicted_ctr",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.quality_info.creative_quality_score",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.quality_info.post_click_quality_score",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "used to filter keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group_criterion.negative",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    },
+    {
+      "field": "ad_group.status",
+      "used_in": "condition",
+      "status": "attributed",
+      "note": "other ad_group fields are read with keyword_view in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "condition",
+      "status": "attributed",
+      "note": "other campaign fields are read with keyword_view in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with keyword_view in working queries"
+    }
+  ]
+}

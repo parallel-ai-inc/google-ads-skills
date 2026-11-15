@@ -1,0 +1,1243 @@
+{
+ "report": "campaigns-by-day.csv",
+ "title_rows": [
+  "Campaign report",
+  "September 14, 2026 - November 12, 2026"
+ ],
+ "date_range": [
+  "2026-09-14",
+  "2026-11-12"
+ ],
+ "first_day": "2026-09-14",
+ "last_day": "2026-11-12",
+ "read_end": "2026-11-05",
+ "days_covered": 60,
+ "cycle_days": 7,
+ "cycle_assumed": true,
+ "brand": [
+  "Brand"
+ ],
+ "goal_cpa": 60.0,
+ "goal_roas": null,
+ "currencies": [
+  "USD"
+ ],
+ "comparison_cpa": 58.57718745252922,
+ "comparison_roas": 5.044703425611583,
+ "budget_column_read": "Search lost top IS (budget)",
+ "rank_column_read": "Search lost top IS (rank)",
+ "has_targets": {
+  "target_cpa": true,
+  "target_roas": true
+ },
+ "has_status": true,
+ "change_history_read": true,
+ "thresholds": [
+  "Enough conversions to judge a bid strategy: 30 in the period read, 50 for Target ROAS. **Official**, references/smart-bidding.md.",
+  "Target ROAS readiness: 15 conversions in the last 30 days for most campaign types. **Official**, references/smart-bidding.md.",
+  "Better or worse than target: only a gap wider than chance counts. A figure built on n conversions moves by about 1 / square root of n by chance alone: 18% at 30 conversions, 10% at 100. Statistics from the campaign's own count.",
+  "Limited by budget: Google's status says so, or the lost impression share to budget averages 10% or more. Limited by rank: the lost share to rank averages 10% or more. **Practitioner rule.** Each day is weighted by the impressions it was eligible for.",
+  "Pause candidate: no conversion after spending 3 times the reference cost per conversion (its Target CPA, else your goal, else the account comparison). If it converted at that cost, a run of zero this long would happen about 5% of the time by chance.",
+  "Recent change: a bid strategy, target, budget or conversion change less than 2 conversion cycles ago, or with fewer conversions since than the number needed to judge. **Practitioner rule**, references/tcpa-framework.md, and **Official** 1 to 2 conversion cycles, references/smart-bidding.md.",
+  "Demand Gen steps: 5 to 10% a week, no more than 15%. **Official**, Google's Demand Gen guide, references/learning-phase.md.",
+  "First budget step: at most half the room that lost impression share to budget implies, so budget moves in at least two steps, each read before the next. **Practitioner rule.**",
+  "Performance Max check window: 1 to 2 weeks or one conversion cycle after a significant change. **Official**, references/learning-phase.md."
+ ],
+ "campaigns": [
+  {
+   "campaign": "Plumbing | Emergency",
+   "campaign_type": "Search",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible (Limited)",
+   "status_reasons": "Limited by budget",
+   "learning": false,
+   "bid_strategy": "Target CPA",
+   "family": "tcpa",
+   "strategy_label": "Target CPA",
+   "portfolio": "",
+   "budget": 240.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": 60.0,
+   "target_roas": null,
+   "target_source": "report",
+   "target_varied": false,
+   "read_start": "2026-09-14",
+   "read_end": "2026-11-05",
+   "read_days": 53,
+   "read": {
+    "cost": 12290.86,
+    "conversions": 245.73000000000002,
+    "conv_value": 71339.59999999999,
+    "clicks": 1581.0,
+    "impressions": 17772.0,
+    "cpa": 50.01774305131649,
+    "roas": 5.804280579227164,
+    "cvr": 0.155426944971537,
+    "cpc": 7.774104996837445
+   },
+   "whole": {
+    "cost": 12290.86,
+    "conversions": 245.73000000000002,
+    "conv_value": 71339.59999999999,
+    "clicks": 1581.0,
+    "impressions": 17772.0,
+    "cpa": 50.01774305131649,
+    "roas": 5.804280579227164,
+    "cvr": 0.155426944971537,
+    "cpc": 7.774104996837445
+   },
+   "before_reset": null,
+   "reset": null,
+   "conv_last30": 144.25,
+   "before_days": 0,
+   "early_read": null,
+   "conv_per_day": 4.636415094339623,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "other": {
+     "day": "2026-11-13",
+     "days_since": -1,
+     "text": "Ad schedule changed",
+     "account_level": false,
+     "targets": {},
+     "target_from": {}
+    }
+   },
+   "latest_material_change": null,
+   "conv_since_change": null,
+   "lost_budget": 30.918136572635902,
+   "lost_rank": 13.807237275361054,
+   "lost_budget_below10_days": 0,
+   "lost_rank_below10_days": 0,
+   "share_days": 60,
+   "limited_by_budget_status": true,
+   "budget_limited": true,
+   "rank_limited": true,
+   "needed": 30,
+   "reasons": [
+    "Cost / conv. 50.02 against its Target CPA of 60.00: 16.6% apart, better than it. Chance alone moves a figure built on 245.7 conversions by about 6.4%.",
+    "Against your goal of 60.00: 16.6% apart, better than it."
+   ],
+   "notes": [
+    "**Official** (references/smart-bidding.md): since August 17, 2026 a Target CPA campaign that is limited by budget bids toward its target rather than beating it, so added budget buys conversions at about the target, not at today's figure. Set the target you want before adding budget."
+   ],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": 60.0,
+   "reference_source": "its Target CPA",
+   "gap": -0.16637094914472522,
+   "band": 0.06379268910055585,
+   "verdict": "beats",
+   "goal": 60.0,
+   "goal_gap": -0.16637094914472522,
+   "goal_verdict": "beats",
+   "target_vs_goal": "same",
+   "pause_reference_cpa": 60.0,
+   "category": "Scale candidate",
+   "limit": "Budget and rank",
+   "limit_label": "Budget and rank (top IS)",
+   "budget_evidence": {
+    "avg_daily_cost": 231.90301886792454,
+    "budget": 240.0,
+    "lost_budget": 30.918136572635902,
+    "column": "Search lost top IS (budget)",
+    "implied_extra_per_day": 103.79003769207723,
+    "first_step_per_day": 51.89501884603862,
+    "monthly_limit_now": 7296.0
+   },
+   "stacked_changes": [],
+   "lever": "Budget first, then a looser target",
+   "check": {
+    "days": 14,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 7
+    },
+    "needed": 30
+   },
+   "step_guidance": {
+    "source": "references/smart-bidding.md",
+    "official": false,
+    "current": 60.0,
+    "steps": [],
+    "goal": 60.0,
+    "halfway_to_goal": null,
+    "text": "The reference files give no step size for this campaign type. Google says Smart Bidding reacts at once to a target change of any size on Search and Shopping, without resetting learning, and that a large move changes spend or volume by a similar amount. The step is a judgment. The evidence is the gap between actual and target. Its target is already at your goal, so any looser target goes past your limit. Ask before loosening it."
+   }
+  },
+  {
+   "campaign": "Plumbing | Water Heaters",
+   "campaign_type": "Search",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible",
+   "status_reasons": "",
+   "learning": false,
+   "bid_strategy": "Target ROAS",
+   "family": "troas",
+   "strategy_label": "Target ROAS",
+   "portfolio": "",
+   "budget": 160.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": null,
+   "target_roas": 4.0,
+   "target_source": "report",
+   "target_varied": false,
+   "read_start": "2026-10-01",
+   "read_end": "2026-11-05",
+   "read_days": 36,
+   "read": {
+    "cost": 4140.779999999999,
+    "conversions": 76.31,
+    "conv_value": 21192.130000000005,
+    "clicks": 650.0,
+    "impressions": 7596.0,
+    "cpa": 54.26261302581573,
+    "roas": 5.117907737189614,
+    "cvr": 0.1174,
+    "cpc": 6.370430769230768
+   },
+   "whole": {
+    "cost": 6134.359999999998,
+    "conversions": 109.58000000000001,
+    "conv_value": 30608.35,
+    "clicks": 964.0,
+    "impressions": 10951.0,
+    "cpa": 55.9806534039058,
+    "roas": 4.989656622695768,
+    "cvr": 0.1136721991701245,
+    "cpc": 6.363443983402488
+   },
+   "before_reset": {
+    "cost": 1873.92,
+    "conversions": 31.190000000000005,
+    "conv_value": 8861.41,
+    "clicks": 296.0,
+    "impressions": 3187.0,
+    "cpa": 60.080795126643146,
+    "roas": 4.7288091273907105,
+    "cvr": 0.10537162162162164,
+    "cpc": 6.330810810810811
+   },
+   "reset": {
+    "day": "2026-09-30",
+    "days_since": 43,
+    "text": "Target ROAS changed from 450% to 400%",
+    "account_level": false,
+    "targets": {
+     "roas": 4.0
+    },
+    "target_from": {
+     "roas": 4.5
+    },
+    "kind": "target"
+   },
+   "conv_last30": 63.779999999999994,
+   "before_days": 16,
+   "early_read": null,
+   "conv_per_day": 2.1197222222222223,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "target": {
+     "day": "2026-09-30",
+     "days_since": 43,
+     "text": "Target ROAS changed from 450% to 400%",
+     "account_level": false,
+     "targets": {
+      "roas": 4.0
+     },
+     "target_from": {
+      "roas": 4.5
+     }
+    }
+   },
+   "latest_material_change": {
+    "day": "2026-09-30",
+    "days_since": 43,
+    "text": "Target ROAS changed from 450% to 400%",
+    "account_level": false,
+    "targets": {
+     "roas": 4.0
+    },
+    "target_from": {
+     "roas": 4.5
+    },
+    "kind": "target"
+   },
+   "conv_since_change": 76.31,
+   "lost_budget": 0.0,
+   "lost_rank": 38.13721896895227,
+   "lost_budget_below10_days": 43,
+   "lost_rank_below10_days": 0,
+   "share_days": 43,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": true,
+   "needed": 50,
+   "reasons": [
+    "Conv. value / cost 5.12 (512%) against its Target ROAS of 4.00 (400%): 27.9% apart, better than it. Chance alone moves a figure built on 76.3 conversions by about 11.4%.",
+    "Moved the unexpected way: its target was loosened from 4.50 (450%) to 4.00 (400%) on 2026-09-30, yet conv. value / cost went from 4.73 (473%) to 5.12 (512%) (+8.2%), and conversions a day from 1.95 to 2.12. A looser target usually trades efficiency for volume. The move is within what chance alone explains (about 17.9% on 31.2 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches."
+   ],
+   "notes": [
+    "63.8 conversions in the 30 days to 2026-11-05, meeting the 15 Google asks for before Target ROAS on most campaign types (**Official**, references/smart-bidding.md)."
+   ],
+   "shares_budget_with": [],
+   "measure": "roas",
+   "reference": 4.0,
+   "reference_source": "its Target ROAS",
+   "gap": 0.2794769342974035,
+   "band": 0.11447463651820707,
+   "verdict": "beats",
+   "goal": null,
+   "goal_gap": null,
+   "goal_verdict": null,
+   "target_vs_goal": null,
+   "pause_reference_cpa": 60.0,
+   "category": "Scale candidate",
+   "unexpected_move": {
+    "text": "Moved the unexpected way: its target was loosened from 4.50 (450%) to 4.00 (400%) on 2026-09-30, yet conv. value / cost went from 4.73 (473%) to 5.12 (512%) (+8.2%), and conversions a day from 1.95 to 2.12. A looser target usually trades efficiency for volume. The move is within what chance alone explains (about 17.9% on 31.2 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches.",
+    "was": 4.7288091273907105,
+    "now": 5.117907737189614,
+    "change": 0.08228257883049778,
+    "band": 0.17905741590821675,
+    "early": false
+   },
+   "limit": "Rank or target",
+   "limit_label": "Rank or target (top IS)",
+   "stacked_changes": [
+    {
+     "day": "2026-09-30",
+     "kinds": [
+      "target"
+     ]
+    }
+   ],
+   "lever": "A looser target",
+   "check": {
+    "days": 24,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 24
+    },
+    "needed": 50
+   },
+   "step_guidance": {
+    "source": "references/smart-bidding.md",
+    "official": false,
+    "current": 4.0,
+    "steps": [],
+    "goal": null,
+    "halfway_to_goal": null,
+    "text": "The reference files give no step size for this campaign type. Google says Smart Bidding reacts at once to a target change of any size on Search and Shopping, without resetting learning, and that a large move changes spend or volume by a similar amount. The step is a judgment. The evidence is the gap between actual and target."
+   }
+  },
+  {
+   "campaign": "Sewer Line | Search",
+   "campaign_type": "Search",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible",
+   "status_reasons": "",
+   "learning": false,
+   "bid_strategy": "Target CPA",
+   "family": "tcpa",
+   "strategy_label": "Target CPA",
+   "portfolio": "",
+   "budget": 150.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": 55.0,
+   "target_roas": null,
+   "target_source": "report",
+   "target_varied": false,
+   "read_start": "2026-09-14",
+   "read_end": "2026-11-05",
+   "read_days": 53,
+   "read": {
+    "cost": 6002.719999999999,
+    "conversions": 73.21000000000001,
+    "conv_value": 32858.490000000005,
+    "clicks": 672.0,
+    "impressions": 7642.0,
+    "cpa": 81.99317033192185,
+    "roas": 5.473933483487487,
+    "cvr": 0.10894345238095239,
+    "cpc": 8.932619047619047
+   },
+   "whole": {
+    "cost": 6002.719999999999,
+    "conversions": 73.21000000000001,
+    "conv_value": 32858.490000000005,
+    "clicks": 672.0,
+    "impressions": 7642.0,
+    "cpa": 81.99317033192185,
+    "roas": 5.473933483487487,
+    "cvr": 0.10894345238095239,
+    "cpc": 8.932619047619047
+   },
+   "before_reset": null,
+   "reset": null,
+   "conv_last30": 41.879999999999995,
+   "before_days": 0,
+   "early_read": null,
+   "conv_per_day": 1.3813207547169812,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "composition": {
+     "day": "2026-09-22",
+     "days_since": 51,
+     "text": "Keywords added: 6",
+     "account_level": false,
+     "targets": {},
+     "target_from": {}
+    }
+   },
+   "latest_material_change": null,
+   "conv_since_change": null,
+   "lost_budget": 0.0,
+   "lost_rank": 47.44661615718045,
+   "lost_budget_below10_days": 60,
+   "lost_rank_below10_days": 0,
+   "share_days": 60,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": true,
+   "needed": 30,
+   "reasons": [
+    "Cost / conv. 81.99 against its Target CPA of 55.00: 49.1% apart, worse than it. Chance alone moves a figure built on 73.2 conversions by about 11.7%.",
+    "Against your goal of 60.00: 36.7% apart, worse than it."
+   ],
+   "notes": [
+    "Its target of 55.00 is stricter than your goal of 60.00."
+   ],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": 55.0,
+   "reference_source": "its Target CPA",
+   "gap": 0.49078491512585176,
+   "band": 0.11687316268614796,
+   "verdict": "misses",
+   "goal": 60.0,
+   "goal_gap": 0.3665528388653641,
+   "goal_verdict": "misses",
+   "target_vs_goal": "stricter",
+   "pause_reference_cpa": 55.0,
+   "category": "Missing its target",
+   "limit": "Rank or target",
+   "limit_label": "Rank or target (top IS)",
+   "stacked_changes": [],
+   "lever": "Its target is already at or stricter than your goal, so lowering it further is unlikely to help on its own. Check search terms, conversion rate and the landing page first",
+   "check": {
+    "days": 22,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 22
+    },
+    "needed": 30
+   },
+   "step_guidance": null
+  },
+  {
+   "campaign": "Gas Line | Demand Gen",
+   "campaign_type": "Demand Gen",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible",
+   "status_reasons": "",
+   "learning": false,
+   "bid_strategy": "Target CPA",
+   "family": "tcpa",
+   "strategy_label": "Target CPA",
+   "portfolio": "",
+   "budget": 40.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": 70.0,
+   "target_roas": null,
+   "target_source": "report",
+   "target_varied": false,
+   "read_start": "2026-10-14",
+   "read_end": "2026-11-05",
+   "read_days": 23,
+   "read": {
+    "cost": 820.2199999999999,
+    "conversions": 0.0,
+    "conv_value": 0.0,
+    "clicks": 905.0,
+    "impressions": 150829.0,
+    "cpa": null,
+    "roas": 0.0,
+    "cvr": 0.0,
+    "cpc": 0.9063204419889502
+   },
+   "whole": {
+    "cost": 863.6699999999997,
+    "conversions": 0.0,
+    "conv_value": 0.0,
+    "clicks": 952.0,
+    "impressions": 158662.0,
+    "cpa": null,
+    "roas": 0.0,
+    "cvr": 0.0,
+    "cpc": 0.9072163865546216
+   },
+   "before_reset": {
+    "cost": 0.0,
+    "conversions": 0.0,
+    "conv_value": 0.0,
+    "clicks": 0.0,
+    "impressions": 0.0,
+    "cpa": null,
+    "roas": null,
+    "cvr": null,
+    "cpc": null
+   },
+   "reset": {
+    "day": "2026-10-13",
+    "days_since": 30,
+    "text": "Campaign created",
+    "account_level": false,
+    "targets": {},
+    "target_from": {},
+    "kind": "created"
+   },
+   "conv_last30": 0.0,
+   "before_days": 29,
+   "early_read": {
+    "cost": 1067.56,
+    "conversions": 0.0,
+    "conv_value": 0.0,
+    "clicks": 1178.0,
+    "impressions": 196327.0,
+    "cpa": null,
+    "roas": 0.0,
+    "cvr": 0.0,
+    "cpc": 0.9062478777589134,
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30,
+    "proper_read_on": null,
+    "conv_per_day": 0.0
+   },
+   "conv_per_day": 0.0,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "created": {
+     "day": "2026-10-13",
+     "days_since": 30,
+     "text": "Campaign created",
+     "account_level": false,
+     "targets": {},
+     "target_from": {}
+    }
+   },
+   "latest_material_change": {
+    "day": "2026-10-13",
+    "days_since": 30,
+    "text": "Campaign created",
+    "account_level": false,
+    "targets": {},
+    "target_from": {},
+    "kind": "created"
+   },
+   "conv_since_change": 0.0,
+   "lost_budget": null,
+   "lost_rank": null,
+   "lost_budget_below10_days": 0,
+   "lost_rank_below10_days": 0,
+   "share_days": 0,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": false,
+   "needed": 30,
+   "reasons": [
+    "Spent 820.22 with no conversion between 2026-10-14 and 2026-11-05: 11.7 times the reference cost per conversion of 70.00, where the test needs 3."
+   ],
+   "notes": [
+    "Its target of 70.00 is looser than your goal of 60.00. Your goal is your limit: ask whether to bring the target to it.",
+    "Created 30 days before the report's last day. Google's Demand Gen guide asks for no changes during the initial learning period, and its learning page speaks of up to around 50 conversion events or 3 conversion cycles (**Official**, references/learning-phase.md).",
+    "Which wins here: the case for pausing, once tracking is confirmed. **Practitioner rule.** Google's caution protects a campaign that is gathering conversions to learn from. This one has recorded none after spending 11.7 times its reference cost per conversion, so the learning period has nothing to learn from, and Smart Bidding is a measurement system first (references/smart-bidding.md).",
+    "Confirm first that conversions are being recorded for it: the conversion actions it bids toward record conversions in other campaigns over the same days, and its goals include them. If tracking is broken, fix tracking instead of pausing."
+   ],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": 70.0,
+   "reference_source": "its Target CPA",
+   "gap": null,
+   "band": null,
+   "verdict": null,
+   "goal": 60.0,
+   "goal_gap": null,
+   "goal_verdict": null,
+   "target_vs_goal": "looser",
+   "pause_reference_cpa": 70.0,
+   "spend_multiple": 11.71742857142857,
+   "category": "Pause candidate",
+   "limit": "Unknown: no Search impression share",
+   "limit_label": "Unknown: no Search impression share",
+   "stacked_changes": [
+    {
+     "day": "2026-10-13",
+     "kinds": [
+      "created"
+     ]
+    }
+   ],
+   "lever": "Pause, or fix tracking if conversions should be there",
+   "check": {
+    "days": 14,
+    "parts": {
+     "conversion_cycles": 14,
+     "demand_gen_week": 7
+    },
+    "needed": 30
+   },
+   "step_guidance": null
+  },
+  {
+   "campaign": "Drain Cleaning | Search",
+   "campaign_type": "Search",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible (Learning)",
+   "status_reasons": "bidding strategy learning",
+   "learning": true,
+   "bid_strategy": "Target CPA",
+   "family": "tcpa",
+   "strategy_label": "Target CPA",
+   "portfolio": "",
+   "budget": 150.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": 50.0,
+   "target_roas": null,
+   "target_source": "report",
+   "target_varied": false,
+   "read_start": "2026-11-06",
+   "read_end": "2026-11-05",
+   "read_days": 0,
+   "read": {
+    "cost": 0.0,
+    "conversions": 0.0,
+    "conv_value": 0.0,
+    "clicks": 0.0,
+    "impressions": 0.0,
+    "cpa": null,
+    "roas": null,
+    "cvr": null,
+    "cpc": null
+   },
+   "whole": {
+    "cost": 5557.48,
+    "conversions": 98.12,
+    "conv_value": 20818.07,
+    "clicks": 1087.0,
+    "impressions": 12296.0,
+    "cpa": 56.63962494904198,
+    "roas": 3.745955001187589,
+    "cvr": 0.09026678932842687,
+    "cpc": 5.112677092916283
+   },
+   "before_reset": {
+    "cost": 5462.0599999999995,
+    "conversions": 96.82000000000001,
+    "conv_value": 20545.3,
+    "clicks": 1068.0,
+    "impressions": 12091.0,
+    "cpa": 56.41458376368518,
+    "roas": 3.7614563003701904,
+    "cvr": 0.09065543071161049,
+    "cpc": 5.114288389513108
+   },
+   "reset": {
+    "day": "2026-11-05",
+    "days_since": 7,
+    "text": "Bid strategy changed from Maximize conversions to Target CPA\nTarget CPA set to 50.00",
+    "account_level": false,
+    "targets": {
+     "cpa": 50.0
+    },
+    "target_from": {},
+    "kind": "strategy"
+   },
+   "conv_last30": 54.87,
+   "before_days": 52,
+   "early_read": {
+    "cost": 795.16,
+    "conversions": 11.52,
+    "conv_value": 2406.55,
+    "clicks": 153.0,
+    "impressions": 1702.0,
+    "cpa": 69.02430555555556,
+    "roas": 3.026497811761155,
+    "cvr": 0.07529411764705882,
+    "cpc": 5.197124183006536,
+    "start": "2026-11-06",
+    "end": "2026-11-12",
+    "days": 7,
+    "proper_read_on": "2026-12-01",
+    "conv_per_day": 1.6457142857142857
+   },
+   "conv_per_day": 1.6457142857142857,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "strategy": {
+     "day": "2026-11-05",
+     "days_since": 7,
+     "text": "Bid strategy changed from Maximize conversions to Target CPA\nTarget CPA set to 50.00",
+     "account_level": false,
+     "targets": {
+      "cpa": 50.0
+     },
+     "target_from": {}
+    },
+    "target": {
+     "day": "2026-11-05",
+     "days_since": 7,
+     "text": "Bid strategy changed from Maximize conversions to Target CPA\nTarget CPA set to 50.00",
+     "account_level": false,
+     "targets": {
+      "cpa": 50.0
+     },
+     "target_from": {}
+    },
+    "budget": {
+     "day": "2026-11-08",
+     "days_since": 4,
+     "text": "Budget changed from 120.00 to 150.00",
+     "account_level": false,
+     "targets": {},
+     "target_from": {}
+    }
+   },
+   "latest_material_change": {
+    "day": "2026-11-08",
+    "days_since": 4,
+    "text": "Budget changed from 120.00 to 150.00",
+    "account_level": false,
+    "targets": {},
+    "target_from": {},
+    "kind": "budget"
+   },
+   "conv_since_change": 0.0,
+   "lost_budget": 9.704910197826692,
+   "lost_rank": 25.159899578091807,
+   "lost_budget_below10_days": 1,
+   "lost_rank_below10_days": 0,
+   "share_days": 7,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": true,
+   "needed": 30,
+   "reasons": [
+    "Google shows it as learning: status Eligible (Learning), reason bidding strategy learning.",
+    "Early read, not yet judgeable: in the 7 days since its latest bid strategy change (2026-11-06 to 2026-11-12), cost 795.16, conversions 11.5, cost / conv. 69.02 against its Target CPA of 50.00 (+38.0%). Recent days still gain conversions, and 11.5 conversions is fewer than the 30 needed. A proper read is possible around 2026-12-01, at its pace since the change.",
+    "No day after the change is outside the 7 day conversion cycle yet, so there is no read period.",
+    "Moved the unexpected way: a target of 50.00 was set on 2026-11-05, stricter than its earlier 56.41, yet cost / conv. went from 56.41 to 69.02 (+22.4%) in the early read, and conversions a day from 1.86 to 1.65. A stricter target usually trades volume for efficiency. The move is within what chance alone explains (about 29.5% on 11.5 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches."
+   ],
+   "notes": [
+    "Its target of 50.00 is stricter than your goal of 60.00.",
+    "Stacked changes close together: bid strategy and target on 2026-11-05, budget on 2026-11-08. Their effects cannot be told apart in this data (references/learning-phase.md)."
+   ],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": 50.0,
+   "reference_source": "its Target CPA",
+   "gap": null,
+   "band": null,
+   "verdict": null,
+   "goal": 60.0,
+   "goal_gap": null,
+   "goal_verdict": null,
+   "target_vs_goal": "stricter",
+   "pause_reference_cpa": 50.0,
+   "category": "Hold: learning",
+   "unexpected_move": {
+    "text": "Moved the unexpected way: a target of 50.00 was set on 2026-11-05, stricter than its earlier 56.41, yet cost / conv. went from 56.41 to 69.02 (+22.4%) in the early read, and conversions a day from 1.86 to 1.65. A stricter target usually trades volume for efficiency. The move is within what chance alone explains (about 29.5% on 11.5 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches.",
+    "was": 56.41458376368518,
+    "now": 69.02430555555556,
+    "change": 0.22351883060400107,
+    "band": 0.2946278254943948,
+    "early": true
+   },
+   "limit": "Rank or target",
+   "limit_label": "Rank or target (top IS)",
+   "stacked_changes": [
+    {
+     "day": "2026-11-05",
+     "kinds": [
+      "strategy",
+      "target"
+     ]
+    },
+    {
+     "day": "2026-11-08",
+     "kinds": [
+      "budget"
+     ]
+    }
+   ],
+   "lever": null,
+   "check": {
+    "days": 19,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 19
+    },
+    "needed": 30
+   },
+   "step_guidance": null
+  },
+  {
+   "campaign": "Brand",
+   "campaign_type": "Search",
+   "campaign_status": "Enabled",
+   "serving": true,
+   "status": "Eligible",
+   "status_reasons": "",
+   "learning": false,
+   "bid_strategy": "Target impression share",
+   "family": "tis",
+   "strategy_label": "Target impression share",
+   "portfolio": "",
+   "budget": 50.0,
+   "budget_name": "",
+   "brand": true,
+   "target_cpa": null,
+   "target_roas": null,
+   "target_source": null,
+   "target_varied": false,
+   "read_start": "2026-09-14",
+   "read_end": "2026-11-05",
+   "read_days": 53,
+   "read": {
+    "cost": 1493.6599999999999,
+    "conversions": 224.85,
+    "conv_value": 65264.670000000006,
+    "clicks": 1069.0,
+    "impressions": 11815.0,
+    "cpa": 6.642917500555925,
+    "roas": 43.69446192573947,
+    "cvr": 0.21033676333021514,
+    "cpc": 1.3972497661365761
+   },
+   "whole": {
+    "cost": 1493.6599999999999,
+    "conversions": 224.85,
+    "conv_value": 65264.670000000006,
+    "clicks": 1069.0,
+    "impressions": 11815.0,
+    "cpa": 6.642917500555925,
+    "roas": 43.69446192573947,
+    "cvr": 0.21033676333021514,
+    "cpc": 1.3972497661365761
+   },
+   "before_reset": null,
+   "reset": null,
+   "conv_last30": 127.97999999999999,
+   "before_days": 0,
+   "early_read": null,
+   "conv_per_day": 4.242452830188679,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {},
+   "latest_material_change": null,
+   "conv_since_change": null,
+   "lost_budget": 0.0,
+   "lost_rank": 0.0,
+   "lost_budget_below10_days": 60,
+   "lost_rank_below10_days": 60,
+   "share_days": 60,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": false,
+   "needed": 30,
+   "reasons": [
+    "Target impression share bids for visibility, not conversions, so it is not judged against a cost per conversion."
+   ],
+   "notes": [],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": null,
+   "reference_source": null,
+   "gap": null,
+   "band": 0.06668890000617644,
+   "verdict": null,
+   "goal": null,
+   "goal_gap": null,
+   "goal_verdict": null,
+   "target_vs_goal": null,
+   "pause_reference_cpa": 60.0,
+   "category": "Not judged on conversions",
+   "limit": "Neither: demand or reach",
+   "limit_label": "Neither: demand or reach (top IS)",
+   "stacked_changes": [],
+   "lever": null,
+   "check": {
+    "days": 14,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 8
+    },
+    "needed": 30
+   },
+   "step_guidance": null
+  },
+  {
+   "campaign": "Plumbing | Holiday Promo",
+   "campaign_type": "Search",
+   "campaign_status": "Paused",
+   "serving": false,
+   "status": "Paused",
+   "status_reasons": "",
+   "learning": false,
+   "bid_strategy": "Maximize Conversions",
+   "family": "max_conv",
+   "strategy_label": "Maximize conversions",
+   "portfolio": "",
+   "budget": 60.0,
+   "budget_name": "",
+   "brand": false,
+   "target_cpa": null,
+   "target_roas": null,
+   "target_source": null,
+   "target_varied": false,
+   "read_start": "2026-09-14",
+   "read_end": "2026-11-05",
+   "read_days": 53,
+   "read": {
+    "cost": 1215.7700000000004,
+    "conversions": 20.659999999999993,
+    "conv_value": 4604.44,
+    "clicks": 290.0,
+    "impressions": 3198.0,
+    "cpa": 58.84656340755086,
+    "roas": 3.7872623933803253,
+    "cvr": 0.0712413793103448,
+    "cpc": 4.192310344827588
+   },
+   "whole": {
+    "cost": 1215.7700000000004,
+    "conversions": 20.659999999999993,
+    "conv_value": 4604.44,
+    "clicks": 290.0,
+    "impressions": 3198.0,
+    "cpa": 58.84656340755086,
+    "roas": 3.7872623933803253,
+    "cvr": 0.0712413793103448,
+    "cpc": 4.192310344827588
+   },
+   "before_reset": null,
+   "reset": null,
+   "conv_last30": 0.0,
+   "before_days": 0,
+   "early_read": null,
+   "conv_per_day": 0.38981132075471686,
+   "lost_budget_column": "Search lost top IS (budget)",
+   "lost_rank_column": "Search lost top IS (rank)",
+   "top_is": true,
+   "changes": {
+    "other": {
+     "day": "2026-10-06",
+     "days_since": 37,
+     "text": "Status changed from Enabled to Paused",
+     "account_level": false,
+     "targets": {},
+     "target_from": {}
+    }
+   },
+   "latest_material_change": null,
+   "conv_since_change": null,
+   "lost_budget": 0.0,
+   "lost_rank": 20.153292119142563,
+   "lost_budget_below10_days": 22,
+   "lost_rank_below10_days": 0,
+   "share_days": 22,
+   "limited_by_budget_status": false,
+   "budget_limited": false,
+   "rank_limited": true,
+   "needed": 30,
+   "reasons": [
+    "Campaign status is Paused, so it is left out of every comparison and every move."
+   ],
+   "notes": [],
+   "shares_budget_with": [],
+   "measure": "cpa",
+   "reference": 60.0,
+   "reference_source": "your goal cost per conversion",
+   "gap": -0.01922394320748566,
+   "band": 0.2200061602587321,
+   "verdict": "near",
+   "goal": 60.0,
+   "goal_gap": -0.01922394320748566,
+   "goal_verdict": null,
+   "target_vs_goal": null,
+   "pause_reference_cpa": 60.0,
+   "category": "Not serving",
+   "limit": "Not serving",
+   "limit_label": "Not serving",
+   "stacked_changes": [],
+   "lever": null,
+   "check": {
+    "days": 77,
+    "parts": {
+     "conversion_cycles": 14,
+     "days_to_needed_conversions": 77
+    },
+    "needed": 30
+   },
+   "step_guidance": null
+  }
+ ],
+ "account": {
+  "read_whole": {
+   "cost": 33558.52,
+   "conversions": 772.15,
+   "conv_value": 225493.62,
+   "cpa": 43.461140970018775,
+   "roas": 6.719414920562648
+  },
+  "compared": {
+   "cost": 30849.089999999997,
+   "conversions": 526.6400000000001,
+   "conv_value": 155624.51,
+   "cpa": 58.57718745252922,
+   "roas": 5.044703425611583,
+   "names": [
+    "Plumbing | Emergency",
+    "Plumbing | Water Heaters",
+    "Sewer Line | Search",
+    "Gas Line | Demand Gen",
+    "Drain Cleaning | Search"
+   ]
+  },
+  "serving_cost": 32342.749999999996,
+  "serving_campaigns": 6,
+  "campaigns": 7,
+  "by_strategy": {
+   "Target CPA": {
+    "campaigns": 4,
+    "cost": 24714.73,
+    "conversions": 417.06000000000006,
+    "conv_value": 125016.16,
+    "cpa": 59.25941111590657,
+    "roas": 5.058366407401578
+   },
+   "Target ROAS": {
+    "campaigns": 1,
+    "cost": 6134.359999999998,
+    "conversions": 109.58000000000001,
+    "conv_value": 30608.35,
+    "cpa": 55.9806534039058,
+    "roas": 4.989656622695768
+   },
+   "Target impression share": {
+    "campaigns": 1,
+    "cost": 1493.6599999999999,
+    "conversions": 224.85,
+    "conv_value": 65264.670000000006,
+    "cpa": 6.642917500555925,
+    "roas": 43.69446192573947
+   },
+   "Maximize conversions": {
+    "campaigns": 1,
+    "cost": 1215.7700000000004,
+    "conversions": 20.659999999999993,
+    "conv_value": 4604.44,
+    "cpa": 58.84656340755086,
+    "roas": 3.7872623933803253
+   }
+  },
+  "by_category": {
+   "Scale candidate": {
+    "campaigns": 2,
+    "cost": 18425.219999999998,
+    "conversions": 355.31000000000006,
+    "names": [
+     "Plumbing | Emergency",
+     "Plumbing | Water Heaters"
+    ],
+    "share_of_serving_cost": 0.5696862511691183
+   },
+   "Missing its target": {
+    "campaigns": 1,
+    "cost": 6002.719999999999,
+    "conversions": 73.21000000000001,
+    "names": [
+     "Sewer Line | Search"
+    ],
+    "share_of_serving_cost": 0.18559708126241584
+   },
+   "Pause candidate": {
+    "campaigns": 1,
+    "cost": 863.6699999999997,
+    "conversions": 0.0,
+    "names": [
+     "Gas Line | Demand Gen"
+    ],
+    "share_of_serving_cost": 0.026703666200307636
+   },
+   "Hold: learning": {
+    "campaigns": 1,
+    "cost": 5557.48,
+    "conversions": 98.12,
+    "names": [
+     "Drain Cleaning | Search"
+    ],
+    "share_of_serving_cost": 0.17183078124154563
+   },
+   "Not judged on conversions": {
+    "campaigns": 1,
+    "cost": 1493.6599999999999,
+    "conversions": 224.85,
+    "names": [
+     "Brand"
+    ],
+    "share_of_serving_cost": 0.04618222012661261
+   },
+   "Not serving": {
+    "campaigns": 1,
+    "cost": 1215.7700000000004,
+    "conversions": 20.659999999999993,
+    "names": [
+     "Plumbing | Holiday Promo"
+    ],
+    "share_of_serving_cost": null
+   }
+  },
+  "reconcile": {
+   "label": "Total: Filtered campaigns",
+   "file_rows": {
+    "cost": 38007.59,
+    "conversions": 865.54
+   },
+   "total_rows": {
+    "cost": 38007.59,
+    "conversions": 865.54
+   },
+   "reconciled": true,
+   "tolerance": 0.6
+  }
+ },
+ "changes": [
+  {
+   "target_from": {},
+   "day": "2026-09-22",
+   "campaign": "Sewer Line | Search",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Keywords added: 6",
+   "kinds": [
+    "composition"
+   ],
+   "targets": {},
+   "matched": true,
+   "days_before_end": 51
+  },
+  {
+   "target_from": {
+    "roas": 4.5
+   },
+   "day": "2026-09-30",
+   "campaign": "Plumbing | Water Heaters",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Target ROAS changed from 450% to 400%",
+   "kinds": [
+    "target"
+   ],
+   "targets": {
+    "roas": 4.0
+   },
+   "matched": true,
+   "days_before_end": 43
+  },
+  {
+   "target_from": {},
+   "day": "2026-10-06",
+   "campaign": "Plumbing | Holiday Promo",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Status changed from Enabled to Paused",
+   "kinds": [
+    "other"
+   ],
+   "targets": {},
+   "matched": true,
+   "days_before_end": 37
+  },
+  {
+   "target_from": {},
+   "day": "2026-10-13",
+   "campaign": "Gas Line | Demand Gen",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Campaign created",
+   "kinds": [
+    "created"
+   ],
+   "targets": {},
+   "matched": true,
+   "days_before_end": 30
+  },
+  {
+   "target_from": {},
+   "day": "2026-11-05",
+   "campaign": "Drain Cleaning | Search",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Bid strategy changed from Maximize conversions to Target CPA\nTarget CPA set to 50.00",
+   "kinds": [
+    "strategy",
+    "target"
+   ],
+   "targets": {
+    "cpa": 50.0
+   },
+   "matched": true,
+   "days_before_end": 7
+  },
+  {
+   "target_from": {},
+   "day": "2026-11-08",
+   "campaign": "Drain Cleaning | Search",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Budget changed from 120.00 to 150.00",
+   "kinds": [
+    "budget"
+   ],
+   "targets": {},
+   "matched": true,
+   "days_before_end": 4
+  },
+  {
+   "target_from": {},
+   "day": "2026-11-13",
+   "campaign": "Plumbing | Emergency",
+   "ad_group": "",
+   "user": "sam@northside.example",
+   "text": "Ad schedule changed",
+   "kinds": [
+    "other"
+   ],
+   "targets": {},
+   "matched": true,
+   "days_before_end": -1
+  }
+ ]
+}

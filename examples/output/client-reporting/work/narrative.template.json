@@ -1,0 +1,42 @@
+{
+ "report_type": "monthly",
+ "title": "Northside Plumbing: Google Ads, October 2026",
+ "how_to": "Write each section's text (paragraphs separated by a blank line) and bullets. Write every number as its id in braces, for example {acct.cost.cur}; the write step puts in the exact figure. Tables are inserted after the text. Delete the hints when done. You may add or remove sections.",
+ "sections": [
+  {
+   "heading": "Month-over-month snapshot",
+   "text": "",
+   "bullets": [],
+   "tables": [
+    "account_without_brand",
+    "account",
+    "scorecard"
+   ],
+   "hint": "Lead with the business movement, not channel trivia."
+  },
+  {
+   "heading": "Main drivers",
+   "text": "",
+   "bullets": [],
+   "tables": [
+    "movers",
+    "campaigns"
+   ],
+   "hint": "Connect the result to the campaigns, budget shifts and changes that mattered. Say what is durable and what is short term."
+  },
+  {
+   "heading": "Budget shifts",
+   "text": "",
+   "bullets": [],
+   "tables": [],
+   "hint": "Where spend moved between campaigns, and what it bought."
+  },
+  {
+   "heading": "Recommended next actions",
+   "text": "",
+   "bullets": [],
+   "tables": [],
+   "hint": "The decisions or actions for next month, in order."
+  }
+ ]
+}

@@ -1,0 +1,801 @@
+{
+ "title": "Campaign build: Northside Plumbing",
+ "checked_on": "2026-11-13",
+ "all_paused": true,
+ "import_file": {
+  "rows": 28,
+  "by_kind": {
+   "Campaign": 1,
+   "Location": 2,
+   "Ad group": 3,
+   "Keyword": 14,
+   "Negative keyword": 4,
+   "Responsive search ad": 4
+  }
+ },
+ "negative_list_keywords": 5,
+ "totals": {
+  "keywords": 14,
+  "exact": 5,
+  "phrase": 9,
+  "broad": 0,
+  "campaigns": 1,
+  "ad_groups": 3,
+  "ads": 4,
+  "headlines": 41,
+  "descriptions": 14,
+  "locations": 2,
+  "negatives": 9,
+  "list_negatives": 5,
+  "campaign_negatives": 2,
+  "ad_group_negatives": 2,
+  "daily_budget": 120.0,
+  "day_limit": 240.0,
+  "month_limit": 3648.0,
+  "paused_items": 22,
+  "import_rows": 28
+ },
+ "refused_versions": 0,
+ "caught": [],
+ "warnings": [
+  {
+   "check": "ads_per_ad_group",
+   "where": "Build",
+   "text": "2 of 3 ad groups have one responsive search ad: \"Sewer Line Replacement\", \"Sewer Camera Inspection\". Google's tip is at least 2 in each ad group. One is enough to launch. Add a second when there is a different message to test.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md"
+  },
+  {
+   "check": "account_keywords",
+   "where": "Campaign \"Sewer Line | Search\" > Ad group \"Sewer Line Repair\" > Keyword \"sewer line repair\"",
+   "text": "The account already has this keyword with the same match type: campaign \"Drain Cleaning | Search\", ad group \"Sewer Repair\" (Enabled). Two copies compete for the same searches. Decide which one keeps the search, and pause the other when this build goes live.",
+   "label": "Official",
+   "source": "references/account-structure.md"
+  }
+ ],
+ "open_launch_items": [
+  {
+   "stage": "Stop launch",
+   "item": "Every final URL loads on mobile and on desktop, and matches its ad group.",
+   "role": "landing_pages",
+   "owner": "Not assigned",
+   "verify": "Open each final URL on the Ads sheet of the workbook on a phone and on a computer. Check the page offers what the ad offers.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Open: not answered"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "The business approved the ad text.",
+   "role": "approval",
+   "owner": "Dana",
+   "verify": "Send the Ad text sheet to the business. Every claim, price and offer in it must be true.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Open: answered no"
+  }
+ ],
+ "checklist": [
+  {
+   "stage": "Stop launch",
+   "item": "The conversion action named in the brief is recording conversions. \"Sewer Line | Search\" bids on conversions (Maximize conversions), so it has nothing to learn from without it.",
+   "role": "tracking",
+   "owner": "Lee",
+   "verify": "In Google Ads: Goals, Conversions, All conversions. Find the conversion action and check that it has recorded recent conversions.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Said yes"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "Billing is set up and the payment method works.",
+   "role": "approval",
+   "owner": "Dana",
+   "verify": "In Google Ads: Billing, Summary. Check there is no payment alert on the account.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Said yes"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "Every final URL loads on mobile and on desktop, and matches its ad group.",
+   "role": "landing_pages",
+   "owner": "Not assigned",
+   "verify": "Open each final URL on the Ads sheet of the workbook on a phone and on a computer. Check the page offers what the ad offers.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Open: not answered"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "The budget holder approved the daily budget and what it can add up to in a month.",
+   "role": "approval",
+   "owner": "Dana",
+   "verify": "Show the budget holder the daily budget and the monthly spending limit on the Campaigns sheet, and get a yes in writing.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Said yes"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "The business confirmed the locations.",
+   "role": "approval",
+   "owner": "Dana",
+   "verify": "Read the locations on the Campaigns sheet to the business and confirm they are the places it serves.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Said yes"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "The business approved the ad text.",
+   "role": "approval",
+   "owner": "Dana",
+   "verify": "Send the Ad text sheet to the business. Every claim, price and offer in it must be true.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "Open: answered no"
+  },
+  {
+   "stage": "Stop launch",
+   "item": "Every warning from the plan check is decided with the person (2 warnings)",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Read the Warnings sheet of the workbook. Write the decision beside each one.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Import build-for-google-ads-editor.csv",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "In Google Ads Editor: Account, Import, From file. Check the column headers Editor shows, then import.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Read every error and warning Editor lists",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Fix a problem in plan.json, run the check and the write step again, and import the new file. The workbook then still matches what is posted.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Count the proposed changes: 1 campaign, 2 locations, 3 ad groups, 14 keywords, 4 negative keywords and 4 responsive search ads",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Review imported changes. Imported rows arrive as proposed changes and nothing reaches the account until it is posted.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Every campaign, ad group, keyword and ad shows Paused",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Sort each view in Editor by status. Nothing in the file is set to serve.",
+   "label": "Practitioner rule",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Every location is resolved",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "A location typed by name must be resolved before posting. An unresolved location shows a yellow warning.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "AI Max is off for Sewer Line | Search, as the plan chose",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Google turns AI Max on for every new Search campaign unless the file says off. This file says off. Check it reads Disabled in Editor.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "The EU political ads declaration is right",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "The file declares that each campaign doesn't have EU political ads, because Google Ads will not post a campaign without the declaration. If a campaign carries political content as Google defines it for the EU, change the declaration in Editor before posting.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Campaign \"Sewer Line | Search\": networks read Google Search, bid strategy reads Maximize conversions",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Open the campaign settings in Editor and compare them with the Campaigns sheet.",
+   "label": "Practitioner rule",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Add the negative keyword list \"Northside | Never relevant\" (5 keywords) and apply it to every new campaign",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Paste negative-keyword-list.txt into a negative keyword list in Google Ads, then apply the list to each campaign of this build. Quotation marks mean phrase match and square brackets mean exact match.",
+   "label": "Practitioner rule",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Import and review in Google Ads Editor",
+   "item": "Keep the proposed changes and post",
+   "role": "build",
+   "owner": "Sam",
+   "verify": "Keep proposed changes, then post. Afterwards check in Google Ads that every campaign of this build still reads Paused.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Launch day",
+   "item": "Every Stop launch item reads Said yes",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "Read the first section of this checklist. One open item means no launch.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Launch day",
+   "item": "Open every final URL on a phone and on a computer",
+   "role": "landing_pages",
+   "owner": "Not assigned",
+   "verify": "Use the Ads sheet. Each page must load and offer what its ad offers.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Launch day",
+   "item": "No ad or keyword is disapproved in Google's policy review",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "In Google Ads, read the status of each ad and keyword after posting.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Launch day",
+   "item": "Enable ads, keywords and ad groups, then enable the campaign last",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "Enable in that order, so nothing serves half built.",
+   "label": "Practitioner rule",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "Launch day",
+   "item": "Write down the hypothesis, the success metric and the early warning sign",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "Hypothesis: Searches for sewer line repair, replacement and inspection in Denver and Aurora book jobs at a cost the business can carry, kept apart from drain cleaning. Success metric: Booked sewer appointments and cost per booking over the first 30 days. Early warning: Spend with no bookings after 14 days, or search terms about septic tanks or drain cleaning.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "First 14 days",
+   "item": "Serving: every campaign is eligible to serve",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "Check campaign status in Google Ads on day 1 and day 2.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "First 14 days",
+   "item": "Pacing: one day can spend up to 240.00 and one month is charged at most 3,648.00 for this build",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "That is the total daily budget of 120.00 times 2 and times 30.4. Compare cost each day with these limits.",
+   "label": "Official",
+   "source": "references/build-limits-and-editor-import.md",
+   "status": "To do"
+  },
+  {
+   "stage": "First 14 days",
+   "item": "Tracking: the conversions this build is judged on are recorded",
+   "role": "tracking",
+   "owner": "Lee",
+   "verify": "The brief says: Booked appointment (online booking form). In Google Ads: Goals, Conversions, All conversions. Then check the campaign's Conversions column.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "First 14 days",
+   "item": "Search terms: read the search terms report and exclude what is plainly wrong",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "If AI Max is on, Google says to wait at least 2 weeks after enabling before changes such as adding negatives.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  },
+  {
+   "stage": "First 14 days",
+   "item": "Make one strategic change at a time",
+   "role": "launch",
+   "owner": "Sam",
+   "verify": "Do not stack changes while the first signals form. Check conversion delay and low volume before calling a failure.",
+   "label": "Practitioner rule",
+   "source": "references/campaign-launch.md",
+   "status": "To do"
+  }
+ ],
+ "checks": [
+  {
+   "key": "plan_fields",
+   "check": "The plan uses only fields and values this version knows",
+   "source": "this skill's plan format",
+   "label": "Build rule",
+   "tested": 0,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "names",
+   "check": "Campaign and ad group names are filled in and unique",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "account_names",
+   "check": "No new campaign uses a name the account already has",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "budget",
+   "check": "Every daily budget is a plain number above zero",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "bidding",
+   "check": "Every bid strategy is one the file can carry, with the bid or target it needs",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "networks",
+   "check": "Networks are Google Search, with or without Search Partners",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "ai_max",
+   "check": "Every campaign says whether AI Max is on or off, because Google turns it on unless the file says off",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "locations",
+   "check": "Every campaign has at least one location",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "dates",
+   "check": "Start and end dates are real dates and not in the past",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "structure",
+   "check": "Every ad group has keywords and 1 to 3 responsive search ads",
+   "source": "references/ad-specs-limits.md",
+   "label": "Official",
+   "tested": 3,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "keyword_form",
+   "check": "Every keyword is plain words with a match type, within 10 words and 80 characters",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 14,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "duplicate_keywords",
+   "check": "No keyword and match type is in two ad groups",
+   "source": "references/account-structure.md",
+   "label": "Official",
+   "tested": 14,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "headline_count",
+   "check": "Every ad has 3 to 15 headlines",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "headline_chars",
+   "check": "Every headline is 30 characters or fewer",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 41,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "description_count",
+   "check": "Every ad has 2 to 4 descriptions",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "description_chars",
+   "check": "Every description is 90 characters or fewer",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 14,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "paths",
+   "check": "Every path is 15 characters or fewer",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "duplicate_text",
+   "check": "No ad repeats a headline or a description",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 8,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "customizers",
+   "check": "Every code in braces is one Google reads in a responsive search ad, with default text, inside the limits",
+   "source": "references/ad-customizers.md",
+   "label": "Official",
+   "tested": 59,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "final_urls",
+   "check": "Every final URL is a well formed web address",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "negative_form",
+   "check": "Every negative keyword is plain words with a match type",
+   "source": "this skill's plan format",
+   "label": "Build rule",
+   "tested": 9,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "negative_conflicts",
+   "check": "No negative keyword blocks one of the build's own keywords",
+   "source": "references/keywords.md",
+   "label": "Official",
+   "tested": 9,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "account_limits",
+   "check": "The build is inside Google's account limits",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 5,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "editorial",
+   "check": "Ad text has no phone number, repeated punctuation, symbol or word in capitals",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "keyword_in_headline",
+   "check": "Every ad has a headline that carries one of its ad group's keywords",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "asset_depth",
+   "check": "Every ad has more than the minimum number of headlines and descriptions",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 4,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "ads_per_ad_group",
+   "check": "Every ad group has at least 2 responsive search ads",
+   "source": "references/build-limits-and-editor-import.md",
+   "label": "Official",
+   "tested": 3,
+   "refused": 0,
+   "warnings": 1,
+   "not_run": "",
+   "result": "Warning: 1"
+  },
+  {
+   "key": "themed_ad_groups",
+   "check": "No ad group is built on a single keyword",
+   "source": "references/account-structure.md",
+   "label": "Official",
+   "tested": 3,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "split_keywords",
+   "check": "No keyword text is split across ad groups or campaigns",
+   "source": "references/account-structure.md",
+   "label": "Official",
+   "tested": 12,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "broad_bidding",
+   "check": "Broad match keywords sit in campaigns that bid on conversions",
+   "source": "references/keywords.md",
+   "label": "Official",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "account_keywords",
+   "check": "No new keyword repeats one the account already has",
+   "source": "references/account-structure.md",
+   "label": "Official",
+   "tested": 14,
+   "refused": 0,
+   "warnings": 1,
+   "not_run": "",
+   "result": "Warning: 1"
+  },
+  {
+   "key": "budget_reach",
+   "check": "Every daily budget covers one click at the Max CPC, or one conversion at the target",
+   "source": "the plan's own numbers",
+   "label": "Practitioner rule",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "destinations",
+   "check": "Final URLs use https and point at one website",
+   "source": "references/campaign-launch.md",
+   "label": "Practitioner rule",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  },
+  {
+   "key": "negative_cover",
+   "check": "Every campaign starts with negative keywords",
+   "source": "references/campaign-launch.md",
+   "label": "Practitioner rule",
+   "tested": 1,
+   "refused": 0,
+   "warnings": 0,
+   "not_run": "",
+   "result": "Passed"
+  }
+ ],
+ "campaigns": [
+  {
+   "name": "Sewer Line | Search",
+   "daily_budget": 120.0,
+   "bid_strategy": "Maximize conversions",
+   "conversion_based": true,
+   "target_cpa": null,
+   "target_roas_percent": null,
+   "networks": [
+    "Google Search"
+   ],
+   "ai_max": false,
+   "locations": [
+    "Denver, Colorado, United States",
+    "Aurora, Colorado, United States"
+   ],
+   "start_date": "2026-12-01",
+   "end_date": "",
+   "where": "Campaign \"Sewer Line | Search\"",
+   "keywords": 14,
+   "exact": 5,
+   "phrase": 9,
+   "broad": 0,
+   "ad_groups": 3,
+   "ads": 4,
+   "campaign_negatives": 2,
+   "ad_group_negatives": 2,
+   "day_limit": 240.0,
+   "month_limit": 3648.0
+  }
+ ],
+ "ad_groups": [
+  {
+   "campaign": "Sewer Line | Search",
+   "name": "Sewer Line Repair",
+   "max_cpc": null,
+   "where": "Campaign \"Sewer Line | Search\" > Ad group \"Sewer Line Repair\"",
+   "keywords": 5,
+   "exact": 2,
+   "phrase": 3,
+   "broad": 0,
+   "ads": 2,
+   "headlines": 20,
+   "descriptions": 7,
+   "negatives": 1
+  },
+  {
+   "campaign": "Sewer Line | Search",
+   "name": "Sewer Line Replacement",
+   "max_cpc": null,
+   "where": "Campaign \"Sewer Line | Search\" > Ad group \"Sewer Line Replacement\"",
+   "keywords": 5,
+   "exact": 1,
+   "phrase": 4,
+   "broad": 0,
+   "ads": 1,
+   "headlines": 11,
+   "descriptions": 4,
+   "negatives": 1
+  },
+  {
+   "campaign": "Sewer Line | Search",
+   "name": "Sewer Camera Inspection",
+   "max_cpc": null,
+   "where": "Campaign \"Sewer Line | Search\" > Ad group \"Sewer Camera Inspection\"",
+   "keywords": 4,
+   "exact": 2,
+   "phrase": 2,
+   "broad": 0,
+   "ads": 1,
+   "headlines": 10,
+   "descriptions": 3,
+   "negatives": 0
+  }
+ ]
+}

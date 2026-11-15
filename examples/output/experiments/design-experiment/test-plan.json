@@ -1,0 +1,143 @@
+{
+ "report": "campaigns-by-day.csv",
+ "title_rows": [
+  "Campaign report",
+  "August 15, 2026 - November 12, 2026"
+ ],
+ "data_from": "2026-10-01",
+ "data_to": "2026-11-12",
+ "days": 43,
+ "report_range_start": "2026-08-15",
+ "campaigns": [
+  "Plumbing | Emergency"
+ ],
+ "campaigns_not_serving": [],
+ "metric": "conversions",
+ "level_per_day": 4.534883720930233,
+ "raw_sd": 2.141971023872553,
+ "weekday": {
+  "checked": true,
+  "present": false,
+  "f": 0.2828068253963478,
+  "p": 0.9405062420780779,
+  "index": {
+   "Monday": 1.1393162393162393,
+   "Tuesday": 1.0290598290598292,
+   "Wednesday": 0.8085470085470085,
+   "Thursday": 1.071062271062271,
+   "Friday": 0.9923076923076923,
+   "Saturday": 0.9188034188034189,
+   "Sunday": 1.0290598290598292
+  },
+  "within_sd": 2.260922928092085
+ },
+ "noise_sd_used": 2.141971023872553,
+ "test_level_per_day": 4.534883720930233,
+ "share": 0.5,
+ "noise_source": "the daily spread of the campaigns' conversions",
+ "confidence": 0.95,
+ "power": 0.8,
+ "lift_asked": 0.15,
+ "days_needed": 359,
+ "readable": false,
+ "verdict": "Too little volume. A lift of 15% in conversions needs 359 measured days, longer than the 56 day limit. In 56 days the smallest lift this test could detect is 42%.",
+ "max_days": 56,
+ "detectable_at_max_days": 0.4242723744231589,
+ "detectable_at_planned_days": 0.4242723744231589,
+ "sizes": [
+  {
+   "days": 14,
+   "detectable_lift": 1.028551796544983
+  },
+  {
+   "days": 21,
+   "detectable_lift": 0.7816254238320313
+  },
+  {
+   "days": 28,
+   "detectable_lift": 0.6489723572297372
+  },
+  {
+   "days": 42,
+   "detectable_lift": 0.5043676241817578
+  },
+  {
+   "days": 56,
+   "detectable_lift": 0.4242723744231589
+  }
+ ],
+ "plan": {
+  "design": "experiment",
+  "start": "2026-11-16",
+  "settle_days": 7,
+  "measure_from": "2026-11-23",
+  "stop": "2027-01-17",
+  "run_days": 63,
+  "measured_days": 56,
+  "change": "Switch the bid strategy to Target CPA"
+ },
+ "keep_fixed": {
+  "yours": [],
+  "official": [
+   "The 50% split. It sets which auctions each arm can enter, not equal impressions or spend.",
+   "Experiment sync is turned off if edits made to the trial arm must not be overwritten."
+  ],
+  "practitioner": [
+   "The base campaign's budget, bid strategy, targets, keywords, ads and audiences, other than the change under test.",
+   "The conversion actions and their settings, in both arms."
+  ]
+ },
+ "decision_rule": "On 2027-01-17, read Google's experiment report for conversions at 95% confidence. If the trial is higher and Google marks it statistically significant, apply the trial. If it is lower and significant, end the experiment and keep the original. If it is not significant, keep the original: the test found no lift of 42% or more.",
+ "weekly_checks": {
+  "dates": [
+   "2026-11-22",
+   "2026-11-29",
+   "2026-12-06",
+   "2026-12-13",
+   "2026-12-20",
+   "2026-12-27",
+   "2027-01-03",
+   "2027-01-10",
+   "2027-01-17"
+  ],
+  "checks": [
+   "Both arms served all week. The trial's share of impressions is near the split; a gap is normal, a collapse is not.",
+   "No edits were made to either arm other than the planned change.",
+   "Conversions recorded every day in both arms. A day at zero is a tracking problem, not a result.",
+   "Neither arm is limited by budget more than the other (Search lost IS (budget)).",
+   "Do not call the result from a weekly look. Read it once, on the stop date."
+  ]
+ },
+ "eligibility": [
+  {
+   "campaign": "Plumbing | Emergency",
+   "type": "Search",
+   "status": "Enabled",
+   "blocked": false,
+   "notes": [
+    "bid strategy: check it is not a portfolio strategy"
+   ]
+  }
+ ],
+ "geo": null,
+ "lift_study": {
+  "conversions_over_run": 285.69767441860466,
+  "cost_over_run": 17995.862093023254,
+  "threshold_conversions": 1000,
+  "threshold_spend_usd": 5000
+ },
+ "reconcile": {
+  "checked": true,
+  "matches": true,
+  "rows_total": {
+   "cost": 38947.52,
+   "conversions": 760.0
+  },
+  "file_total": {
+   "cost": 38947.52,
+   "conversions": 760.0
+  },
+  "label": "Total: Account (added up over 90 days)"
+ },
+ "history_days": 90
+}

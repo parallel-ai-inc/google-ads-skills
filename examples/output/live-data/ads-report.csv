@@ -1,0 +1,10 @@
+Ads report
+"October 14, 2026 - November 12, 2026"
+Ad status,Ad,Ad type,Ad strength,Campaign,Ad group,Status,Approval status,Final URL,Currency code,Impr.,Clicks,Cost,Conversions
+Enabled,24/7 Emergency Plumber,Responsive search ad,Excellent,Plumbing | Emergency,Emergency, --,Approved,https://www.northsideplumbing.example/emergency,USD,"4,200",300,"2,130.00",45.00
+Enabled,Plumber At Your Door In 60 Min,Responsive search ad,Good,Plumbing | Emergency,Emergency, --,Approved,https://www.northsideplumbing.example/emergency,USD,"3,612",258,"1,831.80",33.00
+Enabled,Burst Pipe Repair Today,Responsive search ad,Average,Plumbing | Emergency,Burst Pipes, --,Approved (limited),https://www.northsideplumbing.example/burst-pipes,USD,"1,190",85,603.50,10.00
+Enabled,Water Heater Repair Experts,Responsive search ad,Poor,Plumbing | Water Heaters,Repair, --,Approved,https://www.northsideplumbing.example/repair,USD,"2,240",160,"1,136.00",12.00
+Enabled,Same Week Water Heater Install,Responsive search ad,Good,Plumbing | Water Heaters,Install, --,Disapproved,https://www.northsideplumbing.example/install,USD,"2,268",162,"1,150.20",11.00
+Enabled,Northside Plumbing Official Site,Responsive search ad,Excellent,Brand,Brand, --,Approved,https://www.northsideplumbing.example/brand,USD,"4,620",330,"2,343.00",98.00
+Total: Filtered ads, --, --, --, --, --, --, --, --,USD,"18,130","1,295","9,194.50",209.00

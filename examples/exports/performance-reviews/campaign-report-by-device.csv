@@ -1,0 +1,18 @@
+Campaign report
+"October 14, 2026 - November 12, 2026"
+Device,Campaign status,Campaign,Currency code,Status,Bid strategy type,Impr.,Clicks,CTR,Avg. CPC,Cost,Conversions,Conv. rate,Cost / conv.
+Mobile phones,Enabled,Plumbing | Emergency,USD,Eligible,Manual CPC,"9,333",700,7.50%,8.00,"5,600.00",70.00,10.00%,80.00
+Computers,Enabled,Plumbing | Emergency,USD,Eligible,Manual CPC,"3,333",250,7.50%,9.00,"2,250.00",10.00,4.00%,225.00
+Tablets,Enabled,Plumbing | Emergency,USD,Eligible,Manual CPC,400,30,7.50%,8.33,250.00,2.00,6.67%,125.00
+Mobile phones,Enabled,Plumbing | Water Heaters,USD,Eligible,Maximize Conversions,"4,000",300,7.50%,8.33,"2,500.00",22.00,7.33%,113.64
+Computers,Enabled,Plumbing | Water Heaters,USD,Eligible,Maximize Conversions,"3,733",280,7.50%,8.39,"2,350.00",24.00,8.57%,97.92
+Tablets,Enabled,Plumbing | Water Heaters,USD,Eligible,Maximize Conversions,533,40,7.50%,8.75,350.00,0.00,0.00%, --
+Mobile phones,Enabled,Drain Cleaning | Search,USD,Eligible,Target CPA,"5,067",380,7.50%,6.58,"2,500.00",34.00,8.95%,73.53
+Computers,Enabled,Drain Cleaning | Search,USD,Eligible,Target CPA,"2,000",150,7.50%,6.67,"1,000.00",12.00,8.00%,83.33
+Tablets,Enabled,Drain Cleaning | Search,USD,Eligible,Target CPA,267,20,7.49%,6.50,130.00,1.00,5.00%,130.00
+Mobile phones,Enabled,Brand,USD,Eligible,Manual CPC,"1,733",130,7.50%,1.38,180.00,30.00,23.08%,6.00
+Computers,Enabled,Brand,USD,Eligible,Manual CPC,600,45,7.50%,1.56,70.00,9.00,20.00%,7.78
+Tablets,Enabled,Brand,USD,Eligible,Manual CPC,67,5,7.46%,2.00,10.00,1.00,20.00%,10.00
+Mobile phones,Paused,Drain Cleaning | Old,USD,Paused,Manual CPC,800,60,7.50%,7.00,420.00,0.00,0.00%, --
+Computers,Paused,Drain Cleaning | Old,USD,Paused,Manual CPC,267,20,7.49%,7.50,150.00,0.00,0.00%, --
+Total: Account,,,,,,"32,133","2,410",7.50%,7.37,"17,760.00",215.00,8.92%,82.60

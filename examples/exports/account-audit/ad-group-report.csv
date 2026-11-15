@@ -1,0 +1,13 @@
+Ad group report
+"October 14, 2026 - November 12, 2026"
+Ad group status,Ad group,Campaign,Status,Ad group type,Currency code,Impr.,Clicks,Cost,Conversions,Cost / conv.
+Enabled,Emergency,Plumbing | Emergency,Eligible,Standard,USD,"12,905",909,"6,972.10",81.00,86.08
+Enabled,Burst Pipes,Plumbing | Emergency,Eligible,Standard,USD,"1,210",85,701.70,10.00,70.17
+Enabled,Repair,Plumbing | Water Heaters,Eligible,Standard,USD,"3,340",186,"1,322.70",15.00,88.18
+Enabled,Install,Plumbing | Water Heaters,Eligible,Standard,USD,"3,070",136,"1,204.00",8.00,150.50
+Enabled,Drains,Drain Cleaning | Search,Eligible,Standard,USD,"5,300",300,"1,530.00",21.00,72.86
+Enabled,Hydro Jetting,Drain Cleaning | Search,Eligible,Standard,USD,900,70,357.00,1.00,357.00
+Enabled,Brand,Brand,Eligible,Standard,USD,590,118,180.60,31.00,5.83
+Enabled,Old Drains,Drain Cleaning | Old,Campaign paused,Standard,USD,"1,500",60,310.25,0.00, --
+Total: Account, --, --, --, --,USD,"28,815","1,864","12,578.35",167.00, --
+Total: Search, --, --, --, --,USD,"28,815","1,864","12,578.35",167.00, --

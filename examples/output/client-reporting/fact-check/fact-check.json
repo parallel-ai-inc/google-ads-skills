@@ -1,0 +1,181 @@
+{
+ "report": "draft-report-to-check.md",
+ "periods": {
+  "kind": "custom",
+  "current": [
+   "2026-10-01",
+   "2026-10-31"
+  ],
+  "previous": [
+   "2026-09-01",
+   "2026-09-30"
+  ],
+  "last_year": [
+   "2025-10-01",
+   "2025-10-31"
+  ],
+  "file": [
+   "2025-07-01",
+   "2026-11-12"
+  ]
+ },
+ "results": [
+  {
+   "raw": "October 2026",
+   "kind": "month",
+   "status": "traced",
+   "id": "period.cur.end",
+   "label": "End of the current period",
+   "value": "October 31, 2026",
+   "reason": "",
+   "sentence": "Northside Plumbing: October 2026 Google Ads report",
+   "where": "Line 1"
+  },
+  {
+   "raw": "October 1 to 31, 2026",
+   "kind": "date",
+   "status": "traced",
+   "id": "period.cur.start",
+   "label": "Start of the current period",
+   "value": "October 1, 2026",
+   "reason": "",
+   "sentence": "Reporting period: October 1 to 31, 2026, compared with September 2026.",
+   "where": "Line 2"
+  },
+  {
+   "raw": "October 1 to 31, 2026",
+   "kind": "date",
+   "status": "traced",
+   "id": "period.cur.end",
+   "label": "End of the current period",
+   "value": "October 31, 2026",
+   "reason": "",
+   "sentence": "Reporting period: October 1 to 31, 2026, compared with September 2026.",
+   "where": "Line 2"
+  },
+  {
+   "raw": "September 2026",
+   "kind": "month",
+   "status": "traced",
+   "id": "period.prev.end",
+   "label": "End of the previous period",
+   "value": "September 30, 2026",
+   "reason": "",
+   "sentence": "Reporting period: October 1 to 31, 2026, compared with September 2026.",
+   "where": "Line 2"
+  },
+  {
+   "raw": "1.5%",
+   "kind": "pct",
+   "status": "traced",
+   "id": "acct.conv.chg_prev",
+   "label": "Account: Conversions, change vs previous period",
+   "value": "+1.5%",
+   "reason": "",
+   "sentence": "Conversions grew 1.5% on September, and cost was 14,423.32.",
+   "where": "Line 4"
+  },
+  {
+   "raw": "14,423.32",
+   "kind": "num",
+   "status": "traced",
+   "id": "acct.cost.cur",
+   "label": "Account: Cost, current period",
+   "value": "14,423.32",
+   "reason": "",
+   "sentence": "Conversions grew 1.5% on September, and cost was 14,423.32.",
+   "where": "Line 4"
+  },
+  {
+   "raw": "5.2%",
+   "kind": "pct",
+   "status": "contradicted",
+   "id": "acct.cpa.chg_prev",
+   "label": "Account: Cost / conv., change vs previous period",
+   "value": "-5.2%",
+   "reason": "Account: Cost / conv., change vs previous period is -5.2%, so it went down, but the sentence says it went up.",
+   "sentence": "Cost per conversion rose 5.2% to 34.88, under the 40.00 target.",
+   "where": "Line 4"
+  },
+  {
+   "raw": "34.88",
+   "kind": "num",
+   "status": "traced",
+   "id": "acct.cpa.cur",
+   "label": "Account: Cost / conv., current period",
+   "value": "34.88",
+   "reason": "",
+   "sentence": "Cost per conversion rose 5.2% to 34.88, under the 40.00 target.",
+   "where": "Line 4"
+  },
+  {
+   "raw": "40.00",
+   "kind": "num",
+   "status": "not_traced",
+   "id": "",
+   "label": "",
+   "value": "",
+   "reason": "No number in the data has this value for this measure, campaign and comparison.",
+   "sentence": "Cost per conversion rose 5.2% to 34.88, under the 40.00 target.",
+   "where": "Line 4"
+  },
+  {
+   "raw": "26.4%",
+   "kind": "pct",
+   "status": "wrong_comparison",
+   "id": "c2.conv.chg_ly",
+   "label": "Plumbing | Water Heaters: Conversions, change vs same period last year",
+   "value": "-26.4%",
+   "reason": "This value matches Plumbing | Water Heaters: Conversions, change vs same period last year (-26.4%, id c2.conv.chg_ly). That is a different comparison from the one the sentence names.",
+   "sentence": "Plumbing | Water Heaters conversions fell 26.4% month over month after the move to Target CPA.",
+   "where": "Line 6"
+  },
+  {
+   "raw": "18%",
+   "kind": "pct",
+   "status": "wrong_value",
+   "id": "c3.cost.chg_prev",
+   "label": "Drain Cleaning | Search: Cost, change vs previous period",
+   "value": "-37.8%",
+   "reason": "The data says Drain Cleaning | Search: Cost, change vs previous period is -37.8%.",
+   "sentence": "Drain Cleaning | Search declined sharply, with cost down 18% on September.",
+   "where": "Line 7"
+  },
+  {
+   "raw": "9.4x",
+   "kind": "ratio",
+   "status": "wrong_value",
+   "id": "acct.roas.cur",
+   "label": "Account: Conv. value / cost, current period",
+   "value": "9.09",
+   "reason": "The data says Account: Conv. value / cost, current period is 9.09.",
+   "sentence": "Return on ad spend reached 9.4x for the month.",
+   "where": "Line 8"
+  },
+  {
+   "raw": "58.1%",
+   "kind": "pct",
+   "status": "traced",
+   "id": "c1.cost.share_cur",
+   "label": "Plumbing | Emergency: Cost, share of the account total, current period",
+   "value": "58.1%",
+   "reason": "",
+   "sentence": "Plumbing | Emergency took 58.1% of the account's cost.",
+   "where": "Line 9"
+  }
+ ],
+ "caveats": [
+  {
+   "check": "States the reporting period (2026-10-01 to 2026-10-31)",
+   "present": true
+  },
+  {
+   "check": "Says what it compares against",
+   "present": true
+  },
+  {
+   "check": "Says what the numbers cannot show (late conversions, attribution, what is not included)",
+   "present": false
+  }
+ ]
+}

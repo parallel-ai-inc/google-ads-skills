@@ -1,0 +1,21 @@
+{
+ "summary": "The account converts, but two primary actions count the same lead form, so the campaigns that bid on conversions steer by inflated numbers. Fix that first. After it, the Emergency campaign is the clearest place for more budget, and the Hydro Jetting ad group needs a working ad.",
+ "findings": [
+  {"id": "BB-03", "relevant": "yes", "fix": "Raise the Plumbing | Emergency budget in steps, and only after the conversion fix in CT-04, so its cost per conversion is read on clean numbers. Watch Search lost IS (budget) and cost per conversion for two weeks after each step.", "why": ""},
+  {"id": "CT-03", "relevant": "yes", "fix": "Set the Count of GA4 generate_lead to One, so one ad click counts one lead. The change applies to future conversions only.", "why": ""},
+  {"id": "CT-04", "relevant": "yes", "fix": "Keep Contact form submit as the primary action for the lead form and set GA4 generate_lead to secondary, so each form fill is counted once for bidding. Then watch the two Maximize Conversions campaigns, as their bidding will see fewer conversions.", "why": ""},
+  {"id": "SQ-01", "relevant": "yes", "fix": "Add negatives for job seekers (jobs, hiring, salary) and do it yourself searches (diy, how to) at account level, after testing them against the converting searches. Keep plumber near me on Watch, as it is a core service search.", "why": ""},
+  {"id": "AD-04", "relevant": "yes", "fix": "Write a second strong responsive search ad in Repair and in Burst Pipes, with more distinct headlines, until two ads in each are rated Good or Excellent.", "why": ""},
+  {"id": "KW-04", "relevant": "yes", "fix": "Move Plumbing | Emergency to a conversion based bid strategy once its conversions are clean, or change its broad match keywords to phrase match while it stays on Manual CPC.", "why": ""},
+  {"id": "KW-05", "relevant": "yes", "fix": "Pause the broad match keyword plumber near me, or change it to phrase match, and let the search term review decide which of its searches to keep.", "why": ""},
+  {"id": "KW-01", "relevant": "yes", "fix": "Send plumber free estimate to a page about free estimates, and move water heater not heating to an ad group with ads about no hot water.", "why": ""},
+  {"id": "SE-02", "relevant": "yes", "fix": "Turn off Search partners in Plumbing | Emergency. The cost per conversion there is several times the cost on Google search.", "why": ""},
+  {"id": "ST-01", "relevant": "no", "fix": "", "why": "Hydro Jetting is a distinct service with its own page. One keyword is fine while the ad group has no working ad, and AD-01 covers the real problem there."},
+  {"id": "AD-01", "relevant": "yes", "fix": "Fix the landing page behind the disapproved Hydro Jetting ad, then ask for a review, or enable the paused ad, so the ad group can show ads again.", "why": ""},
+  {"id": "AD-03", "relevant": "yes", "fix": "Remove the trademarked term from the Roto Style Drain Service ad, or replace that ad.", "why": ""},
+  {"id": "AD-02", "relevant": "yes", "fix": "Same fix as AD-01: repair the destination, then request a review of the Hydro Jetting Specialists ad.", "why": ""},
+  {"id": "KW-02", "relevant": "yes", "fix": "Remove the copy of \"emergency plumber\" from Burst Pipes, so the Emergency ad group owns that search.", "why": ""},
+  {"id": "SQ-02", "relevant": "yes", "fix": "Add northside as a negative in the non brand campaigns, so brand searches go to the Brand campaign.", "why": ""},
+  {"id": "KW-03", "relevant": "yes", "fix": "Remove frozen pipe repair, or leave it until winter if frozen pipes are a seasonal service.", "why": ""}
+ ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+examples/work/
+examples/trial-run/
+INTERNAL-REVIEW.md
+WRITING-A-PLAYBOOK.md
+PUBLICATION-PASS.md
+BUILDING-A-SKILL.md
+examples/output/**/*.xlsx
+examples/output/**/*.docx
+examples/output/performance-reviews/performance-review.json

@@ -1,0 +1,17 @@
+Search terms report
+"October 14, 2026 - November 12, 2026"
+Search term,Match type,Added/Excluded,Campaign,Ad group,Campaign type,Currency code,Impr.,Clicks,CTR,Avg. CPC,Cost,Conversions,Cost / conv.,Conv. value
+emergency plumber near me,Phrase match,None,Plumbing | Emergency,Emergency,Search,USD,"3,772",212,5.62%,9.00,"1,908.00",31.00,61.55,"9,300.00"
+24 hour plumber,Exact match,Added,Plumbing | Emergency,Emergency,Search,USD,"3,113",148,4.75%,8.60,"1,272.80",22.00,57.85,"6,600.00"
+burst pipe repair,Phrase match,None,Plumbing | Emergency,Burst Pipes,Search,USD,827,60,7.26%,8.20,492.00,8.00,61.50,"2,400.00"
+plumber jobs near me,Broad match,None,Plumbing | Emergency,Emergency,Search,USD,320,14,4.38%,6.50,91.00,0.00, --,0.00
+plumbing apprenticeship,Broad match,None,Plumbing | Emergency,Emergency,Search,USD,134,9,6.72%,6.00,54.00,0.00, --,0.00
+how to fix a leaking pipe,Broad match,None,Plumbing | Emergency,Burst Pipes,Search,USD,205,12,5.85%,5.50,66.00,0.00, --,0.00
+water heater installation,Phrase match (close variant),None,Plumbing | Water Heaters,Install,Search,USD,"1,631",70,4.29%,7.90,553.00,9.00,61.44,"2,700.00"
+tankless water heater repair,Phrase match,None,Plumbing | Water Heaters,Repair,Search,USD,382,25,6.54%,7.00,175.00,3.00,58.33,900.00
+water heater element replacement diy,Broad match,None,Plumbing | Water Heaters,Repair,Search,USD,191,8,4.19%,5.00,40.00,0.00, --,0.00
+drain cleaning near me,Phrase match,None,Drain Cleaning | Search,Drains,Search,USD,"1,459",90,6.17%,5.10,459.00,12.00,38.25,"3,600.00"
+drain snake rental,Broad match,None,Drain Cleaning | Search,Drains,Search,USD,252,11,4.37%,4.20,46.20,0.00, --,0.00
+northside plumbing,Exact match,Added,Brand,Brand,Search,USD,"2,694",120,4.45%,1.50,180.00,30.00,6.00,"9,000.00"
+northside plumbing reviews,Exact match (close variant),None,Brand,Brand,Search,USD,293,18,6.14%,1.40,25.20,2.00,12.60,600.00
+Total: Search terms, --, --, --, --, --,USD,"15,273",797, --, --,"5,362.20",117.00, --,"35,100.00"

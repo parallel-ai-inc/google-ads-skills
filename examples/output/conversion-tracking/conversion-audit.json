@@ -1,0 +1,433 @@
+{
+ "report": "conversion-actions-summary.csv",
+ "title_rows": [
+  "Conversion actions",
+  "October 14, 2026 - November 12, 2026"
+ ],
+ "columns_found": [
+  "all_conv",
+  "all_conv_value",
+  "attribution_model",
+  "category",
+  "click_window",
+  "conv_value",
+  "conversion_action",
+  "conversions",
+  "count",
+  "optimization",
+  "source",
+  "status",
+  "view_window"
+ ],
+ "columns_not_used": [],
+ "volume_column": "All conv.",
+ "volume_total": 608.0,
+ "conversions_total": 473.0,
+ "reconcile": {
+  "label": "Total: Conversion actions",
+  "file_total": 608.0,
+  "rows_total": 608.0,
+  "difference": 0.0,
+  "tolerance": 0.03,
+  "matches": true,
+  "account_total": null,
+  "part_of_account": false
+ },
+ "rows_named_total": [],
+ "counts": {
+  "actions": 5,
+  "primary": 4,
+  "secondary": 1,
+  "optimization_not_shown": 0,
+  "removed": 1,
+  "headings_left_out": 0,
+  "rows_without_a_name": 0,
+  "not_recording": 1
+ },
+ "headings_left_out": [],
+ "findings": [
+  {
+   "id": "F1",
+   "type": "primary_not_recording",
+   "title": "Primary actions that are not recording",
+   "actions": [
+    "Online booking"
+   ],
+   "category": "",
+   "detail": "Online booking (Website, Book appointment, status No recent conversions, All conv. 57.00, 9.4% of All conv. over the whole report (2026-10-14 to 2026-11-12)) is Primary, so bidding uses it, and its status is No recent conversions.",
+   "share": 0.09375,
+   "rules": [
+    {
+     "label": "Official",
+     "rule": "Awaiting conversions and No recent conversions mean no conversion was recorded in the last 7 days. Misconfigured means recording has stopped because of a setup error or a broken tag. Tag inactive means Google no longer sees the tag.",
+     "source": "Google Ads Help, Troubleshooting conversion tracking status"
+    },
+    {
+     "label": "Official",
+     "rule": "Bidding uses a conversion action only when it is Primary and in a goal the campaign uses. Secondary actions are reported in All conv. only, unless a custom goal includes them.",
+     "source": "Google Ads Help, About primary and secondary conversion actions"
+    },
+    {
+     "label": "Practitioner rule",
+     "rule": "When the conversion signal is broken, repairing tracking comes before any optimization.",
+     "source": ""
+    }
+   ],
+   "checks": [
+    {
+     "check": "Trigger the conversion yourself on the live site and watch the tag. Tag Assistant does this: in Goals, Conversions, All conversions, hover over the Tracking status and choose Troubleshoot.",
+     "label": "Official",
+     "source": "Google Ads Help, Use Tag Assistant to troubleshoot your unverified or inactive conversion actions",
+     "owner": "Whoever manages Google Tag Manager or GA4"
+    },
+    {
+     "check": "Ask what changed on the website on or just before it stopped: a release, a new form or checkout, a new confirmation page address, or a tag manager publish.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The website developer"
+    },
+    {
+     "check": "Ask whether the booking or form tool changed on or just before it stopped: a new version, a new domain or a new confirmation page. A tool on another domain can lose the tag or the click identifier.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "Whoever owns the booking or form tool"
+    },
+    {
+     "check": "Check the consent banner. Default consent states must be set before any tag sends data, and updated after the visitor chooses. Check ad_user_data and ad_personalization, not only cookie storage.",
+     "label": "Official",
+     "source": "Google for Developers, Set up consent mode on websites",
+     "owner": "The website developer"
+    },
+    {
+     "check": "Confirm the click identifiers still reach the site and the tag: gclid, gbraid or wbraid.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The website developer"
+    },
+    {
+     "check": "In Google Ads, open Goals, Conversions, All conversions and hover over the Tracking status of this action. Google shows its own diagnosis there.",
+     "label": "Official",
+     "source": "Google Ads Help, Troubleshooting conversion tracking status",
+     "owner": "You, in Google Ads"
+    },
+    {
+     "check": "Read the change history for the days just before it stopped. Look for edits to conversion actions, to goals, and to the goals a campaign uses.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "You, in Google Ads"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "type": "double_count",
+   "title": "Two Primary actions in one category from different sources",
+   "actions": [
+    "GA4 generate_lead",
+    "Website lead form"
+   ],
+   "category": "Submit lead form",
+   "detail": "In Submit lead form, 2 Primary actions come from 2 different sources: GA4 generate_lead (Google Analytics (GA4), Submit lead form, status Recording conversions, All conv. 182.00, 29.9% of All conv. over the whole report (2026-10-14 to 2026-11-12)); Website lead form (Website, Submit lead form, status Recording conversions, All conv. 181.00, 29.8% of All conv. over the whole report (2026-10-14 to 2026-11-12)). GA4 generate_lead and Website lead form carry a value, so value can be counted twice too. **Official:** Non purchase actions that are Primary and carry a value can double count value. Google's fix is to switch them to Secondary or to remove their value. (Google Ads Help, Data discrepancies: Factors and troubleshooting.)",
+   "share": 0.5970394736842106,
+   "rules": [
+    {
+     "label": "Practitioner rule",
+     "rule": "Two Primary actions in one category from different sources can be the same event counted twice. Confirm what each one records before changing either.",
+     "source": ""
+    },
+    {
+     "label": "Official",
+     "rule": "Google sets conversion actions created from Google Analytics to Secondary to prevent counting the same event twice for bidding, and its fix for double counting is to switch the extra action to Secondary.",
+     "source": "Analytics Help, Create Google Ads conversions based on Google Analytics key events"
+    },
+    {
+     "label": "Official",
+     "rule": "Bidding uses a conversion action only when it is Primary and in a goal the campaign uses. Secondary actions are reported in All conv. only, unless a custom goal includes them.",
+     "source": "Google Ads Help, About primary and secondary conversion actions"
+    }
+   ],
+   "checks": [
+    {
+     "check": "Find out what each action records. Make one real conversion and see which actions count it.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "Whoever manages Google Tag Manager or GA4"
+    },
+    {
+     "check": "Check whether a tag now fires twice: on a reloaded confirmation page, on two pages, or from two tags for the same action.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "Whoever manages Google Tag Manager or GA4"
+    },
+    {
+     "check": "Check which goals each affected campaign uses, and whether a custom goal is in play. A report does not show this.",
+     "label": "Official",
+     "source": "Google Ads Help, About conversion goals",
+     "owner": "You, in Google Ads"
+    },
+    {
+     "check": "Ask whether any campaign bids on value (Maximize conversion value or Target ROAS). If one does, a value counted twice is in what it bids on.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "You, in Google Ads"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "type": "lead_every",
+   "title": "Lead actions counted as Every",
+   "actions": [
+    "Website lead form"
+   ],
+   "category": "",
+   "detail": "Website lead form (Website, Submit lead form, status Recording conversions, All conv. 181.00, 29.8% of All conv. over the whole report (2026-10-14 to 2026-11-12)) is a Primary action counted as Every, so a second form or call from one click counts again.",
+   "share": 0.29769736842105265,
+   "rules": [
+    {
+     "label": "Official",
+     "rule": "Every counts each conversion after an ad interaction. One counts only one conversion per ad click. Google calls Every a good choice for sales, and gives leads as the case for One: only one unique lead per click.",
+     "source": "Google Ads Help, About conversion counting options"
+    },
+    {
+     "label": "Official",
+     "rule": "A change to the count setting applies to future conversions only.",
+     "source": "Google Ads Help, About conversion counting options"
+    }
+   ],
+   "checks": [
+    {
+     "check": "Ask the business whether a second form or call from the same person is a second lead.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The business"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "type": "secondary_only_category",
+   "title": "Categories with only Secondary actions",
+   "actions": [
+    "Directions clicks"
+   ],
+   "category": "Get directions",
+   "detail": "Get directions has only Secondary actions: Directions clicks (Website, Get directions, status Recording conversions, All conv. 62.00, 10.2% of All conv. over the whole report (2026-10-14 to 2026-11-12)). Bidding does not use them unless a custom goal includes them.",
+   "share": 0.10197368421052631,
+   "rules": [
+    {
+     "label": "Official",
+     "rule": "Bidding uses a conversion action only when it is Primary and in a goal the campaign uses. Secondary actions are reported in All conv. only, unless a custom goal includes them.",
+     "source": "Google Ads Help, About primary and secondary conversion actions"
+    }
+   ],
+   "checks": [
+    {
+     "check": "Ask the business whether this is an outcome it would pay for.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The business"
+    },
+    {
+     "check": "Check which goals each affected campaign uses, and whether a custom goal is in play. A report does not show this.",
+     "label": "Official",
+     "source": "Google Ads Help, About conversion goals",
+     "owner": "You, in Google Ads"
+    }
+   ]
+  }
+ ],
+ "not_checked": [],
+ "most_means": "more than 50% of All conv.",
+ "carriers": [
+  "GA4 generate_lead",
+  "Website lead form"
+ ],
+ "categories": [
+  {
+   "category": "Submit lead form",
+   "actions": 2,
+   "primary": 2,
+   "secondary": 0,
+   "volume": 363.0,
+   "share": 0.5970394736842105
+  },
+  {
+   "category": "Phone call lead",
+   "actions": 1,
+   "primary": 1,
+   "secondary": 0,
+   "volume": 126.0,
+   "share": 0.20723684210526316
+  },
+  {
+   "category": "Get directions",
+   "actions": 1,
+   "primary": 0,
+   "secondary": 1,
+   "volume": 62.0,
+   "share": 0.10197368421052631
+  },
+  {
+   "category": "Book appointment",
+   "actions": 1,
+   "primary": 1,
+   "secondary": 0,
+   "volume": 57.0,
+   "share": 0.09375
+  }
+ ],
+ "actions": [
+  {
+   "name": "Website lead form",
+   "optimization": "Primary",
+   "source": "Website",
+   "category": "Submit lead form",
+   "status": "Recording conversions",
+   "count": "Every",
+   "click_window": "30 days",
+   "view_window": "1 day",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 181.0,
+   "conversions": 181.0,
+   "value": 27150.0,
+   "status_class": "recording",
+   "kind": "lead",
+   "family": "website",
+   "share": 0.29769736842105265,
+   "conversions_share": 0.38266384778012685,
+   "findings": [
+    "Two Primary actions in one category from different sources",
+    "Lead actions counted as Every"
+   ],
+   "cumulative_share": 0.5970394736842106
+  },
+  {
+   "name": "GA4 generate_lead",
+   "optimization": "Primary",
+   "source": "Google Analytics (GA4)",
+   "category": "Submit lead form",
+   "status": "Recording conversions",
+   "count": "One",
+   "click_window": "30 days",
+   "view_window": "",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 182.0,
+   "conversions": 109.0,
+   "value": 27300.0,
+   "status_class": "recording",
+   "kind": "lead",
+   "family": "analytics",
+   "share": 0.2993421052631579,
+   "conversions_share": 0.23044397463002114,
+   "findings": [
+    "Two Primary actions in one category from different sources"
+   ],
+   "cumulative_share": 0.2993421052631579
+  },
+  {
+   "name": "Calls from ads",
+   "optimization": "Primary",
+   "source": "Calls from ads",
+   "category": "Phone call lead",
+   "status": "Recording conversions",
+   "count": "One",
+   "click_window": "30 days",
+   "view_window": "",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 126.0,
+   "conversions": 126.0,
+   "value": 12600.0,
+   "status_class": "recording",
+   "kind": "lead",
+   "family": "calls",
+   "share": 0.20723684210526316,
+   "conversions_share": 0.266384778012685,
+   "findings": [],
+   "cumulative_share": 0.8042763157894738
+  },
+  {
+   "name": "Online booking",
+   "optimization": "Primary",
+   "source": "Website",
+   "category": "Book appointment",
+   "status": "No recent conversions",
+   "count": "One",
+   "click_window": "30 days",
+   "view_window": "1 day",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 57.0,
+   "conversions": 57.0,
+   "value": 11400.0,
+   "status_class": "not_recording",
+   "kind": "lead",
+   "family": "website",
+   "share": 0.09375,
+   "conversions_share": 0.12050739957716702,
+   "findings": [
+    "Primary actions that are not recording"
+   ],
+   "cumulative_share": 1.0
+  },
+  {
+   "name": "Directions clicks",
+   "optimization": "Secondary",
+   "source": "Website",
+   "category": "Get directions",
+   "status": "Recording conversions",
+   "count": "Every",
+   "click_window": "30 days",
+   "view_window": "1 day",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 62.0,
+   "conversions": 0.0,
+   "value": 0.0,
+   "status_class": "recording",
+   "kind": "other",
+   "family": "website",
+   "share": 0.10197368421052631,
+   "conversions_share": 0.0,
+   "findings": [
+    "Categories with only Secondary actions"
+   ],
+   "cumulative_share": 0.9062500000000001
+  }
+ ],
+ "removed": [
+  {
+   "name": "Old contact form",
+   "optimization": "Secondary",
+   "source": "Website",
+   "category": "Contact",
+   "status": "Removed",
+   "count": "One",
+   "click_window": "30 days",
+   "view_window": "1 day",
+   "engaged_window": "",
+   "attribution_model": "Data-driven",
+   "value_setting": "",
+   "repeat_rate": null,
+   "volume": 0.0,
+   "conversions": 0.0,
+   "value": 0.0,
+   "status_class": "removed",
+   "kind": "lead",
+   "family": "website"
+  }
+ ]
+}

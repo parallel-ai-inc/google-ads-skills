@@ -1,0 +1,8 @@
+Campaign report
+"October 14, 2026 - November 12, 2026"
+Campaign status,Campaign,Currency code,Budget,Budget name,Budget type,Campaign type,Bid strategy type,Impr.,Clicks,CTR,Avg. CPC,Cost,Conversions,Cost / conv.,Conv. value,Search impr. share,Search lost IS (rank),Search lost IS (budget)
+Enabled,Plumbing | Emergency,USD,240.00,Plumbing | Emergency,Daily,Search,Manual CPC,"11,701",808,6.91%,8.94,"7,221.22",182.06,39.66,"54,618.00",50.54%,17.51%,31.95%
+Enabled,Plumbing | Water Heaters,USD,160.00,Plumbing | Water Heaters,Daily,Search,Maximize Conversions,"7,501",510,6.80%,6.91,"3,524.46",58.44,60.31,"30,388.80",58.20%,20.64%,21.16%
+Paused,Drain Cleaning | Search,USD,120.00,Drain Cleaning | Search,Daily,Search,Maximize Conversions,"4,549",319,7.01%,6.08,"1,939.48",28.70,67.58,"6,027.00",< 10%,85.98%,4.03%
+Enabled,Brand,USD,40.00,Brand,Daily,Search,Manual CPC,"6,491",452,6.96%,1.52,685.33,137.98,4.97,"41,394.00",91.95%,8.05%,0.00%
+Total: Filtered campaigns, --,USD, --, --, --, --, --,"30,242","2,089", --, --,"13,370.49",407.18, --,"132,427.80", --, --, --

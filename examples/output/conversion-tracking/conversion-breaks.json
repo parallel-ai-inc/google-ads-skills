@@ -1,0 +1,660 @@
+{
+ "report": "conversions-by-action-and-day.csv",
+ "title_rows": [
+  "Conversions by action and day",
+  "October 14, 2026 - November 12, 2026"
+ ],
+ "column": "All conv.",
+ "both_columns": true,
+ "first_day": "2026-10-14",
+ "last_day": "2026-11-12",
+ "days": 30,
+ "starts_late": false,
+ "first_day_with_conversions": "2026-10-14",
+ "range_from": "the date range above the header",
+ "actions": 5,
+ "total": 608.0,
+ "reconcile": {
+  "label": "Total: Account",
+  "file_total": 608.0,
+  "rows_total": 608.0,
+  "difference": 0.0,
+  "tolerance": 1.66,
+  "matches": true,
+  "account_total": 608.0,
+  "part_of_account": false
+ },
+ "rows_named_total": [],
+ "skipped_rows": {
+  "no_day": 0,
+  "no_action": 0
+ },
+ "account_break": null,
+ "account_conversions_break": null,
+ "thresholds": {
+  "min_empty_days": 3,
+  "step_days": 7,
+  "chance": 0.01,
+  "step": 0.2,
+  "noise": 3.0,
+  "same_day": 1,
+  "change_lookback_days": 3
+ },
+ "summary_read": true,
+ "not_in_summary": [],
+ "clicks_read": true,
+ "clicks_note": null,
+ "change_history_read": true,
+ "breaks": [
+  {
+   "kind": "joined",
+   "cut": 13,
+   "end": 29,
+   "before": 0.0,
+   "after": 6.411764705882353,
+   "after_return": null,
+   "usual_rate": 6.411764705882353,
+   "empty_days": 13,
+   "chance": 6.313607749714756e-37,
+   "noise_multiple": null,
+   "action": "GA4 generate_lead",
+   "day": "2026-10-27",
+   "end_day": "2026-11-12",
+   "what": "Joined the Conversions column",
+   "direction": "up",
+   "column": "Conversions",
+   "runs_to_end": true,
+   "base_period": "2026-10-27 to 2026-11-12",
+   "affected_period": "2026-10-27 to 2026-11-12",
+   "affected_days": 17,
+   "share": 0.32732732732732733,
+   "conversions_share": 0.35973597359735976,
+   "difference": 109.0,
+   "expected": 0.0,
+   "actual": 109.0,
+   "in_conversions": true,
+   "source": "Google Analytics (GA4)",
+   "optimization": "Primary",
+   "status": "Recording conversions",
+   "family": "analytics",
+   "share_whole": 0.2993421052631579,
+   "conversions_share_whole": 0.23044397463002114,
+   "daily": [
+    [
+     "2026-10-20",
+     0.0
+    ],
+    [
+     "2026-10-21",
+     0.0
+    ],
+    [
+     "2026-10-22",
+     0.0
+    ],
+    [
+     "2026-10-23",
+     0.0
+    ],
+    [
+     "2026-10-24",
+     0.0
+    ],
+    [
+     "2026-10-25",
+     0.0
+    ],
+    [
+     "2026-10-26",
+     0.0
+    ],
+    [
+     "2026-10-27",
+     5.0
+    ],
+    [
+     "2026-10-28",
+     8.0
+    ],
+    [
+     "2026-10-29",
+     10.0
+    ],
+    [
+     "2026-10-30",
+     11.0
+    ],
+    [
+     "2026-10-31",
+     5.0
+    ],
+    [
+     "2026-11-01",
+     6.0
+    ],
+    [
+     "2026-11-02",
+     7.0
+    ],
+    [
+     "2026-11-03",
+     7.0
+    ],
+    [
+     "2026-11-04",
+     2.0
+    ],
+    [
+     "2026-11-05",
+     7.0
+    ],
+    [
+     "2026-11-06",
+     7.0
+    ],
+    [
+     "2026-11-07",
+     5.0
+    ],
+    [
+     "2026-11-08",
+     4.0
+    ],
+    [
+     "2026-11-09",
+     8.0
+    ],
+    [
+     "2026-11-10",
+     8.0
+    ],
+    [
+     "2026-11-11",
+     2.0
+    ],
+    [
+     "2026-11-12",
+     7.0
+    ]
+   ],
+   "conversions_effect": {
+    "before": 0.0,
+    "during": 6.411764705882353,
+    "per_day": 6.411764705882353,
+    "total": 109.0,
+    "open_at_end": true
+   },
+   "findings": [
+    {
+     "id": "F2",
+     "type": "double_count",
+     "title": "Two Primary actions in one category from different sources",
+     "category": "Submit lead form",
+     "with": [
+      "Website lead form"
+     ]
+    }
+   ],
+   "campaigns": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "share_of_action": 0.3853211009174312,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "share_of_action": 0.30275229357798167,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Drain Cleaning | Search",
+     "share_of_action": 0.2018348623853211,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Brand",
+     "share_of_action": 0.11009174311926606,
+     "status": "Enabled"
+    }
+   ],
+   "paused_campaigns": [],
+   "clicks": {
+    "campaigns": [
+     "Plumbing | Emergency",
+     "Plumbing | Water Heaters",
+     "Drain Cleaning | Search",
+     "Brand"
+    ],
+    "per_day_before": 77.84615384615384,
+    "per_day_after": 76.6470588235294,
+    "change": -0.015403394559404782,
+    "per_click_before": 0.0,
+    "per_click_after": 0.08365310821181889
+   },
+   "changes_before": [
+    {
+     "day": "2026-10-27",
+     "user": "manager@example.com",
+     "campaign": "",
+     "changes": "Conversion action GA4 generate_lead changed; Action optimization changed from Secondary action to Primary action"
+    }
+   ],
+   "rules": [
+    {
+     "label": "Official",
+     "rule": "Bidding uses a conversion action only when it is Primary and in a goal the campaign uses. Secondary actions are reported in All conv. only, unless a custom goal includes them.",
+     "source": "Google Ads Help, About primary and secondary conversion actions"
+    },
+    {
+     "label": "Practitioner rule",
+     "rule": "Two Primary actions in one category from different sources can be the same event counted twice. Confirm what each one records before changing either.",
+     "source": ""
+    },
+    {
+     "label": "Official",
+     "rule": "Goal and action changes need 1 to 2 conversion cycles in most cases, and Google recommends moving targets gradually.",
+     "source": "Google Ads Help, Changing conversion goals and actions used for Smart Bidding"
+    }
+   ],
+   "checks": [
+    {
+     "check": "Read the change history for the days just before 2026-10-27. Look for this action changing between Primary and Secondary, or a campaign changing the goals it uses.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "You, in Google Ads"
+    },
+    {
+     "check": "Check which goals each affected campaign uses, and whether a custom goal is in play. A report does not show this.",
+     "label": "Official",
+     "source": "Google Ads Help, About conversion goals",
+     "owner": "You, in Google Ads"
+    }
+   ],
+   "same_day": [],
+   "kept_recording": [],
+   "id": "B1",
+   "account_conversions": {
+    "before": 13.076923076923077,
+    "after": 17.823529411764707
+   }
+  },
+  {
+   "kind": "stopped",
+   "cut": 21,
+   "end": 29,
+   "before": 2.7142857142857144,
+   "after": 0.0,
+   "after_return": null,
+   "usual_rate": 2.7142857142857144,
+   "empty_days": 9,
+   "chance": 2.4592700895781015e-11,
+   "noise_multiple": null,
+   "action": "Online booking",
+   "day": "2026-11-04",
+   "end_day": "2026-11-12",
+   "what": "Stopped",
+   "direction": "down",
+   "column": "All conv.",
+   "runs_to_end": true,
+   "base_period": "2026-10-14 to 2026-11-03",
+   "affected_period": "2026-11-04 to 2026-11-12",
+   "affected_days": 9,
+   "share": 0.12808988764044943,
+   "conversions_share": 0.17325227963525835,
+   "difference": -24.42857142857143,
+   "expected": 24.42857142857143,
+   "actual": 0.0,
+   "in_conversions": true,
+   "source": "Website",
+   "optimization": "Primary",
+   "status": "No recent conversions",
+   "family": "website",
+   "share_whole": 0.09375,
+   "conversions_share_whole": 0.12050739957716702,
+   "daily": [
+    [
+     "2026-10-28",
+     5.0
+    ],
+    [
+     "2026-10-29",
+     5.0
+    ],
+    [
+     "2026-10-30",
+     2.0
+    ],
+    [
+     "2026-10-31",
+     0.0
+    ],
+    [
+     "2026-11-01",
+     3.0
+    ],
+    [
+     "2026-11-02",
+     3.0
+    ],
+    [
+     "2026-11-03",
+     1.0
+    ],
+    [
+     "2026-11-04",
+     0.0
+    ],
+    [
+     "2026-11-05",
+     0.0
+    ],
+    [
+     "2026-11-06",
+     0.0
+    ],
+    [
+     "2026-11-07",
+     0.0
+    ],
+    [
+     "2026-11-08",
+     0.0
+    ],
+    [
+     "2026-11-09",
+     0.0
+    ],
+    [
+     "2026-11-10",
+     0.0
+    ],
+    [
+     "2026-11-11",
+     0.0
+    ],
+    [
+     "2026-11-12",
+     0.0
+    ]
+   ],
+   "conversions_effect": {
+    "before": 2.7142857142857144,
+    "during": 0.0,
+    "per_day": -2.7142857142857144,
+    "total": -24.42857142857143,
+    "open_at_end": true
+   },
+   "findings": [
+    {
+     "id": "F1",
+     "type": "primary_not_recording",
+     "title": "Primary actions that are not recording",
+     "category": "",
+     "with": []
+    }
+   ],
+   "campaigns": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "share_of_action": 0.47368421052631576,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "share_of_action": 0.24561403508771928,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Drain Cleaning | Search",
+     "share_of_action": 0.19298245614035087,
+     "status": "Enabled"
+    },
+    {
+     "campaign": "Brand",
+     "share_of_action": 0.08771929824561403,
+     "status": "Enabled"
+    }
+   ],
+   "paused_campaigns": [],
+   "clicks": {
+    "campaigns": [
+     "Plumbing | Emergency",
+     "Plumbing | Water Heaters",
+     "Drain Cleaning | Search",
+     "Brand"
+    ],
+    "per_day_before": 78.80952380952381,
+    "per_day_after": 73.33333333333333,
+    "change": -0.06948640483383693,
+    "per_click_before": 0.03444108761329305,
+    "per_click_after": 0.0
+   },
+   "changes_before": [],
+   "rules": [
+    {
+     "label": "Practitioner rule",
+     "rule": "When the conversion signal is broken, repairing tracking comes before any optimization.",
+     "source": ""
+    },
+    {
+     "label": "Official",
+     "rule": "A data exclusion reduces the effect of a tracking outage on Smart Bidding. Its dates are chosen by the affected clicks, allowing for the usual delay between click and conversion. Google says not to remove one once applied.",
+     "source": "Google Ads Help, About data exclusions"
+    },
+    {
+     "label": "Practitioner rule",
+     "rule": "While tracking is in doubt, changes to bids, targets and budgets are provisional.",
+     "source": ""
+    },
+    {
+     "label": "Official",
+     "rule": "Google Ads reports a conversion on the date of the ad interaction that led to it, not the date it happened, and conversions can be reported up to 90 days after the click. Recent days keep filling in.",
+     "source": "Google Ads Help, Data discrepancies: Factors and troubleshooting"
+    }
+   ],
+   "checks": [
+    {
+     "check": "Trigger the conversion yourself on the live site and watch the tag. Tag Assistant does this: in Goals, Conversions, All conversions, hover over the Tracking status and choose Troubleshoot.",
+     "label": "Official",
+     "source": "Google Ads Help, Use Tag Assistant to troubleshoot your unverified or inactive conversion actions",
+     "owner": "Whoever manages Google Tag Manager or GA4"
+    },
+    {
+     "check": "Ask what changed on the website on or just before 2026-11-04: a release, a new form or checkout, a new confirmation page address, or a tag manager publish.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The website developer"
+    },
+    {
+     "check": "Ask whether the booking or form tool changed on or just before 2026-11-04: a new version, a new domain or a new confirmation page. A tool on another domain can lose the tag or the click identifier.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "Whoever owns the booking or form tool"
+    },
+    {
+     "check": "Check the consent banner. Default consent states must be set before any tag sends data, and updated after the visitor chooses. Check ad_user_data and ad_personalization, not only cookie storage.",
+     "label": "Official",
+     "source": "Google for Developers, Set up consent mode on websites",
+     "owner": "The website developer"
+    },
+    {
+     "check": "Confirm the click identifiers still reach the site and the tag: gclid, gbraid or wbraid.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "The website developer"
+    },
+    {
+     "check": "In Google Ads, open Goals, Conversions, All conversions and hover over the Tracking status of this action. Google shows its own diagnosis there.",
+     "label": "Official",
+     "source": "Google Ads Help, Troubleshooting conversion tracking status",
+     "owner": "You, in Google Ads"
+    },
+    {
+     "check": "Read the change history for the days just before 2026-11-04. Look for edits to conversion actions, to goals, and to the goals a campaign uses.",
+     "label": "Practitioner rule",
+     "source": "",
+     "owner": "You, in Google Ads"
+    }
+   ],
+   "same_day": [],
+   "kept_recording": [
+    "GA4 generate_lead",
+    "Website lead form",
+    "Calls from ads",
+    "Directions clicks"
+   ],
+   "id": "B2",
+   "account_conversions": {
+    "before": 15.666666666666666,
+    "after": 16.0
+   }
+  }
+ ],
+ "steady": [
+  {
+   "action": "Website lead form",
+   "total": 181.0,
+   "share": 0.29769736842105265,
+   "days_with_conversions": 30,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Website",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-12",
+   "break": ""
+  },
+  {
+   "action": "Calls from ads",
+   "total": 126.0,
+   "share": 0.20723684210526316,
+   "days_with_conversions": 30,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Calls from ads",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-12",
+   "break": ""
+  },
+  {
+   "action": "Directions clicks",
+   "total": 62.0,
+   "share": 0.10197368421052631,
+   "days_with_conversions": 27,
+   "in_conversions": false,
+   "optimization": "Secondary",
+   "source": "Website",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-11",
+   "break": ""
+  }
+ ],
+ "action_totals": [
+  {
+   "action": "GA4 generate_lead",
+   "total": 182.0,
+   "share": 0.2993421052631579,
+   "days_with_conversions": 29,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Google Analytics (GA4)",
+   "first_day": "2026-10-15",
+   "last_day": "2026-11-12",
+   "break": "Joined the Conversions column on 2026-10-27"
+  },
+  {
+   "action": "Online booking",
+   "total": 57.0,
+   "share": 0.09375,
+   "days_with_conversions": 20,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Website",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-03",
+   "break": "Stopped on 2026-11-04"
+  },
+  {
+   "action": "Website lead form",
+   "total": 181.0,
+   "share": 0.29769736842105265,
+   "days_with_conversions": 30,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Website",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-12",
+   "break": ""
+  },
+  {
+   "action": "Calls from ads",
+   "total": 126.0,
+   "share": 0.20723684210526316,
+   "days_with_conversions": 30,
+   "in_conversions": true,
+   "optimization": "Primary",
+   "source": "Calls from ads",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-12",
+   "break": ""
+  },
+  {
+   "action": "Directions clicks",
+   "total": 62.0,
+   "share": 0.10197368421052631,
+   "days_with_conversions": 27,
+   "in_conversions": false,
+   "optimization": "Secondary",
+   "source": "Website",
+   "first_day": "2026-10-14",
+   "last_day": "2026-11-11",
+   "break": ""
+  }
+ ],
+ "focus": [
+  "Website lead form"
+ ],
+ "conversions_by_period": [
+  {
+   "from": "2026-10-14",
+   "to": "2026-10-26",
+   "days": 13,
+   "conversions_per_day": 13.076923076923077,
+   "volume_per_day": 21.153846153846153,
+   "breaks_starting": []
+  },
+  {
+   "from": "2026-10-27",
+   "to": "2026-11-03",
+   "days": 8,
+   "conversions_per_day": 19.875,
+   "volume_per_day": 21.25,
+   "breaks_starting": [
+    "B1"
+   ]
+  },
+  {
+   "from": "2026-11-04",
+   "to": "2026-11-12",
+   "days": 9,
+   "conversions_per_day": 16.0,
+   "volume_per_day": 18.11111111111111,
+   "breaks_starting": [
+    "B2"
+   ]
+  }
+ ],
+ "net_effect_on_conversions": {
+  "rises": 109.0,
+  "falls": -24.42857142857143,
+  "total": 84.57142857142857,
+  "per_day_at_end": 3.697478991596639,
+  "open_at_end": [
+   "B1",
+   "B2"
+  ],
+  "first_period_per_day": 13.076923076923077,
+  "last_period_per_day": 16.0,
+  "last_period_without_open_breaks": 12.30252100840336
+ },
+ "audit_findings_linked": true
+}

@@ -1,0 +1,394 @@
+Conversions by action and day
+"October 14, 2026 - November 12, 2026"
+Day,Conversion action,Campaign,Campaign status,Currency code,Cost,Conversions,All conv.,Conv. value,All conv. value
+2026-10-14,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-14,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-14,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-14,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-14,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-14,Calls from ads,Brand,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-14,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-14,Online booking,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-14,Online booking,Brand,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-14,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-14,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-15,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-15,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-15,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,3.00,0.00,450.00
+2026-10-15,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,3.00,0.00,450.00
+2026-10-15,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-15,Calls from ads,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,400.00,400.00
+2026-10-15,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-15,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-15,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-15,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,3.00,0.00,0.00
+2026-10-15,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-16,Website lead form,Plumbing | Emergency,Enabled,USD, --,5.00,5.00,750.00,750.00
+2026-10-16,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-16,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-16,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-16,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-16,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-16,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-16,Calls from ads,Brand,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-16,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-16,Online booking,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-16,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-17,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-17,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-17,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-17,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-17,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-17,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-17,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-17,GA4 generate_lead,Brand,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-17,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-17,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-17,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-17,Online booking,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-17,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-18,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-18,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,8.00,0.00,"1,200.00"
+2026-10-18,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,3.00,0.00,450.00
+2026-10-18,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-18,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-18,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-10-18,Online booking,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-18,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-10-18,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-19,Website lead form,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-10-19,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-19,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-19,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-19,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-19,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-19,GA4 generate_lead,Brand,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-19,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-19,Calls from ads,Brand,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-10-19,Online booking,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-19,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-20,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-20,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-20,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-20,Website lead form,Brand,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-20,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-20,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-20,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-10-20,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-20,Online booking,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-20,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,4.00,0.00,0.00
+2026-10-20,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-21,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-21,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-21,Website lead form,Brand,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-21,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-21,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-21,GA4 generate_lead,Brand,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-21,Calls from ads,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-21,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-21,Online booking,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,800.00,800.00
+2026-10-21,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-21,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-10-21,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-22,Website lead form,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-10-22,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-22,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-22,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-22,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-22,Calls from ads,Plumbing | Emergency,Enabled,USD, --,5.00,5.00,500.00,500.00
+2026-10-22,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-22,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-22,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-22,Online booking,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-22,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-22,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-23,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-23,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-23,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-23,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-23,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-23,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-23,Calls from ads,Brand,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-23,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-23,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-23,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-10-23,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-24,Website lead form,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-24,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-24,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-24,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,5.00,0.00,750.00
+2026-10-24,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-24,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-24,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-24,Online booking,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-24,Online booking,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-10-24,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-24,Online booking,Brand,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-24,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-24,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-25,Website lead form,Plumbing | Emergency,Enabled,USD, --,6.00,6.00,900.00,900.00
+2026-10-25,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-25,Website lead form,Drain Cleaning | Search,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-25,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,300.00
+2026-10-25,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-25,GA4 generate_lead,Brand,Enabled,USD, --,0.00,4.00,0.00,600.00
+2026-10-25,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-10-25,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-25,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-25,Online booking,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,600.00,600.00
+2026-10-25,Online booking,Brand,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-25,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-25,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-26,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-26,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-26,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-26,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,0.00,5.00,0.00,750.00
+2026-10-26,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,0.00,4.00,0.00,600.00
+2026-10-26,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-26,GA4 generate_lead,Brand,Enabled,USD, --,0.00,1.00,0.00,150.00
+2026-10-26,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-26,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-26,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-26,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-26,Online booking,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-26,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-26,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-10-27,Website lead form,Plumbing | Emergency,Enabled,USD, --,7.00,7.00,"1,050.00","1,050.00"
+2026-10-27,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-27,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-27,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-27,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-27,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-27,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-27,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-27,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-27,Online booking,Brand,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-28,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-28,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-28,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-28,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-28,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-28,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-10-28,Calls from ads,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-28,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-28,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,4.00,4.00,400.00,400.00
+2026-10-28,Online booking,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,800.00,800.00
+2026-10-28,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-29,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-29,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-29,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-29,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-29,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-29,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-29,GA4 generate_lead,Brand,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-29,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-10-29,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-29,Online booking,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,800.00,800.00
+2026-10-29,Online booking,Brand,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-29,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-30,Website lead form,Plumbing | Emergency,Enabled,USD, --,5.00,5.00,750.00,750.00
+2026-10-30,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-30,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-30,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-30,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,5.00,5.00,750.00,750.00
+2026-10-30,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-30,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-30,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-30,Online booking,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-30,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-10-30,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-10-30,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-30,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-10-31,Website lead form,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-31,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-31,Website lead form,Drain Cleaning | Search,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-10-31,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-31,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-31,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-10-31,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-10-31,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-31,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-10-31,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-01,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-01,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-01,Website lead form,Brand,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-01,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-01,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-01,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-01,Calls from ads,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-01,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-01,Online booking,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-11-01,Online booking,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-11-01,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-02,Website lead form,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-02,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-02,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-02,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-02,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-02,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-02,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-02,Online booking,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,400.00,400.00
+2026-11-02,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-11-02,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-02,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-11-03,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-03,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-03,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-03,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-03,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-03,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-03,GA4 generate_lead,Brand,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-03,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-03,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-03,Online booking,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,200.00,200.00
+2026-11-03,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-04,Website lead form,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-04,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-04,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-04,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-04,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-04,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-04,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-04,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-04,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-05,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-05,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-05,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-05,Website lead form,Brand,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-05,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-05,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-05,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-05,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-05,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-05,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-05,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-05,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-06,Website lead form,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-06,Website lead form,Drain Cleaning | Search,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-06,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-06,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-06,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-06,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-06,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-06,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-06,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-11-06,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-06,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-07,Website lead form,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-07,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-07,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-07,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-07,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-07,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-07,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-07,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-08,Website lead form,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-08,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-08,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-08,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-08,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-08,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-08,Calls from ads,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-08,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-08,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-08,Calls from ads,Brand,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-08,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-08,Directions clicks,Brand,Enabled,USD, --,0.00,2.00,0.00,0.00
+2026-11-09,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-09,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-09,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-09,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-09,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-09,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-09,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-09,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-09,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-09,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-09,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-10,Website lead form,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-10,Website lead form,Plumbing | Water Heaters,Enabled,USD, --,6.00,6.00,900.00,900.00
+2026-11-10,Website lead form,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-10,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-10,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-10,GA4 generate_lead,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-10,GA4 generate_lead,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-10,Calls from ads,Plumbing | Emergency,Enabled,USD, --,3.00,3.00,300.00,300.00
+2026-11-10,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-10,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-10,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-10,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-11,Website lead form,Plumbing | Emergency,Enabled,USD, --,2.00,2.00,300.00,300.00
+2026-11-11,Website lead form,Drain Cleaning | Search,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-11,Website lead form,Brand,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-11,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-11,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,1.00,1.00,150.00,150.00
+2026-11-11,Calls from ads,Plumbing | Water Heaters,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-11-11,Directions clicks,Plumbing | Emergency,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-11,Directions clicks,Plumbing | Water Heaters,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-11,Directions clicks,Drain Cleaning | Search,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-11,Directions clicks,Brand,Enabled,USD, --,0.00,1.00,0.00,0.00
+2026-11-12,Website lead form,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-12,GA4 generate_lead,Plumbing | Emergency,Enabled,USD, --,4.00,4.00,600.00,600.00
+2026-11-12,GA4 generate_lead,Plumbing | Water Heaters,Enabled,USD, --,3.00,3.00,450.00,450.00
+2026-11-12,Calls from ads,Plumbing | Emergency,Enabled,USD, --,1.00,1.00,100.00,100.00
+2026-11-12,Calls from ads,Drain Cleaning | Search,Enabled,USD, --,2.00,2.00,200.00,200.00
+2026-10-14,Total: Search, --, --,USD, --,12.00,14.00,"1,650.00","1,650.00"
+2026-10-14,Total: Account, --, --,USD, --,12.00,14.00,"1,650.00","1,650.00"
+2026-10-15,Total: Search, --, --,USD, --,12.00,23.00,"1,500.00","2,550.00"
+2026-10-15,Total: Account, --, --,USD, --,12.00,23.00,"1,500.00","2,550.00"
+2026-10-16,Total: Search, --, --,USD, --,16.00,19.00,"2,300.00","2,600.00"
+2026-10-16,Total: Account, --, --,USD, --,16.00,19.00,"2,300.00","2,600.00"
+2026-10-17,Total: Search, --, --,USD, --,12.00,19.00,"1,600.00","2,500.00"
+2026-10-17,Total: Account, --, --,USD, --,12.00,19.00,"1,600.00","2,500.00"
+2026-10-18,Total: Search, --, --,USD, --,8.00,24.00,"1,100.00","3,050.00"
+2026-10-18,Total: Account, --, --,USD, --,8.00,24.00,"1,100.00","3,050.00"
+2026-10-19,Total: Search, --, --,USD, --,14.00,22.00,"2,000.00","3,050.00"
+2026-10-19,Total: Account, --, --,USD, --,14.00,22.00,"2,000.00","3,050.00"
+2026-10-20,Total: Search, --, --,USD, --,14.00,22.00,"2,000.00","2,450.00"
+2026-10-20,Total: Account, --, --,USD, --,14.00,22.00,"2,000.00","2,450.00"
+2026-10-21,Total: Search, --, --,USD, --,13.00,21.00,"2,000.00","2,600.00"
+2026-10-21,Total: Account, --, --,USD, --,13.00,21.00,"2,000.00","2,600.00"
+2026-10-22,Total: Search, --, --,USD, --,17.00,22.00,"2,300.00","2,900.00"
+2026-10-22,Total: Account, --, --,USD, --,17.00,22.00,"2,300.00","2,900.00"
+2026-10-23,Total: Search, --, --,USD, --,11.00,16.00,"1,550.00","1,850.00"
+2026-10-23,Total: Account, --, --,USD, --,11.00,16.00,"1,550.00","1,850.00"
+2026-10-24,Total: Search, --, --,USD, --,11.00,20.00,"1,900.00","2,950.00"
+2026-10-24,Total: Account, --, --,USD, --,11.00,20.00,"1,900.00","2,950.00"
+2026-10-25,Total: Search, --, --,USD, --,19.00,28.00,"2,900.00","3,950.00"
+2026-10-25,Total: Account, --, --,USD, --,19.00,28.00,"2,900.00","3,950.00"
+2026-10-26,Total: Search, --, --,USD, --,11.00,25.00,"1,500.00","3,150.00"
+2026-10-26,Total: Account, --, --,USD, --,11.00,25.00,"1,500.00","3,150.00"
+2026-10-27,Total: Search, --, --,USD, --,18.00,18.00,"2,800.00","2,800.00"
+2026-10-27,Total: Account, --, --,USD, --,18.00,18.00,"2,800.00","2,800.00"
+2026-10-28,Total: Search, --, --,USD, --,27.00,27.00,"3,950.00","3,950.00"
+2026-10-28,Total: Account, --, --,USD, --,27.00,27.00,"3,950.00","3,950.00"
+2026-10-29,Total: Search, --, --,USD, --,24.00,25.00,"3,600.00","3,600.00"
+2026-10-29,Total: Account, --, --,USD, --,24.00,25.00,"3,600.00","3,600.00"
+2026-10-30,Total: Search, --, --,USD, --,23.00,27.00,"3,450.00","3,450.00"
+2026-10-30,Total: Account, --, --,USD, --,23.00,27.00,"3,450.00","3,450.00"
+2026-10-31,Total: Search, --, --,USD, --,14.00,15.00,"1,950.00","1,950.00"
+2026-10-31,Total: Account, --, --,USD, --,14.00,15.00,"1,950.00","1,950.00"
+2026-11-01,Total: Search, --, --,USD, --,17.00,18.00,"2,550.00","2,550.00"
+2026-11-01,Total: Account, --, --,USD, --,17.00,18.00,"2,550.00","2,550.00"
+2026-11-02,Total: Search, --, --,USD, --,18.00,21.00,"2,650.00","2,650.00"
+2026-11-02,Total: Account, --, --,USD, --,18.00,21.00,"2,650.00","2,650.00"
+2026-11-03,Total: Search, --, --,USD, --,18.00,19.00,"2,550.00","2,550.00"
+2026-11-03,Total: Account, --, --,USD, --,18.00,19.00,"2,550.00","2,550.00"
+2026-11-04,Total: Search, --, --,USD, --,12.00,13.00,"1,600.00","1,600.00"
+2026-11-04,Total: Account, --, --,USD, --,12.00,13.00,"1,600.00","1,600.00"
+2026-11-05,Total: Search, --, --,USD, --,20.00,22.00,"2,800.00","2,800.00"
+2026-11-05,Total: Account, --, --,USD, --,20.00,22.00,"2,800.00","2,800.00"
+2026-11-06,Total: Search, --, --,USD, --,15.00,19.00,"2,050.00","2,050.00"
+2026-11-06,Total: Account, --, --,USD, --,15.00,19.00,"2,050.00","2,050.00"
+2026-11-07,Total: Search, --, --,USD, --,13.00,14.00,"1,800.00","1,800.00"
+2026-11-07,Total: Account, --, --,USD, --,13.00,14.00,"1,800.00","1,800.00"
+2026-11-08,Total: Search, --, --,USD, --,18.00,21.00,"2,350.00","2,350.00"
+2026-11-08,Total: Account, --, --,USD, --,18.00,21.00,"2,350.00","2,350.00"
+2026-11-09,Total: Search, --, --,USD, --,19.00,21.00,"2,550.00","2,550.00"
+2026-11-09,Total: Account, --, --,USD, --,19.00,21.00,"2,550.00","2,550.00"
+2026-11-10,Total: Search, --, --,USD, --,25.00,27.00,"3,500.00","3,500.00"
+2026-11-10,Total: Account, --, --,USD, --,25.00,27.00,"3,500.00","3,500.00"
+2026-11-11,Total: Search, --, --,USD, --,8.00,12.00,"1,100.00","1,100.00"
+2026-11-11,Total: Account, --, --,USD, --,8.00,12.00,"1,100.00","1,100.00"
+2026-11-12,Total: Search, --, --,USD, --,14.00,14.00,"1,950.00","1,950.00"
+2026-11-12,Total: Account, --, --,USD, --,14.00,14.00,"1,950.00","1,950.00"

@@ -1,0 +1,1779 @@
+{
+ "job": "audit",
+ "job_name": "Full account audit",
+ "files": [
+  {
+   "report": "campaign report",
+   "file": "campaign-report.csv",
+   "title_rows": [
+    "Campaign report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 5,
+   "cost": 12578.35,
+   "conversions": 167.0,
+   "clicks": 1864.0,
+   "reconcile": {
+    "label": "Total: Filtered campaigns",
+    "file_total": 12578.35,
+    "rows": 12578.35,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Bid strategy type",
+    "Budget name",
+    "Campaign",
+    "Campaign status",
+    "Campaign type",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Impr.",
+    "Search impr. share",
+    "Search lost IS (budget)",
+    "Search lost IS (rank)",
+    "Status",
+    "budget",
+    "budget_type",
+    "currency",
+    "status_reasons"
+   ],
+   "columns_not_used": [
+    "CTR",
+    "Avg. CPC",
+    "Conv. rate",
+    "Cost / conv.",
+    "Goals"
+   ]
+  },
+  {
+   "report": "ad group report",
+   "file": "ad-group-report.csv",
+   "title_rows": [
+    "Ad group report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 8,
+   "cost": 12578.35,
+   "conversions": 167.0,
+   "clicks": 1864.0,
+   "reconcile": {
+    "label": "Total: Account",
+    "file_total": 12578.35,
+    "rows": 12578.35,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Ad group",
+    "Ad group status",
+    "Campaign",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Impr.",
+    "Status",
+    "ad_group_type",
+    "currency"
+   ],
+   "columns_not_used": [
+    "Cost / conv."
+   ]
+  },
+  {
+   "report": "keyword report",
+   "file": "keyword-report.csv",
+   "title_rows": [
+    "Search keyword report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 18,
+   "cost": 12578.35,
+   "conversions": 167.0,
+   "clicks": 1864.0,
+   "reconcile": {
+    "label": "Total: All but removed keywords",
+    "file_total": 12578.35,
+    "rows": 12578.35,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Ad group",
+    "Ad relevance",
+    "Campaign",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Exp. CTR",
+    "Impr.",
+    "Keyword",
+    "Keyword status",
+    "Landing page exp.",
+    "Match type",
+    "Quality Score",
+    "Status",
+    "currency",
+    "final_url",
+    "status_reasons"
+   ],
+   "columns_not_used": [
+    "Avg. CPM",
+    "Interaction rate",
+    "Avg. cost",
+    "Conv. rate",
+    "Cost / conv.",
+    "Conversions (Calls only)"
+   ]
+  },
+  {
+   "report": "ads report",
+   "file": "ads-report.csv",
+   "title_rows": [
+    "Ads report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 16,
+   "cost": 12578.35,
+   "conversions": 167.0,
+   "clicks": 1864.0,
+   "reconcile": {
+    "label": "Total: Account",
+    "file_total": 12578.35,
+    "rows": 12578.35,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Ad group",
+    "Ad status",
+    "Ad strength",
+    "Ad type",
+    "Campaign",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Impr.",
+    "Status",
+    "ad",
+    "currency",
+    "final_url",
+    "policy_details"
+   ],
+   "columns_not_used": []
+  },
+  {
+   "report": "search terms report",
+   "file": "search-terms-report.csv",
+   "title_rows": [
+    "Search terms report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 25,
+   "cost": 9809.4,
+   "conversions": 134.0,
+   "clicks": 1503.0,
+   "reconcile": {
+    "label": "Total: Search terms",
+    "file_total": 9809.4,
+    "rows": 9809.4,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Ad group",
+    "Added/Excluded",
+    "Campaign",
+    "Campaign type",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Impr.",
+    "Keyword",
+    "Match type",
+    "Search term",
+    "currency"
+   ],
+   "columns_not_used": [
+    "Avg. CPM",
+    "CTR",
+    "Avg. CPC",
+    "Conv. rate",
+    "Cost / conv."
+   ]
+  },
+  {
+   "report": "conversions summary",
+   "file": "conversions-summary.csv",
+   "title_rows": [
+    "Conversion actions",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 5,
+   "cost": null,
+   "conversions": 167.0,
+   "clicks": null,
+   "reconcile": null,
+   "columns_found": [
+    "Action optimization",
+    "All conv.",
+    "Category",
+    "Conversion action",
+    "Conversion source",
+    "Conversions",
+    "Count",
+    "tracking_status"
+   ],
+   "columns_not_used": []
+  },
+  {
+   "report": "campaign report segmented by network",
+   "file": "campaign-report-by-network.csv",
+   "title_rows": [
+    "Campaign report",
+    "October 14, 2026 - November 12, 2026"
+   ],
+   "period": {
+    "text": "October 14, 2026 - November 12, 2026",
+    "start": "2026-10-14",
+    "end": "2026-11-12",
+    "days": 30
+   },
+   "rows": 7,
+   "cost": 12578.35,
+   "conversions": 167.0,
+   "clicks": 1864.0,
+   "reconcile": {
+    "label": "Total: Account",
+    "file_total": 12578.35,
+    "rows": 12578.35,
+    "difference": 0.0,
+    "matches": true
+   },
+   "columns_found": [
+    "Campaign",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Impr.",
+    "Network (with search partners)",
+    "currency"
+   ],
+   "columns_not_used": []
+  }
+ ],
+ "not_given": [],
+ "periods": {
+  "October 14, 2026 - November 12, 2026": [
+   "campaign report",
+   "ad group report",
+   "keyword report",
+   "ads report",
+   "search terms report",
+   "conversions summary",
+   "campaign report segmented by network"
+  ]
+ },
+ "currency": "USD",
+ "notes": [],
+ "account": {
+  "cost": 12578.35,
+  "clicks": 1864.0,
+  "conversions": 167.0,
+  "campaigns": 5,
+  "enabled_campaigns": 4,
+  "enabled_cost": 12268.1
+ },
+ "lines": {
+  "campaigns": {
+   "value": 88.87867647058823,
+   "brand_left_out": true,
+   "source": "the cost per conversion of the non brand enabled campaigns in the campaign report, judged in this audit"
+  },
+  "keywords": {
+   "value": 88.2360294117647,
+   "brand_left_out": true,
+   "source": "the cost per conversion of the non brand enabled keywords in the keyword report, judged in this audit"
+  },
+  "search_terms": {
+   "value": 90.55825242718447,
+   "brand_left_out": true,
+   "source": "the cost per conversion of the non brand search terms in the search terms report, judged in this audit"
+  }
+ },
+ "brand": [
+  "northside"
+ ],
+ "brand_campaigns": [
+  "Brand"
+ ],
+ "target_cpa": null,
+ "campaigns": [
+  {
+   "campaign": "Plumbing | Emergency",
+   "campaign_status": "Enabled",
+   "status": "Eligible",
+   "campaign_type": "Search",
+   "bid_strategy": "Manual CPC",
+   "budget": 240.0,
+   "budget_name": "Plumbing | Emergency",
+   "cost": 7673.8,
+   "clicks": 994.0,
+   "conversions": 91.0,
+   "conv_value": 0.0,
+   "cpa": 84.32747252747252,
+   "lost_is_budget": 34.2,
+   "live": true
+  },
+  {
+   "campaign": "Plumbing | Water Heaters",
+   "campaign_status": "Enabled",
+   "status": "Limited by budget",
+   "campaign_type": "Search",
+   "bid_strategy": "Maximize Conversions",
+   "budget": 160.0,
+   "budget_name": "Water Heaters",
+   "cost": 2526.7,
+   "clicks": 322.0,
+   "conversions": 23.0,
+   "conv_value": 0.0,
+   "cpa": 109.85652173913043,
+   "lost_is_budget": 21.1,
+   "live": true
+  },
+  {
+   "campaign": "Drain Cleaning | Search",
+   "campaign_status": "Enabled",
+   "status": "Eligible (Learning)",
+   "campaign_type": "Search",
+   "bid_strategy": "Maximize Conversions",
+   "budget": 120.0,
+   "budget_name": "Drain Cleaning",
+   "cost": 1887.0,
+   "clicks": 370.0,
+   "conversions": 22.0,
+   "conv_value": 0.0,
+   "cpa": 85.77272727272727,
+   "lost_is_budget": null,
+   "live": true
+  },
+  {
+   "campaign": "Brand",
+   "campaign_status": "Enabled",
+   "status": "Eligible",
+   "campaign_type": "Search",
+   "bid_strategy": "Manual CPC",
+   "budget": 40.0,
+   "budget_name": "Brand",
+   "cost": 180.6,
+   "clicks": 118.0,
+   "conversions": 31.0,
+   "conv_value": 0.0,
+   "cpa": 5.825806451612903,
+   "lost_is_budget": null,
+   "live": true
+  },
+  {
+   "campaign": "Drain Cleaning | Old",
+   "campaign_status": "Paused",
+   "status": "Paused",
+   "campaign_type": "Search",
+   "bid_strategy": "Manual CPC",
+   "budget": 50.0,
+   "budget_name": "Drain Cleaning | Old",
+   "cost": 310.25,
+   "clicks": 60.0,
+   "conversions": 0.0,
+   "conv_value": 0.0,
+   "cpa": null,
+   "lost_is_budget": null,
+   "live": false
+  }
+ ],
+ "counts": {
+  "pass": 7,
+  "fail": 16,
+  "not run": 2,
+  "by hand": 4
+ },
+ "checks": [
+  {
+   "id": "CT-01",
+   "area": "Conversion tracking and goals",
+   "name": "Conversions are recorded",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Daily",
+   "page": "",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 1,
+   "stage_name": "Measurement",
+   "status": "pass",
+   "looked_at": "Conversions in every enabled campaign of the campaign report.",
+   "evidence": [
+    "Enabled campaigns: 4. Cost 12,268.10. Conversions 167.00."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "1 campaign was left out because it is paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 310.25.",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "CT-02",
+   "area": "Conversion tracking and goals",
+   "name": "Primary conversion actions are recording",
+   "label": "Official",
+   "source": "references/audit-check-sources.md, Primary and secondary conversion actions",
+   "page": "About primary and secondary conversion actions",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 1,
+   "stage_name": "Measurement",
+   "status": "pass",
+   "looked_at": "The Action optimization setting and the count of each conversion action in the conversions summary.",
+   "evidence": [
+    "Conversion actions in use: 4. Primary: 3. Primary that recorded nothing in the period: 0."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "1 conversion action was left out because it is removed or hidden.",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "CT-03",
+   "area": "Conversion tracking and goals",
+   "name": "Lead actions count one conversion per click",
+   "label": "Official",
+   "source": "references/audit-check-sources.md, Conversion counting: Every or One",
+   "page": "About conversion counting options",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 1,
+   "stage_name": "Measurement",
+   "status": "fail",
+   "looked_at": "The Count setting of each lead action in the conversions summary.",
+   "evidence": [
+    "Primary lead actions: 3. Counting Every: 1."
+   ],
+   "items": [
+    {
+     "campaign": "",
+     "ad_group": "",
+     "item": "GA4 generate_lead",
+     "detail": "Category Submit lead form. Count: Every. Recorded 77.00.",
+     "cost": null,
+     "clicks": null,
+     "conversions": 77.0,
+     "cpa": null,
+     "stake": null
+    }
+   ],
+   "threshold": "A lead action fails when its Count is Every. Lead categories read: submit lead form, contact, book appointment, sign-up, sign up, request quote, phone call lead, phone call leads.",
+   "left_out": "1 conversion action was left out because it is removed or hidden.",
+   "money": 4413.7,
+   "money_basis": "the cost of the enabled campaigns that bid on conversions, because their bidding steers by these actions",
+   "by_campaign": [
+    [
+     "Plumbing | Water Heaters",
+     2526.7
+    ],
+    [
+     "Drain Cleaning | Search",
+     1887.0
+    ]
+   ],
+   "share_of_account_cost": 0.35089658023508646,
+   "rank": 1,
+   "relevant": true,
+   "fix": "Set the Count of GA4 generate_lead to One, so one ad click counts one lead. The change applies to future conversions only.",
+   "why": ""
+  },
+  {
+   "id": "CT-04",
+   "area": "Conversion tracking and goals",
+   "name": "One primary action per kind of conversion",
+   "label": "Practitioner rule",
+   "source": "references/audit-check-sources.md, Primary and secondary conversion actions",
+   "page": "",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 1,
+   "stage_name": "Measurement",
+   "status": "fail",
+   "looked_at": "Primary actions that recorded conversions, grouped by Category, in the conversions summary.",
+   "evidence": [
+    "Categories with a recording primary action: 2. With two or more: 1."
+   ],
+   "items": [
+    {
+     "campaign": "",
+     "ad_group": "",
+     "item": "Contact form submit",
+     "detail": "Category Submit lead form, 2 primary actions in it. Source: Website.",
+     "cost": null,
+     "clicks": null,
+     "conversions": 70.0,
+     "cpa": null,
+     "stake": null
+    },
+    {
+     "campaign": "",
+     "ad_group": "",
+     "item": "GA4 generate_lead",
+     "detail": "Category Submit lead form, 2 primary actions in it. Source: Google Analytics 4 (web).",
+     "cost": null,
+     "clicks": null,
+     "conversions": 77.0,
+     "cpa": null,
+     "stake": null
+    }
+   ],
+   "threshold": "A category fails when two or more primary actions in it recorded conversions. They may count the same event twice.",
+   "left_out": "1 conversion action was left out because it is removed or hidden.",
+   "money": 4413.7,
+   "money_basis": "the cost of the enabled campaigns that bid on conversions, because their bidding steers by these actions",
+   "by_campaign": [
+    [
+     "Plumbing | Water Heaters",
+     2526.7
+    ],
+    [
+     "Drain Cleaning | Search",
+     1887.0
+    ]
+   ],
+   "share_of_account_cost": 0.35089658023508646,
+   "rank": 2,
+   "relevant": true,
+   "fix": "Keep Contact form submit as the primary action for the lead form and set GA4 generate_lead to secondary, so each form fill is counted once for bidding. Then watch the two Maximize Conversions campaigns, as their bidding will see fewer conversions.",
+   "why": ""
+  },
+  {
+   "id": "ST-01",
+   "area": "Structure",
+   "name": "No single keyword ad groups under Smart Bidding",
+   "label": "Official",
+   "source": "references/account-structure.md, What Google-Owned Sources Support",
+   "page": "The ABCs of Account Structure",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "fail",
+   "looked_at": "Enabled keywords per live ad group in the keyword report.",
+   "evidence": [
+    "Live ad groups in campaigns that bid on conversions: 4. With exactly one enabled keyword: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Drain Cleaning | Search",
+     "ad_group": "Hydro Jetting",
+     "item": "\"hydro jetting\"",
+     "detail": "The only enabled keyword in the ad group.",
+     "cost": 357.0,
+     "clicks": 70.0,
+     "conversions": 1.0,
+     "cpa": 357.0,
+     "stake": 357.0
+    }
+   ],
+   "threshold": "An ad group fails when it has exactly one enabled keyword.",
+   "left_out": "Campaigns left out because they do not bid on conversions: Brand, Plumbing | Emergency.",
+   "money": 357.0,
+   "money_basis": "the cost of those ad groups in the period",
+   "by_campaign": [
+    [
+     "Drain Cleaning | Search",
+     357.0
+    ]
+   ],
+   "share_of_account_cost": 0.028382100990988483,
+   "rank": 7,
+   "relevant": false,
+   "fix": "",
+   "why": "Hydro Jetting is a distinct service with its own page. One keyword is fine while the ad group has no working ad, and AD-01 covers the real problem there."
+  },
+  {
+   "id": "ST-02",
+   "area": "Structure",
+   "name": "Brand and non brand keywords sit in separate campaigns",
+   "label": "Practitioner rule",
+   "source": "references/search-campaign-setup.md, Normal Setup Inputs (Guardrails)",
+   "page": "",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "pass",
+   "looked_at": "Enabled keywords per campaign, sorted into brand and non brand by the brand terms given.",
+   "evidence": [
+    "Campaigns with enabled keywords: 4. Holding both brand and non brand keywords: 0."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "KW-01",
+   "area": "Keywords and match types",
+   "name": "Keywords with a Below average Quality Score component",
+   "label": "Official",
+   "source": "references/audit-check-sources.md, Quality Score",
+   "page": "About Quality Score for Search campaigns",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "fail",
+   "looked_at": "Exp. CTR, Ad relevance and Landing page exp. of each enabled keyword in the keyword report.",
+   "evidence": [
+    "Enabled keywords: 16. With at least one Below average component: 2. Quality Score is not averaged, as Google advises.",
+    "Exp. CTR Below average: 0 keywords, cost 0.00.",
+    "Ad relevance Below average: 1 keyword, cost 379.50.",
+    "Landing page exp. Below average: 1 keyword, cost 689.30."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber free estimate",
+     "detail": "Quality Score 4. Below average: Landing page exp.",
+     "cost": 689.3,
+     "clicks": 99.0,
+     "conversions": 3.0,
+     "cpa": 229.76666666666665,
+     "stake": 689.3
+    },
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "ad_group": "Repair",
+     "item": "water heater not heating",
+     "detail": "Quality Score 5. Below average: Ad relevance",
+     "cost": 379.5,
+     "clicks": 55.0,
+     "conversions": 3.0,
+     "cpa": 126.5,
+     "stake": 379.5
+    }
+   ],
+   "threshold": "A keyword fails when any component reads Below average.",
+   "left_out": "2 keywords were left out because they are paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 397.65.",
+   "money": 1068.8,
+   "money_basis": "the cost of the keywords with a Below average component",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     689.3
+    ],
+    [
+     "Plumbing | Water Heaters",
+     379.5
+    ]
+   ],
+   "share_of_account_cost": 0.08497139926937952,
+   "rank": 5,
+   "relevant": true,
+   "fix": "Send plumber free estimate to a page about free estimates, and move water heater not heating to an ad group with ads about no hot water.",
+   "why": ""
+  },
+  {
+   "id": "KW-02",
+   "area": "Keywords and match types",
+   "name": "No duplicate keywords",
+   "label": "Official",
+   "source": "references/account-structure.md, What Google-Owned Sources Support",
+   "page": "The ABCs of Account Structure",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "fail",
+   "looked_at": "Enabled keywords with the same words and match type in more than one ad group.",
+   "evidence": [
+    "Enabled keywords: 16. Keywords with the same text and match type in two or more ad groups: 1, making 1 extra copy."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "\"emergency plumber\"",
+     "detail": "Phrase match, 2 copies. Costliest copy.",
+     "cost": 3402.0,
+     "clicks": 410.0,
+     "conversions": 52.0,
+     "cpa": 65.42307692307692,
+     "stake": 0.0
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Burst Pipes",
+     "item": "\"emergency plumber\"",
+     "detail": "Phrase match, 2 copies. Extra copy.",
+     "cost": 180.6,
+     "clicks": 21.0,
+     "conversions": 1.0,
+     "cpa": 180.6,
+     "stake": 180.6
+    }
+   ],
+   "threshold": "A keyword fails when its words and match type are enabled in more than one ad group.",
+   "left_out": "",
+   "money": 180.6,
+   "money_basis": "the cost of every copy except the costliest one",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     180.6
+    ]
+   ],
+   "share_of_account_cost": 0.01435800403073535,
+   "rank": 11,
+   "relevant": true,
+   "fix": "Remove the copy of \"emergency plumber\" from Burst Pipes, so the Emergency ad group owns that search.",
+   "why": ""
+  },
+  {
+   "id": "KW-03",
+   "area": "Keywords and match types",
+   "name": "Enabled keywords get impressions",
+   "label": "Official",
+   "source": "references/account-structure.md, What Google-Owned Sources Support",
+   "page": "The ABCs of Account Structure",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "fail",
+   "looked_at": "Impr. of each enabled keyword in the keyword report.",
+   "evidence": [
+    "Enabled keywords: 16. With no impressions in the period: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Burst Pipes",
+     "item": "frozen pipe repair",
+     "detail": "No impressions. Status: Low search volume.",
+     "cost": 0.0,
+     "clicks": 0.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 0.0
+    }
+   ],
+   "threshold": "A keyword fails when it is enabled in a live ad group and had no impressions in the period.",
+   "left_out": "2 keywords were left out because they are paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 397.65.",
+   "money": 0.0,
+   "money_basis": "zero, because these keywords spent nothing. They are clutter that hides what serves",
+   "by_campaign": [],
+   "share_of_account_cost": 0.0,
+   "rank": 13,
+   "relevant": true,
+   "fix": "Remove frozen pipe repair, or leave it until winter if frozen pipes are a seasonal service.",
+   "why": ""
+  },
+  {
+   "id": "KW-04",
+   "area": "Keywords and match types",
+   "name": "Broad match keywords without conversion based bidding",
+   "label": "Practitioner rule",
+   "source": "references/account-structure.md, What Google-Owned Sources Support; references/search-campaign-setup.md, AI Max",
+   "page": "",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 5,
+   "stage_name": "Bidding",
+   "status": "fail",
+   "looked_at": "Match type of each enabled keyword that served, against the Bid strategy type of its campaign.",
+   "evidence": [
+    "Enabled broad match keywords with impressions or cost: 5. In campaigns that do not bid on conversions: 2, with cost 2,209.30."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber near me",
+     "detail": "Broad match. Bid strategy: Manual CPC.",
+     "cost": 1520.0,
+     "clicks": 240.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 1520.0
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber free estimate",
+     "detail": "Broad match. Bid strategy: Manual CPC.",
+     "cost": 689.3,
+     "clicks": 99.0,
+     "conversions": 3.0,
+     "cpa": 229.76666666666665,
+     "stake": 689.3
+    }
+   ],
+   "threshold": "A keyword fails when it is broad match, had impressions or cost, and its campaign's bid strategy does not bid on conversions.",
+   "left_out": "1 broad match keyword with no impressions and no cost was left out. KW-03 covers it.",
+   "money": 2209.3,
+   "money_basis": "the cost of broad match keywords in campaigns that do not bid on conversions",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     2209.3
+    ]
+   ],
+   "share_of_account_cost": 0.17564306924199122,
+   "rank": 3,
+   "relevant": true,
+   "fix": "Move Plumbing | Emergency to a conversion based bid strategy once its conversions are clean, or change its broad match keywords to phrase match while it stays on Manual CPC.",
+   "why": ""
+  },
+  {
+   "id": "KW-05",
+   "area": "Keywords and match types",
+   "name": "Keywords that spent a conversion's cost converted",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Weekly",
+   "page": "",
+   "gate": true,
+   "must": false,
+   "kind": "wasted",
+   "stage": 3,
+   "stage_name": "Waste",
+   "status": "fail",
+   "looked_at": "Cost and conversions of each enabled keyword in the keyword report.",
+   "evidence": [
+    "Enabled keywords: 16. With no conversions: 2, cost 1,520.00. Of those, spent 88.24 or more: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber near me",
+     "detail": "Broad match. No conversions.",
+     "cost": 1520.0,
+     "clicks": 240.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 1520.0
+    }
+   ],
+   "threshold": "A keyword fails when it has no conversions and spent 88.24 or more. That is the cost per conversion of the non brand enabled keywords in the keyword report, judged in this audit.",
+   "left_out": "2 keywords were left out because they are paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 397.65.",
+   "money": 1520.0,
+   "money_basis": "the cost of those keywords, with no conversions",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     1520.0
+    ]
+   ],
+   "share_of_account_cost": 0.12084255884118346,
+   "rank": 2,
+   "relevant": true,
+   "fix": "Pause the broad match keyword plumber near me, or change it to phrase match, and let the search term review decide which of its searches to keep.",
+   "why": ""
+  },
+  {
+   "id": "AD-01",
+   "area": "Ads and assets",
+   "name": "Every live ad group has an active ad",
+   "label": "Practitioner rule",
+   "source": "references/compliance.md, What Google-Owned Sources Support",
+   "page": "",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 2,
+   "stage_name": "Serving and policy",
+   "status": "fail",
+   "looked_at": "Enabled ads that are not disapproved, per live ad group, from the ads report and the ad group report.",
+   "evidence": [
+    "Live Search ad groups: 7. With no enabled, approved ad: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Drain Cleaning | Search",
+     "ad_group": "Hydro Jetting",
+     "item": "Hydro Jetting",
+     "detail": "Ads: 2 (disapproved, paused or removed).",
+     "cost": 357.0,
+     "clicks": 70.0,
+     "conversions": 1.0,
+     "cpa": 357.0,
+     "stake": 357.0
+    }
+   ],
+   "threshold": "An ad group fails when none of its ads is enabled and approved.",
+   "left_out": "",
+   "money": 357.0,
+   "money_basis": "the cost of those ad groups in the period. They cannot show an ad now",
+   "by_campaign": [
+    [
+     "Drain Cleaning | Search",
+     357.0
+    ]
+   ],
+   "share_of_account_cost": 0.028382100990988483,
+   "rank": 8,
+   "relevant": true,
+   "fix": "Fix the landing page behind the disapproved Hydro Jetting ad, then ask for a review, or enable the paused ad, so the ad group can show ads again.",
+   "why": ""
+  },
+  {
+   "id": "AD-02",
+   "area": "Ads and assets",
+   "name": "No disapproved ads",
+   "label": "Official",
+   "source": "references/compliance.md, What Google-Owned Sources Support",
+   "page": "Disapproved: Definition",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 2,
+   "stage_name": "Serving and policy",
+   "status": "fail",
+   "looked_at": "The status and policy columns of each enabled ad in the ads report.",
+   "evidence": [
+    "Enabled ads in live ad groups: 14. Disapproved: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Drain Cleaning | Search",
+     "ad_group": "Hydro Jetting",
+     "item": "Hydro Jetting Specialists",
+     "detail": "Disapproved. Destination not working",
+     "cost": 303.45,
+     "clicks": 59.0,
+     "conversions": 0.85,
+     "cpa": 357.0,
+     "stake": 303.45
+    }
+   ],
+   "threshold": "An ad fails when its status or policy column says Disapproved.",
+   "left_out": "2 ads were left out because they are paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 363.80.",
+   "money": 303.45,
+   "money_basis": "the cost those ads carried in the period before they stopped",
+   "by_campaign": [
+    [
+     "Drain Cleaning | Search",
+     303.45
+    ]
+   ],
+   "share_of_account_cost": 0.02412478584234021,
+   "rank": 10,
+   "relevant": true,
+   "fix": "Same fix as AD-01: repair the destination, then request a review of the Hydro Jetting Specialists ad.",
+   "why": ""
+  },
+  {
+   "id": "AD-03",
+   "area": "Ads and assets",
+   "name": "No ads limited by policy",
+   "label": "Official",
+   "source": "references/compliance.md, Review, Appeals And Enforcement",
+   "page": "Eligible (limited): Definition",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 2,
+   "stage_name": "Serving and policy",
+   "status": "fail",
+   "looked_at": "The status and policy columns of each enabled ad in the ads report.",
+   "evidence": [
+    "Enabled ads in live ad groups: 14. Limited by policy: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Drain Cleaning | Search",
+     "ad_group": "Drains",
+     "item": "Roto Style Drain Service",
+     "detail": "Eligible (limited). Trademarks in ad text",
+     "cost": 306.0,
+     "clicks": 60.0,
+     "conversions": 4.2,
+     "cpa": 72.85714285714285,
+     "stake": 306.0
+    }
+   ],
+   "threshold": "An ad fails when its status reads limited, for example Eligible (limited).",
+   "left_out": "",
+   "money": 306.0,
+   "money_basis": "the cost of those ads. They can show only in some places, to some ages or on some devices",
+   "by_campaign": [
+    [
+     "Drain Cleaning | Search",
+     306.0
+    ]
+   ],
+   "share_of_account_cost": 0.024327515135132986,
+   "rank": 9,
+   "relevant": true,
+   "fix": "Remove the trademarked term from the Roto Style Drain Service ad, or replace that ad.",
+   "why": ""
+  },
+  {
+   "id": "AD-04",
+   "area": "Ads and assets",
+   "name": "Two responsive search ads rated Good or Excellent per ad group",
+   "label": "Official",
+   "source": "references/audit-check-sources.md, Ad strength",
+   "page": "About Ad Strength for responsive search ads",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 4,
+   "stage_name": "Structure, keywords and ads",
+   "status": "fail",
+   "looked_at": "Ad type and Ad strength of the active ads in each live ad group. Ad groups with no active ad are in AD-01.",
+   "evidence": [
+    "Live ad groups with an active responsive search ad: 6. With fewer than two rated Good or Excellent: 2."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "ad_group": "Repair",
+     "item": "Repair",
+     "detail": "Active responsive search ads: 2. Ad strength: Average, Good.",
+     "cost": 1322.7,
+     "clicks": 186.0,
+     "conversions": 15.0,
+     "cpa": 88.18,
+     "stake": 1322.7
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Burst Pipes",
+     "item": "Burst Pipes",
+     "detail": "Active responsive search ads: 2. Ad strength: Average, Poor.",
+     "cost": 701.7,
+     "clicks": 85.0,
+     "conversions": 10.0,
+     "cpa": 70.17,
+     "stake": 701.7
+    }
+   ],
+   "threshold": "An ad group fails when fewer than two of its active responsive search ads are rated Good or Excellent. Ad strength does not decide whether an ad serves, so this is about the variety of the assets.",
+   "left_out": "",
+   "money": 2024.4,
+   "money_basis": "the cost of those ad groups in the period",
+   "by_campaign": [
+    [
+     "Plumbing | Water Heaters",
+     1322.7
+    ],
+    [
+     "Plumbing | Emergency",
+     701.7
+    ]
+   ],
+   "share_of_account_cost": 0.1609432079724288,
+   "rank": 4,
+   "relevant": true,
+   "fix": "Write a second strong responsive search ad in Repair and in Burst Pipes, with more distinct headlines, until two ads in each are rated Good or Excellent.",
+   "why": ""
+  },
+  {
+   "id": "BB-01",
+   "area": "Budgets and bidding",
+   "name": "No Enhanced CPC left on Search or Display",
+   "label": "Official",
+   "source": "references/search-campaign-setup.md, Retired Search Settings",
+   "page": "Feature deprecations and unversioned changes",
+   "gate": false,
+   "must": true,
+   "kind": "exposed",
+   "stage": 5,
+   "stage_name": "Bidding",
+   "status": "pass",
+   "looked_at": "Bid strategy type of each enabled campaign.",
+   "evidence": [
+    "Enabled campaigns: 4. Using Enhanced CPC: 0."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "BB-02",
+   "area": "Budgets and bidding",
+   "name": "A shared budget is not split across different bid strategies",
+   "label": "Official",
+   "source": "references/reporting-and-diagnostics.md, Durable Diagnostic Surface Map (bid strategy status)",
+   "page": "About bid strategy statuses",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 5,
+   "stage_name": "Bidding",
+   "status": "pass",
+   "looked_at": "Budget name and Bid strategy type of each enabled campaign.",
+   "evidence": [
+    "Budgets shared by two or more enabled campaigns: 0. Shared by a Maximize strategy and a different strategy: 0."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "BB-03",
+   "area": "Budgets and bidding",
+   "name": "Budget does not hold back campaigns that convert well",
+   "label": "Practitioner rule",
+   "source": "references/audit-check-sources.md, Impression share lost to budget and to rank",
+   "page": "",
+   "gate": true,
+   "must": false,
+   "kind": "held back",
+   "stage": 6,
+   "stage_name": "Budget",
+   "status": "fail",
+   "looked_at": "Search lost IS (budget), cost and conversions of each enabled campaign.",
+   "evidence": [
+    "Enabled campaigns with a figure for Search lost IS (budget): 2. Left out because they use Maximize conversions or Maximize conversion value: 1. Judged: 1. Converting at or below 88.88: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "",
+     "item": "Plumbing | Emergency",
+     "detail": "Search lost IS (budget) 34.2%. Search impr. share 51.3%. Budget 240.00. Bid strategy: Manual CPC.",
+     "cost": 7673.8,
+     "clicks": 994.0,
+     "conversions": 91.0,
+     "cpa": 84.32747252747252,
+     "stake": 5115.866666666668
+    }
+   ],
+   "threshold": "A campaign is judged when the file gives a figure for Search lost IS (budget). The file writes '< 10%' for small shares, and those are read as no figure. It fails when its cost per conversion is at or below 88.88, which is the cost per conversion of the non brand enabled campaigns in the campaign report, judged in this audit.",
+   "left_out": "Left out by design: Plumbing | Water Heaters. Google says these strategies spend the full budget and Search lost IS (budget) does not apply to them.",
+   "money": 5115.866666666668,
+   "money_basis": "an estimate of the spend the budget held back from campaigns that convert at or below the account's own cost per conversion: cost times Search lost IS (budget), divided by Search impr. share. It assumes the missed impressions would cost what the shown ones did. It is an upper bound, because the searches the ads missed usually convert worse than the ones they won. Where Search impr. share is missing, the campaign's whole cost is used",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     5115.866666666668
+    ]
+   ],
+   "by_design": [
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "bid_strategy": "Maximize Conversions",
+     "lost_is_budget": 21.1,
+     "status": "Limited by budget"
+    }
+   ],
+   "share_of_account_cost": null,
+   "rank": 1,
+   "relevant": true,
+   "fix": "Raise the Plumbing | Emergency budget in steps, and only after the conversion fix in CT-04, so its cost per conversion is read on clean numbers. Watch Search lost IS (budget) and cost per conversion for two weeks after each step.",
+   "why": ""
+  },
+  {
+   "id": "BB-04",
+   "area": "Budgets and bidding",
+   "name": "Campaigns that spent a conversion's cost converted",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Daily",
+   "page": "",
+   "gate": true,
+   "must": false,
+   "kind": "wasted",
+   "stage": 3,
+   "stage_name": "Waste",
+   "status": "pass",
+   "looked_at": "Cost and conversions of each enabled campaign.",
+   "evidence": [
+    "Enabled campaigns: 4. With no conversions and cost of 88.88 or more: 0."
+   ],
+   "items": [],
+   "threshold": "A campaign fails when it has no conversions and spent 88.88 or more. That is the cost per conversion of the non brand enabled campaigns in the campaign report, judged in this audit.",
+   "left_out": "1 campaign was left out because it is paused or removed, or under a paused, removed or ended campaign or ad group. Cost in the period: 310.25.",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "BB-05",
+   "area": "Budgets and bidding",
+   "name": "Value based bidding has conversion value to bid on",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Daily",
+   "page": "",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 5,
+   "stage_name": "Bidding",
+   "status": "not run",
+   "why": "The campaign report has no Conv. value column.",
+   "unlock": "The campaign report with the column Conv. value added. In Google Ads: Campaigns menu, Campaigns, Campaigns, then the columns icon.",
+   "flag": "",
+   "share_of_account_cost": null
+  },
+  {
+   "id": "BB-06",
+   "area": "Budgets and bidding",
+   "name": "Campaigns stay within the target cost per conversion",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Before Scaling",
+   "page": "",
+   "gate": true,
+   "must": false,
+   "kind": "exposed",
+   "stage": 5,
+   "stage_name": "Bidding",
+   "status": "not run",
+   "why": "The target cost per conversion was not given.",
+   "unlock": "The target cost per conversion.",
+   "flag": "--target-cpa 40",
+   "share_of_account_cost": null
+  },
+  {
+   "id": "SQ-01",
+   "area": "Search terms and negatives",
+   "name": "Search terms that spent a conversion's cost converted",
+   "label": "Practitioner rule",
+   "source": "references/search-campaign-setup.md, Required Foundations",
+   "page": "",
+   "gate": true,
+   "must": false,
+   "kind": "wasted",
+   "stage": 3,
+   "stage_name": "Waste",
+   "status": "fail",
+   "looked_at": "Cost and conversions of each search term in the search terms report.",
+   "evidence": [
+    "Search terms judged: 24, cost 9,599.40. With no conversions: 10, cost 2,401.50, which is 25.0% of the listed search term cost judged. Of those, non brand and spent 90.56 or more: 8, cost 2,301.80."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber near me",
+     "detail": "No conversions.",
+     "cost": 640.2,
+     "clicks": 89.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 640.2,
+     "keyword": "plumber near me"
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumbing jobs near me",
+     "detail": "No conversions.",
+     "cost": 468.6,
+     "clicks": 71.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 468.6,
+     "keyword": "plumber near me"
+    },
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "ad_group": "Repair",
+     "item": "diy water heater repair",
+     "detail": "No conversions.",
+     "cost": 277.2,
+     "clicks": 44.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 277.2,
+     "keyword": "\"water heater repair\""
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber jobs hiring",
+     "detail": "No conversions.",
+     "cost": 243.2,
+     "clicks": 38.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 243.2,
+     "keyword": "plumber free estimate"
+    },
+    {
+     "campaign": "Drain Cleaning | Search",
+     "ad_group": "Drains",
+     "item": "how to unclog a drain with baking soda",
+     "detail": "No conversions.",
+     "cost": 189.3,
+     "clicks": 37.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 189.3,
+     "keyword": "clogged drain"
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "how to fix a leaky faucet yourself",
+     "detail": "No conversions.",
+     "cost": 184.8,
+     "clicks": 33.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 184.8,
+     "keyword": "plumber near me"
+    },
+    {
+     "campaign": "Plumbing | Water Heaters",
+     "ad_group": "Install",
+     "item": "free water heater program",
+     "detail": "No conversions.",
+     "cost": 159.3,
+     "clicks": 27.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 159.3,
+     "keyword": "\"water heater installation\""
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "plumber salary",
+     "detail": "No conversions.",
+     "cost": 139.2,
+     "clicks": 24.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 139.2,
+     "keyword": "plumber near me"
+    }
+   ],
+   "threshold": "A search term fails when it is not brand, has no conversions, and spent 90.56 or more. That is the cost per conversion of the non brand search terms in the search terms report, judged in this audit.",
+   "left_out": "1 search term was left out because they are already excluded or sit in paused or removed campaigns. Cost in the period: 210.00.",
+   "money": 2301.8,
+   "money_basis": "the cost of those search terms, with no conversions",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     1676.0000000000002
+    ],
+    [
+     "Plumbing | Water Heaters",
+     436.5
+    ],
+    [
+     "Drain Cleaning | Search",
+     189.3
+    ]
+   ],
+   "share_of_account_cost": 0.1829969749609448,
+   "rank": 1,
+   "relevant": true,
+   "fix": "Add negatives for job seekers (jobs, hiring, salary) and do it yourself searches (diy, how to) at account level, after testing them against the converting searches. Keep plumber near me on Watch, as it is a core service search.",
+   "why": ""
+  },
+  {
+   "id": "SQ-02",
+   "area": "Search terms and negatives",
+   "name": "Brand searches are served by the brand campaigns",
+   "label": "Practitioner rule",
+   "source": "references/search-campaign-setup.md, Normal Setup Inputs (Guardrails)",
+   "page": "",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 3,
+   "stage_name": "Waste",
+   "status": "fail",
+   "looked_at": "Search terms that contain a brand term, and the campaign that served each.",
+   "evidence": [
+    "Brand search terms: 4, cost 271.90. Outside the brand campaigns: 2, cost 99.70, which is 36.7% of the brand search term cost."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "northside plumber",
+     "detail": "Brand search in a non brand campaign.",
+     "cost": 61.2,
+     "clicks": 9.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 61.2
+    },
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "Emergency",
+     "item": "northside plumbing reviews",
+     "detail": "Brand search in a non brand campaign.",
+     "cost": 38.5,
+     "clicks": 22.0,
+     "conversions": 0.0,
+     "cpa": null,
+     "stake": 38.5
+    }
+   ],
+   "threshold": "A search term fails when it contains a brand term and was served by a campaign not named as a brand campaign.",
+   "left_out": "",
+   "money": 99.7,
+   "money_basis": "the cost of brand searches served outside the brand campaigns",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     99.7
+    ]
+   ],
+   "share_of_account_cost": 0.007926317839780258,
+   "rank": 12,
+   "relevant": true,
+   "fix": "Add northside as a negative in the non brand campaigns, so brand searches go to the Brand campaign.",
+   "why": ""
+  },
+  {
+   "id": "SE-01",
+   "area": "Settings",
+   "name": "Enabled campaigns are eligible to serve",
+   "label": "Official",
+   "source": "references/reporting-and-diagnostics.md, Durable Diagnostic Surface Map (bid strategy status)",
+   "page": "About bid strategy statuses",
+   "gate": true,
+   "must": true,
+   "kind": "exposed",
+   "stage": 2,
+   "stage_name": "Serving and policy",
+   "status": "pass",
+   "looked_at": "The Status column of each enabled campaign.",
+   "evidence": [
+    "Enabled campaigns: 4. Not plainly eligible: 0. Learning: 1 (Drain Cleaning | Search)."
+   ],
+   "items": [],
+   "threshold": "",
+   "left_out": "Limited by budget by design, because they use a Maximize strategy: Plumbing | Water Heaters.",
+   "money": null,
+   "money_basis": "",
+   "by_campaign": [],
+   "share_of_account_cost": null
+  },
+  {
+   "id": "SE-02",
+   "area": "Settings",
+   "name": "Search partners and the Display Network earn their cost in Search campaigns",
+   "label": "Practitioner rule",
+   "source": "references/audit-check-sources.md, Networks in a Search campaign",
+   "page": "",
+   "gate": false,
+   "must": false,
+   "kind": "exposed",
+   "stage": 3,
+   "stage_name": "Waste",
+   "status": "fail",
+   "looked_at": "Cost and conversions by network in the campaign report segmented by Network (with search partners).",
+   "evidence": [
+    "Search partner or Display Network slices with cost, in enabled Search campaigns: 2. Costing more per conversion than Google search: 1."
+   ],
+   "items": [
+    {
+     "campaign": "Plumbing | Emergency",
+     "ad_group": "",
+     "item": "Search partners",
+     "detail": "Cost / conv. 336.11 here against 78.67 on Google search in the same campaign.",
+     "cost": 672.22,
+     "clicks": 87.0,
+     "conversions": 2.0,
+     "cpa": 336.11,
+     "stake": 672.22
+    }
+   ],
+   "threshold": "A slice fails when its cost per conversion is above the same campaign's on Google search, or when it has no conversions and spent at least one Google search conversion's cost. Campaigns with no conversions on Google search are not judged.",
+   "left_out": "",
+   "money": 672.22,
+   "money_basis": "the cost on those networks",
+   "by_campaign": [
+    [
+     "Plumbing | Emergency",
+     672.22
+    ]
+   ],
+   "share_of_account_cost": 0.053442621647513386,
+   "rank": 6,
+   "relevant": true,
+   "fix": "Turn off Search partners in Plumbing | Emergency. The cost per conversion there is several times the cost on Google search.",
+   "why": ""
+  },
+  {
+   "id": "SE-M1",
+   "name": "Auto-applied recommendations",
+   "label": "Official",
+   "source": "references/reporting-and-diagnostics.md, Durable Diagnostic Surface Map",
+   "page": "About applying recommendations automatically",
+   "why": "Auto-applied recommendations are set per account and per type and apply daily. No report download shows which are on.",
+   "unlock": "Check by hand in Google Ads: Recommendations, Auto-apply.",
+   "area": "Settings",
+   "gate": false,
+   "must": false,
+   "status": "by hand",
+   "kind": "",
+   "stage": null,
+   "stage_name": "",
+   "share_of_account_cost": null
+  },
+  {
+   "id": "SE-M2",
+   "name": "AI Max and asset optimization settings in each Search campaign",
+   "label": "Official",
+   "source": "references/search-campaign-setup.md, AI Max And Legacy DSA Transition",
+   "page": "About AI Max for Search campaigns",
+   "why": "Search term matching, text customization and Final URL expansion are campaign settings. Campaigns migrated in September 2026 kept their own settings, so each campaign has to be read.",
+   "unlock": "Check by hand in Google Ads: each Search campaign, Settings, AI Max.",
+   "area": "Settings",
+   "gate": false,
+   "must": false,
+   "status": "by hand",
+   "kind": "",
+   "stage": null,
+   "stage_name": "",
+   "share_of_account_cost": null
+  },
+  {
+   "id": "SE-M3",
+   "name": "Conversion tag and enhanced conversions diagnostics",
+   "label": "Official",
+   "source": "references/reporting-and-diagnostics.md, Durable Diagnostic Surface Map",
+   "page": "About the enhanced conversions for web tag diagnostics report",
+   "why": "Whether tags fire, and what the diagnostics reports say, is not in any performance export.",
+   "unlock": "Check by hand in Google Ads: Goals, Conversions, open each primary action and its diagnostics.",
+   "area": "Settings",
+   "gate": true,
+   "must": true,
+   "status": "by hand",
+   "kind": "",
+   "stage": null,
+   "stage_name": "",
+   "share_of_account_cost": null
+  },
+  {
+   "id": "SE-M4",
+   "name": "Landing pages load and match the ad",
+   "label": "Practitioner rule",
+   "source": "references/checklists.md, Daily",
+   "page": "",
+   "why": "An export lists Final URLs but cannot open them.",
+   "unlock": "Check by hand: open the Final URL of each ad group that spends, on a phone and a computer.",
+   "area": "Settings",
+   "gate": true,
+   "must": true,
+   "status": "by hand",
+   "kind": "",
+   "stage": null,
+   "stage_name": "",
+   "share_of_account_cost": null
+  }
+ ],
+ "clear_waste": {
+  "total": 2388.9999999999995,
+  "share_of_account_cost": 0.18992952175762318,
+  "overlap_removed": 1432.8000000000002,
+  "by_campaign": [
+   [
+    "Plumbing | Emergency",
+    1763.1999999999998
+   ],
+   [
+    "Plumbing | Water Heaters",
+    436.5
+   ],
+   [
+    "Drain Cleaning | Search",
+    189.3
+   ]
+  ],
+  "includes": "Spend with no conversions on non brand search terms that spent at least the search term line (SQ-01), and on enabled keywords that spent at least the keyword line (KW-05).",
+  "leaves_out": "Brand searches, searches and keywords below those lines, searches Google does not list, paused campaigns, and every exposed or held back amount. Campaign level spend with no conversions (BB-04) is left out because it holds the same spend.",
+  "notes": [
+   "A search served by a flagged keyword is inside that keyword's cost, so it is counted once, as part of the keyword. 1,432.80 was removed this way."
+  ]
+ },
+ "assumptions": [
+  "No target cost per conversion was given. BB-06 did not run, and BB-03, BB-04, KW-05, SQ-01 used the account's own cost per conversion as the line instead.",
+  "Brand terms used: northside. Brand campaigns: Brand. Brand rows were kept out of the lines in BB-03, BB-04, KW-05, SQ-01."
+ ],
+ "fix_stages": [
+  [
+   1,
+   "Measurement"
+  ],
+  [
+   2,
+   "Serving and policy"
+  ],
+  [
+   3,
+   "Waste"
+  ],
+  [
+   4,
+   "Structure, keywords and ads"
+  ],
+  [
+   5,
+   "Bidding"
+  ],
+  [
+   6,
+   "Budget"
+  ]
+ ],
+ "compare": null,
+ "naming": [
+  {
+   "level": "Campaigns",
+   "source": "campaign report",
+   "names": 5,
+   "patterns": [
+    {
+     "pattern": "2 parts split by \"|\"",
+     "count": 4
+    },
+    {
+     "pattern": "1 part, no separator",
+     "count": 1
+    }
+   ],
+   "main_pattern": "2 parts split by \"|\"",
+   "main_count": 4,
+   "tie": false,
+   "off_pattern": [
+    {
+     "name": "Brand",
+     "campaign": "",
+     "pattern": "1 part, no separator",
+     "serving": true
+    }
+   ],
+   "positions": [
+    [
+     [
+      "Drain Cleaning",
+      2
+     ],
+     [
+      "Plumbing",
+      2
+     ]
+    ],
+    [
+     [
+      "Emergency",
+      1
+     ],
+     [
+      "Old",
+      1
+     ],
+     [
+      "Search",
+      1
+     ],
+     [
+      "Water Heaters",
+      1
+     ]
+    ]
+   ],
+   "same_but_case_or_spaces": []
+  },
+  {
+   "level": "Ad groups",
+   "source": "ad group report",
+   "names": 8,
+   "patterns": [
+    {
+     "pattern": "1 part, no separator",
+     "count": 8
+    }
+   ],
+   "main_pattern": "1 part, no separator",
+   "main_count": 8,
+   "tie": false,
+   "off_pattern": [],
+   "positions": [],
+   "same_but_case_or_spaces": []
+  }
+ ],
+ "dated_changes": {
+  "target_limited_by_budget": {
+   "ran": true,
+   "target_campaigns": [],
+   "limited": []
+  },
+  "dynamic_search_ads": {
+   "ran": true,
+   "serving": 0,
+   "ads": []
+  }
+ },
+ "summary": "The account converts, but two primary actions count the same lead form, so the campaigns that bid on conversions steer by inflated numbers. Fix that first. After it, the Emergency campaign is the clearest place for more budget, and the Hydro Jetting ad group needs a working ad.",
+ "your_assumptions": []
+}

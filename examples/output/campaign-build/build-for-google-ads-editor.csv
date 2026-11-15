@@ -1,0 +1,29 @@
+Campaign,Campaign Type,Networks,Campaign Daily Budget,Bid Strategy Type,Target CPA,Target ROAS,Start Date,End Date,Campaign Status,EU political ads,AI Max,Location,Ad Group,Max CPC,Ad Group Status,Keyword,Criterion Type,Final URL,Headline 1,Headline 2,Headline 3,Headline 4,Headline 5,Headline 6,Headline 7,Headline 8,Headline 9,Headline 10,Headline 11,Headline 12,Headline 13,Headline 14,Headline 15,Description 1,Description 2,Description 3,Description 4,Path 1,Path 2,Status
+Sewer Line | Search,Search,Google Search,120.00,Maximize conversions,,,2026-12-01,,Paused,Doesn't have EU political ads,Disabled,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,"Denver, Colorado, United States",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,"Aurora, Colorado, United States",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,Paused,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,Paused,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,Paused,,,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,sewer line repair,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,sewer line repair,Exact,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,broken sewer line,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,sewer pipe repair,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,main sewer line repair,Exact,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,sewer line replacement,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,sewer line replacement,Exact,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,trenchless sewer replacement,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,replace sewer line,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,sewer line replacement cost,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,,sewer camera inspection,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,,sewer line inspection,Phrase,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,,sewer scope inspection,Exact,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,,sewer line camera inspection,Exact,,,,,,,,,,,,,,,,,,,,,,,Paused
+Sewer Line | Search,,,,,,,,,,,,,,,,septic,Campaign Negative Phrase,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,,,,drain cleaning,Campaign Negative Phrase,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,replacement,Negative Phrase,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,repair,Negative Phrase,,,,,,,,,,,,,,,,,,,,,,,
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,,,https://www.northsideplumbing.example/sewer-line-repair,Sewer Line Repair in Denver,Broken Sewer Line? Call Us,Licensed Denver Plumbers,Same Day Sewer Repair,Camera Inspection First,Upfront Written Quotes,"Fix the Pipe, Not the Lawn",Sewer Pipe Repair Experts,Serving Denver and Aurora,Main Sewer Line Repair,Northside Plumbing,Book a Sewer Repair Today,,,,We find the break with a camera and show you the video before any digging starts.,Licensed and insured plumbers. Written quote before work begins. No surprise fees.,Sewer backing up? We repair main sewer lines across Denver and Aurora.,Most repairs finished in one day. Book online or call to schedule a visit.,sewer-line,repair,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Repair,,,,,https://www.northsideplumbing.example/sewer-line-repair,Sewer Line Repair Specialists,Trenchless Repair Options,Stop Sewer Backups for Good,Denver Sewer Line Repair,Video Camera Diagnosis,Written Quote Before We Dig,Licensed and Insured,Repair Broken Sewer Pipes,,,,,,,,Trenchless repair can save your yard. We tell you if it fits before we start.,See the camera video of your line and get a written quote. No surprise fees.,Local plumbers serving Denver and Aurora. Book a sewer line repair today.,,sewer-line,repair,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Line Replacement,,,,,https://www.northsideplumbing.example/sewer-line-replacement,Sewer Line Replacement,Trenchless Replacement,Replace Your Sewer Line,Denver Sewer Replacement,"Less Digging, Less Mess",Written Quote Before We Dig,Licensed Denver Plumbers,Clear Upfront Pricing,Old Clay Pipe? Replace It,Serving Denver and Aurora,Sewer Line Replacement Cost,,,,,Trenchless sewer line replacement with less digging. Ask if your line qualifies.,"Camera inspection first, then a written quote for the full replacement.",Licensed and insured plumbers serving Denver and Aurora. Book an estimate today.,"We replace failing clay, cast iron and Orangeburg sewer pipes with modern pipe.",sewer-line,replacement,Paused
+Sewer Line | Search,,,,,,,,,,,,,Sewer Camera Inspection,,,,,https://www.northsideplumbing.example/sewer-camera-inspection,Sewer Camera Inspection,See Inside Your Sewer Line,Sewer Line Inspection,Buying a Home? Scope It,Video of Your Sewer Line,Licensed Denver Plumbers,Same Week Appointments,"Find Roots, Cracks, Breaks",Sewer Scope Inspection,Serving Denver and Aurora,,,,,,"A camera inspection shows roots, cracks and breaks. You get the video and a report.",Buying a home? Scope the sewer line before you close. Book an inspection today.,Licensed plumbers serving Denver and Aurora. Clear pricing before we start.,,sewer,inspection,Paused

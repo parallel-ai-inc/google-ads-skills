@@ -1,0 +1,142 @@
+[
+ {
+  "segments.conversion_action_name": "Website lead form",
+  "metrics.conversions": 50.0,
+  "metrics.conversions_value": 7500.0,
+  "metrics.all_conversions": 50.0,
+  "metrics.all_conversions_value": 7500.0
+ },
+ {
+  "segments.conversion_action_name": "Website lead form",
+  "metrics.conversions": 25.0,
+  "metrics.conversions_value": 3750.0,
+  "metrics.all_conversions": 25.0,
+  "metrics.all_conversions_value": 3750.0
+ },
+ {
+  "segments.conversion_action_name": "Website lead form",
+  "metrics.conversions": 10.0,
+  "metrics.conversions_value": 1500.0,
+  "metrics.all_conversions": 10.0,
+  "metrics.all_conversions_value": 1500.0
+ },
+ {
+  "segments.conversion_action_name": "Website lead form",
+  "metrics.conversions": 15.0,
+  "metrics.conversions_value": 2250.0,
+  "metrics.all_conversions": 15.0,
+  "metrics.all_conversions_value": 2250.0
+ },
+ {
+  "segments.conversion_action_name": "GA4 generate_lead",
+  "metrics.conversions": 30.0,
+  "metrics.conversions_value": 4500.0,
+  "metrics.all_conversions": 46.0,
+  "metrics.all_conversions_value": 6900.0
+ },
+ {
+  "segments.conversion_action_name": "GA4 generate_lead",
+  "metrics.conversions": 15.0,
+  "metrics.conversions_value": 2250.0,
+  "metrics.all_conversions": 23.0,
+  "metrics.all_conversions_value": 3450.0
+ },
+ {
+  "segments.conversion_action_name": "GA4 generate_lead",
+  "metrics.conversions": 6.0,
+  "metrics.conversions_value": 900.0,
+  "metrics.all_conversions": 9.2,
+  "metrics.all_conversions_value": 1380.0
+ },
+ {
+  "segments.conversion_action_name": "GA4 generate_lead",
+  "metrics.conversions": 9.0,
+  "metrics.conversions_value": 1350.0,
+  "metrics.all_conversions": 13.8,
+  "metrics.all_conversions_value": 2070.0
+ },
+ {
+  "segments.conversion_action_name": "Calls from ads",
+  "metrics.conversions": 35.0,
+  "metrics.conversions_value": 3500.0,
+  "metrics.all_conversions": 35.0,
+  "metrics.all_conversions_value": 3500.0
+ },
+ {
+  "segments.conversion_action_name": "Calls from ads",
+  "metrics.conversions": 17.5,
+  "metrics.conversions_value": 1750.0,
+  "metrics.all_conversions": 17.5,
+  "metrics.all_conversions_value": 1750.0
+ },
+ {
+  "segments.conversion_action_name": "Calls from ads",
+  "metrics.conversions": 7.0,
+  "metrics.conversions_value": 700.0,
+  "metrics.all_conversions": 7.0,
+  "metrics.all_conversions_value": 700.0
+ },
+ {
+  "segments.conversion_action_name": "Calls from ads",
+  "metrics.conversions": 10.5,
+  "metrics.conversions_value": 1050.0,
+  "metrics.all_conversions": 10.5,
+  "metrics.all_conversions_value": 1050.0
+ },
+ {
+  "segments.conversion_action_name": "Directions clicks",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 20.0,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Directions clicks",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 10.0,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Directions clicks",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 4.0,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Directions clicks",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 6.0,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Old call tracking",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 9.0,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Old call tracking",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 4.5,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Old call tracking",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 1.8,
+  "metrics.all_conversions_value": 0.0
+ },
+ {
+  "segments.conversion_action_name": "Old call tracking",
+  "metrics.conversions": 0.0,
+  "metrics.conversions_value": 0.0,
+  "metrics.all_conversions": 2.7,
+  "metrics.all_conversions_value": 0.0
+ }
+]

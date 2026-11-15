@@ -1,0 +1,42 @@
+[
+ {
+  "conversion_action.name": "Website lead form",
+  "conversion_action.primary_for_goal": true,
+  "conversion_action.type": "WEBPAGE",
+  "conversion_action.category": "SUBMIT_LEAD_FORM",
+  "conversion_action.counting_type": "MANY_PER_CLICK",
+  "conversion_action.click_through_lookback_window_days": 30,
+  "conversion_action.view_through_lookback_window_days": 1,
+  "conversion_action.attribution_model_settings.attribution_model": "GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN"
+ },
+ {
+  "conversion_action.name": "GA4 generate_lead",
+  "conversion_action.primary_for_goal": true,
+  "conversion_action.type": "GOOGLE_ANALYTICS_4_CUSTOM",
+  "conversion_action.category": "SUBMIT_LEAD_FORM",
+  "conversion_action.counting_type": "ONE_PER_CLICK",
+  "conversion_action.click_through_lookback_window_days": 30,
+  "conversion_action.view_through_lookback_window_days": 0,
+  "conversion_action.attribution_model_settings.attribution_model": "GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN"
+ },
+ {
+  "conversion_action.name": "Calls from ads",
+  "conversion_action.primary_for_goal": true,
+  "conversion_action.type": "AD_CALL",
+  "conversion_action.category": "PHONE_CALL_LEAD",
+  "conversion_action.counting_type": "ONE_PER_CLICK",
+  "conversion_action.click_through_lookback_window_days": 30,
+  "conversion_action.view_through_lookback_window_days": 0,
+  "conversion_action.attribution_model_settings.attribution_model": "GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN"
+ },
+ {
+  "conversion_action.name": "Directions clicks",
+  "conversion_action.primary_for_goal": false,
+  "conversion_action.type": "WEBPAGE",
+  "conversion_action.category": "GET_DIRECTIONS",
+  "conversion_action.counting_type": "MANY_PER_CLICK",
+  "conversion_action.click_through_lookback_window_days": 30,
+  "conversion_action.view_through_lookback_window_days": 1,
+  "conversion_action.attribution_model_settings.attribution_model": "GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN"
+ }
+]

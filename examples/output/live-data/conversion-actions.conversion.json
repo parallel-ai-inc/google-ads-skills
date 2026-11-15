@@ -1,0 +1,44 @@
+{
+ "report": "conversion-actions",
+ "file": "conversion-actions-summary.csv",
+ "rows": 4,
+ "check": {
+  "rows_written": 4,
+  "rows_read_back": 4,
+  "date_range_read_back": [
+   "2026-10-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Conversions": 230.0,
+   "Conv. value": 31000.0,
+   "All conv.": 302.0,
+   "All conv. value": 35800.0
+  },
+  "matches": true,
+  "by_column": {
+   "Conversions": {
+    "rows": 230.0,
+    "total_row": 230.0
+   },
+   "Conv. value": {
+    "rows": 31000.0,
+    "total_row": 31000.0
+   },
+   "All conv.": {
+    "rows": 302.0,
+    "total_row": 302.0
+   },
+   "All conv. value": {
+    "rows": 35800.0,
+    "total_row": 35800.0
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [
+  "Not enabled, but still recorded conversions in the range, so not in this file: Old call tracking. Together: 18.00 All conv."
+ ],
+ "start": "2026-10-14",
+ "end": "2026-11-12"
+}

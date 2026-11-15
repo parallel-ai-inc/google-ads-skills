@@ -1,0 +1,242 @@
+{
+  "kind": "report",
+  "report": "campaigns-by-day",
+  "title": "Campaign report",
+  "file": "campaigns-by-day.csv",
+  "total": "Total: Filtered campaigns",
+  "customer_id": "1234567890",
+  "start": "2026-09-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "campaign",
+    "fields": [
+      "segments.date",
+      "campaign.status",
+      "campaign.name",
+      "campaign_budget.amount_micros",
+      "campaign_budget.period",
+      "campaign.advertising_channel_type",
+      "campaign.bidding_strategy_type",
+      "metrics.impressions",
+      "metrics.clicks",
+      "metrics.cost_micros",
+      "metrics.conversions",
+      "metrics.conversions_value",
+      "metrics.search_impression_share",
+      "metrics.search_budget_lost_impression_share"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-09-14' AND '2026-11-12'",
+      "campaign.status != 'REMOVED'"
+    ],
+    "orderings": [
+      "segments.date ASC",
+      "campaign.name ASC"
+    ],
+    "limit": 10000
+  },
+  "result": "campaigns-by-day.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Day",
+      "field": "segments.date",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign status",
+      "field": "campaign.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Budget",
+      "field": "campaign_budget.amount_micros",
+      "kind": "micros"
+    },
+    {
+      "header": "Budget type",
+      "field": "campaign_budget.period",
+      "kind": "enum"
+    },
+    {
+      "header": "Campaign type",
+      "field": "campaign.advertising_channel_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Bid strategy type",
+      "field": "campaign.bidding_strategy_type",
+      "kind": "enum"
+    },
+    {
+      "header": "Impr.",
+      "field": "metrics.impressions",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Clicks",
+      "field": "metrics.clicks",
+      "kind": "int",
+      "sum": true
+    },
+    {
+      "header": "Cost",
+      "field": "metrics.cost_micros",
+      "kind": "micros",
+      "sum": true
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Search impr. share",
+      "field": "metrics.search_impression_share",
+      "kind": "share"
+    },
+    {
+      "header": "Search lost IS (budget)",
+      "field": "metrics.search_budget_lost_impression_share",
+      "kind": "lost"
+    }
+  ],
+  "needs": [
+    "segments.date",
+    "campaign.name",
+    "metrics.cost_micros"
+  ],
+  "gaps": [
+    "Budget is the budget today, written on every day. A budget changed during the range shows its new amount on the earlier days too."
+  ],
+  "readers": [
+    "budgets and forecasts: python3 scripts/pacing.py FILE --out OUTPUT",
+    "conversion tracking, as the clicks file: python3 scripts/find_breaks.py REPORT --out OUTPUT --clicks FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "segments.date",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign_budget.amount_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign_budget.period",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.advertising_channel_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.bidding_strategy_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.impressions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.clicks",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.cost_micros",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.search_impression_share",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.search_budget_lost_impression_share",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    }
+  ]
+}

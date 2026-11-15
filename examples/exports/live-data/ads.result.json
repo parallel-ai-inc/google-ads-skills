@@ -1,0 +1,164 @@
+[
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "24/7 Emergency Plumber"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90000,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "EXCELLENT",
+  "campaign.name": "Plumbing | Emergency",
+  "ad_group.name": "Emergency",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "APPROVED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/emergency"
+  ],
+  "metrics.impressions": 4200,
+  "metrics.clicks": 300,
+  "metrics.cost_micros": 2130000000,
+  "metrics.conversions": 45.0
+ },
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "Plumber At Your Door In 60 Min"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90001,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "GOOD",
+  "campaign.name": "Plumbing | Emergency",
+  "ad_group.name": "Emergency",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "APPROVED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/emergency"
+  ],
+  "metrics.impressions": 3612,
+  "metrics.clicks": 258,
+  "metrics.cost_micros": 1831800000,
+  "metrics.conversions": 33.0
+ },
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "Burst Pipe Repair Today"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90002,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "AVERAGE",
+  "campaign.name": "Plumbing | Emergency",
+  "ad_group.name": "Burst Pipes",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "APPROVED_LIMITED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/burst-pipes"
+  ],
+  "metrics.impressions": 1190,
+  "metrics.clicks": 85,
+  "metrics.cost_micros": 603500000,
+  "metrics.conversions": 10.0
+ },
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "Water Heater Repair Experts"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90003,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "POOR",
+  "campaign.name": "Plumbing | Water Heaters",
+  "ad_group.name": "Repair",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "APPROVED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/repair"
+  ],
+  "metrics.impressions": 2240,
+  "metrics.clicks": 160,
+  "metrics.cost_micros": 1136000000,
+  "metrics.conversions": 12.0
+ },
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "Same Week Water Heater Install"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90004,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "GOOD",
+  "campaign.name": "Plumbing | Water Heaters",
+  "ad_group.name": "Install",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "DISAPPROVED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/install"
+  ],
+  "metrics.impressions": 2268,
+  "metrics.clicks": 162,
+  "metrics.cost_micros": 1150200000,
+  "metrics.conversions": 11.0
+ },
+ {
+  "ad_group_ad.status": "ENABLED",
+  "ad_group_ad.ad.responsive_search_ad.headlines": [
+   {
+    "text": "Northside Plumbing Official Site"
+   },
+   {
+    "text": "Licensed Local Plumbers"
+   }
+  ],
+  "ad_group_ad.ad.name": "",
+  "ad_group_ad.ad.id": 90005,
+  "ad_group_ad.ad.type": "RESPONSIVE_SEARCH_AD",
+  "ad_group_ad.ad_strength": "EXCELLENT",
+  "campaign.name": "Brand",
+  "ad_group.name": "Brand",
+  "campaign.status": "ENABLED",
+  "ad_group.status": "ENABLED",
+  "ad_group_ad.policy_summary.approval_status": "APPROVED",
+  "ad_group_ad.ad.final_urls": [
+   "https://www.northsideplumbing.example/brand"
+  ],
+  "metrics.impressions": 4620,
+  "metrics.clicks": 330,
+  "metrics.cost_micros": 2343000000,
+  "metrics.conversions": 98.0
+ }
+]

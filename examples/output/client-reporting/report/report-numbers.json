@@ -1,0 +1,2727 @@
+{
+ "acct.clicks.chg_ly": {
+  "label": "Account: Clicks, change vs same period last year",
+  "value": 0.08231083844580778,
+  "shown": "+8.2%"
+ },
+ "acct.clicks.chg_prev": {
+  "label": "Account: Clicks, change vs previous period",
+  "value": -0.04121376811594203,
+  "shown": "-4.1%"
+ },
+ "acct.clicks.cur": {
+  "label": "Account: Clicks, current period",
+  "value": 2117.0,
+  "shown": "2,117"
+ },
+ "acct.clicks.delta_ly": {
+  "label": "Account: Clicks, difference vs same period last year",
+  "value": 161.0,
+  "shown": "+161"
+ },
+ "acct.clicks.delta_prev": {
+  "label": "Account: Clicks, difference vs previous period",
+  "value": -91.0,
+  "shown": "-91"
+ },
+ "acct.clicks.ly": {
+  "label": "Account: Clicks, same period last year",
+  "value": 1956.0,
+  "shown": "1,956"
+ },
+ "acct.clicks.prev": {
+  "label": "Account: Clicks, previous period",
+  "value": 2208.0,
+  "shown": "2,208"
+ },
+ "acct.conv.chg_ly": {
+  "label": "Account: Conversions, change vs same period last year",
+  "value": 0.1745540279513695,
+  "shown": "+17.5%"
+ },
+ "acct.conv.chg_prev": {
+  "label": "Account: Conversions, change vs previous period",
+  "value": 0.015397082658022929,
+  "shown": "+1.5%"
+ },
+ "acct.conv.cur": {
+  "label": "Account: Conversions, current period",
+  "value": 413.49,
+  "shown": "413.49"
+ },
+ "acct.conv.delta_ly": {
+  "label": "Account: Conversions, difference vs same period last year",
+  "value": 61.4500000000001,
+  "shown": "+61.45"
+ },
+ "acct.conv.delta_prev": {
+  "label": "Account: Conversions, difference vs previous period",
+  "value": 6.2700000000000955,
+  "shown": "+6.27"
+ },
+ "acct.conv.ly": {
+  "label": "Account: Conversions, same period last year",
+  "value": 352.0399999999999,
+  "shown": "352.04"
+ },
+ "acct.conv.prev": {
+  "label": "Account: Conversions, previous period",
+  "value": 407.2199999999999,
+  "shown": "407.22"
+ },
+ "acct.conv_per_day.chg_ly": {
+  "label": "Account: Conversions per day, change vs same period last year",
+  "value": 0.17455402795136937,
+  "shown": "+17.5%"
+ },
+ "acct.conv_per_day.chg_prev": {
+  "label": "Account: Conversions per day, change vs previous period",
+  "value": -0.017357661943848773,
+  "shown": "-1.7%"
+ },
+ "acct.conv_per_day.cur": {
+  "label": "Account: Conversions per day, current period",
+  "value": 13.338387096774193,
+  "shown": "13.34"
+ },
+ "acct.conv_per_day.ly": {
+  "label": "Account: Conversions per day, same period last year",
+  "value": 11.356129032258062,
+  "shown": "11.36"
+ },
+ "acct.conv_per_day.prev": {
+  "label": "Account: Conversions per day, previous period",
+  "value": 13.573999999999996,
+  "shown": "13.57"
+ },
+ "acct.cost.chg_ly": {
+  "label": "Account: Cost, change vs same period last year",
+  "value": 0.09464944369393305,
+  "shown": "+9.5%"
+ },
+ "acct.cost.chg_prev": {
+  "label": "Account: Cost, change vs previous period",
+  "value": -0.03750465454904596,
+  "shown": "-3.8%"
+ },
+ "acct.cost.cur": {
+  "label": "Account: Cost, current period",
+  "value": 14423.320000000002,
+  "shown": "14,423.32"
+ },
+ "acct.cost.delta_ly": {
+  "label": "Account: Cost, difference vs same period last year",
+  "value": 1247.1200000000008,
+  "shown": "+1,247.12"
+ },
+ "acct.cost.delta_prev": {
+  "label": "Account: Cost, difference vs previous period",
+  "value": -562.0200000000004,
+  "shown": "-562.02"
+ },
+ "acct.cost.ly": {
+  "label": "Account: Cost, same period last year",
+  "value": 13176.2,
+  "shown": "13,176.20"
+ },
+ "acct.cost.prev": {
+  "label": "Account: Cost, previous period",
+  "value": 14985.340000000002,
+  "shown": "14,985.34"
+ },
+ "acct.cost_per_day.chg_ly": {
+  "label": "Account: Cost per day, change vs same period last year",
+  "value": 0.09464944369393304,
+  "shown": "+9.5%"
+ },
+ "acct.cost_per_day.chg_prev": {
+  "label": "Account: Cost per day, change vs previous period",
+  "value": -0.0685528914990768,
+  "shown": "-6.9%"
+ },
+ "acct.cost_per_day.cur": {
+  "label": "Account: Cost per day, current period",
+  "value": 465.26838709677423,
+  "shown": "465.27"
+ },
+ "acct.cost_per_day.ly": {
+  "label": "Account: Cost per day, same period last year",
+  "value": 425.0387096774194,
+  "shown": "425.04"
+ },
+ "acct.cost_per_day.prev": {
+  "label": "Account: Cost per day, previous period",
+  "value": 499.5113333333334,
+  "shown": "499.51"
+ },
+ "acct.cpa.chg_ly": {
+  "label": "Account: Cost / conv., change vs same period last year",
+  "value": -0.06802972222299924,
+  "shown": "-6.8%"
+ },
+ "acct.cpa.chg_prev": {
+  "label": "Account: Cost / conv., change vs previous period",
+  "value": -0.05209955603633114,
+  "shown": "-5.2%"
+ },
+ "acct.cpa.cur": {
+  "label": "Account: Cost / conv., current period",
+  "value": 34.88190766403057,
+  "shown": "34.88"
+ },
+ "acct.cpa.delta_ly": {
+  "label": "Account: Cost / conv., difference vs same period last year",
+  "value": -2.546225502655048,
+  "shown": "-2.55"
+ },
+ "acct.cpa.delta_prev": {
+  "label": "Account: Cost / conv., difference vs previous period",
+  "value": -1.9172181156462713,
+  "shown": "-1.92"
+ },
+ "acct.cpa.ly": {
+  "label": "Account: Cost / conv., same period last year",
+  "value": 37.42813316668562,
+  "shown": "37.43"
+ },
+ "acct.cpa.prev": {
+  "label": "Account: Cost / conv., previous period",
+  "value": 36.79912577967684,
+  "shown": "36.80"
+ },
+ "acct.cpc.chg_ly": {
+  "label": "Account: Avg. CPC, change vs same period last year",
+  "value": 0.011400241788064763,
+  "shown": "+1.1%"
+ },
+ "acct.cpc.chg_prev": {
+  "label": "Account: Avg. CPC, change vs previous period",
+  "value": 0.003868551136375294,
+  "shown": "+0.4%"
+ },
+ "acct.cpc.cur": {
+  "label": "Account: Avg. CPC, current period",
+  "value": 6.813094000944734,
+  "shown": "6.81"
+ },
+ "acct.cpc.delta_ly": {
+  "label": "Account: Avg. CPC, difference vs same period last year",
+  "value": 0.07679543243757614,
+  "shown": "+0.08"
+ },
+ "acct.cpc.delta_prev": {
+  "label": "Account: Avg. CPC, difference vs previous period",
+  "value": 0.02625523282879083,
+  "shown": "+0.03"
+ },
+ "acct.cpc.ly": {
+  "label": "Account: Avg. CPC, same period last year",
+  "value": 6.7362985685071575,
+  "shown": "6.74"
+ },
+ "acct.cpc.prev": {
+  "label": "Account: Avg. CPC, previous period",
+  "value": 6.786838768115943,
+  "shown": "6.79"
+ },
+ "acct.ctr.chg_ly": {
+  "label": "Account: CTR, change vs same period last year",
+  "value": 0.037688453100049146,
+  "shown": "+3.8%"
+ },
+ "acct.ctr.chg_prev": {
+  "label": "Account: CTR, change vs previous period",
+  "value": 0.04604021221314514,
+  "shown": "+4.6%"
+ },
+ "acct.ctr.cur": {
+  "label": "Account: CTR, current period",
+  "value": 0.07415580776236513,
+  "shown": "7.42%"
+ },
+ "acct.ctr.ly": {
+  "label": "Account: CTR, same period last year",
+  "value": 0.07146249680318585,
+  "shown": "7.15%"
+ },
+ "acct.ctr.pp_ly": {
+  "label": "Account: CTR, difference vs same period last year, in percentage points",
+  "value": 0.2693310959179282,
+  "shown": "+0.27 percentage points"
+ },
+ "acct.ctr.pp_prev": {
+  "label": "Account: CTR, difference vs previous period, in percentage points",
+  "value": 0.326387942485791,
+  "shown": "+0.33 percentage points"
+ },
+ "acct.ctr.prev": {
+  "label": "Account: CTR, previous period",
+  "value": 0.07089192833750722,
+  "shown": "7.09%"
+ },
+ "acct.cvr.chg_ly": {
+  "label": "Account: Conv. rate, change vs same period last year",
+  "value": 0.08522800126257846,
+  "shown": "+8.5%"
+ },
+ "acct.cvr.chg_prev": {
+  "label": "Account: Conv. rate, change vs previous period",
+  "value": 0.059044288383993664,
+  "shown": "+5.9%"
+ },
+ "acct.cvr.cur": {
+  "label": "Account: Conv. rate, current period",
+  "value": 0.19531884742560227,
+  "shown": "19.53%"
+ },
+ "acct.cvr.ly": {
+  "label": "Account: Conv. rate, same period last year",
+  "value": 0.17997955010224945,
+  "shown": "18.00%"
+ },
+ "acct.cvr.pp_ly": {
+  "label": "Account: Conv. rate, difference vs same period last year, in percentage points",
+  "value": 1.5339297323352818,
+  "shown": "+1.53 percentage points"
+ },
+ "acct.cvr.pp_prev": {
+  "label": "Account: Conv. rate, difference vs previous period, in percentage points",
+  "value": 1.088949959951535,
+  "shown": "+1.09 percentage points"
+ },
+ "acct.cvr.prev": {
+  "label": "Account: Conv. rate, previous period",
+  "value": 0.18442934782608691,
+  "shown": "18.44%"
+ },
+ "acct.impr.chg_ly": {
+  "label": "Account: Impr., change vs same period last year",
+  "value": 0.04300171714588433,
+  "shown": "+4.3%"
+ },
+ "acct.impr.chg_prev": {
+  "label": "Account: Impr., change vs previous period",
+  "value": -0.08341360046233866,
+  "shown": "-8.3%"
+ },
+ "acct.impr.cur": {
+  "label": "Account: Impr., current period",
+  "value": 28548.0,
+  "shown": "28,548"
+ },
+ "acct.impr.delta_ly": {
+  "label": "Account: Impr., difference vs same period last year",
+  "value": 1177.0,
+  "shown": "+1,177"
+ },
+ "acct.impr.delta_prev": {
+  "label": "Account: Impr., difference vs previous period",
+  "value": -2598.0,
+  "shown": "-2,598"
+ },
+ "acct.impr.ly": {
+  "label": "Account: Impr., same period last year",
+  "value": 27371.0,
+  "shown": "27,371"
+ },
+ "acct.impr.prev": {
+  "label": "Account: Impr., previous period",
+  "value": 31146.0,
+  "shown": "31,146"
+ },
+ "acct.roas.chg_ly": {
+  "label": "Account: Conv. value / cost, change vs same period last year",
+  "value": 0.043892185928168966,
+  "shown": "+4.4%"
+ },
+ "acct.roas.chg_prev": {
+  "label": "Account: Conv. value / cost, change vs previous period",
+  "value": 0.021768617471162915,
+  "shown": "+2.2%"
+ },
+ "acct.roas.cur": {
+  "label": "Account: Conv. value / cost, current period",
+  "value": 9.085691782474491,
+  "shown": "9.09"
+ },
+ "acct.roas.delta_ly": {
+  "label": "Account: Conv. value / cost, difference vs same period last year",
+  "value": 0.3820230464200911,
+  "shown": "+0.38"
+ },
+ "acct.roas.delta_prev": {
+  "label": "Account: Conv. value / cost, difference vs previous period",
+  "value": 0.1935692146849064,
+  "shown": "+0.19"
+ },
+ "acct.roas.ly": {
+  "label": "Account: Conv. value / cost, same period last year",
+  "value": 8.7036687360544,
+  "shown": "8.70"
+ },
+ "acct.roas.prev": {
+  "label": "Account: Conv. value / cost, previous period",
+  "value": 8.892122567789585,
+  "shown": "8.89"
+ },
+ "acct.value.chg_ly": {
+  "label": "Account: Conv. value, change vs same period last year",
+  "value": 0.14269600060271387,
+  "shown": "+14.3%"
+ },
+ "acct.value.chg_prev": {
+  "label": "Account: Conv. value, change vs previous period",
+  "value": -0.016552461556149207,
+  "shown": "-1.7%"
+ },
+ "acct.value.cur": {
+  "label": "Account: Conv. value, current period",
+  "value": 131045.84,
+  "shown": "131,045.84"
+ },
+ "acct.value.delta_ly": {
+  "label": "Account: Conv. value, difference vs same period last year",
+  "value": 16364.559999999998,
+  "shown": "+16,364.56"
+ },
+ "acct.value.delta_prev": {
+  "label": "Account: Conv. value, difference vs previous period",
+  "value": -2205.639999999985,
+  "shown": "-2,205.64"
+ },
+ "acct.value.ly": {
+  "label": "Account: Conv. value, same period last year",
+  "value": 114681.28,
+  "shown": "114,681.28"
+ },
+ "acct.value.prev": {
+  "label": "Account: Conv. value, previous period",
+  "value": 133251.47999999998,
+  "shown": "133,251.48"
+ },
+ "brand.cpa.cur": {
+  "label": "Brand campaigns together: Cost / conv., current period",
+  "value": 4.125435793143522,
+  "shown": "4.13"
+ },
+ "brand.roas.cur": {
+  "label": "Brand campaigns together: Conv. value / cost, current period",
+  "value": 72.29114949206851,
+  "shown": "72.29"
+ },
+ "c1.changes.cur": {
+  "label": "Plumbing | Emergency: changes made in the current period",
+  "value": 2,
+  "shown": "2"
+ },
+ "c1.clicks.chg_ly": {
+  "label": "Plumbing | Emergency: Clicks, change vs same period last year",
+  "value": 0.31520223152022314,
+  "shown": "+31.5%"
+ },
+ "c1.clicks.chg_prev": {
+  "label": "Plumbing | Emergency: Clicks, change vs previous period",
+  "value": 0.16563658838071693,
+  "shown": "+16.6%"
+ },
+ "c1.clicks.cur": {
+  "label": "Plumbing | Emergency: Clicks, current period",
+  "value": 943.0,
+  "shown": "943"
+ },
+ "c1.clicks.delta_ly": {
+  "label": "Plumbing | Emergency: Clicks, difference vs same period last year",
+  "value": 226.0,
+  "shown": "+226"
+ },
+ "c1.clicks.delta_prev": {
+  "label": "Plumbing | Emergency: Clicks, difference vs previous period",
+  "value": 134.0,
+  "shown": "+134"
+ },
+ "c1.clicks.ly": {
+  "label": "Plumbing | Emergency: Clicks, same period last year",
+  "value": 717.0,
+  "shown": "717"
+ },
+ "c1.clicks.prev": {
+  "label": "Plumbing | Emergency: Clicks, previous period",
+  "value": 809.0,
+  "shown": "809"
+ },
+ "c1.conv.chg_ly": {
+  "label": "Plumbing | Emergency: Conversions, change vs same period last year",
+  "value": 0.404097086065851,
+  "shown": "+40.4%"
+ },
+ "c1.conv.chg_prev": {
+  "label": "Plumbing | Emergency: Conversions, change vs previous period",
+  "value": 0.19267214150347453,
+  "shown": "+19.3%"
+ },
+ "c1.conv.cur": {
+  "label": "Plumbing | Emergency: Conversions, current period",
+  "value": 207.67999999999998,
+  "shown": "207.68"
+ },
+ "c1.conv.delta_ly": {
+  "label": "Plumbing | Emergency: Conversions, difference vs same period last year",
+  "value": 59.77000000000001,
+  "shown": "+59.77"
+ },
+ "c1.conv.delta_prev": {
+  "label": "Plumbing | Emergency: Conversions, difference vs previous period",
+  "value": 33.55000000000001,
+  "shown": "+33.55"
+ },
+ "c1.conv.ly": {
+  "label": "Plumbing | Emergency: Conversions, same period last year",
+  "value": 147.90999999999997,
+  "shown": "147.91"
+ },
+ "c1.conv.prev": {
+  "label": "Plumbing | Emergency: Conversions, previous period",
+  "value": 174.12999999999997,
+  "shown": "174.13"
+ },
+ "c1.conv.share_chg_prev": {
+  "label": "Plumbing | Emergency: Conversions, share of the account's change vs previous period",
+  "value": 5.350877192982376,
+  "shown": "535.1%"
+ },
+ "c1.conv.share_cur": {
+  "label": "Plumbing | Emergency: Conversions, share of the account total, current period",
+  "value": 0.5022612396914072,
+  "shown": "50.2%"
+ },
+ "c1.conv_per_day.chg_ly": {
+  "label": "Plumbing | Emergency: Conversions per day, change vs same period last year",
+  "value": 0.4040970860658509,
+  "shown": "+40.4%"
+ },
+ "c1.conv_per_day.chg_prev": {
+  "label": "Plumbing | Emergency: Conversions per day, change vs previous period",
+  "value": 0.1541988466162656,
+  "shown": "+15.4%"
+ },
+ "c1.conv_per_day.cur": {
+  "label": "Plumbing | Emergency: Conversions per day, current period",
+  "value": 6.699354838709676,
+  "shown": "6.70"
+ },
+ "c1.conv_per_day.ly": {
+  "label": "Plumbing | Emergency: Conversions per day, same period last year",
+  "value": 4.7712903225806444,
+  "shown": "4.77"
+ },
+ "c1.conv_per_day.prev": {
+  "label": "Plumbing | Emergency: Conversions per day, previous period",
+  "value": 5.804333333333332,
+  "shown": "5.80"
+ },
+ "c1.cost.chg_ly": {
+  "label": "Plumbing | Emergency: Cost, change vs same period last year",
+  "value": 0.32737544517813455,
+  "shown": "+32.7%"
+ },
+ "c1.cost.chg_prev": {
+  "label": "Plumbing | Emergency: Cost, change vs previous period",
+  "value": 0.15660119242359608,
+  "shown": "+15.7%"
+ },
+ "c1.cost.cur": {
+  "label": "Plumbing | Emergency: Cost, current period",
+  "value": 8378.499999999998,
+  "shown": "8,378.50"
+ },
+ "c1.cost.delta_ly": {
+  "label": "Plumbing | Emergency: Cost, difference vs same period last year",
+  "value": 2066.419999999999,
+  "shown": "+2,066.42"
+ },
+ "c1.cost.delta_prev": {
+  "label": "Plumbing | Emergency: Cost, difference vs previous period",
+  "value": 1134.4299999999994,
+  "shown": "+1,134.43"
+ },
+ "c1.cost.ly": {
+  "label": "Plumbing | Emergency: Cost, same period last year",
+  "value": 6312.079999999999,
+  "shown": "6,312.08"
+ },
+ "c1.cost.prev": {
+  "label": "Plumbing | Emergency: Cost, previous period",
+  "value": 7244.069999999999,
+  "shown": "7,244.07"
+ },
+ "c1.cost.share_chg_prev": {
+  "label": "Plumbing | Emergency: Cost, share of the account's change vs previous period",
+  "value": -2.018486886587663,
+  "shown": "-201.8%"
+ },
+ "c1.cost.share_cur": {
+  "label": "Plumbing | Emergency: Cost, share of the account total, current period",
+  "value": 0.5808995432396977,
+  "shown": "58.1%"
+ },
+ "c1.cost_per_day.chg_ly": {
+  "label": "Plumbing | Emergency: Cost per day, change vs same period last year",
+  "value": 0.3273754451781344,
+  "shown": "+32.7%"
+ },
+ "c1.cost_per_day.chg_prev": {
+  "label": "Plumbing | Emergency: Cost per day, change vs previous period",
+  "value": 0.11929147653896383,
+  "shown": "+11.9%"
+ },
+ "c1.cost_per_day.cur": {
+  "label": "Plumbing | Emergency: Cost per day, current period",
+  "value": 270.274193548387,
+  "shown": "270.27"
+ },
+ "c1.cost_per_day.ly": {
+  "label": "Plumbing | Emergency: Cost per day, same period last year",
+  "value": 203.61548387096772,
+  "shown": "203.62"
+ },
+ "c1.cost_per_day.prev": {
+  "label": "Plumbing | Emergency: Cost per day, previous period",
+  "value": 241.46899999999997,
+  "shown": "241.47"
+ },
+ "c1.cpa.chg_ly": {
+  "label": "Plumbing | Emergency: Cost / conv., change vs same period last year",
+  "value": -0.05464126494463657,
+  "shown": "-5.5%"
+ },
+ "c1.cpa.chg_prev": {
+  "label": "Plumbing | Emergency: Cost / conv., change vs previous period",
+  "value": -0.030243809530427664,
+  "shown": "-3.0%"
+ },
+ "c1.cpa.cur": {
+  "label": "Plumbing | Emergency: Cost / conv., current period",
+  "value": 40.34331664098613,
+  "shown": "40.34"
+ },
+ "c1.cpa.delta_ly": {
+  "label": "Plumbing | Emergency: Cost / conv., difference vs same period last year",
+  "value": -2.3318236470268516,
+  "shown": "-2.33"
+ },
+ "c1.cpa.delta_prev": {
+  "label": "Plumbing | Emergency: Cost / conv., difference vs previous period",
+  "value": -1.2581879819966986,
+  "shown": "-1.26"
+ },
+ "c1.cpa.ly": {
+  "label": "Plumbing | Emergency: Cost / conv., same period last year",
+  "value": 42.67514028801298,
+  "shown": "42.68"
+ },
+ "c1.cpa.prev": {
+  "label": "Plumbing | Emergency: Cost / conv., previous period",
+  "value": 41.60150462298283,
+  "shown": "41.60"
+ },
+ "c1.cpc.chg_ly": {
+  "label": "Plumbing | Emergency: Avg. CPC, change vs same period last year",
+  "value": 0.009255773269058824,
+  "shown": "+0.9%"
+ },
+ "c1.cpc.chg_prev": {
+  "label": "Plumbing | Emergency: Avg. CPC, change vs previous period",
+  "value": -0.0077514690660772404,
+  "shown": "-0.8%"
+ },
+ "c1.cpc.cur": {
+  "label": "Plumbing | Emergency: Avg. CPC, current period",
+  "value": 8.88494167550371,
+  "shown": "8.88"
+ },
+ "c1.cpc.delta_ly": {
+  "label": "Plumbing | Emergency: Avg. CPC, difference vs same period last year",
+  "value": 0.0814828191578254,
+  "shown": "+0.08"
+ },
+ "c1.cpc.delta_prev": {
+  "label": "Plumbing | Emergency: Avg. CPC, difference vs previous period",
+  "value": -0.0694093751761411,
+  "shown": "-0.07"
+ },
+ "c1.cpc.ly": {
+  "label": "Plumbing | Emergency: Avg. CPC, same period last year",
+  "value": 8.803458856345884,
+  "shown": "8.80"
+ },
+ "c1.cpc.prev": {
+  "label": "Plumbing | Emergency: Avg. CPC, previous period",
+  "value": 8.95435105067985,
+  "shown": "8.95"
+ },
+ "c1.ctr.chg_ly": {
+  "label": "Plumbing | Emergency: CTR, change vs same period last year",
+  "value": 0.00149989991967483,
+  "shown": "+0.1%"
+ },
+ "c1.ctr.chg_prev": {
+  "label": "Plumbing | Emergency: CTR, change vs previous period",
+  "value": 0.002964258967286011,
+  "shown": "+0.3%"
+ },
+ "c1.ctr.cur": {
+  "label": "Plumbing | Emergency: CTR, current period",
+  "value": 0.06787102346336549,
+  "shown": "6.79%"
+ },
+ "c1.ctr.ly": {
+  "label": "Plumbing | Emergency: CTR, same period last year",
+  "value": 0.06776937618147448,
+  "shown": "6.78%"
+ },
+ "c1.ctr.pp_ly": {
+  "label": "Plumbing | Emergency: CTR, difference vs same period last year, in percentage points",
+  "value": 0.010164728189100691,
+  "shown": "+0.01 percentage points"
+ },
+ "c1.ctr.pp_prev": {
+  "label": "Plumbing | Emergency: CTR, difference vs previous period, in percentage points",
+  "value": 0.020059268126594587,
+  "shown": "+0.02 percentage points"
+ },
+ "c1.ctr.prev": {
+  "label": "Plumbing | Emergency: CTR, previous period",
+  "value": 0.06767043078209954,
+  "shown": "6.77%"
+ },
+ "c1.cvr.chg_ly": {
+  "label": "Plumbing | Emergency: Conv. rate, change vs same period last year",
+  "value": 0.06759025525897684,
+  "shown": "+6.8%"
+ },
+ "c1.cvr.chg_prev": {
+  "label": "Plumbing | Emergency: Conv. rate, change vs previous period",
+  "value": 0.023193809624931953,
+  "shown": "+2.3%"
+ },
+ "c1.cvr.cur": {
+  "label": "Plumbing | Emergency: Conv. rate, current period",
+  "value": 0.22023329798515373,
+  "shown": "22.02%"
+ },
+ "c1.cvr.ly": {
+  "label": "Plumbing | Emergency: Conv. rate, same period last year",
+  "value": 0.2062900976290097,
+  "shown": "20.63%"
+ },
+ "c1.cvr.pp_ly": {
+  "label": "Plumbing | Emergency: Conv. rate, difference vs same period last year, in percentage points",
+  "value": 1.394320035614402,
+  "shown": "+1.39 percentage points"
+ },
+ "c1.cvr.pp_prev": {
+  "label": "Plumbing | Emergency: Conv. rate, difference vs previous period, in percentage points",
+  "value": 0.4992259666241533,
+  "shown": "+0.50 percentage points"
+ },
+ "c1.cvr.prev": {
+  "label": "Plumbing | Emergency: Conv. rate, previous period",
+  "value": 0.2152410383189122,
+  "shown": "21.52%"
+ },
+ "c1.impr.chg_ly": {
+  "label": "Plumbing | Emergency: Impr., change vs same period last year",
+  "value": 0.31323251417769377,
+  "shown": "+31.3%"
+ },
+ "c1.impr.chg_prev": {
+  "label": "Plumbing | Emergency: Impr., change vs previous period",
+  "value": 0.16219155165202845,
+  "shown": "+16.2%"
+ },
+ "c1.impr.cur": {
+  "label": "Plumbing | Emergency: Impr., current period",
+  "value": 13894.0,
+  "shown": "13,894"
+ },
+ "c1.impr.delta_ly": {
+  "label": "Plumbing | Emergency: Impr., difference vs same period last year",
+  "value": 3314.0,
+  "shown": "+3,314"
+ },
+ "c1.impr.delta_prev": {
+  "label": "Plumbing | Emergency: Impr., difference vs previous period",
+  "value": 1939.0,
+  "shown": "+1,939"
+ },
+ "c1.impr.ly": {
+  "label": "Plumbing | Emergency: Impr., same period last year",
+  "value": 10580.0,
+  "shown": "10,580"
+ },
+ "c1.impr.prev": {
+  "label": "Plumbing | Emergency: Impr., previous period",
+  "value": 11955.0,
+  "shown": "11,955"
+ },
+ "c1.roas.chg_ly": {
+  "label": "Plumbing | Emergency: Conv. value / cost, change vs same period last year",
+  "value": 0.06639113650223609,
+  "shown": "+6.6%"
+ },
+ "c1.roas.chg_prev": {
+  "label": "Plumbing | Emergency: Conv. value / cost, change vs previous period",
+  "value": 0.02847769462757985,
+  "shown": "+2.8%"
+ },
+ "c1.roas.cur": {
+  "label": "Plumbing | Emergency: Conv. value / cost, current period",
+  "value": 7.455114877364683,
+  "shown": "7.46"
+ },
+ "c1.roas.delta_ly": {
+  "label": "Plumbing | Emergency: Conv. value / cost, difference vs same period last year",
+  "value": 0.4641388441078176,
+  "shown": "+0.46"
+ },
+ "c1.roas.delta_prev": {
+  "label": "Plumbing | Emergency: Conv. value / cost, difference vs previous period",
+  "value": 0.20642594973145822,
+  "shown": "+0.21"
+ },
+ "c1.roas.ly": {
+  "label": "Plumbing | Emergency: Conv. value / cost, same period last year",
+  "value": 6.990976033256866,
+  "shown": "6.99"
+ },
+ "c1.roas.prev": {
+  "label": "Plumbing | Emergency: Conv. value / cost, previous period",
+  "value": 7.248688927633225,
+  "shown": "7.25"
+ },
+ "c1.value.chg_ly": {
+  "label": "Plumbing | Emergency: Conv. value, change vs same period last year",
+  "value": 0.41550140954867243,
+  "shown": "+41.6%"
+ },
+ "c1.value.chg_prev": {
+  "label": "Plumbing | Emergency: Conv. value, change vs previous period",
+  "value": 0.18953852798732992,
+  "shown": "+19.0%"
+ },
+ "c1.value.cur": {
+  "label": "Plumbing | Emergency: Conv. value, current period",
+  "value": 62462.679999999986,
+  "shown": "62,462.68"
+ },
+ "c1.value.delta_ly": {
+  "label": "Plumbing | Emergency: Conv. value, difference vs same period last year",
+  "value": 18335.079999999994,
+  "shown": "+18,335.08"
+ },
+ "c1.value.delta_prev": {
+  "label": "Plumbing | Emergency: Conv. value, difference vs previous period",
+  "value": 9952.669999999976,
+  "shown": "+9,952.67"
+ },
+ "c1.value.ly": {
+  "label": "Plumbing | Emergency: Conv. value, same period last year",
+  "value": 44127.59999999999,
+  "shown": "44,127.60"
+ },
+ "c1.value.prev": {
+  "label": "Plumbing | Emergency: Conv. value, previous period",
+  "value": 52510.01000000001,
+  "shown": "52,510.01"
+ },
+ "c1.value.share_chg_prev": {
+  "label": "Plumbing | Emergency: Conv. value, share of the account's change vs previous period",
+  "value": -4.51237282602784,
+  "shown": "-451.2%"
+ },
+ "c1.value.share_cur": {
+  "label": "Plumbing | Emergency: Conv. value, share of the account total, current period",
+  "value": 0.47664756088403865,
+  "shown": "47.7%"
+ },
+ "c2.changes.cur": {
+  "label": "Plumbing | Water Heaters: changes made in the current period",
+  "value": 1,
+  "shown": "1"
+ },
+ "c2.clicks.chg_ly": {
+  "label": "Plumbing | Water Heaters: Clicks, change vs same period last year",
+  "value": 0.026726057906458798,
+  "shown": "+2.7%"
+ },
+ "c2.clicks.chg_prev": {
+  "label": "Plumbing | Water Heaters: Clicks, change vs previous period",
+  "value": -0.09251968503937008,
+  "shown": "-9.3%"
+ },
+ "c2.clicks.cur": {
+  "label": "Plumbing | Water Heaters: Clicks, current period",
+  "value": 461.0,
+  "shown": "461"
+ },
+ "c2.clicks.delta_ly": {
+  "label": "Plumbing | Water Heaters: Clicks, difference vs same period last year",
+  "value": 12.0,
+  "shown": "+12"
+ },
+ "c2.clicks.delta_prev": {
+  "label": "Plumbing | Water Heaters: Clicks, difference vs previous period",
+  "value": -47.0,
+  "shown": "-47"
+ },
+ "c2.clicks.ly": {
+  "label": "Plumbing | Water Heaters: Clicks, same period last year",
+  "value": 449.0,
+  "shown": "449"
+ },
+ "c2.clicks.prev": {
+  "label": "Plumbing | Water Heaters: Clicks, previous period",
+  "value": 508.0,
+  "shown": "508"
+ },
+ "c2.conv.chg_ly": {
+  "label": "Plumbing | Water Heaters: Conversions, change vs same period last year",
+  "value": -0.264349930843707,
+  "shown": "-26.4%"
+ },
+ "c2.conv.chg_prev": {
+  "label": "Plumbing | Water Heaters: Conversions, change vs previous period",
+  "value": -0.34102524392132594,
+  "shown": "-34.1%"
+ },
+ "c2.conv.cur": {
+  "label": "Plumbing | Water Heaters: Conversions, current period",
+  "value": 42.54999999999999,
+  "shown": "42.55"
+ },
+ "c2.conv.delta_ly": {
+  "label": "Plumbing | Water Heaters: Conversions, difference vs same period last year",
+  "value": -15.290000000000013,
+  "shown": "-15.29"
+ },
+ "c2.conv.delta_prev": {
+  "label": "Plumbing | Water Heaters: Conversions, difference vs previous period",
+  "value": -22.020000000000017,
+  "shown": "-22.02"
+ },
+ "c2.conv.ly": {
+  "label": "Plumbing | Water Heaters: Conversions, same period last year",
+  "value": 57.84,
+  "shown": "57.84"
+ },
+ "c2.conv.prev": {
+  "label": "Plumbing | Water Heaters: Conversions, previous period",
+  "value": 64.57000000000001,
+  "shown": "64.57"
+ },
+ "c2.conv.share_chg_prev": {
+  "label": "Plumbing | Water Heaters: Conversions, share of the account's change vs previous period",
+  "value": -3.5119617224879875,
+  "shown": "-351.2%"
+ },
+ "c2.conv.share_cur": {
+  "label": "Plumbing | Water Heaters: Conversions, share of the account total, current period",
+  "value": 0.10290454424532634,
+  "shown": "10.3%"
+ },
+ "c2.conv_per_day.chg_ly": {
+  "label": "Plumbing | Water Heaters: Conversions per day, change vs same period last year",
+  "value": -0.26434993084370695,
+  "shown": "-26.4%"
+ },
+ "c2.conv_per_day.chg_prev": {
+  "label": "Plumbing | Water Heaters: Conversions per day, change vs previous period",
+  "value": -0.3622824941174121,
+  "shown": "-36.2%"
+ },
+ "c2.conv_per_day.cur": {
+  "label": "Plumbing | Water Heaters: Conversions per day, current period",
+  "value": 1.37258064516129,
+  "shown": "1.37"
+ },
+ "c2.conv_per_day.ly": {
+  "label": "Plumbing | Water Heaters: Conversions per day, same period last year",
+  "value": 1.8658064516129034,
+  "shown": "1.87"
+ },
+ "c2.conv_per_day.prev": {
+  "label": "Plumbing | Water Heaters: Conversions per day, previous period",
+  "value": 2.1523333333333334,
+  "shown": "2.15"
+ },
+ "c2.cost.chg_ly": {
+  "label": "Plumbing | Water Heaters: Cost, change vs same period last year",
+  "value": 0.03836969892317473,
+  "shown": "+3.8%"
+ },
+ "c2.cost.chg_prev": {
+  "label": "Plumbing | Water Heaters: Cost, change vs previous period",
+  "value": -0.08854488449035455,
+  "shown": "-8.9%"
+ },
+ "c2.cost.cur": {
+  "label": "Plumbing | Water Heaters: Cost, current period",
+  "value": 3157.0799999999995,
+  "shown": "3,157.08"
+ },
+ "c2.cost.delta_ly": {
+  "label": "Plumbing | Water Heaters: Cost, difference vs same period last year",
+  "value": 116.65999999999894,
+  "shown": "+116.66"
+ },
+ "c2.cost.delta_prev": {
+  "label": "Plumbing | Water Heaters: Cost, difference vs previous period",
+  "value": -306.7000000000003,
+  "shown": "-306.70"
+ },
+ "c2.cost.ly": {
+  "label": "Plumbing | Water Heaters: Cost, same period last year",
+  "value": 3040.4200000000005,
+  "shown": "3,040.42"
+ },
+ "c2.cost.prev": {
+  "label": "Plumbing | Water Heaters: Cost, previous period",
+  "value": 3463.7799999999997,
+  "shown": "3,463.78"
+ },
+ "c2.cost.share_chg_prev": {
+  "label": "Plumbing | Water Heaters: Cost, share of the account's change vs previous period",
+  "value": 0.5457101170776841,
+  "shown": "54.6%"
+ },
+ "c2.cost.share_cur": {
+  "label": "Plumbing | Water Heaters: Cost, share of the account total, current period",
+  "value": 0.21888719102120727,
+  "shown": "21.9%"
+ },
+ "c2.cost_per_day.chg_ly": {
+  "label": "Plumbing | Water Heaters: Cost per day, change vs same period last year",
+  "value": 0.038369698923174815,
+  "shown": "+3.8%"
+ },
+ "c2.cost_per_day.chg_prev": {
+  "label": "Plumbing | Water Heaters: Cost per day, change vs previous period",
+  "value": -0.11794666241002044,
+  "shown": "-11.8%"
+ },
+ "c2.cost_per_day.cur": {
+  "label": "Plumbing | Water Heaters: Cost per day, current period",
+  "value": 101.84129032258063,
+  "shown": "101.84"
+ },
+ "c2.cost_per_day.ly": {
+  "label": "Plumbing | Water Heaters: Cost per day, same period last year",
+  "value": 98.07806451612905,
+  "shown": "98.08"
+ },
+ "c2.cost_per_day.prev": {
+  "label": "Plumbing | Water Heaters: Cost per day, previous period",
+  "value": 115.45933333333332,
+  "shown": "115.46"
+ },
+ "c2.cpa.chg_ly": {
+  "label": "Plumbing | Water Heaters: Cost / conv., change vs same period last year",
+  "value": 0.4114994920262386,
+  "shown": "+41.1%"
+ },
+ "c2.cpa.chg_prev": {
+  "label": "Plumbing | Water Heaters: Cost / conv., change vs previous period",
+  "value": 0.38314117058655306,
+  "shown": "+38.3%"
+ },
+ "c2.cpa.cur": {
+  "label": "Plumbing | Water Heaters: Cost / conv., current period",
+  "value": 74.19694477085783,
+  "shown": "74.20"
+ },
+ "c2.cpa.delta_ly": {
+  "label": "Plumbing | Water Heaters: Cost / conv., difference vs same period last year",
+  "value": 21.63090051083016,
+  "shown": "+21.63"
+ },
+ "c2.cpa.delta_prev": {
+  "label": "Plumbing | Water Heaters: Cost / conv., difference vs previous period",
+  "value": 20.553147341711174,
+  "shown": "+20.55"
+ },
+ "c2.cpa.ly": {
+  "label": "Plumbing | Water Heaters: Cost / conv., same period last year",
+  "value": 52.56604426002767,
+  "shown": "52.57"
+ },
+ "c2.cpa.prev": {
+  "label": "Plumbing | Water Heaters: Cost / conv., previous period",
+  "value": 53.64379742914665,
+  "shown": "53.64"
+ },
+ "c2.cpc.chg_ly": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, change vs same period last year",
+  "value": 0.011340552747300373,
+  "shown": "+1.1%"
+ },
+ "c2.cpc.chg_prev": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, change vs previous period",
+  "value": 0.004380040518221018,
+  "shown": "+0.4%"
+ },
+ "c2.cpc.cur": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, current period",
+  "value": 6.848329718004337,
+  "shown": "6.85"
+ },
+ "c2.cpc.delta_ly": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, difference vs same period last year",
+  "value": 0.07679296967471494,
+  "shown": "+0.08"
+ },
+ "c2.cpc.delta_prev": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, difference vs previous period",
+  "value": 0.029865151075203933,
+  "shown": "+0.03"
+ },
+ "c2.cpc.ly": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, same period last year",
+  "value": 6.7715367483296225,
+  "shown": "6.77"
+ },
+ "c2.cpc.prev": {
+  "label": "Plumbing | Water Heaters: Avg. CPC, previous period",
+  "value": 6.8184645669291335,
+  "shown": "6.82"
+ },
+ "c2.ctr.chg_ly": {
+  "label": "Plumbing | Water Heaters: CTR, change vs same period last year",
+  "value": 0.006107986393177724,
+  "shown": "+0.6%"
+ },
+ "c2.ctr.chg_prev": {
+  "label": "Plumbing | Water Heaters: CTR, change vs previous period",
+  "value": 0.010389225857858432,
+  "shown": "+1.0%"
+ },
+ "c2.ctr.cur": {
+  "label": "Plumbing | Water Heaters: CTR, current period",
+  "value": 0.06050662816642604,
+  "shown": "6.05%"
+ },
+ "c2.ctr.ly": {
+  "label": "Plumbing | Water Heaters: CTR, same period last year",
+  "value": 0.06013929815162068,
+  "shown": "6.01%"
+ },
+ "c2.ctr.pp_ly": {
+  "label": "Plumbing | Water Heaters: CTR, difference vs same period last year, in percentage points",
+  "value": 0.03673300148053574,
+  "shown": "+0.04 percentage points"
+ },
+ "c2.ctr.pp_prev": {
+  "label": "Plumbing | Water Heaters: CTR, difference vs previous period, in percentage points",
+  "value": 0.06221533344090632,
+  "shown": "+0.06 percentage points"
+ },
+ "c2.ctr.prev": {
+  "label": "Plumbing | Water Heaters: CTR, previous period",
+  "value": 0.059884474832016976,
+  "shown": "5.99%"
+ },
+ "c2.cvr.chg_ly": {
+  "label": "Plumbing | Water Heaters: Conv. rate, change vs same period last year",
+  "value": -0.28349917342478187,
+  "shown": "-28.3%"
+ },
+ "c2.cvr.chg_prev": {
+  "label": "Plumbing | Water Heaters: Conv. rate, change vs previous period",
+  "value": -0.2738412666204633,
+  "shown": "-27.4%"
+ },
+ "c2.cvr.cur": {
+  "label": "Plumbing | Water Heaters: Conv. rate, current period",
+  "value": 0.09229934924078088,
+  "shown": "9.23%"
+ },
+ "c2.cvr.ly": {
+  "label": "Plumbing | Water Heaters: Conv. rate, same period last year",
+  "value": 0.1288195991091314,
+  "shown": "12.88%"
+ },
+ "c2.cvr.pp_ly": {
+  "label": "Plumbing | Water Heaters: Conv. rate, difference vs same period last year, in percentage points",
+  "value": -3.6520249868350523,
+  "shown": "-3.65 percentage points"
+ },
+ "c2.cvr.pp_prev": {
+  "label": "Plumbing | Water Heaters: Conv. rate, difference vs previous period, in percentage points",
+  "value": -3.480694997181756,
+  "shown": "-3.48 percentage points"
+ },
+ "c2.cvr.prev": {
+  "label": "Plumbing | Water Heaters: Conv. rate, previous period",
+  "value": 0.12710629921259844,
+  "shown": "12.71%"
+ },
+ "c2.impr.chg_ly": {
+  "label": "Plumbing | Water Heaters: Impr., change vs same period last year",
+  "value": 0.02049290115188856,
+  "shown": "+2.0%"
+ },
+ "c2.impr.chg_prev": {
+  "label": "Plumbing | Water Heaters: Impr., change vs previous period",
+  "value": -0.10185076034421785,
+  "shown": "-10.2%"
+ },
+ "c2.impr.cur": {
+  "label": "Plumbing | Water Heaters: Impr., current period",
+  "value": 7619.0,
+  "shown": "7,619"
+ },
+ "c2.impr.delta_ly": {
+  "label": "Plumbing | Water Heaters: Impr., difference vs same period last year",
+  "value": 153.0,
+  "shown": "+153"
+ },
+ "c2.impr.delta_prev": {
+  "label": "Plumbing | Water Heaters: Impr., difference vs previous period",
+  "value": -864.0,
+  "shown": "-864"
+ },
+ "c2.impr.ly": {
+  "label": "Plumbing | Water Heaters: Impr., same period last year",
+  "value": 7466.0,
+  "shown": "7,466"
+ },
+ "c2.impr.prev": {
+  "label": "Plumbing | Water Heaters: Impr., previous period",
+  "value": 8483.0,
+  "shown": "8,483"
+ },
+ "c2.roas.chg_ly": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, change vs same period last year",
+  "value": -0.30171108335347796,
+  "shown": "-30.2%"
+ },
+ "c2.roas.chg_prev": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, change vs previous period",
+  "value": -0.2740357057949065,
+  "shown": "-27.4%"
+ },
+ "c2.roas.cur": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, current period",
+  "value": 7.017934293714445,
+  "shown": "7.02"
+ },
+ "c2.roas.delta_ly": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, difference vs same period last year",
+  "value": -3.032252851482598,
+  "shown": "-3.03"
+ },
+ "c2.roas.delta_prev": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, difference vs previous period",
+  "value": -2.6491173088700144,
+  "shown": "-2.65"
+ },
+ "c2.roas.ly": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, same period last year",
+  "value": 10.050187145197043,
+  "shown": "10.05"
+ },
+ "c2.roas.prev": {
+  "label": "Plumbing | Water Heaters: Conv. value / cost, previous period",
+  "value": 9.66705160258446,
+  "shown": "9.67"
+ },
+ "c2.value.chg_ly": {
+  "label": "Plumbing | Water Heaters: Conv. value, change vs same period last year",
+  "value": -0.27491794786036106,
+  "shown": "-27.5%"
+ },
+ "c2.value.chg_prev": {
+  "label": "Plumbing | Water Heaters: Conv. value, change vs previous period",
+  "value": -0.3383161303694182,
+  "shown": "-33.8%"
+ },
+ "c2.value.cur": {
+  "label": "Plumbing | Water Heaters: Conv. value, current period",
+  "value": 22156.179999999997,
+  "shown": "22,156.18"
+ },
+ "c2.value.delta_ly": {
+  "label": "Plumbing | Water Heaters: Conv. value, difference vs same period last year",
+  "value": -8400.61,
+  "shown": "-8,400.61"
+ },
+ "c2.value.delta_prev": {
+  "label": "Plumbing | Water Heaters: Conv. value, difference vs previous period",
+  "value": -11328.359999999997,
+  "shown": "-11,328.36"
+ },
+ "c2.value.ly": {
+  "label": "Plumbing | Water Heaters: Conv. value, same period last year",
+  "value": 30556.789999999997,
+  "shown": "30,556.79"
+ },
+ "c2.value.prev": {
+  "label": "Plumbing | Water Heaters: Conv. value, previous period",
+  "value": 33484.53999999999,
+  "shown": "33,484.54"
+ },
+ "c2.value.share_chg_prev": {
+  "label": "Plumbing | Water Heaters: Conv. value, share of the account's change vs previous period",
+  "value": 5.136087484811698,
+  "shown": "513.6%"
+ },
+ "c2.value.share_cur": {
+  "label": "Plumbing | Water Heaters: Conv. value, share of the account total, current period",
+  "value": 0.16907198275046348,
+  "shown": "16.9%"
+ },
+ "c3.changes.cur": {
+  "label": "Drain Cleaning | Search: changes made in the current period",
+  "value": 1,
+  "shown": "1"
+ },
+ "c3.clicks.chg_ly": {
+  "label": "Drain Cleaning | Search: Clicks, change vs same period last year",
+  "value": -0.30155210643015523,
+  "shown": "-30.2%"
+ },
+ "c3.clicks.chg_prev": {
+  "label": "Drain Cleaning | Search: Clicks, change vs previous period",
+  "value": -0.381139489194499,
+  "shown": "-38.1%"
+ },
+ "c3.clicks.cur": {
+  "label": "Drain Cleaning | Search: Clicks, current period",
+  "value": 315.0,
+  "shown": "315"
+ },
+ "c3.clicks.delta_ly": {
+  "label": "Drain Cleaning | Search: Clicks, difference vs same period last year",
+  "value": -136.0,
+  "shown": "-136"
+ },
+ "c3.clicks.delta_prev": {
+  "label": "Drain Cleaning | Search: Clicks, difference vs previous period",
+  "value": -194.0,
+  "shown": "-194"
+ },
+ "c3.clicks.ly": {
+  "label": "Drain Cleaning | Search: Clicks, same period last year",
+  "value": 451.0,
+  "shown": "451"
+ },
+ "c3.clicks.prev": {
+  "label": "Drain Cleaning | Search: Clicks, previous period",
+  "value": 509.0,
+  "shown": "509"
+ },
+ "c3.conv.chg_ly": {
+  "label": "Drain Cleaning | Search: Conversions, change vs same period last year",
+  "value": -0.2974457566602581,
+  "shown": "-29.7%"
+ },
+ "c3.conv.chg_prev": {
+  "label": "Drain Cleaning | Search: Conversions, change vs previous period",
+  "value": -0.3646299056135121,
+  "shown": "-36.5%"
+ },
+ "c3.conv.cur": {
+  "label": "Drain Cleaning | Search: Conversions, current period",
+  "value": 25.580000000000005,
+  "shown": "25.58"
+ },
+ "c3.conv.delta_ly": {
+  "label": "Drain Cleaning | Search: Conversions, difference vs same period last year",
+  "value": -10.829999999999998,
+  "shown": "-10.83"
+ },
+ "c3.conv.delta_prev": {
+  "label": "Drain Cleaning | Search: Conversions, difference vs previous period",
+  "value": -14.68,
+  "shown": "-14.68"
+ },
+ "c3.conv.ly": {
+  "label": "Drain Cleaning | Search: Conversions, same period last year",
+  "value": 36.410000000000004,
+  "shown": "36.41"
+ },
+ "c3.conv.prev": {
+  "label": "Drain Cleaning | Search: Conversions, previous period",
+  "value": 40.260000000000005,
+  "shown": "40.26"
+ },
+ "c3.conv.share_chg_prev": {
+  "label": "Drain Cleaning | Search: Conversions, share of the account's change vs previous period",
+  "value": -2.34130781499199,
+  "shown": "-234.1%"
+ },
+ "c3.conv.share_cur": {
+  "label": "Drain Cleaning | Search: Conversions, share of the account total, current period",
+  "value": 0.06186364845582724,
+  "shown": "6.2%"
+ },
+ "c3.conv_per_day.chg_ly": {
+  "label": "Drain Cleaning | Search: Conversions per day, change vs same period last year",
+  "value": -0.2974457566602581,
+  "shown": "-29.7%"
+ },
+ "c3.conv_per_day.chg_prev": {
+  "label": "Drain Cleaning | Search: Conversions per day, change vs previous period",
+  "value": -0.38512571510985044,
+  "shown": "-38.5%"
+ },
+ "c3.conv_per_day.cur": {
+  "label": "Drain Cleaning | Search: Conversions per day, current period",
+  "value": 0.8251612903225808,
+  "shown": "0.83"
+ },
+ "c3.conv_per_day.ly": {
+  "label": "Drain Cleaning | Search: Conversions per day, same period last year",
+  "value": 1.174516129032258,
+  "shown": "1.17"
+ },
+ "c3.conv_per_day.prev": {
+  "label": "Drain Cleaning | Search: Conversions per day, previous period",
+  "value": 1.342,
+  "shown": "1.34"
+ },
+ "c3.cost.chg_ly": {
+  "label": "Drain Cleaning | Search: Cost, change vs same period last year",
+  "value": -0.30434769570328446,
+  "shown": "-30.4%"
+ },
+ "c3.cost.chg_prev": {
+  "label": "Drain Cleaning | Search: Cost, change vs previous period",
+  "value": -0.3781214563177071,
+  "shown": "-37.8%"
+ },
+ "c3.cost.cur": {
+  "label": "Drain Cleaning | Search: Cost, current period",
+  "value": 2319.75,
+  "shown": "2,319.75"
+ },
+ "c3.cost.delta_ly": {
+  "label": "Drain Cleaning | Search: Cost, difference vs same period last year",
+  "value": -1014.8900000000008,
+  "shown": "-1,014.89"
+ },
+ "c3.cost.delta_prev": {
+  "label": "Drain Cleaning | Search: Cost, difference vs previous period",
+  "value": -1410.480000000001,
+  "shown": "-1,410.48"
+ },
+ "c3.cost.ly": {
+  "label": "Drain Cleaning | Search: Cost, same period last year",
+  "value": 3334.640000000001,
+  "shown": "3,334.64"
+ },
+ "c3.cost.prev": {
+  "label": "Drain Cleaning | Search: Cost, previous period",
+  "value": 3730.230000000001,
+  "shown": "3,730.23"
+ },
+ "c3.cost.share_chg_prev": {
+  "label": "Drain Cleaning | Search: Cost, share of the account's change vs previous period",
+  "value": 2.5096615778797906,
+  "shown": "251.0%"
+ },
+ "c3.cost.share_cur": {
+  "label": "Drain Cleaning | Search: Cost, share of the account total, current period",
+  "value": 0.16083328942296224,
+  "shown": "16.1%"
+ },
+ "c3.cost_per_day.chg_ly": {
+  "label": "Drain Cleaning | Search: Cost per day, change vs same period last year",
+  "value": -0.30434769570328446,
+  "shown": "-30.4%"
+ },
+ "c3.cost_per_day.chg_prev": {
+  "label": "Drain Cleaning | Search: Cost per day, change vs previous period",
+  "value": -0.3981820545010069,
+  "shown": "-39.8%"
+ },
+ "c3.cost_per_day.cur": {
+  "label": "Drain Cleaning | Search: Cost per day, current period",
+  "value": 74.83064516129032,
+  "shown": "74.83"
+ },
+ "c3.cost_per_day.ly": {
+  "label": "Drain Cleaning | Search: Cost per day, same period last year",
+  "value": 107.56903225806454,
+  "shown": "107.57"
+ },
+ "c3.cost_per_day.prev": {
+  "label": "Drain Cleaning | Search: Cost per day, previous period",
+  "value": 124.34100000000004,
+  "shown": "124.34"
+ },
+ "c3.cpa.chg_ly": {
+  "label": "Drain Cleaning | Search: Cost / conv., change vs same period last year",
+  "value": -0.009824065698068521,
+  "shown": "-1.0%"
+ },
+ "c3.cpa.chg_prev": {
+  "label": "Drain Cleaning | Search: Cost / conv., change vs previous period",
+  "value": -0.021234160725210765,
+  "shown": "-2.1%"
+ },
+ "c3.cpa.cur": {
+  "label": "Drain Cleaning | Search: Cost / conv., current period",
+  "value": 90.68608287724783,
+  "shown": "90.69"
+ },
+ "c3.cpa.delta_ly": {
+  "label": "Drain Cleaning | Search: Cost / conv., difference vs same period last year",
+  "value": -0.8997451919639445,
+  "shown": "-0.90"
+ },
+ "c3.cpa.delta_prev": {
+  "label": "Drain Cleaning | Search: Cost / conv., difference vs previous period",
+  "value": -1.9674193582216333,
+  "shown": "-1.97"
+ },
+ "c3.cpa.ly": {
+  "label": "Drain Cleaning | Search: Cost / conv., same period last year",
+  "value": 91.58582806921177,
+  "shown": "91.59"
+ },
+ "c3.cpa.prev": {
+  "label": "Drain Cleaning | Search: Cost / conv., previous period",
+  "value": 92.65350223546946,
+  "shown": "92.65"
+ },
+ "c3.cpc.chg_ly": {
+  "label": "Drain Cleaning | Search: Avg. CPC, change vs same period last year",
+  "value": -0.004002573848194619,
+  "shown": "-0.4%"
+ },
+ "c3.cpc.chg_prev": {
+  "label": "Drain Cleaning | Search: Avg. CPC, change vs previous period",
+  "value": 0.004876757886625653,
+  "shown": "+0.5%"
+ },
+ "c3.cpc.cur": {
+  "label": "Drain Cleaning | Search: Avg. CPC, current period",
+  "value": 7.364285714285714,
+  "shown": "7.36"
+ },
+ "c3.cpc.delta_ly": {
+  "label": "Drain Cleaning | Search: Avg. CPC, difference vs same period last year",
+  "value": -0.029594551789675627,
+  "shown": "-0.03"
+ },
+ "c3.cpc.delta_prev": {
+  "label": "Drain Cleaning | Search: Avg. CPC, difference vs previous period",
+  "value": 0.03573954532696977,
+  "shown": "+0.04"
+ },
+ "c3.cpc.ly": {
+  "label": "Drain Cleaning | Search: Avg. CPC, same period last year",
+  "value": 7.3938802660753895,
+  "shown": "7.39"
+ },
+ "c3.cpc.prev": {
+  "label": "Drain Cleaning | Search: Avg. CPC, previous period",
+  "value": 7.328546168958744,
+  "shown": "7.33"
+ },
+ "c3.ctr.chg_ly": {
+  "label": "Drain Cleaning | Search: CTR, change vs same period last year",
+  "value": 0.005941447696312707,
+  "shown": "+0.6%"
+ },
+ "c3.ctr.chg_prev": {
+  "label": "Drain Cleaning | Search: CTR, change vs previous period",
+  "value": 0.024339568069536882,
+  "shown": "+2.4%"
+ },
+ "c3.ctr.cur": {
+  "label": "Drain Cleaning | Search: CTR, current period",
+  "value": 0.05527285488682225,
+  "shown": "5.53%"
+ },
+ "c3.ctr.ly": {
+  "label": "Drain Cleaning | Search: CTR, same period last year",
+  "value": 0.054946393762183236,
+  "shown": "5.49%"
+ },
+ "c3.ctr.pp_ly": {
+  "label": "Drain Cleaning | Search: CTR, difference vs same period last year, in percentage points",
+  "value": 0.03264611246390145,
+  "shown": "+0.03 percentage points"
+ },
+ "c3.ctr.pp_prev": {
+  "label": "Drain Cleaning | Search: CTR, difference vs previous period, in percentage points",
+  "value": 0.13133510174275706,
+  "shown": "+0.13 percentage points"
+ },
+ "c3.ctr.prev": {
+  "label": "Drain Cleaning | Search: CTR, previous period",
+  "value": 0.05395950386939468,
+  "shown": "5.40%"
+ },
+ "c3.cvr.chg_ly": {
+  "label": "Drain Cleaning | Search: Conv. rate, change vs same period last year",
+  "value": 0.005879249988011538,
+  "shown": "+0.6%"
+ },
+ "c3.cvr.chg_prev": {
+  "label": "Drain Cleaning | Search: Conv. rate, change vs previous period",
+  "value": 0.026677390611816995,
+  "shown": "+2.7%"
+ },
+ "c3.cvr.cur": {
+  "label": "Drain Cleaning | Search: Conv. rate, current period",
+  "value": 0.08120634920634923,
+  "shown": "8.12%"
+ },
+ "c3.cvr.ly": {
+  "label": "Drain Cleaning | Search: Conv. rate, same period last year",
+  "value": 0.08073170731707317,
+  "shown": "8.07%"
+ },
+ "c3.cvr.pp_ly": {
+  "label": "Drain Cleaning | Search: Conv. rate, difference vs same period last year, in percentage points",
+  "value": 0.047464188927605344,
+  "shown": "+0.05 percentage points"
+ },
+ "c3.cvr.pp_prev": {
+  "label": "Drain Cleaning | Search: Conv. rate, difference vs previous period, in percentage points",
+  "value": 0.21100820157794742,
+  "shown": "+0.21 percentage points"
+ },
+ "c3.cvr.prev": {
+  "label": "Drain Cleaning | Search: Conv. rate, previous period",
+  "value": 0.07909626719056975,
+  "shown": "7.91%"
+ },
+ "c3.impr.chg_ly": {
+  "label": "Drain Cleaning | Search: Impr., change vs same period last year",
+  "value": -0.30567738791423,
+  "shown": "-30.6%"
+ },
+ "c3.impr.chg_prev": {
+  "label": "Drain Cleaning | Search: Impr., change vs previous period",
+  "value": -0.3958443761263649,
+  "shown": "-39.6%"
+ },
+ "c3.impr.cur": {
+  "label": "Drain Cleaning | Search: Impr., current period",
+  "value": 5699.0,
+  "shown": "5,699"
+ },
+ "c3.impr.delta_ly": {
+  "label": "Drain Cleaning | Search: Impr., difference vs same period last year",
+  "value": -2509.0,
+  "shown": "-2,509"
+ },
+ "c3.impr.delta_prev": {
+  "label": "Drain Cleaning | Search: Impr., difference vs previous period",
+  "value": -3734.0,
+  "shown": "-3,734"
+ },
+ "c3.impr.ly": {
+  "label": "Drain Cleaning | Search: Impr., same period last year",
+  "value": 8208.0,
+  "shown": "8,208"
+ },
+ "c3.impr.prev": {
+  "label": "Drain Cleaning | Search: Impr., previous period",
+  "value": 9433.0,
+  "shown": "9,433"
+ },
+ "c3.last_cost_day": {
+  "label": "Drain Cleaning | Search: last day with cost in the file",
+  "value": "2026-10-19",
+  "shown": "October 19, 2026"
+ },
+ "c3.roas.chg_ly": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, change vs same period last year",
+  "value": 0.011155858006552074,
+  "shown": "+1.1%"
+ },
+ "c3.roas.chg_prev": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, change vs previous period",
+  "value": 0.025954972728792724,
+  "shown": "+2.6%"
+ },
+ "c3.roas.cur": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, current period",
+  "value": 2.3133225563099473,
+  "shown": "2.31"
+ },
+ "c3.roas.delta_ly": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, difference vs same period last year",
+  "value": 0.025522373981420987,
+  "shown": "+0.03"
+ },
+ "c3.roas.delta_prev": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, difference vs previous period",
+  "value": 0.05852325439022721,
+  "shown": "+0.06"
+ },
+ "c3.roas.ly": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, same period last year",
+  "value": 2.2878001823285263,
+  "shown": "2.29"
+ },
+ "c3.roas.prev": {
+  "label": "Drain Cleaning | Search: Conv. value / cost, previous period",
+  "value": 2.25479930191972,
+  "shown": "2.25"
+ },
+ "c3.value.chg_ly": {
+  "label": "Drain Cleaning | Search: Conv. value, change vs same period last year",
+  "value": -0.29658709737461963,
+  "shown": "-29.7%"
+ },
+ "c3.value.chg_prev": {
+  "label": "Drain Cleaning | Search: Conv. value, change vs previous period",
+  "value": -0.3619806156758119,
+  "shown": "-36.2%"
+ },
+ "c3.value.cur": {
+  "label": "Drain Cleaning | Search: Conv. value, current period",
+  "value": 5366.33,
+  "shown": "5,366.33"
+ },
+ "c3.value.delta_ly": {
+  "label": "Drain Cleaning | Search: Conv. value, difference vs same period last year",
+  "value": -2262.659999999999,
+  "shown": "-2,262.66"
+ },
+ "c3.value.delta_prev": {
+  "label": "Drain Cleaning | Search: Conv. value, difference vs previous period",
+  "value": -3044.59,
+  "shown": "-3,044.59"
+ },
+ "c3.value.ly": {
+  "label": "Drain Cleaning | Search: Conv. value, same period last year",
+  "value": 7628.989999999999,
+  "shown": "7,628.99"
+ },
+ "c3.value.prev": {
+  "label": "Drain Cleaning | Search: Conv. value, previous period",
+  "value": 8410.92,
+  "shown": "8,410.92"
+ },
+ "c3.value.share_chg_prev": {
+  "label": "Drain Cleaning | Search: Conv. value, share of the account's change vs previous period",
+  "value": 1.3803657895214183,
+  "shown": "138.0%"
+ },
+ "c3.value.share_cur": {
+  "label": "Drain Cleaning | Search: Conv. value, share of the account total, current period",
+  "value": 0.040950021763376844,
+  "shown": "4.1%"
+ },
+ "c4.changes.cur": {
+  "label": "Brand: changes made in the current period",
+  "value": 1,
+  "shown": "1"
+ },
+ "c4.clicks.chg_ly": {
+  "label": "Brand: Clicks, change vs same period last year",
+  "value": 0.17404129793510326,
+  "shown": "+17.4%"
+ },
+ "c4.clicks.chg_prev": {
+  "label": "Brand: Clicks, change vs previous period",
+  "value": 0.041884816753926704,
+  "shown": "+4.2%"
+ },
+ "c4.clicks.cur": {
+  "label": "Brand: Clicks, current period",
+  "value": 398.0,
+  "shown": "398"
+ },
+ "c4.clicks.delta_ly": {
+  "label": "Brand: Clicks, difference vs same period last year",
+  "value": 59.0,
+  "shown": "+59"
+ },
+ "c4.clicks.delta_prev": {
+  "label": "Brand: Clicks, difference vs previous period",
+  "value": 16.0,
+  "shown": "+16"
+ },
+ "c4.clicks.ly": {
+  "label": "Brand: Clicks, same period last year",
+  "value": 339.0,
+  "shown": "339"
+ },
+ "c4.clicks.prev": {
+  "label": "Brand: Clicks, previous period",
+  "value": 382.0,
+  "shown": "382"
+ },
+ "c4.conv.chg_ly": {
+  "label": "Brand: Conversions, change vs same period last year",
+  "value": 0.2530032763014196,
+  "shown": "+25.3%"
+ },
+ "c4.conv.chg_prev": {
+  "label": "Brand: Conversions, change vs previous period",
+  "value": 0.07344456572586948,
+  "shown": "+7.3%"
+ },
+ "c4.conv.cur": {
+  "label": "Brand: Conversions, current period",
+  "value": 137.67999999999998,
+  "shown": "137.68"
+ },
+ "c4.conv.delta_ly": {
+  "label": "Brand: Conversions, difference vs same period last year",
+  "value": 27.799999999999983,
+  "shown": "+27.80"
+ },
+ "c4.conv.delta_prev": {
+  "label": "Brand: Conversions, difference vs previous period",
+  "value": 9.420000000000016,
+  "shown": "+9.42"
+ },
+ "c4.conv.ly": {
+  "label": "Brand: Conversions, same period last year",
+  "value": 109.88,
+  "shown": "109.88"
+ },
+ "c4.conv.prev": {
+  "label": "Brand: Conversions, previous period",
+  "value": 128.25999999999996,
+  "shown": "128.26"
+ },
+ "c4.conv.share_chg_prev": {
+  "label": "Brand: Conversions, share of the account's change vs previous period",
+  "value": 1.5023923444975873,
+  "shown": "150.2%"
+ },
+ "c4.conv.share_cur": {
+  "label": "Brand: Conversions, share of the account total, current period",
+  "value": 0.33297056760743904,
+  "shown": "33.3%"
+ },
+ "c4.conv_per_day.chg_ly": {
+  "label": "Brand: Conversions per day, change vs same period last year",
+  "value": 0.25300327630141956,
+  "shown": "+25.3%"
+ },
+ "c4.conv_per_day.chg_prev": {
+  "label": "Brand: Conversions per day, change vs previous period",
+  "value": 0.038817321670196185,
+  "shown": "+3.9%"
+ },
+ "c4.conv_per_day.cur": {
+  "label": "Brand: Conversions per day, current period",
+  "value": 4.441290322580644,
+  "shown": "4.44"
+ },
+ "c4.conv_per_day.ly": {
+  "label": "Brand: Conversions per day, same period last year",
+  "value": 3.544516129032258,
+  "shown": "3.54"
+ },
+ "c4.conv_per_day.prev": {
+  "label": "Brand: Conversions per day, previous period",
+  "value": 4.275333333333332,
+  "shown": "4.28"
+ },
+ "c4.cost.chg_ly": {
+  "label": "Brand: Cost, change vs same period last year",
+  "value": 0.16139124033860877,
+  "shown": "+16.1%"
+ },
+ "c4.cost.chg_prev": {
+  "label": "Brand: Cost, change vs previous period",
+  "value": 0.03787961846288788,
+  "shown": "+3.8%"
+ },
+ "c4.cost.cur": {
+  "label": "Brand: Cost, current period",
+  "value": 567.99,
+  "shown": "567.99"
+ },
+ "c4.cost.delta_ly": {
+  "label": "Brand: Cost, difference vs same period last year",
+  "value": 78.93,
+  "shown": "+78.93"
+ },
+ "c4.cost.delta_prev": {
+  "label": "Brand: Cost, difference vs previous period",
+  "value": 20.730000000000018,
+  "shown": "+20.73"
+ },
+ "c4.cost.ly": {
+  "label": "Brand: Cost, same period last year",
+  "value": 489.06,
+  "shown": "489.06"
+ },
+ "c4.cost.prev": {
+  "label": "Brand: Cost, previous period",
+  "value": 547.26,
+  "shown": "547.26"
+ },
+ "c4.cost.share_chg_prev": {
+  "label": "Brand: Cost, share of the account's change vs previous period",
+  "value": -0.03688480836980891,
+  "shown": "-3.7%"
+ },
+ "c4.cost.share_cur": {
+  "label": "Brand: Cost, share of the account total, current period",
+  "value": 0.039379976316132485,
+  "shown": "3.9%"
+ },
+ "c4.cost_per_day.chg_ly": {
+  "label": "Brand: Cost per day, change vs same period last year",
+  "value": 0.1613912403386089,
+  "shown": "+16.1%"
+ },
+ "c4.cost_per_day.chg_prev": {
+  "label": "Brand: Cost per day, change vs previous period",
+  "value": 0.00439963077053667,
+  "shown": "+0.4%"
+ },
+ "c4.cost_per_day.cur": {
+  "label": "Brand: Cost per day, current period",
+  "value": 18.32225806451613,
+  "shown": "18.32"
+ },
+ "c4.cost_per_day.ly": {
+  "label": "Brand: Cost per day, same period last year",
+  "value": 15.776129032258064,
+  "shown": "15.78"
+ },
+ "c4.cost_per_day.prev": {
+  "label": "Brand: Cost per day, previous period",
+  "value": 18.242,
+  "shown": "18.24"
+ },
+ "c4.cpa.chg_ly": {
+  "label": "Brand: Cost / conv., change vs same period last year",
+  "value": -0.0731139636228475,
+  "shown": "-7.3%"
+ },
+ "c4.cpa.chg_prev": {
+  "label": "Brand: Cost / conv., change vs previous period",
+  "value": -0.03313161051677827,
+  "shown": "-3.3%"
+ },
+ "c4.cpa.cur": {
+  "label": "Brand: Cost / conv., current period",
+  "value": 4.125435793143522,
+  "shown": "4.13"
+ },
+ "c4.cpa.delta_ly": {
+  "label": "Brand: Cost / conv., difference vs same period last year",
+  "value": -0.3254196855605187,
+  "shown": "-0.33"
+ },
+ "c4.cpa.delta_prev": {
+  "label": "Brand: Cost / conv., difference vs previous period",
+  "value": -0.14136601568230223,
+  "shown": "-0.14"
+ },
+ "c4.cpa.ly": {
+  "label": "Brand: Cost / conv., same period last year",
+  "value": 4.450855478704041,
+  "shown": "4.45"
+ },
+ "c4.cpa.prev": {
+  "label": "Brand: Cost / conv., previous period",
+  "value": 4.266801808825824,
+  "shown": "4.27"
+ },
+ "c4.cpc.chg_ly": {
+  "label": "Brand: Avg. CPC, change vs same period last year",
+  "value": -0.010774797802039384,
+  "shown": "-1.1%"
+ },
+ "c4.cpc.chg_prev": {
+  "label": "Brand: Avg. CPC, change vs previous period",
+  "value": -0.0038441852944142377,
+  "shown": "-0.4%"
+ },
+ "c4.cpc.cur": {
+  "label": "Brand: Avg. CPC, current period",
+  "value": 1.427110552763819,
+  "shown": "1.43"
+ },
+ "c4.cpc.delta_ly": {
+  "label": "Brand: Avg. CPC, difference vs same period last year",
+  "value": -0.015544314492818234,
+  "shown": "-0.02"
+ },
+ "c4.cpc.delta_prev": {
+  "label": "Brand: Avg. CPC, difference vs previous period",
+  "value": -0.0055072482833014025,
+  "shown": "-0.01"
+ },
+ "c4.cpc.ly": {
+  "label": "Brand: Avg. CPC, same period last year",
+  "value": 1.4426548672566373,
+  "shown": "1.44"
+ },
+ "c4.cpc.prev": {
+  "label": "Brand: Avg. CPC, previous period",
+  "value": 1.4326178010471204,
+  "shown": "1.43"
+ },
+ "c4.ctr.chg_ly": {
+  "label": "Brand: CTR, change vs same period last year",
+  "value": -0.018410082489887507,
+  "shown": "-1.8%"
+ },
+ "c4.ctr.chg_prev": {
+  "label": "Brand: CTR, change vs previous period",
+  "value": -0.005686271436185299,
+  "shown": "-0.6%"
+ },
+ "c4.ctr.cur": {
+  "label": "Brand: CTR, current period",
+  "value": 0.29790419161676646,
+  "shown": "29.79%"
+ },
+ "c4.ctr.ly": {
+  "label": "Brand: CTR, same period last year",
+  "value": 0.3034914950760967,
+  "shown": "30.35%"
+ },
+ "c4.ctr.pp_ly": {
+  "label": "Brand: CTR, difference vs same period last year, in percentage points",
+  "value": -0.5587303459330228,
+  "shown": "-0.56 percentage points"
+ },
+ "c4.ctr.pp_prev": {
+  "label": "Brand: CTR, difference vs previous period, in percentage points",
+  "value": -0.17036515204884584,
+  "shown": "-0.17 percentage points"
+ },
+ "c4.ctr.prev": {
+  "label": "Brand: CTR, previous period",
+  "value": 0.2996078431372549,
+  "shown": "29.96%"
+ },
+ "c4.cvr.chg_ly": {
+  "label": "Brand: Conv. rate, change vs same period last year",
+  "value": 0.06725655946276701,
+  "shown": "+6.7%"
+ },
+ "c4.cvr.chg_prev": {
+  "label": "Brand: Conv. rate, change vs previous period",
+  "value": 0.030291015344930027,
+  "shown": "+3.0%"
+ },
+ "c4.cvr.cur": {
+  "label": "Brand: Conv. rate, current period",
+  "value": 0.345929648241206,
+  "shown": "34.59%"
+ },
+ "c4.cvr.ly": {
+  "label": "Brand: Conv. rate, same period last year",
+  "value": 0.32412979351032445,
+  "shown": "32.41%"
+ },
+ "c4.cvr.pp_ly": {
+  "label": "Brand: Conv. rate, difference vs same period last year, in percentage points",
+  "value": 2.179985473088153,
+  "shown": "+2.18 percentage points"
+ },
+ "c4.cvr.pp_prev": {
+  "label": "Brand: Conv. rate, difference vs previous period, in percentage points",
+  "value": 1.0170485937541163,
+  "shown": "+1.02 percentage points"
+ },
+ "c4.cvr.prev": {
+  "label": "Brand: Conv. rate, previous period",
+  "value": 0.3357591623036648,
+  "shown": "33.58%"
+ },
+ "c4.impr.chg_ly": {
+  "label": "Brand: Impr., change vs same period last year",
+  "value": 0.19606087735004477,
+  "shown": "+19.6%"
+ },
+ "c4.impr.chg_prev": {
+  "label": "Brand: Impr., change vs previous period",
+  "value": 0.04784313725490196,
+  "shown": "+4.8%"
+ },
+ "c4.impr.cur": {
+  "label": "Brand: Impr., current period",
+  "value": 1336.0,
+  "shown": "1,336"
+ },
+ "c4.impr.delta_ly": {
+  "label": "Brand: Impr., difference vs same period last year",
+  "value": 219.0,
+  "shown": "+219"
+ },
+ "c4.impr.delta_prev": {
+  "label": "Brand: Impr., difference vs previous period",
+  "value": 61.0,
+  "shown": "+61"
+ },
+ "c4.impr.ly": {
+  "label": "Brand: Impr., same period last year",
+  "value": 1117.0,
+  "shown": "1,117"
+ },
+ "c4.impr.prev": {
+  "label": "Brand: Impr., previous period",
+  "value": 1275.0,
+  "shown": "1,275"
+ },
+ "c4.roas.chg_ly": {
+  "label": "Brand: Conv. value / cost, change vs same period last year",
+  "value": 0.09227690306108886,
+  "shown": "+9.2%"
+ },
+ "c4.roas.chg_prev": {
+  "label": "Brand: Conv. value / cost, change vs previous period",
+  "value": 0.018432896223561035,
+  "shown": "+1.8%"
+ },
+ "c4.roas.cur": {
+  "label": "Brand: Conv. value / cost, current period",
+  "value": 72.29114949206851,
+  "shown": "72.29"
+ },
+ "c4.roas.delta_ly": {
+  "label": "Brand: Conv. value / cost, difference vs same period last year",
+  "value": 6.107245676585734,
+  "shown": "+6.11"
+ },
+ "c4.roas.delta_prev": {
+  "label": "Brand: Conv. value / cost, difference vs previous period",
+  "value": 1.3084173355067321,
+  "shown": "+1.31"
+ },
+ "c4.roas.ly": {
+  "label": "Brand: Conv. value / cost, same period last year",
+  "value": 66.18390381548278,
+  "shown": "66.18"
+ },
+ "c4.roas.prev": {
+  "label": "Brand: Conv. value / cost, previous period",
+  "value": 70.98273215656178,
+  "shown": "70.98"
+ },
+ "c4.value.chg_ly": {
+  "label": "Brand: Conv. value, change vs same period last year",
+  "value": 0.2685608272393324,
+  "shown": "+26.9%"
+ },
+ "c4.value.chg_prev": {
+  "label": "Brand: Conv. value, change vs previous period",
+  "value": 0.05701074576256331,
+  "shown": "+5.7%"
+ },
+ "c4.value.cur": {
+  "label": "Brand: Conv. value, current period",
+  "value": 41060.649999999994,
+  "shown": "41,060.65"
+ },
+ "c4.value.delta_ly": {
+  "label": "Brand: Conv. value, difference vs same period last year",
+  "value": 8692.749999999989,
+  "shown": "+8,692.75"
+ },
+ "c4.value.delta_prev": {
+  "label": "Brand: Conv. value, difference vs previous period",
+  "value": 2214.639999999992,
+  "shown": "+2,214.64"
+ },
+ "c4.value.ly": {
+  "label": "Brand: Conv. value, same period last year",
+  "value": 32367.900000000005,
+  "shown": "32,367.90"
+ },
+ "c4.value.prev": {
+  "label": "Brand: Conv. value, previous period",
+  "value": 38846.01,
+  "shown": "38,846.01"
+ },
+ "c4.value.share_chg_prev": {
+  "label": "Brand: Conv. value, share of the account's change vs previous period",
+  "value": -1.0040804483052572,
+  "shown": "-100.4%"
+ },
+ "c4.value.share_cur": {
+  "label": "Brand: Conv. value, share of the account total, current period",
+  "value": 0.31333043460212084,
+  "shown": "31.3%"
+ },
+ "chg1.date": {
+  "label": "Date of change 1",
+  "value": "2026-10-01",
+  "shown": "October 1, 2026"
+ },
+ "chg1.n1": {
+  "label": "Number in change 1: Budget changed from 200.00 to 240.00",
+  "value": 200.0,
+  "shown": "200.00"
+ },
+ "chg1.n2": {
+  "label": "Number in change 1: Budget changed from 200.00 to 240.00",
+  "value": 240.0,
+  "shown": "240.00"
+ },
+ "chg2.date": {
+  "label": "Date of change 2",
+  "value": "2026-10-06",
+  "shown": "October 6, 2026"
+ },
+ "chg2.n1": {
+  "label": "Number in change 2: Bid strategy changed from Maximize conversions to Target CPA; Target CPA set to ",
+  "value": 45.0,
+  "shown": "45.00"
+ },
+ "chg3.date": {
+  "label": "Date of change 3",
+  "value": "2026-10-14",
+  "shown": "October 14, 2026"
+ },
+ "chg3.n1": {
+  "label": "Number in change 3: 6 keywords added (broad match)",
+  "value": 6.0,
+  "shown": "6"
+ },
+ "chg4.date": {
+  "label": "Date of change 4",
+  "value": "2026-10-20",
+  "shown": "October 20, 2026"
+ },
+ "chg5.date": {
+  "label": "Date of change 5",
+  "value": "2026-10-27",
+  "shown": "October 27, 2026"
+ },
+ "count.campaigns": {
+  "label": "Campaigns with activity in the periods compared",
+  "value": 4,
+  "shown": "4"
+ },
+ "count.campaigns_paused": {
+  "label": "Campaigns paused or removed on the day of download",
+  "value": 1,
+  "shown": "1"
+ },
+ "count.changes.cur": {
+  "label": "Changes made in the current period",
+  "value": 5,
+  "shown": "5"
+ },
+ "count.changes.system": {
+  "label": "Changes made by Google's systems in the current period",
+  "value": 1,
+  "shown": "1"
+ },
+ "count.changes.team": {
+  "label": "Changes made by people in the current period",
+  "value": 4,
+  "shown": "4"
+ },
+ "file.first_day": {
+  "label": "First day in the report",
+  "value": "2025-07-01",
+  "shown": "July 1, 2025"
+ },
+ "file.last_day": {
+  "label": "Last day in the report",
+  "value": "2026-11-12",
+  "shown": "November 12, 2026"
+ },
+ "nb.clicks.chg_ly": {
+  "label": "Account without brand: Clicks, change vs same period last year",
+  "value": 0.06307977736549165,
+  "shown": "+6.3%"
+ },
+ "nb.clicks.chg_prev": {
+  "label": "Account without brand: Clicks, change vs previous period",
+  "value": -0.05859802847754655,
+  "shown": "-5.9%"
+ },
+ "nb.clicks.cur": {
+  "label": "Account without brand: Clicks, current period",
+  "value": 1719.0,
+  "shown": "1,719"
+ },
+ "nb.clicks.delta_ly": {
+  "label": "Account without brand: Clicks, difference vs same period last year",
+  "value": 102.0,
+  "shown": "+102"
+ },
+ "nb.clicks.delta_prev": {
+  "label": "Account without brand: Clicks, difference vs previous period",
+  "value": -107.0,
+  "shown": "-107"
+ },
+ "nb.clicks.ly": {
+  "label": "Account without brand: Clicks, same period last year",
+  "value": 1617.0,
+  "shown": "1,617"
+ },
+ "nb.clicks.prev": {
+  "label": "Account without brand: Clicks, previous period",
+  "value": 1826.0,
+  "shown": "1,826"
+ },
+ "nb.conv.chg_ly": {
+  "label": "Account without brand: Conversions, change vs same period last year",
+  "value": 0.13895771390815964,
+  "shown": "+13.9%"
+ },
+ "nb.conv.chg_prev": {
+  "label": "Account without brand: Conversions, change vs previous period",
+  "value": -0.011291941496988936,
+  "shown": "-1.1%"
+ },
+ "nb.conv.cur": {
+  "label": "Account without brand: Conversions, current period",
+  "value": 275.81,
+  "shown": "275.81"
+ },
+ "nb.conv.delta_ly": {
+  "label": "Account without brand: Conversions, difference vs same period last year",
+  "value": 33.64999999999995,
+  "shown": "+33.65"
+ },
+ "nb.conv.delta_prev": {
+  "label": "Account without brand: Conversions, difference vs previous period",
+  "value": -3.150000000000034,
+  "shown": "-3.15"
+ },
+ "nb.conv.ly": {
+  "label": "Account without brand: Conversions, same period last year",
+  "value": 242.16000000000005,
+  "shown": "242.16"
+ },
+ "nb.conv.prev": {
+  "label": "Account without brand: Conversions, previous period",
+  "value": 278.96000000000004,
+  "shown": "278.96"
+ },
+ "nb.conv_per_day.chg_ly": {
+  "label": "Account without brand: Conversions per day, change vs same period last year",
+  "value": 0.13895771390815959,
+  "shown": "+13.9%"
+ },
+ "nb.conv_per_day.chg_prev": {
+  "label": "Account without brand: Conversions per day, change vs previous period",
+  "value": -0.043185749835795775,
+  "shown": "-4.3%"
+ },
+ "nb.conv_per_day.cur": {
+  "label": "Account without brand: Conversions per day, current period",
+  "value": 8.897096774193548,
+  "shown": "8.90"
+ },
+ "nb.conv_per_day.ly": {
+  "label": "Account without brand: Conversions per day, same period last year",
+  "value": 7.811612903225808,
+  "shown": "7.81"
+ },
+ "nb.conv_per_day.prev": {
+  "label": "Account without brand: Conversions per day, previous period",
+  "value": 9.298666666666668,
+  "shown": "9.30"
+ },
+ "nb.cost.chg_ly": {
+  "label": "Account without brand: Cost, change vs same period last year",
+  "value": 0.0920767012896524,
+  "shown": "+9.2%"
+ },
+ "nb.cost.chg_prev": {
+  "label": "Account without brand: Cost, change vs previous period",
+  "value": -0.04036201489394724,
+  "shown": "-4.0%"
+ },
+ "nb.cost.cur": {
+  "label": "Account without brand: Cost, current period",
+  "value": 13855.33,
+  "shown": "13,855.33"
+ },
+ "nb.cost.delta_ly": {
+  "label": "Account without brand: Cost, difference vs same period last year",
+  "value": 1168.1900000000005,
+  "shown": "+1,168.19"
+ },
+ "nb.cost.delta_prev": {
+  "label": "Account without brand: Cost, difference vs previous period",
+  "value": -582.7500000000018,
+  "shown": "-582.75"
+ },
+ "nb.cost.ly": {
+  "label": "Account without brand: Cost, same period last year",
+  "value": 12687.14,
+  "shown": "12,687.14"
+ },
+ "nb.cost.prev": {
+  "label": "Account without brand: Cost, previous period",
+  "value": 14438.080000000002,
+  "shown": "14,438.08"
+ },
+ "nb.cost_per_day.chg_ly": {
+  "label": "Account without brand: Cost per day, change vs same period last year",
+  "value": 0.09207670128965237,
+  "shown": "+9.2%"
+ },
+ "nb.cost_per_day.chg_prev": {
+  "label": "Account without brand: Cost per day, change vs previous period",
+  "value": -0.0713180789296264,
+  "shown": "-7.1%"
+ },
+ "nb.cost_per_day.cur": {
+  "label": "Account without brand: Cost per day, current period",
+  "value": 446.94612903225806,
+  "shown": "446.95"
+ },
+ "nb.cost_per_day.ly": {
+  "label": "Account without brand: Cost per day, same period last year",
+  "value": 409.2625806451613,
+  "shown": "409.26"
+ },
+ "nb.cost_per_day.prev": {
+  "label": "Account without brand: Cost per day, previous period",
+  "value": 481.2693333333334,
+  "shown": "481.27"
+ },
+ "nb.cpa.chg_ly": {
+  "label": "Account without brand: Cost / conv., change vs same period last year",
+  "value": -0.041161328507660105,
+  "shown": "-4.1%"
+ },
+ "nb.cpa.chg_prev": {
+  "label": "Account without brand: Cost / conv., change vs previous period",
+  "value": -0.029402079963799392,
+  "shown": "-2.9%"
+ },
+ "nb.cpa.cur": {
+  "label": "Account without brand: Cost / conv., current period",
+  "value": 50.235053116275694,
+  "shown": "50.24"
+ },
+ "nb.cpa.delta_ly": {
+  "label": "Account without brand: Cost / conv., difference vs same period last year",
+  "value": -2.1565061833608965,
+  "shown": "-2.16"
+ },
+ "nb.cpa.delta_prev": {
+  "label": "Account without brand: Cost / conv., difference vs previous period",
+  "value": -1.5217578960558242,
+  "shown": "-1.52"
+ },
+ "nb.cpa.ly": {
+  "label": "Account without brand: Cost / conv., same period last year",
+  "value": 52.39155929963659,
+  "shown": "52.39"
+ },
+ "nb.cpa.prev": {
+  "label": "Account without brand: Cost / conv., previous period",
+  "value": 51.75681101233152,
+  "shown": "51.76"
+ },
+ "nb.cpc.chg_ly": {
+  "label": "Account without brand: Avg. CPC, change vs same period last year",
+  "value": 0.027276338560423368,
+  "shown": "+2.7%"
+ },
+ "nb.cpc.chg_prev": {
+  "label": "Account without brand: Avg. CPC, change vs previous period",
+  "value": 0.01937112321329383,
+  "shown": "+1.9%"
+ },
+ "nb.cpc.cur": {
+  "label": "Account without brand: Avg. CPC, current period",
+  "value": 8.060110529377544,
+  "shown": "8.06"
+ },
+ "nb.cpc.delta_ly": {
+  "label": "Account without brand: Avg. CPC, difference vs same period last year",
+  "value": 0.21401281756554713,
+  "shown": "+0.21"
+ },
+ "nb.cpc.delta_prev": {
+  "label": "Account without brand: Avg. CPC, difference vs previous period",
+  "value": 0.15316638918039072,
+  "shown": "+0.15"
+ },
+ "nb.cpc.ly": {
+  "label": "Account without brand: Avg. CPC, same period last year",
+  "value": 7.846097711811997,
+  "shown": "7.85"
+ },
+ "nb.cpc.prev": {
+  "label": "Account without brand: Avg. CPC, previous period",
+  "value": 7.906944140197154,
+  "shown": "7.91"
+ },
+ "nb.ctr.chg_ly": {
+  "label": "Account without brand: CTR, change vs same period last year",
+  "value": 0.025653993640806127,
+  "shown": "+2.6%"
+ },
+ "nb.ctr.chg_prev": {
+  "label": "Account without brand: CTR, change vs previous period",
+  "value": 0.033390353202528505,
+  "shown": "+3.3%"
+ },
+ "nb.ctr.cur": {
+  "label": "Account without brand: CTR, current period",
+  "value": 0.06317066000293987,
+  "shown": "6.32%"
+ },
+ "nb.ctr.ly": {
+  "label": "Account without brand: CTR, same period last year",
+  "value": 0.06159061476346461,
+  "shown": "6.16%"
+ },
+ "nb.ctr.pp_ly": {
+  "label": "Account without brand: CTR, difference vs same period last year, in percentage points",
+  "value": 0.15800452394752612,
+  "shown": "+0.16 percentage points"
+ },
+ "nb.ctr.pp_prev": {
+  "label": "Account without brand: CTR, difference vs previous period, in percentage points",
+  "value": 0.20411363847148423,
+  "shown": "+0.20 percentage points"
+ },
+ "nb.ctr.prev": {
+  "label": "Account without brand: CTR, previous period",
+  "value": 0.06112952361822503,
+  "shown": "6.11%"
+ },
+ "nb.cvr.chg_ly": {
+  "label": "Account without brand: Conv. rate, change vs same period last year",
+  "value": 0.07137558079668076,
+  "shown": "+7.1%"
+ },
+ "nb.cvr.chg_prev": {
+  "label": "Account without brand: Conv. rate, change vs previous period",
+  "value": 0.05025067761867253,
+  "shown": "+5.0%"
+ },
+ "nb.cvr.cur": {
+  "label": "Account without brand: Conv. rate, current period",
+  "value": 0.1604479348458406,
+  "shown": "16.04%"
+ },
+ "nb.cvr.ly": {
+  "label": "Account without brand: Conv. rate, same period last year",
+  "value": 0.1497588126159555,
+  "shown": "14.98%"
+ },
+ "nb.cvr.pp_ly": {
+  "label": "Account without brand: Conv. rate, difference vs same period last year, in percentage points",
+  "value": 1.0689122229885106,
+  "shown": "+1.07 percentage points"
+ },
+ "nb.cvr.pp_prev": {
+  "label": "Account without brand: Conv. rate, difference vs previous period, in percentage points",
+  "value": 0.7676850508491179,
+  "shown": "+0.77 percentage points"
+ },
+ "nb.cvr.prev": {
+  "label": "Account without brand: Conv. rate, previous period",
+  "value": 0.15277108433734943,
+  "shown": "15.28%"
+ },
+ "nb.impr.chg_ly": {
+  "label": "Account without brand: Impr., change vs same period last year",
+  "value": 0.036489677763388434,
+  "shown": "+3.6%"
+ },
+ "nb.impr.chg_prev": {
+  "label": "Account without brand: Impr., change vs previous period",
+  "value": -0.08901610257440326,
+  "shown": "-8.9%"
+ },
+ "nb.impr.cur": {
+  "label": "Account without brand: Impr., current period",
+  "value": 27212.0,
+  "shown": "27,212"
+ },
+ "nb.impr.delta_ly": {
+  "label": "Account without brand: Impr., difference vs same period last year",
+  "value": 958.0,
+  "shown": "+958"
+ },
+ "nb.impr.delta_prev": {
+  "label": "Account without brand: Impr., difference vs previous period",
+  "value": -2659.0,
+  "shown": "-2,659"
+ },
+ "nb.impr.ly": {
+  "label": "Account without brand: Impr., same period last year",
+  "value": 26254.0,
+  "shown": "26,254"
+ },
+ "nb.impr.prev": {
+  "label": "Account without brand: Impr., previous period",
+  "value": 29871.0,
+  "shown": "29,871"
+ },
+ "nb.roas.chg_ly": {
+  "label": "Account without brand: Conv. value / cost, change vs same period last year",
+  "value": 0.0010308476495830001,
+  "shown": "+0.1%"
+ },
+ "nb.roas.chg_prev": {
+  "label": "Account without brand: Conv. value / cost, change vs previous period",
+  "value": -0.006731988617450584,
+  "shown": "-0.7%"
+ },
+ "nb.roas.cur": {
+  "label": "Account without brand: Conv. value / cost, current period",
+  "value": 6.494626255744181,
+  "shown": "6.49"
+ },
+ "nb.roas.delta_ly": {
+  "label": "Account without brand: Conv. value / cost, difference vs same period last year",
+  "value": 0.006688075823411133,
+  "shown": "+0.01"
+ },
+ "nb.roas.delta_prev": {
+  "label": "Account without brand: Conv. value / cost, difference vs previous period",
+  "value": -0.04401807923664869,
+  "shown": "-0.04"
+ },
+ "nb.roas.ly": {
+  "label": "Account without brand: Conv. value / cost, same period last year",
+  "value": 6.48793817992077,
+  "shown": "6.49"
+ },
+ "nb.roas.prev": {
+  "label": "Account without brand: Conv. value / cost, previous period",
+  "value": 6.538644334980829,
+  "shown": "6.54"
+ },
+ "nb.value.chg_ly": {
+  "label": "Account without brand: Conv. value, change vs same period last year",
+  "value": 0.09320246599034115,
+  "shown": "+9.3%"
+ },
+ "nb.value.chg_prev": {
+  "label": "Account without brand: Conv. value, change vs previous period",
+  "value": -0.04682228688655447,
+  "shown": "-4.7%"
+ },
+ "nb.value.cur": {
+  "label": "Account without brand: Conv. value, current period",
+  "value": 89985.19000000002,
+  "shown": "89,985.19"
+ },
+ "nb.value.delta_ly": {
+  "label": "Account without brand: Conv. value, difference vs same period last year",
+  "value": 7671.810000000027,
+  "shown": "+7,671.81"
+ },
+ "nb.value.delta_prev": {
+  "label": "Account without brand: Conv. value, difference vs previous period",
+  "value": -4420.280000000013,
+  "shown": "-4,420.28"
+ },
+ "nb.value.ly": {
+  "label": "Account without brand: Conv. value, same period last year",
+  "value": 82313.37999999999,
+  "shown": "82,313.38"
+ },
+ "nb.value.prev": {
+  "label": "Account without brand: Conv. value, previous period",
+  "value": 94405.47000000003,
+  "shown": "94,405.47"
+ },
+ "period.cur.days": {
+  "label": "Days in the current period",
+  "value": 31,
+  "shown": "31"
+ },
+ "period.cur.end": {
+  "label": "End of the current period",
+  "value": "2026-10-31",
+  "shown": "October 31, 2026"
+ },
+ "period.cur.start": {
+  "label": "Start of the current period",
+  "value": "2026-10-01",
+  "shown": "October 1, 2026"
+ },
+ "period.ly.days": {
+  "label": "Days in the same period last year",
+  "value": 31,
+  "shown": "31"
+ },
+ "period.ly.end": {
+  "label": "End of the same period last year",
+  "value": "2025-10-31",
+  "shown": "October 31, 2025"
+ },
+ "period.ly.start": {
+  "label": "Start of the same period last year",
+  "value": "2025-10-01",
+  "shown": "October 1, 2025"
+ },
+ "period.prev.days": {
+  "label": "Days in the previous period",
+  "value": 30,
+  "shown": "30"
+ },
+ "period.prev.end": {
+  "label": "End of the previous period",
+  "value": "2026-09-30",
+  "shown": "September 30, 2026"
+ },
+ "period.prev.start": {
+  "label": "Start of the previous period",
+  "value": "2026-09-01",
+  "shown": "September 1, 2026"
+ },
+ "report.prepared": {
+  "label": "Date the report was prepared",
+  "value": "2026-11-13",
+  "shown": "November 13, 2026"
+ },
+ "score.cost.diff": {
+  "label": "Account: Spend, difference from target",
+  "value": -1576.6799999999985,
+  "shown": "-1,576.68"
+ },
+ "score.cost.diff_pct": {
+  "label": "Account: Spend, difference from target in percent",
+  "value": -0.09854249999999991,
+  "shown": "-9.9%"
+ },
+ "score.cpa.diff": {
+  "label": "Account: Cost / conv., difference from target",
+  "value": -5.118092335969429,
+  "shown": "-5.12"
+ },
+ "score.cpa.diff_pct": {
+  "label": "Account: Cost / conv., difference from target in percent",
+  "value": -0.12795230839923571,
+  "shown": "-12.8%"
+ },
+ "score.cpa_nb.diff": {
+  "label": "Account without brand: Cost / conv., difference from target",
+  "value": 10.235053116275694,
+  "shown": "+10.24"
+ },
+ "score.cpa_nb.diff_pct": {
+  "label": "Account without brand: Cost / conv., difference from target in percent",
+  "value": 0.25587632790689235,
+  "shown": "+25.6%"
+ },
+ "target.cost": {
+  "label": "Target you gave: Spend for the current period",
+  "value": 16000.0,
+  "shown": "16,000.00"
+ },
+ "target.cpa": {
+  "label": "Target you gave: Cost / conv. for the current period",
+  "value": 40.0,
+  "shown": "40.00"
+ }
+}

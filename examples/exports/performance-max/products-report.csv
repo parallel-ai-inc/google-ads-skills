@@ -1,0 +1,26 @@
+Products report
+"October 14, 2026 - November 12, 2026"
+Item ID,Title,Brand,Product type (1st level),Custom label 0,Campaign,Currency code,Impr.,Clicks,Cost,Conversions,Conv. value
+ns-wh-001,Rheem 40 Gallon Gas Water Heater,Rheem,Water Heaters,bestseller,PMax | Plumbing Supplies,USD,"13,156",572,"1,180.00",14.00,"8,120.00"
+ns-wh-002,Rheem 50 Gallon Electric Water Heater,Rheem,Water Heaters,bestseller,PMax | Plumbing Supplies,USD,"25,346",874,960.00,10.00,"6,290.00"
+ns-wh-003,Rinnai Tankless Water Heater 199k BTU,Rinnai,Water Heaters, --,PMax | Plumbing Supplies,USD,"13,110",690,880.00,6.00,"7,140.00"
+ns-wh-004,A.O. Smith 40 Gallon Water Heater,A.O. Smith,Water Heaters, --,PMax | Plumbing Supplies,USD,"6,792",283,520.00,4.00,"2,280.00"
+ns-wh-005,Navien Tankless Water Heater,Navien,Water Heaters, --,PMax | Plumbing Supplies,USD,"4,956",177,410.00,2.00,"2,650.00"
+ns-fx-001,Moen Kitchen Faucet with Pull Down Sprayer,Moen,Faucets,bestseller,PMax | Plumbing Supplies,USD,"12,460",356,690.00,16.00,"3,360.00"
+ns-fx-002,Delta Single Handle Bathroom Faucet,Delta,Faucets,bestseller,PMax | Plumbing Supplies,USD,"9,102",246,540.00,13.00,"1,690.00"
+ns-fx-003,Kohler Shower Head 2.5 GPM,Kohler,Faucets, --,PMax | Plumbing Supplies,USD,"9,500",250,380.00,9.00,890.00
+ns-fx-004,Moen Bathroom Sink Drain Assembly,Moen,Faucets, --,PMax | Plumbing Supplies,USD,"2,500",125,210.00,6.00,330.00
+ns-fx-005,Delta Faucet Cartridge,Delta,Faucets, --,PMax | Plumbing Supplies,USD,"1,025",41,95.00,4.00,150.00
+ns-dt-001,RIDGID 25 ft Drain Snake,RIDGID,Drain Tools,clearance,PMax | Plumbing Supplies,USD,"11,726",451,420.00,0.00,0.00
+ns-dt-002,Cobra Toilet Auger 6 ft,Cobra,Drain Tools,clearance,PMax | Plumbing Supplies,USD,"5,364",149,330.00,0.00,0.00
+ns-dt-003,Drain Cleaning Machine 50 ft,RIDGID,Drain Tools, --,PMax | Plumbing Supplies,USD,"6,453",239,290.00,0.00,0.00
+ns-dt-004,Sink Drain Auger 15 ft,Cobra,Drain Tools, --,PMax | Plumbing Supplies,USD,"3,712",128,240.00,0.00,0.00
+ns-dt-005,Drain Hair Catcher 2 Pack,Northside,Drain Tools, --,PMax | Plumbing Supplies,USD,"2,425",97,160.00,1.00,18.00
+ns-dt-006,Plunger and Auger Combo,Cobra,Drain Tools, --,PMax | Plumbing Supplies,USD,"2,584",76,130.00,0.00,0.00
+ns-pf-001,SharkBite 1/2 in Push Fitting 10 Pack,SharkBite,Pipe Fittings, --,PMax | Plumbing Supplies,USD,"2,627",71,140.00,4.00,280.00
+ns-pf-002,PEX Crimp Ring 100 Pack,Apollo,Pipe Fittings, --,PMax | Plumbing Supplies,USD,855,45,85.00,2.00,96.00
+ns-pf-003,Copper Elbow 3/4 in 25 Pack, --, --, --,PMax | Plumbing Supplies,USD,952,34,70.00,1.00,55.00
+ns-pf-004,Brass Ball Valve 1/2 in, --, --, --,PMax | Plumbing Supplies,USD,"1,008",28,45.00,0.00,0.00
+ns-pf-005,PVC Primer and Cement Kit,Oatey,Pipe Fittings, --,PMax | Plumbing Supplies,USD,0,0,0.00,0.00,0.00
+ns-pf-006,Thread Seal Tape 10 Pack,Oatey,Pipe Fittings, --,PMax | Plumbing Supplies,USD,0,0,0.00,0.00,0.00
+Total: Account, --, --, --, --, --,USD,"135,653","4,932","7,775.00",92.00,"33,349.00"

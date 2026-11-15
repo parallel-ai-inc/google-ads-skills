@@ -1,0 +1,35 @@
+Search term,Campaign,Ad group,Match type,Clicks,Impr.,Cost,Conversions,Cost / conv.,Verdict,Reason,Theme,Negative keyword,Negative match type,Negative level
+plumbing jobs near me,Plumbing | Emergency,Emergency,Broad match,71,2310,468.60,0.00,,Exclude,"Looking for a job, not a plumber.",Job seekers,jobs,broad,account
+diy water heater repair,Plumbing | Water Heaters,Repair,Broad match,44,1760,277.20,0.00,,Exclude,Wants to do the repair themselves.,Do it yourself,diy,broad,account
+plumber jobs hiring,Plumbing | Emergency,Emergency,Broad match,38,1150,243.20,0.00,,Exclude,"Looking for a job, not a plumber.",Job seekers,jobs,broad,account
+how to drain a water heater,Plumbing | Water Heaters,Repair,Broad match,41,2620,229.60,0.00,,Exclude,"A how to search. Wants instructions, not a service call.",Do it yourself,how to,phrase,account
+water heater parts home depot,Plumbing | Water Heaters,Repair,Broad match,36,1540,208.80,0.00,,Exclude,Shopping for parts at a retailer.,"Parts, supplies and manuals",home depot,phrase,campaign
+how to fix a leaky faucet yourself,Plumbing | Emergency,Emergency,Broad match,33,1980,184.80,0.00,,Exclude,A how to search. Wants to fix it themselves.,Do it yourself,how to,phrase,account
+plumbing apprenticeship,Plumbing | Emergency,Emergency,Broad match,29,980,171.10,0.00,,Exclude,Looking for training in the trade.,Training in the trade,apprenticeship,broad,account
+free water heater program,Plumbing | Water Heaters,Install,AI Max,27,1490,159.30,0.00,,Exclude,"Looking for an assistance program, not a paid install.",Assistance programs,program,broad,campaign
+plumbing school,Plumbing | Emergency,Emergency,AI Max,26,1310,150.80,0.00,,Exclude,Looking for training in the trade.,Training in the trade,school,broad,account
+plumber salary,Plumbing | Emergency,Emergency,Broad match,24,1420,139.20,0.00,,Exclude,Researching pay in the trade.,Job seekers,salary,broad,account
+rheem water heater manual,Plumbing | Water Heaters,Repair,Broad match,21,1120,119.70,0.00,,Exclude,Looking for a product manual.,"Parts, supplies and manuals",manual,broad,campaign
+plumbing supply store,Plumbing | Emergency,Emergency,Broad match,19,1240,104.50,0.00,,Exclude,Looking for a store that sells parts.,"Parts, supplies and manuals",supply store,phrase,campaign
+free plumbing course,Plumbing | Emergency,Emergency,Broad match,17,760,98.60,0.00,,Exclude,Looking for training in the trade.,Training in the trade,course,broad,account
+water heater repair jobs,Plumbing | Water Heaters,Repair,Broad match,13,510,79.30,0.00,,Exclude,"Looking for a job, not a repair.",Job seekers,jobs,broad,account
+emergency plumber,Plumbing | Emergency,Emergency,Exact match,9,150,82.80,0.00,,Watch,"Core service search. 9 clicks is too few to judge, and the same words convert in other searches.",,,,
+water heater installation near me,Plumbing | Water Heaters,Install,Broad match,8,260,71.20,0.00,,Watch,"No conversions yet, and it has spent less than a conversion costs here",,,,
+plumber near me cheap,Plumbing | Emergency,Emergency,Broad match,6,210,44.40,0.00,,Watch,"No conversions yet, and it has spent less than a conversion costs here",,,,
+gas water heater pilot light,Plumbing | Water Heaters,Repair,Broad match,5,340,28.50,0.00,,Watch,"No conversions yet, and it has spent less than a conversion costs here",,,,
+leaking pipe under sink,Plumbing | Emergency,Emergency,Broad match,2,95,15.20,0.00,,Watch,Too few clicks to judge,,,,
+electric water heater element,Plumbing | Water Heaters,Repair,Broad match,2,150,11.80,0.00,,Watch,Too few clicks to judge,,,,
+emergency plumber near me,Plumbing | Emergency,Emergency,Phrase match,212,2840,1908.00,31.00,61.55,Keep,Converted in this period,,,,
+24 hour plumber,Plumbing | Emergency,Emergency,Exact match,148,1905,1273.40,22.00,57.88,Keep,Converted in this period,,,,
+water heater repair,Plumbing | Water Heaters,Repair,Phrase match,131,2010,943.20,17.00,55.48,Keep,Converted in this period,,,,
+tankless water heater installation,Plumbing | Water Heaters,Install,Phrase match,74,1180,695.60,8.00,86.95,Keep,Converted in this period,,,,
+burst pipe repair,Plumbing | Emergency,Emergency,Broad match,64,910,521.10,9.00,57.90,Keep,Converted in this period,,,,
+water heater replacement cost,Plumbing | Water Heaters,Install,Broad match,62,1890,508.40,4.00,127.10,Keep,Converted in this period,,,,
+free estimate plumber,Plumbing | Emergency,Emergency,Broad match,58,1120,402.30,7.00,57.47,Keep,Converted in this period,,,,
+water heater not heating,Plumbing | Water Heaters,Repair,Broad match,55,1330,379.50,6.00,63.25,Keep,Converted in this period,,,,
+plumber open now,Plumbing | Emergency,Emergency,AI Max,37,640,301.90,5.00,60.38,Keep,Converted in this period,,,,
+plumber cost estimate,Plumbing | Emergency,Emergency,Broad match,41,890,287.00,3.00,95.67,Keep,Converted in this period,,,,
+northside plumbing,Plumbing | Emergency,Emergency,Exact match,96,410,142.10,28.00,5.08,Keep,Brand search,,,,
+free water heater estimate,Plumbing | Water Heaters,Install,Broad match,18,420,129.60,2.00,64.80,Keep,Converted in this period,,,,
+northside plumbing reviews,Plumbing | Emergency,Emergency,Broad match,22,180,38.50,0.00,,Keep,Brand search,,,,
+plumber license lookup,Plumbing | Emergency,Emergency,Broad match,11,430,61.60,0.00,,Already excluded,Already excluded in the account,,,,

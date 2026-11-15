@@ -1,0 +1,21 @@
+Ads report
+"October 14, 2026 - November 12, 2026"
+Ad status,Ad,Ad type,Ad strength,Campaign,Ad group,Status,Policy details,Final URL,Currency code,Impr.,Clicks,Cost,Conversions
+Enabled,24/7 Emergency Plumber,Responsive search ad,Excellent,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.example/emergency,USD,"7,743",545,"4,183.26",48.60
+Enabled,Plumber At Your Door In 60 Min,Responsive search ad,Good,Plumbing | Emergency,Emergency,Eligible, --,https://www.northsideplumbing.example/emergency,USD,"5,162",364,"2,788.84",32.40
+Enabled,Burst Pipe Repair Today,Responsive search ad,Average,Plumbing | Emergency,Burst Pipes,Eligible, --,https://www.northsideplumbing.example/burst-pipes,USD,847,59,491.19,7.00
+Enabled,Fix Burst Pipes Fast,Responsive search ad,Poor,Plumbing | Emergency,Burst Pipes,Eligible, --,https://www.northsideplumbing.example/burst-pipes,USD,363,26,210.51,3.00
+Enabled,Water Heater Repair Same Day,Responsive search ad,Good,Plumbing | Water Heaters,Repair,Eligible, --,https://www.northsideplumbing.example/repair,USD,"2,171",120,859.75,9.75
+Enabled,No Hot Water? Call Us,Responsive search ad,Average,Plumbing | Water Heaters,Repair,Eligible, --,https://www.northsideplumbing.example/repair,USD,"1,169",66,462.95,5.25
+Enabled,Tankless Water Heater Installs,Responsive search ad,Excellent,Plumbing | Water Heaters,Install,Eligible, --,https://www.northsideplumbing.example/install,USD,"1,535",68,602.00,4.00
+Enabled,"New Water Heater, Installed",Responsive search ad,Good,Plumbing | Water Heaters,Install,Eligible, --,https://www.northsideplumbing.example/install,USD,"1,535",68,602.00,4.00
+Enabled,Drain Cleaning From 89,Responsive search ad,Excellent,Drain Cleaning | Search,Drains,Eligible, --,https://www.northsideplumbing.example/drains,USD,"2,650",150,765.00,10.50
+Enabled,Clogged Drain? Same Day Service,Responsive search ad,Good,Drain Cleaning | Search,Drains,Eligible, --,https://www.northsideplumbing.example/drains,USD,"1,590",90,459.00,6.30
+Enabled,Roto Style Drain Service,Responsive search ad,Average,Drain Cleaning | Search,Drains,Eligible (limited),Trademarks in ad text,https://www.northsideplumbing.example/drains,USD,"1,060",60,306.00,4.20
+Enabled,Hydro Jetting Specialists,Responsive search ad,Good,Drain Cleaning | Search,Hydro Jetting,Disapproved,Destination not working,https://www.northsideplumbing.example/hydro-jetting,USD,765,59,303.45,0.85
+Paused,Hydro Jet Your Drains,Responsive search ad,Average,Drain Cleaning | Search,Hydro Jetting,Paused, --,https://www.northsideplumbing.example/hydro-jetting,USD,135,11,53.55,0.15
+Enabled,Northside Plumbing Official Site,Responsive search ad,Good,Brand,Brand,Eligible, --,https://www.northsideplumbing.example/brand,USD,354,70,108.36,18.60
+Enabled,"Northside Plumbing, Since 1998",Responsive search ad,Good,Brand,Brand,Eligible, --,https://www.northsideplumbing.example/brand,USD,236,48,72.24,12.40
+Enabled,Drain Unblocking Experts,Responsive search ad,Average,Drain Cleaning | Old,Old Drains,Campaign paused, --,https://www.northsideplumbing.example/old-drains,USD,"1,500",60,310.25,0.00
+Total: Account, --, --, --, --, --, --, --, --,USD,"28,815","1,864","12,578.35",167.00
+Total: Search, --, --, --, --, --, --, --, --,USD,"28,815","1,864","12,578.35",167.00

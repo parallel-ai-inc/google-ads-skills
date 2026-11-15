@@ -1,0 +1,10 @@
+Audience segment report
+"October 14, 2026 - November 12, 2026"
+Audience segment,Type,Campaign,Ad group,Targeting setting,Impr.,Clicks,Cost,Conversions,Cost / conv.
+Homeowners,Detailed demographics,Plumbing | Emergency,Emergency,Observation,"3,000",260,"2,100.00",26.00,80.77
+Homeowners,Detailed demographics,Plumbing | Water Heaters,Repair,Observation,"1,200",110,900.00,9.00,100.00
+Home Improvement,Affinity,Plumbing | Emergency,Emergency,Observation,"2,400",180,"1,500.00",3.00,500.00
+Home Improvement,Affinity,Plumbing | Water Heaters,Install,Observation,"1,300",90,760.00,0.00, --
+Plumbing Services,In-market,Plumbing | Emergency,Emergency,Observation,"1,800",170,"1,300.00",21.00,61.90
+Website visitors,Your data,Drain Cleaning | Search,Drains,Observation,600,70,380.00,9.00,42.22
+Total: Account,,,,,"10,300",880,"6,940.00",68.00,102.06

@@ -1,0 +1,42 @@
+{
+ "report": "conversions-by-action-and-day",
+ "file": "conversions-by-action-and-day.csv",
+ "rows": 342,
+ "check": {
+  "rows_written": 342,
+  "rows_read_back": 342,
+  "date_range_read_back": [
+   "2026-09-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Conversions": 447.23,
+   "All conv.": 447.23,
+   "Conv. value": 67084.5,
+   "All conv. value": 67084.5
+  },
+  "matches": true,
+  "by_column": {
+   "Conversions": {
+    "rows": 447.23,
+    "total_row": 447.23
+   },
+   "All conv.": {
+    "rows": 447.23,
+    "total_row": 447.23
+   },
+   "Conv. value": {
+    "rows": 67084.5,
+    "total_row": 67084.5
+   },
+   "All conv. value": {
+    "rows": 67084.5,
+    "total_row": 67084.5
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-09-14",
+ "end": "2026-11-12"
+}

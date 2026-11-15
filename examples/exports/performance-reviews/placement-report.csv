@@ -1,0 +1,16 @@
+Placement report
+"October 14, 2026 - November 12, 2026"
+Placement,Placement URL,Type,Campaign,Impr.,Clicks,Cost,Conversions,Cost / conv.
+Bubble Shooter Classic,mobileapp::2-com.example.bubbleshooter,Mobile application,Remarketing | Display,"48,000",400,380.00,0.00, --
+Home Repair Weekly,homerepairweekly.example,Website,Remarketing | Display,"12,000",150,300.00,9.00,33.33
+Neighborhood News Today,neighborhoodnews.example,Website,Remarketing | Display,"9,000",60,140.00,2.00,70.00
+DIY Plumbing Fixes,youtube.com/channel/UCexample1,YouTube channel,Remarketing | Display,"15,000",40,120.00,0.00, --
+Late Night Crime Stories,latenightcrime.example,Website,Remarketing | Display,"7,500",30,70.00,0.00, --
+Weather Radar Live,mobileapp::1-100000001,Mobile application,Remarketing | Display,"20,000",120,160.00,1.00,160.00
+Local Site 1,localsite1.example,Website,Remarketing | Display,420,2,3.25,0.00, --
+Local Site 2,localsite2.example,Website,Remarketing | Display,540,3,4.50,0.00, --
+Local Site 3,localsite3.example,Website,Remarketing | Display,660,4,5.75,0.00, --
+Local Site 4,localsite4.example,Website,Remarketing | Display,780,1,7.00,0.00, --
+Local Site 5,localsite5.example,Website,Remarketing | Display,900,2,8.25,0.00, --
+Local Site 6,localsite6.example,Website,Remarketing | Display,"1,020",3,9.50,0.00, --
+Total: Account,,,,"115,820",815,"1,208.25",12.00,100.69

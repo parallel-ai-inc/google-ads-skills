@@ -1,0 +1,10 @@
+Conversion actions
+"October 14, 2026 - November 12, 2026"
+Conversion action,Action optimization,Conversion source,Category,Status,Count,Click-through conv. window,View-through conv. window,Attribution model,Conversions,Conv. value,All conv.,All conv. value
+Website lead form,Primary action,Website,Submit lead form,Recording conversions,Every,30 days,1 day,Data-driven,181.00,"27,150.00",181.00,"27,150.00"
+GA4 generate_lead,Primary action,Google Analytics (GA4),Submit lead form,Recording conversions,One,30 days, --,Data-driven,109.00,"16,350.00",182.00,"27,300.00"
+Calls from ads,Primary action,Calls from ads,Phone call lead,Recording conversions,One,30 days, --,Data-driven,126.00,"12,600.00",126.00,"12,600.00"
+Online booking,Primary action,Website,Book appointment,No recent conversions,One,30 days,1 day,Data-driven,57.00,"11,400.00",57.00,"11,400.00"
+Directions clicks,Secondary action,Website,Get directions,Recording conversions,Every,30 days,1 day,Data-driven,0.00,0.00,62.00,0.00
+Old contact form,Secondary action,Website,Contact,Removed,One,30 days,1 day,Data-driven,0.00,0.00,0.00,0.00
+Total: Conversion actions, --, --, --, --, --, --, --, --,473.00,"67,500.00",608.00,"78,450.00"

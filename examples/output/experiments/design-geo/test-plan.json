@@ -1,0 +1,158 @@
+{
+ "report": "campaigns-by-day.csv",
+ "title_rows": [
+  "Campaign report",
+  "August 15, 2026 - November 12, 2026"
+ ],
+ "data_from": "2026-08-01",
+ "data_to": "2026-10-21",
+ "days": 82,
+ "report_range_start": "2026-08-15",
+ "campaigns": [
+  "Brand",
+  "Drain Cleaning | Search",
+  "Plumbing | Emergency",
+  "Plumbing | Water Heaters"
+ ],
+ "campaigns_not_serving": [],
+ "metric": "conversions",
+ "level_per_day": 29.621951219512194,
+ "raw_sd": 9.586049848675668,
+ "weekday": {
+  "checked": true,
+  "present": true,
+  "f": 7.086174524759862,
+  "p": 6.896275920764694e-06,
+  "index": {
+   "Monday": 1.347536709208179,
+   "Tuesday": 1.1055990119390695,
+   "Wednesday": 1.009949224646631,
+   "Thursday": 1.0710730191998203,
+   "Friday": 0.9421759796399567,
+   "Saturday": 0.8017702758336764,
+   "Sunday": 0.7229998627693153
+  },
+  "within_sd": 7.958509834628514
+ },
+ "noise_sd_used": 7.566297768941229,
+ "test_level_per_day": 29.621951219512194,
+ "share": 0.3991783073130649,
+ "noise_source": "how far the test regions' daily leads stray from what the control regions predict (fit over 82 days, R squared 0.38)",
+ "confidence": 0.95,
+ "power": 0.8,
+ "lift_asked": 0.2,
+ "days_needed": 18,
+ "readable": true,
+ "verdict": "Readable. A lift of 20% in leads needs 18 measured days, planned as 21 days so every weekday counts the same.",
+ "max_days": 56,
+ "detectable_at_max_days": 0.11042030908580046,
+ "detectable_at_planned_days": 0.18031560966707758,
+ "sizes": [
+  {
+   "days": 14,
+   "detectable_lift": 0.22084061817160092
+  },
+  {
+   "days": 21,
+   "detectable_lift": 0.18031560966707758
+  },
+  {
+   "days": 28,
+   "detectable_lift": 0.1561578986705681
+  },
+  {
+   "days": 42,
+   "detectable_lift": 0.12750239034937716
+  },
+  {
+   "days": 56,
+   "detectable_lift": 0.11042030908580046
+  }
+ ],
+ "plan": {
+  "design": "geo",
+  "start": "2026-11-16",
+  "settle_days": 0,
+  "measure_from": "2026-11-16",
+  "stop": "2026-12-06",
+  "run_days": 21,
+  "measured_days": 21,
+  "change": "Pause all campaigns in the test cities",
+  "pre_period": [
+   "2026-09-14",
+   "2026-11-15"
+  ],
+  "pre_period_days": 63,
+  "kind": "go-dark"
+ },
+ "keep_fixed": {
+  "yours": [],
+  "official": [
+   "Test and control regions are targeted with the Presence location option.",
+   "Holdback and go dark campaigns each keep their own budget. No budget is shared across test and control.",
+   "Budgets move less than 20% during the test: the geo test guidance says a larger change starts a new learning period."
+  ],
+  "practitioner": [
+   "Ads, keywords and bids are the same in test and control regions.",
+   "The outcome is counted the same way in every region: the business's own leads or sales by region."
+  ]
+ },
+ "decision_rule": "On 2026-12-06, run the readout with the pre-period 2026-09-14 to 2026-11-15. If the 95% interval for the change in leads in the test regions is entirely below zero, the ads cause leads at that size: compare the cost of each incremental one with what it is worth to the business. If the interval includes zero, the test found no effect of 18% or more.",
+ "weekly_checks": {
+  "dates": [
+   "2026-11-22",
+   "2026-11-29",
+   "2026-12-06"
+  ],
+  "checks": [
+   "Cost in the go dark or holdback regions is zero, or the planned level for a heavy up.",
+   "The control regions spent at their usual level.",
+   "The business's leads or sales by region arrived for every day.",
+   "No campaign added or changed location targets during the test.",
+   "Do not call the result from a weekly look. Read it once, on the stop date."
+  ]
+ },
+ "eligibility": [],
+ "geo": {
+  "report": "leads-by-city-by-day.csv",
+  "column": "city",
+  "test": [
+   "Evanston",
+   "Skokie",
+   "Oak Park"
+  ],
+  "control": [
+   "Berwyn",
+   "Cicero",
+   "Des Plaines",
+   "Niles",
+   "Park Ridge"
+  ],
+  "days": 82,
+  "r2": 0.3846921445770374,
+  "residual_sd": 7.566297768941229,
+  "test_level": 29.621951219512194,
+  "control_level": 44.58536585365854,
+  "test_share": 0.3991783073130649
+ },
+ "lift_study": {
+  "conversions_over_run": 170.77941176470588,
+  "cost_over_run": 7942.014705882353,
+  "threshold_conversions": 1000,
+  "threshold_spend_usd": 5000
+ },
+ "reconcile": {
+  "checked": true,
+  "matches": true,
+  "rows_total": {
+   "cost": 38947.52,
+   "conversions": 760.0
+  },
+  "file_total": {
+   "cost": 38947.52,
+   "conversions": 760.0
+  },
+  "label": "Total: Account (added up over 90 days)"
+ },
+ "history_days": 82
+}

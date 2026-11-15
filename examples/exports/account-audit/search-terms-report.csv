@@ -1,0 +1,29 @@
+Search terms report
+"October 14, 2026 - November 12, 2026"
+Search term,Match type,Added/Excluded,Campaign,Ad group,Keyword,Currency code,Avg. CPM,Clicks,Impr.,CTR,Avg. CPC,Cost,Campaign type,Conv. rate,Conversions,Cost / conv.
+emergency plumber near me,Phrase match,None,Plumbing | Emergency,Emergency,"""emergency plumber""",USD,646.78,230,"2,950",7.80%,8.30,"1,908.00",Search,13.48%,31.00,61.55
+24 hour plumber,Exact match,Added,Plumbing | Emergency,Emergency,[24 hour plumber],USD,668.45,148,"1,905",7.77%,8.60,"1,273.40",Search,17.57%,26.00,48.98
+plumber near me,Broad match,None,Plumbing | Emergency,Emergency,plumber near me,USD,444.58,89,"1,440",6.18%,7.19,640.20,Search,0.00%,0.00, --
+plumbing jobs near me,Broad match,None,Plumbing | Emergency,Emergency,plumber near me,USD,202.86,71,"2,310",3.07%,6.60,468.60,Search,0.00%,0.00, --
+free estimate plumber,Broad match,None,Plumbing | Emergency,Emergency,plumber free estimate,USD,359.20,58,"1,120",5.18%,6.94,402.30,Search,5.17%,3.00,134.10
+plumber jobs hiring,Broad match,None,Plumbing | Emergency,Emergency,plumber free estimate,USD,211.48,38,"1,150",3.30%,6.40,243.20,Search,0.00%,0.00, --
+how to fix a leaky faucet yourself,Broad match,None,Plumbing | Emergency,Emergency,plumber near me,USD,93.33,33,"1,980",1.67%,5.60,184.80,Search,0.00%,0.00, --
+plumber salary,Broad match,None,Plumbing | Emergency,Emergency,plumber near me,USD,98.03,24,"1,420",1.69%,5.80,139.20,Search,0.00%,0.00, --
+northside plumber,Broad match,None,Plumbing | Emergency,Emergency,plumber near me,USD,437.14,9,140,6.43%,6.80,61.20,Search,0.00%,0.00, --
+northside plumbing reviews,Broad match,None,Plumbing | Emergency,Emergency,plumber free estimate,USD,213.89,22,180,12.22%,1.75,38.50,Search,0.00%,0.00, --
+burst pipe repair,Phrase match,Added,Plumbing | Emergency,Burst Pipes,"""burst pipe repair""",USD,572.64,51,720,7.08%,8.08,412.30,Search,13.73%,7.00,58.90
+emergency pipe burst,Phrase match,None,Plumbing | Emergency,Burst Pipes,"""emergency plumber""",USD,577.31,18,260,6.92%,8.34,150.10,Search,5.56%,1.00,150.10
+water heater repair,Phrase match,Added,Plumbing | Water Heaters,Repair,"""water heater repair""",USD,460.50,90,"1,390",6.47%,7.11,640.10,Search,11.11%,10.00,64.01
+diy water heater repair,Broad match,None,Plumbing | Water Heaters,Repair,"""water heater repair""",USD,157.50,44,"1,760",2.50%,6.30,277.20,Search,0.00%,0.00, --
+water heater not heating,Broad match,None,Plumbing | Water Heaters,Repair,water heater not heating,USD,246.56,22,610,3.61%,6.84,150.40,Search,9.09%,2.00,75.20
+tankless water heater installation,Phrase match,None,Plumbing | Water Heaters,Install,"""water heater installation""",USD,550.67,53,900,5.89%,9.35,495.60,Search,7.55%,4.00,123.90
+water heater replacement cost,Broad match,None,Plumbing | Water Heaters,Install,tankless water heater,USD,314.13,46,"1,210",3.80%,8.26,380.10,Search,6.52%,3.00,126.70
+free water heater program,AI Max,None,Plumbing | Water Heaters,Install,"""water heater installation""",USD,106.91,27,"1,490",1.81%,5.90,159.30,Search,0.00%,0.00, --
+drain cleaning near me,Phrase match,None,Drain Cleaning | Search,Drains,"""drain cleaning""",USD,313.39,138,"2,240",6.16%,5.09,702.00,Search,9.42%,13.00,54.00
+drain cleaning cost,Phrase match,None,Drain Cleaning | Search,Drains,"""drain cleaning""",USD,304.93,41,690,5.94%,5.13,210.40,Search,4.88%,2.00,105.20
+how to unclog a drain with baking soda,Broad match,None,Drain Cleaning | Search,Drains,clogged drain,USD,116.13,37,"1,630",2.27%,5.12,189.30,Search,0.00%,0.00, --
+hydro jetting service,Phrase match,None,Drain Cleaning | Search,Hydro Jetting,"""hydro jetting""",USD,396.05,59,760,7.76%,5.10,301.00,Search,1.69%,1.00,301.00
+northside plumbing,Exact match,Added,Brand,Brand,[northside plumbing],USD,346.59,96,410,23.41%,1.48,142.10,Search,29.17%,28.00,5.08
+northside plumbing hours,Phrase match,None,Brand,Brand,"""northside plumbing""",USD,200.67,19,150,12.67%,1.58,30.10,Search,15.79%,3.00,10.03
+drain unblocking,Broad match,None,Drain Cleaning | Old,Old Drains,drain unblocking,USD,214.29,40,980,4.08%,5.25,210.00,Search,0.00%,0.00, --
+Total: Search terms, --, --, --, --, --,USD, --,"1,503","29,795", --, --,"9,809.40", --, --,134.00, --

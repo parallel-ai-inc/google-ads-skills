@@ -1,0 +1,168 @@
+{
+ "headline": "Conversions fell 24% last week because Plumbing | Emergency's conversion rate dropped from 2026-11-06 while its cost held, so check that campaign's page and call tracking first. Across the month the clearest waste is the job seeker keyword \"plumbing jobs\" (640.00), Gary, Indiana outside the service area (1,000.00) and the hydro jetting page (520.00), and the water heater page is the weakest landing page.",
+ "assumptions": [
+  "Northside Plumbing serves the north Chicago suburbs and does not serve Indiana."
+ ],
+ "reviews": {
+  "weekly": {
+   "summary": "Cost fell 7% but conversions fell 24%, so cost per conversion rose from 70.81 to 86.80. Plumbing | Emergency carries 10.70 of the 12.52 lost conversions: its conversion rate is the main lever, and its daily conversion rate shifted on 2026-11-06, from 9.6% to 4.7%. Drain Cleaning | Old is paused, so its drop is not a loss.",
+   "actions": [
+    {
+     "action": "Check Plumbing | Emergency's landing page, call tracking and conversion tags for the days since 2026-11-06 before touching bids. Its conversion rate moved, not its cost per click.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Look in Change history for edits to Plumbing | Emergency made just before 2026-11-06, including automatically applied recommendations.",
+     "label": "Official",
+     "source": "references/reporting-and-diagnostics.md"
+    }
+   ]
+  },
+  "keywords": {
+   "summary": "[24 hour plumber] and \"drain cleaning\" convert well below the account's cost per conversion of 96.67. \"plumbing jobs\" spent 640.00 with no conversions, and broad match runs at 239.17 per conversion against 60.70 for exact. \"hydro jetting\" is worth watching: 240.00 per conversion on 2 conversions is not enough data to judge.",
+   "actions": [
+    {
+     "action": "Add \"jobs\" as a phrase match negative in Plumbing | Emergency and pause the keyword \"plumbing jobs\". It attracts job seekers.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Tighten \"tankless water heater\" and \"emergency plumbing service\" to phrase match, or move them into their own ad groups with matching ads, and check their search terms first.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Give [24 hour plumber] room to grow: check whether it loses impression share to budget or rank before raising its bid.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  },
+  "quality_score": {
+   "summary": "Landing page exp. is the weak component: 29.3% of the non brand cost with a rating sits on keywords rated Below average, all of it in Plumbing | Water Heaters. Exp. CTR is weak on three keywords that also convert poorly.",
+   "actions": [
+    {
+     "action": "Treat the water heater landing page as the fix, not the keywords: Landing page exp. is one of the three components Quality Score is built from, and it is the only one rated Below average across Plumbing | Water Heaters.",
+     "label": "Official",
+     "source": "references/quality-score.md"
+    },
+    {
+     "action": "Re-check Quality Score after a few weeks of traffic on the improved page. The diagnostic does not update at once.",
+     "label": "Official",
+     "source": "references/quality-score.md"
+    }
+   ]
+  },
+  "ads": {
+   "summary": "In Plumbing | Emergency > Emergency, the \"Emergency Plumbing Service\" ad trails its sibling by 73% in conversions per impression, which cost 1,536.36 more than its sibling's rate. One ad in Hydro Jetting is disapproved.",
+   "actions": [
+    {
+     "action": "Replace the trailing Emergency ad with a new one built on the leading ad's message (60 minute arrival, licensed and insured), then compare again once both have volume.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Fix the disapproved Hydro Jetting ad so that ad group has a serving ad.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  },
+  "devices": {
+   "summary": "Mobile phones bring 72.0% of conversions on 62.6% of cost. Tablets cost 243.33 per conversion, and computers in Plumbing | Emergency cost 225.00 against that campaign's 80.00 on mobile phones.",
+   "actions": [
+    {
+     "action": "Set a negative device bid adjustment for computers in Plumbing | Emergency, which uses Manual CPC, or test a desktop version of the emergency page, since the gap is in conversion rate.",
+     "label": "Official",
+     "source": "references/bid-adjustments.md"
+    },
+    {
+     "action": "Plumbing | Water Heaters uses Maximize Conversions, so the only device adjustment it supports is -100%. Tablets spent 350.00 there with no conversions: set tablets to -100% only if the business accepts losing that traffic.",
+     "label": "Official",
+     "source": "references/bid-adjustments.md"
+    }
+   ]
+  },
+  "landing_pages": {
+   "summary": "The water heater page costs 165.04 per conversion against 81.51 for all pages, with a mobile speed score of 3. The hydro jetting page spent 520.00 with no conversions, yet the hydro jetting keyword sends its traffic to the drain cleaning page, so that page's traffic comes from elsewhere.",
+   "actions": [
+    {
+     "action": "Rework the water heater page first: speed, a clear phone number above the fold, and a message that matches the repair and installation ads.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Test the hydro jetting page's form and phone number by hand. No conversions on 520.00 can be a broken form, not a weak page.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  },
+  "audiences": {
+   "summary": "Home Improvement costs 753.33 per conversion against 102.06 across the audience rows, while Plumbing Services and Website visitors do better than the baseline.",
+   "actions": [
+    {
+     "action": "Lower the bid adjustment for Home Improvement in both campaigns, or exclude it from Plumbing | Water Heaters where it spent 760.00 with no conversions.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  },
+  "locations": {
+   "summary": "Gary, Indiana spent 1,000.00 with no conversions. It is outside the service area. Evanston converts better than the baseline.",
+   "actions": [
+    {
+     "action": "Exclude Gary, Indiana, and check the location option is set to people in or regularly in the targeted area.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  },
+  "schedule": {
+   "summary": "Sundays cost 250.42 per conversion against 85.30 for the other days, and Sunday is judged worse inside all three campaigns. No hour stands out once the line for enough data is applied.",
+   "actions": [
+    {
+     "action": "Ask whether the phones are answered on Sundays. If not, that is the fix, whatever the bids.",
+     "label": "Practitioner rule",
+     "source": "playbooks/segment-splits.md"
+    },
+    {
+     "action": "In Plumbing | Emergency (Manual CPC), set up a custom ad schedule and lower the Sunday bid adjustment.",
+     "label": "Official",
+     "source": "references/bid-adjustments.md"
+    },
+    {
+     "action": "Plumbing | Water Heaters and Drain Cleaning | Search use Smart Bidding, which does not support ad schedule bid adjustments; change their ad schedule only if Sunday leads cannot be served.",
+     "label": "Official",
+     "source": "references/bid-adjustments.md"
+    }
+   ]
+  },
+  "placements": {
+   "summary": "The mobile game Bubble Shooter Classic took the most impressions and spent 380.00 with no conversions. Late Night Crime Stories does not suit a family plumbing brand. Home Repair Weekly is worth watching at 33.33 per conversion, not yet enough data to judge.",
+   "actions": [
+    {
+     "action": "Exclude Bubble Shooter Classic and review mobile app placements as a group, since apps took 44.7% of cost.",
+     "label": "Practitioner rule",
+     "source": ""
+    },
+    {
+     "action": "Exclude Late Night Crime Stories and review the content suitability settings: brand suitability matters more on Display than on Search because the page around the ad changes.",
+     "label": "Official",
+     "source": "references/display-video.md"
+    }
+   ]
+  },
+  "videos": {
+   "summary": "Meet Our Plumbers (60s) has a 15.0% view rate against 27.0% for all videos and loses 39 points of viewers between 25% and 50%. The 15 second video has the best view rate.",
+   "actions": [
+    {
+     "action": "Watch Meet Our Plumbers around its quarter mark and cut what comes there, or test a 30 second edit that keeps the opening.",
+     "label": "Practitioner rule",
+     "source": ""
+    }
+   ]
+  }
+ }
+}

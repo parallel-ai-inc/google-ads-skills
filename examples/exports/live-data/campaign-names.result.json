@@ -1,0 +1,18 @@
+[
+ {
+  "campaign.resource_name": "customers/1234567890/campaigns/111",
+  "campaign.name": "Plumbing | Emergency"
+ },
+ {
+  "campaign.resource_name": "customers/1234567890/campaigns/222",
+  "campaign.name": "Plumbing | Water Heaters"
+ },
+ {
+  "campaign.resource_name": "customers/1234567890/campaigns/333",
+  "campaign.name": "Drain Cleaning | Search"
+ },
+ {
+  "campaign.resource_name": "customers/1234567890/campaigns/444",
+  "campaign.name": "Brand"
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "report": "change-history",
+ "file": "change-history.csv",
+ "rows": 5,
+ "check": {
+  "rows_written": 5,
+  "rows_read_back": 5,
+  "date_range_read_back": [
+   "2026-10-15",
+   "2026-11-13"
+  ],
+  "totals": {},
+  "matches": true
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-10-15",
+ "end": "2026-11-13"
+}

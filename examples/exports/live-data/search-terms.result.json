@@ -1,0 +1,328 @@
+{
+ "results": [
+  {
+   "searchTermView": {
+    "searchTerm": "emergency plumber near me",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "PHRASE"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Emergency"
+   },
+   "metrics": {
+    "impressions": "3772",
+    "clicks": "212",
+    "ctr": 0.056204,
+    "averageCpc": "9000000",
+    "costMicros": "1908000000",
+    "conversions": 31.0,
+    "costPerConversion": "61548387",
+    "conversionsValue": 9300.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "24 hour plumber",
+    "status": "ADDED"
+   },
+   "segments": {
+    "searchTermMatchType": "EXACT"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Emergency"
+   },
+   "metrics": {
+    "impressions": "3113",
+    "clicks": "148",
+    "ctr": 0.047543,
+    "averageCpc": "8600000",
+    "costMicros": "1272800000",
+    "conversions": 22.0,
+    "costPerConversion": "57854545",
+    "conversionsValue": 6600.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "burst pipe repair",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "PHRASE"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Burst Pipes"
+   },
+   "metrics": {
+    "impressions": "827",
+    "clicks": "60",
+    "ctr": 0.072551,
+    "averageCpc": "8199999",
+    "costMicros": "491999999",
+    "conversions": 8.0,
+    "costPerConversion": "61499999",
+    "conversionsValue": 2400.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "plumber jobs near me",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "BROAD"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Emergency"
+   },
+   "metrics": {
+    "impressions": "320",
+    "clicks": "14",
+    "ctr": 0.04375,
+    "averageCpc": "6500000",
+    "costMicros": "91000000"
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "plumbing apprenticeship",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "BROAD"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Emergency"
+   },
+   "metrics": {
+    "impressions": "134",
+    "clicks": "9",
+    "ctr": 0.067164,
+    "averageCpc": "6000000",
+    "costMicros": "54000000"
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "how to fix a leaking pipe",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "BROAD"
+   },
+   "campaign": {
+    "name": "Plumbing | Emergency",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Burst Pipes"
+   },
+   "metrics": {
+    "impressions": "205",
+    "clicks": "12",
+    "ctr": 0.058537,
+    "averageCpc": "5500000",
+    "costMicros": "66000000"
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "water heater installation",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "NEAR_PHRASE"
+   },
+   "campaign": {
+    "name": "Plumbing | Water Heaters",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Install"
+   },
+   "metrics": {
+    "impressions": "1631",
+    "clicks": "70",
+    "ctr": 0.042918,
+    "averageCpc": "7900000",
+    "costMicros": "553000000",
+    "conversions": 9.0,
+    "costPerConversion": "61444444",
+    "conversionsValue": 2700.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "tankless water heater repair",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "PHRASE"
+   },
+   "campaign": {
+    "name": "Plumbing | Water Heaters",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Repair"
+   },
+   "metrics": {
+    "impressions": "382",
+    "clicks": "25",
+    "ctr": 0.065445,
+    "averageCpc": "7000000",
+    "costMicros": "175000000",
+    "conversions": 3.0,
+    "costPerConversion": "58333333",
+    "conversionsValue": 900.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "water heater element replacement diy",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "BROAD"
+   },
+   "campaign": {
+    "name": "Plumbing | Water Heaters",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Repair"
+   },
+   "metrics": {
+    "impressions": "191",
+    "clicks": "8",
+    "ctr": 0.041885,
+    "averageCpc": "5000000",
+    "costMicros": "40000000"
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "drain cleaning near me",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "PHRASE"
+   },
+   "campaign": {
+    "name": "Drain Cleaning | Search",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Drains"
+   },
+   "metrics": {
+    "impressions": "1459",
+    "clicks": "90",
+    "ctr": 0.061686,
+    "averageCpc": "5100000",
+    "costMicros": "458999999",
+    "conversions": 12.0,
+    "costPerConversion": "38249999",
+    "conversionsValue": 3600.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "drain snake rental",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "BROAD"
+   },
+   "campaign": {
+    "name": "Drain Cleaning | Search",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Drains"
+   },
+   "metrics": {
+    "impressions": "252",
+    "clicks": "11",
+    "ctr": 0.043651,
+    "averageCpc": "4200000",
+    "costMicros": "46200000"
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "northside plumbing",
+    "status": "ADDED"
+   },
+   "segments": {
+    "searchTermMatchType": "EXACT"
+   },
+   "campaign": {
+    "name": "Brand",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Brand"
+   },
+   "metrics": {
+    "impressions": "2694",
+    "clicks": "120",
+    "ctr": 0.044543,
+    "averageCpc": "1500000",
+    "costMicros": "180000000",
+    "conversions": 30.0,
+    "costPerConversion": "6000000",
+    "conversionsValue": 9000.0
+   }
+  },
+  {
+   "searchTermView": {
+    "searchTerm": "northside plumbing reviews",
+    "status": "NONE"
+   },
+   "segments": {
+    "searchTermMatchType": "NEAR_EXACT"
+   },
+   "campaign": {
+    "name": "Brand",
+    "advertisingChannelType": "SEARCH"
+   },
+   "adGroup": {
+    "name": "Brand"
+   },
+   "metrics": {
+    "impressions": "293",
+    "clicks": "18",
+    "ctr": 0.061433,
+    "averageCpc": "1400000",
+    "costMicros": "25200000",
+    "conversions": 2.0,
+    "costPerConversion": "12600000",
+    "conversionsValue": 600.0
+   }
+  }
+ ],
+ "fieldMask": "searchTermView.searchTerm,..."
+}

@@ -1,0 +1,50 @@
+{
+ "kind": "find",
+ "cost_report": "cost-by-city-by-day.csv",
+ "outcome": "leads-by-city-by-day.csv",
+ "group_column": "city",
+ "first_day": "2026-08-01",
+ "last_day": "2026-11-11",
+ "rules": {
+  "off_share": 0.1,
+  "min_off_days": 7,
+  "min_days_before": 14,
+  "same_test_days": 3,
+  "control_serving_share": 0.8
+ },
+ "candidates": [
+  {
+   "regions": [
+    "Evanston",
+    "Oak Park",
+    "Skokie"
+   ],
+   "from": "2026-10-22",
+   "from_latest": "2026-10-22",
+   "to": "2026-11-11",
+   "still_off_at_end": true,
+   "days": 21,
+   "controls": [
+    "Berwyn",
+    "Cicero",
+    "Des Plaines",
+    "Niles",
+    "Park Ridge"
+   ],
+   "missing_in_outcome": [],
+   "outcome_change_against_controls": -0.29571641123199965,
+   "outcome_names": [
+    "Evanston",
+    "Oak Park",
+    "Skokie"
+   ],
+   "outcome_control_names": [
+    "Berwyn",
+    "Cicero",
+    "Des Plaines",
+    "Niles",
+    "Park Ridge"
+   ]
+  }
+ ]
+}

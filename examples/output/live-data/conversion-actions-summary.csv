@@ -1,0 +1,8 @@
+Conversion actions
+"October 14, 2026 - November 12, 2026"
+Conversion action,Action optimization,Conversion source,Category,Count,Click-through conv. window,View-through conv. window,Attribution model,Currency code,Conversions,Conv. value,All conv.,All conv. value
+Website lead form,Primary action,Website,Submit lead form,Every,30 days,1 day,Data-driven,USD,100.00,"15,000.00",100.00,"15,000.00"
+GA4 generate_lead,Primary action,Google Analytics (GA4),Submit lead form,One,30 days, --,Data-driven,USD,60.00,"9,000.00",92.00,"13,800.00"
+Calls from ads,Primary action,Calls from ads,Phone call lead,One,30 days, --,Data-driven,USD,70.00,"7,000.00",70.00,"7,000.00"
+Directions clicks,Secondary action,Website,Get directions,Every,30 days,1 day,Data-driven,USD,0.00,0.00,40.00,0.00
+Total: Conversion actions, --, --, --, --, --, --, --,USD,230.00,"31,000.00",302.00,"35,800.00"

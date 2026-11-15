@@ -1,0 +1,110 @@
+{
+ "kind": "experiment",
+ "form": "scorecard",
+ "report": "experiment-scorecard.csv",
+ "title_rows": [
+  "Experiment scorecard",
+  "October 1, 2026 - November 11, 2026"
+ ],
+ "confidence": 0.95,
+ "split": 0.5,
+ "google_result": [],
+ "results": [
+  {
+   "metric": "Clicks",
+   "control": 793.0,
+   "trial": 716.0,
+   "difference": -0.09699999999999999,
+   "low": -0.201,
+   "high": 0.021,
+   "significant": false,
+   "p": null,
+   "source": "Google",
+   "difference_source": "Google",
+   "verdict": "No clear difference",
+   "google_text": {
+    "g_diff": "-9.7%",
+    "g_ci": "[-20.1%, +2.1%]",
+    "g_sig": "Not statistically significant"
+   }
+  },
+  {
+   "metric": "Conversions",
+   "control": 94.0,
+   "trial": 110.0,
+   "difference": 0.17,
+   "low": -0.095,
+   "high": 0.513,
+   "significant": false,
+   "p": null,
+   "source": "Google",
+   "difference_source": "Google",
+   "verdict": "No clear difference",
+   "google_text": {
+    "g_diff": "+17.0%",
+    "g_ci": "[-9.5%, +51.3%]",
+    "g_sig": "Not statistically significant"
+   }
+  },
+  {
+   "metric": "Cost / conv.",
+   "control": 63.72,
+   "trial": 56.45,
+   "difference": -0.114,
+   "low": -0.29100000000000004,
+   "high": 0.107,
+   "significant": false,
+   "p": null,
+   "source": "Google",
+   "difference_source": "Google",
+   "verdict": "No clear difference",
+   "google_text": {
+    "g_diff": "-11.4%",
+    "g_ci": "[-29.1%, +10.7%]",
+    "g_sig": "Not statistically significant"
+   }
+  },
+  {
+   "metric": "Conv. rate",
+   "control": 0.1185,
+   "trial": 0.1536,
+   "difference": 0.29600000000000004,
+   "low": 0.04,
+   "high": 0.615,
+   "significant": true,
+   "p": null,
+   "source": "Google",
+   "difference_source": "Google",
+   "verdict": "Higher, better",
+   "google_text": {
+    "g_diff": "+29.6%",
+    "g_ci": "[+4.0%, +61.5%]",
+    "g_sig": "Statistically significant"
+   }
+  },
+  {
+   "metric": "Cost",
+   "control": 5989.51,
+   "trial": 6210.05,
+   "difference": 0.037000000000000005,
+   "low": -0.085,
+   "high": 0.175,
+   "significant": false,
+   "p": null,
+   "source": "Google",
+   "difference_source": "Google",
+   "verdict": "No clear difference",
+   "google_text": {
+    "g_diff": "+3.7%",
+    "g_ci": "[-8.5%, +17.5%]",
+    "g_sig": "Not statistically significant"
+   }
+  }
+ ],
+ "google_significance_used": true,
+ "arms": {},
+ "reconcile": {
+  "checked": false
+ },
+ "main_metric": "Conversions"
+}

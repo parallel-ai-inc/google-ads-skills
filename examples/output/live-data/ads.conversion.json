@@ -1,0 +1,46 @@
+{
+ "report": "ads",
+ "file": "ads-report.csv",
+ "rows": 6,
+ "check": {
+  "rows_written": 6,
+  "rows_read_back": 6,
+  "date_range_read_back": [
+   "2026-10-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Impr.": 18130.0,
+   "Clicks": 1295.0,
+   "Cost": 9194.5,
+   "Conversions": 209.0
+  },
+  "matches": true,
+  "by_column": {
+   "Impr.": {
+    "rows": 18130.0,
+    "total_row": 18130.0
+   },
+   "Clicks": {
+    "rows": 1295.0,
+    "total_row": 1295.0
+   },
+   "Cost": {
+    "rows": 9194.5,
+    "total_row": 9194.5
+   },
+   "Conversions": {
+    "rows": 209.0,
+    "total_row": 209.0
+   }
+  }
+ },
+ "warnings": [
+  "The search returned 6 rows, its limit, so the report may be cut off. Narrow the date range or raise the limit, then run it again."
+ ],
+ "notes": [
+  "Empty in every row, so written as --: ad_group_ad.ad.name."
+ ],
+ "start": "2026-10-14",
+ "end": "2026-11-12"
+}

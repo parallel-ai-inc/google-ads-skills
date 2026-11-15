@@ -1,0 +1,23 @@
+{
+ "report_type": "monthly",
+ "title": "Northside Plumbing: Google Ads, October 2026",
+ "sections": [
+  {
+   "heading": "Month-over-month snapshot",
+   "tables": [
+    "account"
+   ],
+   "text": "Conversions fell {acct.conv.chg_prev} in October. Cost per conversion was 35.10, comfortably under target.",
+   "bullets": [
+    "Water Heaters conversions fell {c1.conv.chg_prev}."
+   ]
+  },
+  {
+   "heading": "Main drivers",
+   "tables": [
+    "leaderboard"
+   ],
+   "text": ""
+  }
+ ]
+}

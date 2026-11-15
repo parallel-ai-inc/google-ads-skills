@@ -1,0 +1,43 @@
+{
+ "steps": [
+  {
+   "step": 1,
+   "campaign": "Plumbing | Emergency",
+   "change": "budget",
+   "to": 280,
+   "why": "Beats its Target CPA of 60.00 and is limited by budget. Since August 17, 2026 more budget buys conversions at about the target, which the business accepts."
+  },
+  {
+   "step": 1,
+   "campaign": "Plumbing | Water Heaters",
+   "change": "target_roas",
+   "to": 3.6,
+   "why": "Beats its Target ROAS of 4.00 and loses impressions to rank, so a lower target lets it enter more auctions."
+  },
+  {
+   "step": 1,
+   "campaign": "Gas Line | Demand Gen",
+   "change": "pause",
+   "why": "No conversions since it was created."
+  },
+  {
+   "step": 1,
+   "campaign": "Sewer Line | Search",
+   "change": "investigate",
+   "why": "Misses its Target CPA of 55.00. Check search terms, the landing page and call tracking before changing the target."
+  },
+  {
+   "step": 1,
+   "campaign": "Drain Cleaning | Search",
+   "change": "hold",
+   "why": "Learning after a switch to Target CPA and a budget change three days later."
+  },
+  {
+   "step": 2,
+   "campaign": "Plumbing | Water Heaters",
+   "change": "target_roas",
+   "to": 3.3,
+   "why": "A second step toward more volume, only if the first held its return."
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+  "kind": "report",
+  "report": "change-history",
+  "title": "Change history report",
+  "file": "change-history.csv",
+  "total": null,
+  "customer_id": "1234567890",
+  "start": "2026-10-15",
+  "end": "2026-11-13",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "change_event",
+    "fields": [
+      "change_event.change_date_time",
+      "change_event.user_email",
+      "change_event.campaign",
+      "change_event.ad_group",
+      "change_event.change_resource_type",
+      "change_event.resource_change_operation",
+      "change_event.changed_fields",
+      "change_event.client_type"
+    ],
+    "conditions": [
+      "change_event.change_date_time >= '2026-10-15'",
+      "change_event.change_date_time <= '2026-11-14'"
+    ],
+    "orderings": [
+      "change_event.change_date_time DESC"
+    ],
+    "limit": 10000
+  },
+  "result": "change-history.result.json",
+  "joins": [
+    {
+      "name": "campaign-names",
+      "result": "campaign-names.result.json",
+      "field_checks": [
+        {
+          "field": "campaign.resource_name",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        },
+        {
+          "field": "campaign.name",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with campaign in working queries"
+        }
+      ],
+      "parameters": {
+        "customer_id": "1234567890",
+        "resource": "campaign",
+        "fields": [
+          "campaign.resource_name",
+          "campaign.name"
+        ],
+        "limit": 10000
+      }
+    },
+    {
+      "name": "ad-group-names",
+      "result": "ad-group-names.result.json",
+      "field_checks": [
+        {
+          "field": "ad_group.resource_name",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with ad_group in working queries"
+        },
+        {
+          "field": "ad_group.name",
+          "used_in": "select",
+          "status": "seen",
+          "note": "seen with ad_group in working queries"
+        }
+      ],
+      "parameters": {
+        "customer_id": "1234567890",
+        "resource": "ad_group",
+        "fields": [
+          "ad_group.resource_name",
+          "ad_group.name"
+        ],
+        "limit": 10000
+      }
+    }
+  ],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Date & time",
+      "field": "change_event.change_date_time",
+      "kind": "datetime"
+    },
+    {
+      "header": "User",
+      "field": "change_event.user_email",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign",
+      "field": "change_event.campaign",
+      "kind": "lookup"
+    },
+    {
+      "header": "Ad group",
+      "field": "change_event.ad_group",
+      "kind": "lookup"
+    },
+    {
+      "header": "Changes",
+      "field": "change_event.change_resource_type",
+      "kind": "change",
+      "inputs": [
+        "change_event.resource_change_operation",
+        "change_event.changed_fields"
+      ]
+    },
+    {
+      "header": "Changed through",
+      "field": "change_event.client_type",
+      "kind": "enum"
+    }
+  ],
+  "needs": [
+    "change_event.change_date_time"
+  ],
+  "gaps": [
+    "Google keeps change events for 30 days, returns at most 10,000 rows and only the latest change to each item in the range.",
+    "Change events cover campaigns, ad groups, ads, keywords and other criteria, budgets, bid adjustments and assets. Changes to conversion actions are not among them.",
+    "Changes is written from the item type, what happened and the fields changed. It does not show old and new values."
+  ],
+  "readers": [
+    "conversion tracking: python3 scripts/find_breaks.py REPORT --out OUTPUT --changes FILE"
+  ],
+  "field_checks": [
+    {
+      "field": "change_event.change_date_time",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.user_email",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.campaign",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.ad_group",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.change_resource_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.resource_change_operation",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.changed_fields",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.client_type",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.change_date_time",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.change_date_time",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    },
+    {
+      "field": "change_event.change_date_time",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with change_event in working queries"
+    }
+  ]
+}

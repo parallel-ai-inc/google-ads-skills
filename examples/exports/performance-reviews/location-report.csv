@@ -1,0 +1,15 @@
+Location report
+"October 14, 2026 - November 12, 2026"
+Location,Campaign,Impr.,Clicks,Cost,Conversions,Cost / conv.
+"Evanston, Illinois, United States",Plumbing | Emergency,"3,750",300,"2,400.00",30.00,80.00
+"Evanston, Illinois, United States",Drain Cleaning | Search,"1,400",112,900.00,12.00,75.00
+"Skokie, Illinois, United States",Plumbing | Emergency,"2,812",225,"1,800.00",20.00,90.00
+"Skokie, Illinois, United States",Plumbing | Water Heaters,"2,350",188,"1,500.00",14.00,107.14
+"Chicago, Illinois, United States",Plumbing | Emergency,"4,688",375,"3,000.00",34.00,88.24
+"Chicago, Illinois, United States",Plumbing | Water Heaters,"4,062",325,"2,600.00",22.00,118.18
+"Chicago, Illinois, United States",Drain Cleaning | Search,"2,188",175,"1,400.00",18.00,77.78
+"Gary, Indiana, United States",Plumbing | Emergency,975,78,620.00,0.00, --
+"Gary, Indiana, United States",Plumbing | Water Heaters,600,48,380.00,0.00, --
+"Wilmette, Illinois, United States",Drain Cleaning | Search,312,25,200.00,1.00,200.00
+"Evanston, Illinois, United States",Brand,238,19,150.00,25.00,6.00
+Total: Account,,"23,375","1,870","14,950.00",176.00,84.94

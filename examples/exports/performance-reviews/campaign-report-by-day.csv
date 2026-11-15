@@ -1,0 +1,189 @@
+Campaign report
+"October 16, 2026 - November 12, 2026"
+Day,Campaign status,Campaign,Budget,Currency code,Status,Campaign type,Bid strategy type,Cost,Impr.,Clicks,CTR,Avg. CPC,Conv. rate,Conversions,Cost / conv.
+2026-10-16,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,223.90,414,29,7.00%,7.72,10.45%,3.03,73.89
+2026-10-16,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,136.49,229,16,6.99%,8.53,7.69%,1.23,110.97
+2026-10-16,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,94.57,214,15,7.01%,6.30,8.60%,1.29,73.31
+2026-10-16,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.33,86,6,6.98%,1.39,19.33%,1.16,7.18
+2026-10-16,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,28.92,57,4,7.02%,7.23,0.00%,0.00, --
+2026-10-17,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,226.85,400,28,7.00%,8.10,11.36%,3.18,71.34
+2026-10-17,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,151.42,257,18,7.00%,8.41,9.17%,1.65,91.77
+2026-10-17,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,97.89,214,15,7.01%,6.53,9.40%,1.41,69.43
+2026-10-17,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.37,86,6,6.98%,1.39,20.67%,1.24,6.75
+2026-10-17,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.11,57,4,7.02%,6.78,0.00%,0.00, --
+2026-10-18,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,244.84,443,31,7.00%,7.90,10.13%,3.14,77.97
+2026-10-18,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,130.01,229,16,6.99%,8.13,7.31%,1.17,111.12
+2026-10-18,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,106.32,243,17,7.00%,6.25,9.47%,1.61,66.04
+2026-10-18,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.66,86,6,6.98%,1.44,20.67%,1.24,6.98
+2026-10-18,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,28.56,57,4,7.02%,7.14,0.00%,0.00, --
+2026-10-19,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,240.60,429,30,6.99%,8.02,11.13%,3.34,72.04
+2026-10-19,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,158.08,271,19,7.01%,8.32,9.16%,1.74,90.85
+2026-10-19,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,93.73,214,15,7.01%,6.25,10.80%,1.62,57.86
+2026-10-19,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.69,86,6,6.98%,1.45,19.00%,1.14,7.62
+2026-10-19,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,28.74,57,4,7.02%,7.18,0.00%,0.00, --
+2026-10-20,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,251.23,457,32,7.00%,7.85,10.59%,3.39,74.11
+2026-10-20,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,154.22,257,18,7.00%,8.57,7.89%,1.42,108.61
+2026-10-20,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,111.86,243,17,7.00%,6.58,9.94%,1.69,66.19
+2026-10-20,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.32,86,6,6.98%,1.39,23.33%,1.40,5.94
+2026-10-20,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,29.38,57,4,7.02%,7.34,0.00%,0.00, --
+2026-10-21,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,229.35,414,29,7.00%,7.91,10.52%,3.05,75.20
+2026-10-21,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,135.48,229,16,6.99%,8.47,7.19%,1.15,117.81
+2026-10-21,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,90.33,214,15,7.01%,6.02,10.80%,1.62,55.76
+2026-10-21,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.48,86,6,6.98%,1.41,21.33%,1.28,6.62
+2026-10-21,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,26.83,57,4,7.02%,6.71,0.00%,0.00, --
+2026-10-22,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,249.20,429,30,6.99%,8.31,10.97%,3.29,75.74
+2026-10-22,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,157.92,271,19,7.01%,8.31,7.79%,1.48,106.70
+2026-10-22,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,104.67,229,16,6.99%,6.54,11.38%,1.82,57.51
+2026-10-22,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.42,86,6,6.98%,1.40,20.17%,1.21,6.96
+2026-10-22,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.96,57,4,7.02%,6.99,0.00%,0.00, --
+2026-10-23,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,220.49,414,29,7.00%,7.60,9.76%,2.83,77.91
+2026-10-23,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,154.02,257,18,7.00%,8.56,9.11%,1.64,93.91
+2026-10-23,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,107.27,243,17,7.00%,6.31,10.35%,1.76,60.95
+2026-10-23,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.31,86,6,6.98%,1.39,24.67%,1.48,5.61
+2026-10-23,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,29.05,57,4,7.02%,7.26,0.00%,0.00, --
+2026-10-24,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,229.66,414,29,7.00%,7.92,8.83%,2.56,89.71
+2026-10-24,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,146.30,257,18,7.00%,8.13,6.94%,1.25,117.04
+2026-10-24,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,91.31,214,15,7.01%,6.09,9.53%,1.43,63.85
+2026-10-24,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,6.89,71,5,7.04%,1.38,19.60%,0.98,7.03
+2026-10-24,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.62,57,4,7.02%,6.91,0.00%,0.00, --
+2026-10-25,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,258.92,457,32,7.00%,8.09,8.94%,2.86,90.53
+2026-10-25,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,142.29,243,17,7.00%,8.37,7.65%,1.30,109.45
+2026-10-25,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,97.80,214,15,7.01%,6.52,11.47%,1.72,56.86
+2026-10-25,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.69,86,6,6.98%,1.45,19.33%,1.16,7.49
+2026-10-25,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.56,57,4,7.02%,6.89,0.00%,0.00, --
+2026-10-26,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,247.33,457,32,7.00%,7.73,8.56%,2.74,90.27
+2026-10-26,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,170.48,286,20,6.99%,8.52,7.15%,1.43,119.22
+2026-10-26,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,96.03,229,16,6.99%,6.00,10.06%,1.61,59.65
+2026-10-26,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,10.52,100,7,7.00%,1.50,23.29%,1.63,6.45
+2026-10-26,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.63,57,4,7.02%,6.91,0.00%,0.00, --
+2026-10-27,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,256.83,457,32,7.00%,8.03,10.84%,3.47,74.01
+2026-10-27,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,140.50,243,17,7.00%,8.26,8.76%,1.49,94.30
+2026-10-27,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,117.40,257,18,7.00%,6.52,10.94%,1.97,59.59
+2026-10-27,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.91,86,6,6.98%,1.49,20.17%,1.21,7.36
+2026-10-27,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.60,57,4,7.02%,6.90,0.00%,0.00, --
+2026-10-28,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,211.24,386,27,6.99%,7.82,9.26%,2.50,84.50
+2026-10-28,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,168.87,271,19,7.01%,8.89,7.89%,1.50,112.58
+2026-10-28,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,112.33,243,17,7.00%,6.61,11.35%,1.93,58.20
+2026-10-28,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.46,86,6,6.98%,1.41,20.17%,1.21,6.99
+2026-10-28,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.17,57,4,7.02%,6.79,0.00%,0.00, --
+2026-10-29,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,264.72,457,32,7.00%,8.27,9.94%,3.18,83.25
+2026-10-29,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,166.34,271,19,7.01%,8.75,7.00%,1.33,125.07
+2026-10-29,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,111.49,243,17,7.00%,6.56,10.82%,1.84,60.59
+2026-10-29,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.68,86,6,6.98%,1.45,19.83%,1.19,7.29
+2026-10-29,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.53,57,4,7.02%,6.88,0.00%,0.00, --
+2026-10-30,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,261.25,471,33,7.01%,7.92,9.70%,3.20,81.64
+2026-10-30,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,173.82,286,20,6.99%,8.69,7.20%,1.44,120.71
+2026-10-30,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,91.20,214,15,7.01%,6.08,11.20%,1.68,54.29
+2026-10-30,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.39,86,6,6.98%,1.40,24.17%,1.45,5.79
+2026-10-30,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,28.44,57,4,7.02%,7.11,0.00%,0.00, --
+2026-10-31,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,231.14,429,30,6.99%,7.70,8.53%,2.56,90.29
+2026-10-31,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,172.54,286,20,6.99%,8.63,8.05%,1.61,107.17
+2026-10-31,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,106.39,243,17,7.00%,6.26,11.12%,1.89,56.29
+2026-10-31,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.45,86,6,6.98%,1.41,20.33%,1.22,6.93
+2026-10-31,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.27,57,4,7.02%,6.82,0.00%,0.00, --
+2026-11-01,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,230.12,414,29,7.00%,7.94,8.90%,2.58,89.19
+2026-11-01,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,159.14,271,19,7.01%,8.38,7.89%,1.50,106.09
+2026-11-01,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,104.88,229,16,6.99%,6.55,9.75%,1.56,67.23
+2026-11-01,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,10.15,100,7,7.00%,1.45,22.14%,1.55,6.55
+2026-11-01,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,26.65,57,4,7.02%,6.66,0.00%,0.00, --
+2026-11-02,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,212.89,400,28,7.00%,7.60,10.89%,3.05,69.80
+2026-11-02,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,144.12,243,17,7.00%,8.48,8.53%,1.45,99.39
+2026-11-02,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,99.05,229,16,6.99%,6.19,10.06%,1.61,61.52
+2026-11-02,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.95,86,6,6.98%,1.49,19.33%,1.16,7.72
+2026-11-02,Paused,Drain Cleaning | Old,33.60,USD,Paused,Search,Manual CPC,27.30,57,4,7.02%,6.83,0.00%,0.00, --
+2026-11-03,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,256.20,457,32,7.00%,8.01,10.19%,3.26,78.59
+2026-11-03,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,168.16,271,19,7.01%,8.85,7.84%,1.49,112.86
+2026-11-03,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,100.86,229,16,6.99%,6.30,10.06%,1.61,62.65
+2026-11-03,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.66,86,6,6.98%,1.44,22.17%,1.33,6.51
+2026-11-04,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,250.60,429,30,6.99%,8.35,10.60%,3.18,78.81
+2026-11-04,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,168.64,271,19,7.01%,8.88,7.42%,1.41,119.60
+2026-11-04,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,105.27,229,16,6.99%,6.58,11.00%,1.76,59.81
+2026-11-04,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.37,86,6,6.98%,1.39,21.67%,1.30,6.44
+2026-11-05,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,210.40,386,27,6.99%,7.79,8.70%,2.35,89.53
+2026-11-05,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,166.09,271,19,7.01%,8.74,8.95%,1.70,97.70
+2026-11-05,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,96.54,214,15,7.01%,6.44,10.47%,1.57,61.49
+2026-11-05,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,9.03,86,6,6.98%,1.50,25.17%,1.51,5.98
+2026-11-06,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,234.14,400,28,7.00%,8.36,4.86%,1.36,172.16
+2026-11-06,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,160.50,257,18,7.00%,8.92,8.78%,1.58,101.58
+2026-11-06,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,93.85,214,15,7.01%,6.26,10.07%,1.51,62.15
+2026-11-06,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.44,86,6,6.98%,1.41,20.83%,1.25,6.75
+2026-11-07,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,236.08,443,31,7.00%,7.62,5.10%,1.58,149.42
+2026-11-07,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,145.63,257,18,7.00%,8.09,7.61%,1.37,106.30
+2026-11-07,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,100.92,229,16,6.99%,6.31,8.69%,1.39,72.60
+2026-11-07,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,10.44,100,7,7.00%,1.49,25.14%,1.76,5.93
+2026-11-08,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,218.75,400,28,7.00%,7.81,4.32%,1.21,180.79
+2026-11-08,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,157.79,271,19,7.01%,8.30,7.11%,1.35,116.88
+2026-11-08,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,104.95,229,16,6.99%,6.56,10.94%,1.75,59.97
+2026-11-08,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.39,86,6,6.98%,1.40,24.83%,1.49,5.63
+2026-11-09,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,244.81,429,30,6.99%,8.16,4.40%,1.32,185.46
+2026-11-09,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,138.56,229,16,6.99%,8.66,7.81%,1.25,110.85
+2026-11-09,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,98.64,214,15,7.01%,6.58,10.40%,1.56,63.23
+2026-11-09,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.34,86,6,6.98%,1.39,24.33%,1.46,5.71
+2026-11-10,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,223.84,386,27,6.99%,8.29,4.93%,1.33,168.30
+2026-11-10,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,145.27,243,17,7.00%,8.55,9.00%,1.53,94.95
+2026-11-10,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,91.00,214,15,7.01%,6.07,10.07%,1.51,60.26
+2026-11-10,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.36,86,6,6.98%,1.39,19.83%,1.19,7.03
+2026-11-11,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,209.56,386,27,6.99%,7.76,4.70%,1.27,165.01
+2026-11-11,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,148.25,243,17,7.00%,8.72,7.47%,1.27,116.73
+2026-11-11,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,97.55,229,16,6.99%,6.10,9.56%,1.53,63.76
+2026-11-11,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,7.07,71,5,7.04%,1.41,18.80%,0.94,7.52
+2026-11-12,Enabled,Plumbing | Emergency,288.00,USD,Eligible,Search,Manual CPC,249.27,443,31,7.00%,8.04,4.55%,1.41,176.79
+2026-11-12,Enabled,Plumbing | Water Heaters,183.60,USD,Eligible,Search,Maximize Conversions,159.65,257,18,7.00%,8.87,7.06%,1.27,125.71
+2026-11-12,Enabled,Drain Cleaning | Search,120.96,USD,Eligible,Search,Target CPA,106.37,243,17,7.00%,6.26,10.00%,1.70,62.57
+2026-11-12,Enabled,Brand,10.44,USD,Eligible,Search,Manual CPC,8.61,86,6,6.98%,1.43,22.00%,1.32,6.52
+2026-10-16,Total: Account,,,,,,,492.21,"1,000",70,7.00%,7.03,9.59%,6.71,73.35
+2026-10-16,Total: Search,,,,,,,492.21,"1,000",70,7.00%,7.03,9.59%,6.71,73.35
+2026-10-17,Total: Account,,,,,,,511.64,"1,014",71,7.00%,7.21,10.54%,7.48,68.40
+2026-10-17,Total: Search,,,,,,,511.64,"1,014",71,7.00%,7.21,10.54%,7.48,68.40
+2026-10-18,Total: Account,,,,,,,518.39,"1,058",74,6.99%,7.01,9.68%,7.16,72.40
+2026-10-18,Total: Search,,,,,,,518.39,"1,058",74,6.99%,7.01,9.68%,7.16,72.40
+2026-10-19,Total: Account,,,,,,,529.84,"1,057",74,7.00%,7.16,10.59%,7.84,67.58
+2026-10-19,Total: Search,,,,,,,529.84,"1,057",74,7.00%,7.16,10.59%,7.84,67.58
+2026-10-20,Total: Account,,,,,,,555.01,"1,100",77,7.00%,7.21,10.26%,7.90,70.25
+2026-10-20,Total: Search,,,,,,,555.01,"1,100",77,7.00%,7.21,10.26%,7.90,70.25
+2026-10-21,Total: Account,,,,,,,490.47,"1,000",70,7.00%,7.01,10.14%,7.10,69.08
+2026-10-21,Total: Search,,,,,,,490.47,"1,000",70,7.00%,7.01,10.14%,7.10,69.08
+2026-10-22,Total: Account,,,,,,,548.17,"1,072",75,7.00%,7.31,10.40%,7.80,70.28
+2026-10-22,Total: Search,,,,,,,548.17,"1,072",75,7.00%,7.31,10.40%,7.80,70.28
+2026-10-23,Total: Account,,,,,,,519.14,"1,057",74,7.00%,7.02,10.42%,7.71,67.33
+2026-10-23,Total: Search,,,,,,,519.14,"1,057",74,7.00%,7.02,10.42%,7.71,67.33
+2026-10-24,Total: Account,,,,,,,501.78,"1,013",71,7.01%,7.07,8.76%,6.22,80.67
+2026-10-24,Total: Search,,,,,,,501.78,"1,013",71,7.01%,7.07,8.76%,6.22,80.67
+2026-10-25,Total: Account,,,,,,,535.26,"1,057",74,7.00%,7.23,9.51%,7.04,76.03
+2026-10-25,Total: Search,,,,,,,535.26,"1,057",74,7.00%,7.23,9.51%,7.04,76.03
+2026-10-26,Total: Account,,,,,,,551.99,"1,129",79,7.00%,6.99,9.38%,7.41,74.49
+2026-10-26,Total: Search,,,,,,,551.99,"1,129",79,7.00%,6.99,9.38%,7.41,74.49
+2026-10-27,Total: Account,,,,,,,551.24,"1,100",77,7.00%,7.16,10.57%,8.14,67.72
+2026-10-27,Total: Search,,,,,,,551.24,"1,100",77,7.00%,7.16,10.57%,8.14,67.72
+2026-10-28,Total: Account,,,,,,,528.07,"1,043",73,7.00%,7.23,9.78%,7.14,73.96
+2026-10-28,Total: Search,,,,,,,528.07,"1,043",73,7.00%,7.23,9.78%,7.14,73.96
+2026-10-29,Total: Account,,,,,,,578.76,"1,114",78,7.00%,7.42,9.67%,7.54,76.76
+2026-10-29,Total: Search,,,,,,,578.76,"1,114",78,7.00%,7.42,9.67%,7.54,76.76
+2026-10-30,Total: Account,,,,,,,563.10,"1,114",78,7.00%,7.22,9.96%,7.77,72.47
+2026-10-30,Total: Search,,,,,,,563.10,"1,114",78,7.00%,7.22,9.96%,7.77,72.47
+2026-10-31,Total: Account,,,,,,,545.79,"1,101",77,6.99%,7.09,9.45%,7.28,74.97
+2026-10-31,Total: Search,,,,,,,545.79,"1,101",77,6.99%,7.09,9.45%,7.28,74.97
+2026-11-01,Total: Account,,,,,,,530.94,"1,071",75,7.00%,7.08,9.59%,7.19,73.84
+2026-11-01,Total: Search,,,,,,,530.94,"1,071",75,7.00%,7.08,9.59%,7.19,73.84
+2026-11-02,Total: Account,,,,,,,492.31,"1,015",71,7.00%,6.93,10.24%,7.27,67.72
+2026-11-02,Total: Search,,,,,,,492.31,"1,015",71,7.00%,6.93,10.24%,7.27,67.72
+2026-11-03,Total: Account,,,,,,,533.88,"1,043",73,7.00%,7.31,10.53%,7.69,69.43
+2026-11-03,Total: Search,,,,,,,533.88,"1,043",73,7.00%,7.31,10.53%,7.69,69.43
+2026-11-04,Total: Account,,,,,,,532.88,"1,015",71,7.00%,7.51,10.77%,7.65,69.66
+2026-11-04,Total: Search,,,,,,,532.88,"1,015",71,7.00%,7.51,10.77%,7.65,69.66
+2026-11-05,Total: Account,,,,,,,482.06,957,67,7.00%,7.19,10.64%,7.13,67.61
+2026-11-05,Total: Search,,,,,,,482.06,957,67,7.00%,7.19,10.64%,7.13,67.61
+2026-11-06,Total: Account,,,,,,,496.93,957,67,7.00%,7.42,8.51%,5.70,87.18
+2026-11-06,Total: Search,,,,,,,496.93,957,67,7.00%,7.42,8.51%,5.70,87.18
+2026-11-07,Total: Account,,,,,,,493.07,"1,029",72,7.00%,6.85,8.47%,6.10,80.83
+2026-11-07,Total: Search,,,,,,,493.07,"1,029",72,7.00%,6.85,8.47%,6.10,80.83
+2026-11-08,Total: Account,,,,,,,489.88,986,69,7.00%,7.10,8.41%,5.80,84.46
+2026-11-08,Total: Search,,,,,,,489.88,986,69,7.00%,7.10,8.41%,5.80,84.46
+2026-11-09,Total: Account,,,,,,,490.35,958,67,6.99%,7.32,8.34%,5.59,87.72
+2026-11-09,Total: Search,,,,,,,490.35,958,67,6.99%,7.32,8.34%,5.59,87.72
+2026-11-10,Total: Account,,,,,,,468.47,929,65,7.00%,7.21,8.55%,5.56,84.26
+2026-11-10,Total: Search,,,,,,,468.47,929,65,7.00%,7.21,8.55%,5.56,84.26
+2026-11-11,Total: Account,,,,,,,462.43,929,65,7.00%,7.11,7.71%,5.01,92.30
+2026-11-11,Total: Search,,,,,,,462.43,929,65,7.00%,7.11,7.71%,5.01,92.30
+2026-11-12,Total: Account,,,,,,,523.90,"1,029",72,7.00%,7.28,7.92%,5.70,91.91
+2026-11-12,Total: Search,,,,,,,523.90,"1,029",72,7.00%,7.28,7.92%,5.70,91.91

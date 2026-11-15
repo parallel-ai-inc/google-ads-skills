@@ -1,0 +1,179 @@
+{
+ "verdicts": [
+  {
+   "id": 7,
+   "verdict": "Exclude",
+   "reason": "Looking for a job, not a plumber.",
+   "theme": "Job seekers"
+  },
+  {
+   "id": 12,
+   "verdict": "Exclude",
+   "reason": "Wants to do the repair themselves.",
+   "theme": "Do it yourself"
+  },
+  {
+   "id": 13,
+   "verdict": "Exclude",
+   "reason": "Looking for a job, not a plumber.",
+   "theme": "Job seekers"
+  },
+  {
+   "id": 14,
+   "verdict": "Exclude",
+   "reason": "A how to search. Wants instructions, not a service call.",
+   "theme": "Do it yourself"
+  },
+  {
+   "id": 15,
+   "verdict": "Exclude",
+   "reason": "Shopping for parts at a retailer.",
+   "theme": "Parts, supplies and manuals"
+  },
+  {
+   "id": 16,
+   "verdict": "Exclude",
+   "reason": "A how to search. Wants to fix it themselves.",
+   "theme": "Do it yourself"
+  },
+  {
+   "id": 17,
+   "verdict": "Exclude",
+   "reason": "Looking for training in the trade.",
+   "theme": "Training in the trade"
+  },
+  {
+   "id": 18,
+   "verdict": "Exclude",
+   "reason": "Looking for an assistance program, not a paid install.",
+   "theme": "Assistance programs"
+  },
+  {
+   "id": 19,
+   "verdict": "Exclude",
+   "reason": "Looking for training in the trade.",
+   "theme": "Training in the trade"
+  },
+  {
+   "id": 21,
+   "verdict": "Exclude",
+   "reason": "Researching pay in the trade.",
+   "theme": "Job seekers"
+  },
+  {
+   "id": 23,
+   "verdict": "Exclude",
+   "reason": "Looking for a product manual.",
+   "theme": "Parts, supplies and manuals"
+  },
+  {
+   "id": 24,
+   "verdict": "Exclude",
+   "reason": "Looking for a store that sells parts.",
+   "theme": "Parts, supplies and manuals"
+  },
+  {
+   "id": 25,
+   "verdict": "Exclude",
+   "reason": "Looking for training in the trade.",
+   "theme": "Training in the trade"
+  },
+  {
+   "id": 26,
+   "verdict": "Watch",
+   "reason": "Core service search. 9 clicks is too few to judge, and the same words convert in other searches."
+  },
+  {
+   "id": 27,
+   "verdict": "Exclude",
+   "reason": "Looking for a job, not a repair.",
+   "theme": "Job seekers"
+  }
+ ],
+ "negatives": [
+  {
+   "text": "jobs",
+   "match": "broad",
+   "level": "account",
+   "why": "Job seekers, across both campaigns."
+  },
+  {
+   "text": "how to",
+   "match": "phrase",
+   "level": "account",
+   "why": "Do it yourself instructions."
+  },
+  {
+   "text": "diy",
+   "match": "broad",
+   "level": "account",
+   "why": "Do it yourself repairs."
+  },
+  {
+   "text": "apprenticeship",
+   "match": "broad",
+   "level": "account",
+   "why": "Training in the trade."
+  },
+  {
+   "text": "school",
+   "match": "broad",
+   "level": "account",
+   "why": "Training in the trade."
+  },
+  {
+   "text": "course",
+   "match": "broad",
+   "level": "account",
+   "why": "Training in the trade."
+  },
+  {
+   "text": "salary",
+   "match": "broad",
+   "level": "account",
+   "why": "Pay research."
+  },
+  {
+   "text": "free",
+   "match": "phrase",
+   "level": "campaign",
+   "campaign": "Plumbing | Emergency",
+   "why": "First try at stopping free course searches."
+  },
+  {
+   "text": "free",
+   "match": "phrase",
+   "level": "campaign",
+   "campaign": "Plumbing | Water Heaters",
+   "why": "First try at stopping free program searches."
+  },
+  {
+   "text": "program",
+   "match": "broad",
+   "level": "campaign",
+   "campaign": "Plumbing | Water Heaters",
+   "why": "Assistance programs. Narrowed after 'free' was rejected."
+  },
+  {
+   "text": "home depot",
+   "match": "phrase",
+   "level": "campaign",
+   "campaign": "Plumbing | Water Heaters",
+   "why": "Retail parts shoppers."
+  },
+  {
+   "text": "manual",
+   "match": "broad",
+   "level": "campaign",
+   "campaign": "Plumbing | Water Heaters",
+   "why": "Product manuals."
+  },
+  {
+   "text": "supply store",
+   "match": "phrase",
+   "level": "campaign",
+   "campaign": "Plumbing | Emergency",
+   "why": "Parts stores."
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "parallel-ai-for-google-ads",
+  "version": "0.1.0",
+  "description": "Thirteen skills that do whole Google Ads jobs on your own exports: audits, search terms and negatives, conversion tracking, diagnosis, budgets, bidding, campaign builds, Performance Max, reviews, client reports, experiments, competitors and seasonality, and read only live data.",
+  "author": {
+    "name": "Parallel AI, Inc.",
+    "url": "https://www.withparallel.ai"
+  },
+  "homepage": "https://www.withparallel.ai/skills",
+  "repository": "https://github.com/parallel-ai-inc/google-ads-skills",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["google-ads", "ppc", "paid-search", "performance-max", "google-ads-editor", "search-terms", "conversion-tracking"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "parallel-ai",
+  "owner": {
+    "name": "Parallel AI, Inc."
+  },
+  "description": "Parallel AI's skills for Google Ads professionals: whole Google Ads jobs on your own exports, with every number computed by a script.",
+  "plugins": [
+    {
+      "name": "parallel-ai-for-google-ads",
+      "source": "./",
+      "description": "Thirteen skills that do whole Google Ads jobs on your own exports.",
+      "homepage": "https://www.withparallel.ai/skills"
+    }
+  ]
+}

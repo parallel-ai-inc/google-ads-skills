@@ -1,0 +1,272 @@
+{
+ "report": "campaigns-by-day.csv",
+ "title_rows": [
+  "Campaign report",
+  "October 1, 2026 - November 12, 2026"
+ ],
+ "periods": {
+  "current": [
+   "2026-11-03",
+   "2026-11-12"
+  ],
+  "previous": [
+   "2026-10-24",
+   "2026-11-02"
+  ]
+ },
+ "account": {
+  "scope": "Account",
+  "current": {
+   "impressions": 10583.0,
+   "clicks": 768.0,
+   "cost": 5202.239999999999,
+   "conversions": 132.28,
+   "conv_value": 40432.799999999996,
+   "ctr": 0.07256921477841821,
+   "cpc": 6.773749999999999,
+   "cvr": 0.17223958333333333,
+   "cpa": 39.327487148472926,
+   "roas": 7.772190441040784,
+   "value_per_conv": 305.6607196855155
+  },
+  "previous": {
+   "impressions": 9493.0,
+   "clicks": 728.0,
+   "cost": 4618.07,
+   "conversions": 134.6,
+   "conv_value": 44009.50000000001,
+   "ctr": 0.07668808595807437,
+   "cpc": 6.343502747252747,
+   "cvr": 0.18489010989010987,
+   "cpa": 34.30958395245171,
+   "roas": 9.529846884087943,
+   "value_per_conv": 326.96508172362564
+  },
+  "cost_change": 0.12649656674758053,
+  "conversions_change": -0.017236255572065328,
+  "cpa_change": 0.14625368826900753,
+  "conversion_levers": {
+   "impressions": -6.251636229709608,
+   "ctr": 3.1751921244794867,
+   "cvr": 4.076444105230121
+  },
+  "cost_levers": {
+   "impressions": 0.9125349245239153,
+   "ctr": -0.4634744567975939,
+   "cpc": 0.5509395322736786
+  }
+ },
+ "campaigns": [
+  {
+   "scope": "Drain Cleaning | Search",
+   "current": {
+    "impressions": 3014.0,
+    "clicks": 172.0,
+    "cost": 1297.0400000000002,
+    "conversions": 15.879999999999999,
+    "conv_value": 3334.8,
+    "ctr": 0.05706702057067021,
+    "cpc": 7.54093023255814,
+    "cvr": 0.09232558139534883,
+    "cpa": 81.67758186397987,
+    "roas": 2.5710849318448155,
+    "value_per_conv": 210.00000000000003
+   },
+   "previous": {
+    "impressions": 2444.0,
+    "clicks": 137.0,
+    "cost": 717.89,
+    "conversions": 12.13,
+    "conv_value": 2547.3,
+    "ctr": 0.056055646481178396,
+    "cpc": 5.24007299270073,
+    "cvr": 0.08854014598540147,
+    "cpa": 59.18301731244847,
+    "roas": 3.5483152014932653,
+    "value_per_conv": 210.0
+   },
+   "cost_change": 0.8067391940269404,
+   "conversions_change": 0.30915086562242355,
+   "cpa_change": 0.38008478737700185,
+   "conversion_levers": {
+    "impressions": 0.7782056759526937,
+    "ctr": 0.06638048928482179,
+    "cvr": 0.15541383476248452
+   },
+   "cost_levers": {
+    "impressions": 0.35439335639466746,
+    "ctr": 0.030229546151753203,
+    "cpc": 0.6153770974535793
+   },
+   "cost_delta": 579.1500000000002,
+   "conversions_delta": 3.7499999999999982,
+   "share_of_cost_change": 0.9914066110892394,
+   "share_of_conversion_change": -1.6163793103448316,
+   "notable": true,
+   "headline_metric": "cost",
+   "main_lever": "cpc",
+   "shift_day": "2026-11-05",
+   "changes_before_shift": [
+    {
+     "day": "2026-11-05",
+     "user": "lee@northside.example",
+     "changes": "12 keywords added (broad match)"
+    }
+   ]
+  },
+  {
+   "scope": "Plumbing | Water Heaters",
+   "current": {
+    "impressions": 2893.0,
+    "clicks": 172.0,
+    "cost": 1238.4399999999998,
+    "conversions": 9.9,
+    "conv_value": 5148.0,
+    "ctr": 0.05945385413066021,
+    "cpc": 7.2002325581395334,
+    "cvr": 0.05755813953488372,
+    "cpa": 125.09494949494947,
+    "roas": 4.156842479248087,
+    "value_per_conv": 520.0
+   },
+   "previous": {
+    "impressions": 2744.0,
+    "clicks": 172.0,
+    "cost": 1250.15,
+    "conversions": 21.459999999999997,
+    "conv_value": 11159.2,
+    "ctr": 0.06268221574344024,
+    "cpc": 7.268313953488373,
+    "cvr": 0.1247674418604651,
+    "cpa": 58.254892823858356,
+    "roas": 8.92628884533856,
+    "value_per_conv": 520.0000000000001
+   },
+   "cost_change": -0.009366875974883225,
+   "conversions_change": -0.5386766076421248,
+   "cpa_change": 1.1473724082403032,
+   "conversion_levers": {
+    "impressions": -0.0683473242540195,
+    "ctr": 0.06834732425401963,
+    "cvr": 0.9999999999999999
+   },
+   "cost_levers": {
+    "impressions": -5.618658793480106,
+    "ctr": 5.618658793480117,
+    "cpc": 0.9999999999999897
+   },
+   "cost_delta": -11.710000000000264,
+   "conversions_delta": -11.559999999999997,
+   "share_of_cost_change": -0.020045534690244757,
+   "share_of_conversion_change": 4.982758620689668,
+   "notable": true,
+   "headline_metric": "conversions",
+   "main_lever": "cvr",
+   "shift_day": "2026-11-03",
+   "changes_before_shift": [
+    {
+     "day": "2026-11-02",
+     "user": "sam@northside.example",
+     "changes": "Bid strategy changed from Maximize conversions to Target CPA. Target CPA set to $45.00"
+    }
+   ]
+  },
+  {
+   "scope": "Brand",
+   "current": {
+    "impressions": 499.0,
+    "clicks": 149.0,
+    "cost": 214.63,
+    "conversions": 47.18,
+    "conv_value": 14154.0,
+    "ctr": 0.2985971943887776,
+    "cpc": 1.4404697986577182,
+    "cvr": 0.31664429530201343,
+    "cpa": 4.5491733785502335,
+    "roas": 65.94604668499278,
+    "value_per_conv": 300.0
+   },
+   "previous": {
+    "impressions": 472.0,
+    "clicks": 144.0,
+    "cost": 206.42000000000002,
+    "conversions": 42.76,
+    "conv_value": 12828.0,
+    "ctr": 0.3050847457627119,
+    "cpc": 1.4334722222222223,
+    "cvr": 0.29694444444444446,
+    "cpa": 4.827408793264734,
+    "roas": 62.14514097471175,
+    "value_per_conv": 300.0
+   },
+   "cost_change": 0.03977327778316044,
+   "conversions_change": 0.10336763330215158,
+   "cpa_change": -0.05763659690530007,
+   "conversion_levers": {
+    "impressions": 0.5655058815690907,
+    "ctr": -0.21850932179858773,
+    "cvr": 0.6530034402294971
+   },
+   "cost_levers": {
+    "impressions": 1.4262378846142394,
+    "ctr": -0.5510928940752926,
+    "cpc": 0.12485500946105318
+   },
+   "cost_delta": 8.20999999999998,
+   "conversions_delta": 4.420000000000002,
+   "share_of_cost_change": 0.014054128079155025,
+   "share_of_conversion_change": -1.9051724137931099,
+   "notable": false,
+   "changes_before_shift": []
+  },
+  {
+   "scope": "Plumbing | Emergency",
+   "current": {
+    "impressions": 4177.0,
+    "clicks": 275.0,
+    "cost": 2452.13,
+    "conversions": 59.32,
+    "conv_value": 17796.0,
+    "ctr": 0.06583672492219296,
+    "cpc": 8.916836363636364,
+    "cvr": 0.2157090909090909,
+    "cpa": 41.337322993931224,
+    "roas": 7.257364005986632,
+    "value_per_conv": 300.0
+   },
+   "previous": {
+    "impressions": 3833.0,
+    "clicks": 275.0,
+    "cost": 2443.61,
+    "conversions": 58.25000000000001,
+    "conv_value": 17475.0,
+    "ctr": 0.07174536916253588,
+    "cpc": 8.885854545454546,
+    "cvr": 0.21181818181818185,
+    "cpa": 41.95038626609442,
+    "roas": 7.151304831785759,
+    "value_per_conv": 299.99999999999994
+   },
+   "cost_change": 0.0034866447591882423,
+   "conversions_change": 0.018369098712446234,
+   "cpa_change": -0.01461400780137016,
+   "conversion_levers": {
+    "impressions": 4.721651095829461,
+    "ctr": -4.721651095829465,
+    "cvr": 1.0000000000000038
+   },
+   "cost_levers": {
+    "impressions": 24.692863442851234,
+    "ctr": -24.692863442851255,
+    "cpc": 1.00000000000002
+   },
+   "cost_delta": 8.519999999999982,
+   "conversions_delta": 1.0699999999999932,
+   "share_of_cost_change": 0.014584795521851506,
+   "share_of_conversion_change": -0.46120689655172253,
+   "notable": false,
+   "changes_before_shift": []
+  }
+ ],
+ "change_history_read": true
+}

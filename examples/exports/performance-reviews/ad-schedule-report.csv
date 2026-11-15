@@ -1,0 +1,575 @@
+Campaign report
+"October 14, 2026 - November 12, 2026"
+Day of the week,Hour of day,Campaign,Campaign status,Impr.,Clicks,Cost,Conversions
+Monday,0,Plumbing | Emergency,Enabled,14,1,8.68,0.09
+Monday,1,Plumbing | Emergency,Enabled,14,1,7.50,0.09
+Monday,2,Plumbing | Emergency,Enabled,15,1,7.35,0.11
+Monday,3,Plumbing | Emergency,Enabled,16,1,8.31,0.11
+Monday,4,Plumbing | Emergency,Enabled,14,1,8.25,0.12
+Monday,5,Plumbing | Emergency,Enabled,33,2,16.09,0.13
+Monday,6,Plumbing | Emergency,Enabled,58,4,28.99,0.30
+Monday,7,Plumbing | Emergency,Enabled,124,9,72.28,0.98
+Monday,8,Plumbing | Emergency,Enabled,183,12,95.18,1.19
+Monday,9,Plumbing | Emergency,Enabled,216,16,136.71,1.87
+Monday,10,Plumbing | Emergency,Enabled,179,11,84.29,0.83
+Monday,11,Plumbing | Emergency,Enabled,192,13,111.21,1.10
+Monday,12,Plumbing | Emergency,Enabled,218,14,100.81,1.52
+Monday,13,Plumbing | Emergency,Enabled,206,14,122.76,1.24
+Monday,14,Plumbing | Emergency,Enabled,138,9,76.01,0.87
+Monday,15,Plumbing | Emergency,Enabled,120,9,78.68,0.73
+Monday,16,Plumbing | Emergency,Enabled,147,9,66.26,0.69
+Monday,17,Plumbing | Emergency,Enabled,174,12,97.14,0.87
+Monday,18,Plumbing | Emergency,Enabled,110,8,59.28,0.82
+Monday,19,Plumbing | Emergency,Enabled,92,6,45.24,0.51
+Monday,20,Plumbing | Emergency,Enabled,103,8,61.49,0.85
+Monday,21,Plumbing | Emergency,Enabled,55,4,34.27,0.34
+Monday,22,Plumbing | Emergency,Enabled,46,3,22.62,0.35
+Monday,23,Plumbing | Emergency,Enabled,49,3,23.02,0.24
+Tuesday,0,Plumbing | Emergency,Enabled,14,1,7.59,0.09
+Tuesday,1,Plumbing | Emergency,Enabled,14,1,8.73,0.09
+Tuesday,2,Plumbing | Emergency,Enabled,16,1,7.49,0.11
+Tuesday,3,Plumbing | Emergency,Enabled,16,1,7.60,0.11
+Tuesday,4,Plumbing | Emergency,Enabled,13,1,7.51,0.11
+Tuesday,5,Plumbing | Emergency,Enabled,48,3,23.62,0.29
+Tuesday,6,Plumbing | Emergency,Enabled,54,4,30.33,0.46
+Tuesday,7,Plumbing | Emergency,Enabled,106,7,57.08,0.75
+Tuesday,8,Plumbing | Emergency,Enabled,139,9,65.79,0.92
+Tuesday,9,Plumbing | Emergency,Enabled,198,13,106.38,1.42
+Tuesday,10,Plumbing | Emergency,Enabled,214,14,101.17,1.04
+Tuesday,11,Plumbing | Emergency,Enabled,163,11,82.30,0.73
+Tuesday,12,Plumbing | Emergency,Enabled,141,11,85.57,0.77
+Tuesday,13,Plumbing | Emergency,Enabled,181,13,107.98,1.28
+Tuesday,14,Plumbing | Emergency,Enabled,115,9,65.06,0.58
+Tuesday,15,Plumbing | Emergency,Enabled,165,12,86.81,1.38
+Tuesday,16,Plumbing | Emergency,Enabled,125,10,77.10,1.02
+Tuesday,17,Plumbing | Emergency,Enabled,103,8,67.03,0.74
+Tuesday,18,Plumbing | Emergency,Enabled,128,10,84.69,1.01
+Tuesday,19,Plumbing | Emergency,Enabled,90,7,60.49,0.70
+Tuesday,20,Plumbing | Emergency,Enabled,84,6,51.49,0.63
+Tuesday,21,Plumbing | Emergency,Enabled,69,5,40.66,0.42
+Tuesday,22,Plumbing | Emergency,Enabled,39,3,26.37,0.29
+Tuesday,23,Plumbing | Emergency,Enabled,28,2,16.75,0.17
+Wednesday,0,Plumbing | Emergency,Enabled,13,1,7.33,0.11
+Wednesday,1,Plumbing | Emergency,Enabled,15,1,7.97,0.10
+Wednesday,2,Plumbing | Emergency,Enabled,13,1,8.18,0.09
+Wednesday,3,Plumbing | Emergency,Enabled,14,1,7.68,0.06
+Wednesday,4,Plumbing | Emergency,Enabled,14,1,8.65,0.07
+Wednesday,5,Plumbing | Emergency,Enabled,27,2,15.45,0.22
+Wednesday,6,Plumbing | Emergency,Enabled,51,4,33.96,0.35
+Wednesday,7,Plumbing | Emergency,Enabled,151,10,81.33,0.84
+Wednesday,8,Plumbing | Emergency,Enabled,117,9,76.85,0.81
+Wednesday,9,Plumbing | Emergency,Enabled,205,13,99.36,1.49
+Wednesday,10,Plumbing | Emergency,Enabled,161,11,82.97,0.86
+Wednesday,11,Plumbing | Emergency,Enabled,143,11,84.75,0.99
+Wednesday,12,Plumbing | Emergency,Enabled,214,13,95.15,1.14
+Wednesday,13,Plumbing | Emergency,Enabled,168,12,100.01,0.78
+Wednesday,14,Plumbing | Emergency,Enabled,159,10,72.31,1.06
+Wednesday,15,Plumbing | Emergency,Enabled,154,10,85.27,0.64
+Wednesday,16,Plumbing | Emergency,Enabled,116,8,65.65,0.52
+Wednesday,17,Plumbing | Emergency,Enabled,126,10,84.92,0.98
+Wednesday,18,Plumbing | Emergency,Enabled,142,9,71.64,0.66
+Wednesday,19,Plumbing | Emergency,Enabled,79,5,41.71,0.44
+Wednesday,20,Plumbing | Emergency,Enabled,71,5,41.58,0.41
+Wednesday,21,Plumbing | Emergency,Enabled,66,5,39.15,0.52
+Wednesday,22,Plumbing | Emergency,Enabled,54,4,34.77,0.27
+Wednesday,23,Plumbing | Emergency,Enabled,26,2,16.40,0.17
+Thursday,0,Plumbing | Emergency,Enabled,13,1,8.61,0.09
+Thursday,1,Plumbing | Emergency,Enabled,16,1,8.24,0.09
+Thursday,2,Plumbing | Emergency,Enabled,13,1,8.23,0.11
+Thursday,3,Plumbing | Emergency,Enabled,13,1,8.77,0.11
+Thursday,4,Plumbing | Emergency,Enabled,13,1,7.71,0.11
+Thursday,5,Plumbing | Emergency,Enabled,29,2,14.66,0.16
+Thursday,6,Plumbing | Emergency,Enabled,83,5,39.90,0.52
+Thursday,7,Plumbing | Emergency,Enabled,158,10,84.80,0.66
+Thursday,8,Plumbing | Emergency,Enabled,159,10,74.25,1.06
+Thursday,9,Plumbing | Emergency,Enabled,163,12,102.53,1.22
+Thursday,10,Plumbing | Emergency,Enabled,227,14,122.06,1.25
+Thursday,11,Plumbing | Emergency,Enabled,121,9,68.98,0.82
+Thursday,12,Plumbing | Emergency,Enabled,154,11,94.05,1.00
+Thursday,13,Plumbing | Emergency,Enabled,115,9,76.97,0.75
+Thursday,14,Plumbing | Emergency,Enabled,128,9,78.75,0.98
+Thursday,15,Plumbing | Emergency,Enabled,157,11,88.63,0.81
+Thursday,16,Plumbing | Emergency,Enabled,142,10,87.51,0.64
+Thursday,17,Plumbing | Emergency,Enabled,129,9,72.91,0.96
+Thursday,18,Plumbing | Emergency,Enabled,132,9,72.56,0.60
+Thursday,19,Plumbing | Emergency,Enabled,130,9,68.68,1.02
+Thursday,20,Plumbing | Emergency,Enabled,64,5,42.53,0.43
+Thursday,21,Plumbing | Emergency,Enabled,69,5,37.53,0.40
+Thursday,22,Plumbing | Emergency,Enabled,66,4,33.79,0.28
+Thursday,23,Plumbing | Emergency,Enabled,30,2,16.60,0.15
+Friday,0,Plumbing | Emergency,Enabled,13,1,7.37,0.10
+Friday,1,Plumbing | Emergency,Enabled,16,1,7.60,0.09
+Friday,2,Plumbing | Emergency,Enabled,15,1,7.80,0.09
+Friday,3,Plumbing | Emergency,Enabled,14,1,7.53,0.07
+Friday,4,Plumbing | Emergency,Enabled,14,1,8.56,0.09
+Friday,5,Plumbing | Emergency,Enabled,26,2,16.77,0.15
+Friday,6,Plumbing | Emergency,Enabled,64,5,38.52,0.40
+Friday,7,Plumbing | Emergency,Enabled,96,6,51.72,0.70
+Friday,8,Plumbing | Emergency,Enabled,145,9,68.54,0.92
+Friday,9,Plumbing | Emergency,Enabled,208,13,110.03,1.11
+Friday,10,Plumbing | Emergency,Enabled,156,10,72.28,1.00
+Friday,11,Plumbing | Emergency,Enabled,177,11,96.24,1.23
+Friday,12,Plumbing | Emergency,Enabled,122,9,72.04,0.94
+Friday,13,Plumbing | Emergency,Enabled,132,8,58.96,0.53
+Friday,14,Plumbing | Emergency,Enabled,159,10,81.10,0.91
+Friday,15,Plumbing | Emergency,Enabled,100,8,68.35,0.59
+Friday,16,Plumbing | Emergency,Enabled,139,11,80.29,0.75
+Friday,17,Plumbing | Emergency,Enabled,115,8,61.78,0.83
+Friday,18,Plumbing | Emergency,Enabled,133,8,65.29,0.69
+Friday,19,Plumbing | Emergency,Enabled,101,7,52.43,0.76
+Friday,20,Plumbing | Emergency,Enabled,95,6,45.07,0.51
+Friday,21,Plumbing | Emergency,Enabled,53,4,34.52,0.26
+Friday,22,Plumbing | Emergency,Enabled,44,3,24.62,0.33
+Friday,23,Plumbing | Emergency,Enabled,26,2,17.54,0.18
+Saturday,0,Plumbing | Emergency,Enabled,13,1,8.39,0.11
+Saturday,1,Plumbing | Emergency,Enabled,13,1,8.63,0.08
+Saturday,3,Plumbing | Emergency,Enabled,13,1,7.85,0.10
+Saturday,4,Plumbing | Emergency,Enabled,17,1,7.95,0.08
+Saturday,5,Plumbing | Emergency,Enabled,15,1,8.20,0.10
+Saturday,6,Plumbing | Emergency,Enabled,55,4,30.96,0.40
+Saturday,7,Plumbing | Emergency,Enabled,75,6,46.94,0.55
+Saturday,8,Plumbing | Emergency,Enabled,101,8,67.35,0.81
+Saturday,9,Plumbing | Emergency,Enabled,107,7,58.67,0.67
+Saturday,10,Plumbing | Emergency,Enabled,118,8,60.10,0.53
+Saturday,11,Plumbing | Emergency,Enabled,85,6,51.89,0.46
+Saturday,12,Plumbing | Emergency,Enabled,100,8,64.87,0.92
+Saturday,13,Plumbing | Emergency,Enabled,111,8,58.58,0.85
+Saturday,14,Plumbing | Emergency,Enabled,142,9,78.19,0.59
+Saturday,15,Plumbing | Emergency,Enabled,97,7,55.95,0.50
+Saturday,16,Plumbing | Emergency,Enabled,85,6,47.24,0.68
+Saturday,17,Plumbing | Emergency,Enabled,96,7,53.60,0.58
+Saturday,18,Plumbing | Emergency,Enabled,91,6,50.08,0.47
+Saturday,19,Plumbing | Emergency,Enabled,63,4,29.07,0.30
+Saturday,20,Plumbing | Emergency,Enabled,67,5,43.18,0.42
+Saturday,21,Plumbing | Emergency,Enabled,49,3,26.13,0.35
+Saturday,22,Plumbing | Emergency,Enabled,38,3,23.89,0.26
+Saturday,23,Plumbing | Emergency,Enabled,13,1,8.70,0.09
+Sunday,0,Plumbing | Emergency,Enabled,14,1,8.51,0.04
+Sunday,4,Plumbing | Emergency,Enabled,16,1,8.04,0.02
+Sunday,5,Plumbing | Emergency,Enabled,15,1,7.93,0.03
+Sunday,6,Plumbing | Emergency,Enabled,42,3,25.33,0.09
+Sunday,7,Plumbing | Emergency,Enabled,93,6,50.25,0.23
+Sunday,8,Plumbing | Emergency,Enabled,69,5,42.27,0.19
+Sunday,9,Plumbing | Emergency,Enabled,98,7,58.07,0.18
+Sunday,10,Plumbing | Emergency,Enabled,110,7,58.84,0.23
+Sunday,11,Plumbing | Emergency,Enabled,77,6,51.99,0.23
+Sunday,12,Plumbing | Emergency,Enabled,73,5,38.17,0.11
+Sunday,13,Plumbing | Emergency,Enabled,114,7,56.47,0.16
+Sunday,14,Plumbing | Emergency,Enabled,69,5,40.41,0.17
+Sunday,15,Plumbing | Emergency,Enabled,90,6,45.22,0.18
+Sunday,16,Plumbing | Emergency,Enabled,112,7,51.23,0.25
+Sunday,17,Plumbing | Emergency,Enabled,109,7,59.01,0.23
+Sunday,18,Plumbing | Emergency,Enabled,74,5,42.48,0.13
+Sunday,19,Plumbing | Emergency,Enabled,70,5,38.60,0.19
+Sunday,20,Plumbing | Emergency,Enabled,59,4,31.54,0.15
+Sunday,21,Plumbing | Emergency,Enabled,32,2,14.65,0.07
+Sunday,22,Plumbing | Emergency,Enabled,30,2,16.59,0.06
+Sunday,23,Plumbing | Emergency,Enabled,14,1,7.54,0.02
+Monday,0,Plumbing | Water Heaters,Enabled,14,1,8.88,0.07
+Monday,4,Plumbing | Water Heaters,Enabled,13,1,7.85,0.07
+Monday,5,Plumbing | Water Heaters,Enabled,13,1,9.25,0.10
+Monday,6,Plumbing | Water Heaters,Enabled,45,3,24.50,0.28
+Monday,7,Plumbing | Water Heaters,Enabled,77,5,45.86,0.50
+Monday,8,Plumbing | Water Heaters,Enabled,103,7,57.87,0.51
+Monday,9,Plumbing | Water Heaters,Enabled,105,8,68.87,0.52
+Monday,10,Plumbing | Water Heaters,Enabled,126,8,68.85,0.77
+Monday,11,Plumbing | Water Heaters,Enabled,132,8,65.03,0.79
+Monday,12,Plumbing | Water Heaters,Enabled,88,7,60.30,0.57
+Monday,13,Plumbing | Water Heaters,Enabled,113,8,62.07,0.76
+Monday,14,Plumbing | Water Heaters,Enabled,107,8,62.31,0.48
+Monday,15,Plumbing | Water Heaters,Enabled,127,8,69.82,0.48
+Monday,16,Plumbing | Water Heaters,Enabled,109,7,56.47,0.61
+Monday,17,Plumbing | Water Heaters,Enabled,103,7,62.65,0.57
+Monday,18,Plumbing | Water Heaters,Enabled,72,5,43.97,0.51
+Monday,19,Plumbing | Water Heaters,Enabled,64,5,44.27,0.45
+Monday,20,Plumbing | Water Heaters,Enabled,52,4,35.13,0.38
+Monday,21,Plumbing | Water Heaters,Enabled,51,4,36.64,0.38
+Monday,22,Plumbing | Water Heaters,Enabled,26,2,17.71,0.16
+Monday,23,Plumbing | Water Heaters,Enabled,13,1,7.90,0.08
+Tuesday,0,Plumbing | Water Heaters,Enabled,16,1,7.94,0.07
+Tuesday,1,Plumbing | Water Heaters,Enabled,16,1,9.30,0.07
+Tuesday,4,Plumbing | Water Heaters,Enabled,16,1,7.96,0.09
+Tuesday,5,Plumbing | Water Heaters,Enabled,16,1,9.20,0.08
+Tuesday,6,Plumbing | Water Heaters,Enabled,31,2,16.04,0.13
+Tuesday,7,Plumbing | Water Heaters,Enabled,94,6,48.18,0.51
+Tuesday,8,Plumbing | Water Heaters,Enabled,91,6,53.63,0.39
+Tuesday,9,Plumbing | Water Heaters,Enabled,123,8,67.72,0.76
+Tuesday,10,Plumbing | Water Heaters,Enabled,127,9,74.08,0.90
+Tuesday,11,Plumbing | Water Heaters,Enabled,148,9,72.23,0.71
+Tuesday,12,Plumbing | Water Heaters,Enabled,113,8,66.44,0.76
+Tuesday,13,Plumbing | Water Heaters,Enabled,96,7,65.33,0.48
+Tuesday,14,Plumbing | Water Heaters,Enabled,89,6,50.72,0.34
+Tuesday,15,Plumbing | Water Heaters,Enabled,127,8,69.44,0.72
+Tuesday,16,Plumbing | Water Heaters,Enabled,65,5,40.46,0.36
+Tuesday,17,Plumbing | Water Heaters,Enabled,92,6,56.03,0.52
+Tuesday,18,Plumbing | Water Heaters,Enabled,83,5,44.80,0.32
+Tuesday,19,Plumbing | Water Heaters,Enabled,81,5,45.24,0.48
+Tuesday,20,Plumbing | Water Heaters,Enabled,57,4,31.26,0.36
+Tuesday,21,Plumbing | Water Heaters,Enabled,39,3,25.94,0.31
+Tuesday,22,Plumbing | Water Heaters,Enabled,26,2,16.72,0.19
+Tuesday,23,Plumbing | Water Heaters,Enabled,14,1,8.00,0.10
+Wednesday,0,Plumbing | Water Heaters,Enabled,15,1,9.06,0.06
+Wednesday,4,Plumbing | Water Heaters,Enabled,14,1,8.26,0.09
+Wednesday,5,Plumbing | Water Heaters,Enabled,13,1,8.43,0.07
+Wednesday,6,Plumbing | Water Heaters,Enabled,44,3,23.01,0.26
+Wednesday,7,Plumbing | Water Heaters,Enabled,87,6,51.65,0.40
+Wednesday,8,Plumbing | Water Heaters,Enabled,78,5,45.05,0.52
+Wednesday,9,Plumbing | Water Heaters,Enabled,113,8,66.31,0.56
+Wednesday,10,Plumbing | Water Heaters,Enabled,82,6,49.90,0.43
+Wednesday,11,Plumbing | Water Heaters,Enabled,90,6,53.36,0.39
+Wednesday,12,Plumbing | Water Heaters,Enabled,120,8,71.04,0.66
+Wednesday,13,Plumbing | Water Heaters,Enabled,113,7,55.23,0.42
+Wednesday,14,Plumbing | Water Heaters,Enabled,103,7,55.69,0.63
+Wednesday,15,Plumbing | Water Heaters,Enabled,108,7,54.62,0.59
+Wednesday,16,Plumbing | Water Heaters,Enabled,81,5,41.71,0.31
+Wednesday,17,Plumbing | Water Heaters,Enabled,96,7,59.64,0.54
+Wednesday,18,Plumbing | Water Heaters,Enabled,90,6,49.84,0.57
+Wednesday,19,Plumbing | Water Heaters,Enabled,54,4,33.32,0.23
+Wednesday,20,Plumbing | Water Heaters,Enabled,69,5,43.86,0.47
+Wednesday,21,Plumbing | Water Heaters,Enabled,27,2,16.46,0.14
+Wednesday,22,Plumbing | Water Heaters,Enabled,26,2,17.03,0.15
+Wednesday,23,Plumbing | Water Heaters,Enabled,13,1,7.92,0.09
+Thursday,0,Plumbing | Water Heaters,Enabled,14,1,8.25,0.08
+Thursday,4,Plumbing | Water Heaters,Enabled,16,1,9.07,0.09
+Thursday,5,Plumbing | Water Heaters,Enabled,32,2,15.97,0.17
+Thursday,6,Plumbing | Water Heaters,Enabled,45,3,26.51,0.25
+Thursday,7,Plumbing | Water Heaters,Enabled,96,6,50.62,0.44
+Thursday,8,Plumbing | Water Heaters,Enabled,113,8,73.50,0.50
+Thursday,9,Plumbing | Water Heaters,Enabled,102,8,64.80,0.66
+Thursday,10,Plumbing | Water Heaters,Enabled,144,9,78.05,0.86
+Thursday,11,Plumbing | Water Heaters,Enabled,123,8,73.40,0.56
+Thursday,12,Plumbing | Water Heaters,Enabled,99,7,55.76,0.67
+Thursday,13,Plumbing | Water Heaters,Enabled,63,5,39.78,0.29
+Thursday,14,Plumbing | Water Heaters,Enabled,109,8,65.38,0.70
+Thursday,15,Plumbing | Water Heaters,Enabled,92,7,60.59,0.52
+Thursday,16,Plumbing | Water Heaters,Enabled,80,5,42.23,0.33
+Thursday,17,Plumbing | Water Heaters,Enabled,71,5,39.73,0.42
+Thursday,18,Plumbing | Water Heaters,Enabled,69,5,41.07,0.42
+Thursday,19,Plumbing | Water Heaters,Enabled,38,3,23.69,0.26
+Thursday,20,Plumbing | Water Heaters,Enabled,55,4,33.40,0.31
+Thursday,21,Plumbing | Water Heaters,Enabled,43,3,26.78,0.28
+Thursday,22,Plumbing | Water Heaters,Enabled,29,2,18.21,0.19
+Thursday,23,Plumbing | Water Heaters,Enabled,14,1,9.19,0.08
+Friday,0,Plumbing | Water Heaters,Enabled,15,1,9.19,0.08
+Friday,4,Plumbing | Water Heaters,Enabled,15,1,8.93,0.08
+Friday,5,Plumbing | Water Heaters,Enabled,15,1,7.86,0.06
+Friday,6,Plumbing | Water Heaters,Enabled,41,3,23.22,0.23
+Friday,7,Plumbing | Water Heaters,Enabled,74,5,40.85,0.34
+Friday,8,Plumbing | Water Heaters,Enabled,63,5,46.00,0.30
+Friday,9,Plumbing | Water Heaters,Enabled,92,7,58.56,0.68
+Friday,10,Plumbing | Water Heaters,Enabled,77,6,51.68,0.55
+Friday,11,Plumbing | Water Heaters,Enabled,71,5,39.30,0.47
+Friday,12,Plumbing | Water Heaters,Enabled,106,7,56.45,0.39
+Friday,13,Plumbing | Water Heaters,Enabled,66,5,45.86,0.30
+Friday,14,Plumbing | Water Heaters,Enabled,98,6,51.87,0.44
+Friday,15,Plumbing | Water Heaters,Enabled,57,4,32.69,0.40
+Friday,16,Plumbing | Water Heaters,Enabled,109,7,59.17,0.72
+Friday,17,Plumbing | Water Heaters,Enabled,78,5,45.87,0.50
+Friday,18,Plumbing | Water Heaters,Enabled,79,5,42.27,0.36
+Friday,19,Plumbing | Water Heaters,Enabled,69,5,39.97,0.52
+Friday,20,Plumbing | Water Heaters,Enabled,48,3,23.21,0.29
+Friday,21,Plumbing | Water Heaters,Enabled,39,3,27.54,0.21
+Friday,22,Plumbing | Water Heaters,Enabled,25,2,17.67,0.12
+Friday,23,Plumbing | Water Heaters,Enabled,15,1,8.03,0.06
+Saturday,0,Plumbing | Water Heaters,Enabled,15,1,7.96,0.07
+Saturday,4,Plumbing | Water Heaters,Enabled,15,1,8.65,0.10
+Saturday,5,Plumbing | Water Heaters,Enabled,15,1,8.78,0.10
+Saturday,6,Plumbing | Water Heaters,Enabled,29,2,18.64,0.12
+Saturday,7,Plumbing | Water Heaters,Enabled,56,4,30.91,0.33
+Saturday,8,Plumbing | Water Heaters,Enabled,65,4,36.06,0.27
+Saturday,9,Plumbing | Water Heaters,Enabled,76,5,40.34,0.46
+Saturday,10,Plumbing | Water Heaters,Enabled,63,5,45.87,0.32
+Saturday,11,Plumbing | Water Heaters,Enabled,59,4,35.70,0.31
+Saturday,12,Plumbing | Water Heaters,Enabled,84,6,47.73,0.48
+Saturday,13,Plumbing | Water Heaters,Enabled,66,5,43.85,0.37
+Saturday,14,Plumbing | Water Heaters,Enabled,68,5,45.44,0.40
+Saturday,15,Plumbing | Water Heaters,Enabled,66,5,39.73,0.51
+Saturday,16,Plumbing | Water Heaters,Enabled,58,4,32.20,0.34
+Saturday,17,Plumbing | Water Heaters,Enabled,77,5,44.97,0.47
+Saturday,18,Plumbing | Water Heaters,Enabled,57,4,34.54,0.27
+Saturday,19,Plumbing | Water Heaters,Enabled,42,3,26.60,0.25
+Saturday,20,Plumbing | Water Heaters,Enabled,50,3,23.72,0.19
+Saturday,21,Plumbing | Water Heaters,Enabled,31,2,16.80,0.15
+Saturday,22,Plumbing | Water Heaters,Enabled,28,2,18.38,0.12
+Saturday,23,Plumbing | Water Heaters,Enabled,16,1,8.05,0.09
+Sunday,5,Plumbing | Water Heaters,Enabled,13,1,7.80,0.03
+Sunday,6,Plumbing | Water Heaters,Enabled,27,2,15.84,0.05
+Sunday,7,Plumbing | Water Heaters,Enabled,59,4,31.02,0.13
+Sunday,8,Plumbing | Water Heaters,Enabled,66,4,37.20,0.09
+Sunday,9,Plumbing | Water Heaters,Enabled,80,5,46.63,0.15
+Sunday,10,Plumbing | Water Heaters,Enabled,62,4,30.87,0.12
+Sunday,11,Plumbing | Water Heaters,Enabled,76,5,41.59,0.10
+Sunday,12,Plumbing | Water Heaters,Enabled,50,4,30.83,0.08
+Sunday,13,Plumbing | Water Heaters,Enabled,77,5,40.20,0.15
+Sunday,14,Plumbing | Water Heaters,Enabled,51,4,33.74,0.09
+Sunday,15,Plumbing | Water Heaters,Enabled,55,4,37.27,0.10
+Sunday,16,Plumbing | Water Heaters,Enabled,49,3,26.26,0.08
+Sunday,17,Plumbing | Water Heaters,Enabled,42,3,27.36,0.09
+Sunday,18,Plumbing | Water Heaters,Enabled,52,4,33.27,0.10
+Sunday,19,Plumbing | Water Heaters,Enabled,45,3,24.05,0.09
+Sunday,20,Plumbing | Water Heaters,Enabled,31,2,15.86,0.05
+Sunday,21,Plumbing | Water Heaters,Enabled,29,2,16.35,0.05
+Sunday,22,Plumbing | Water Heaters,Enabled,31,2,18.23,0.06
+Sunday,23,Plumbing | Water Heaters,Enabled,15,1,8.83,0.02
+Monday,0,Drain Cleaning | Search,Enabled,15,1,5.90,0.07
+Monday,4,Drain Cleaning | Search,Enabled,13,1,5.86,0.09
+Monday,5,Drain Cleaning | Search,Enabled,13,1,6.58,0.12
+Monday,6,Drain Cleaning | Search,Enabled,32,2,12.31,0.18
+Monday,7,Drain Cleaning | Search,Enabled,85,6,39.85,0.54
+Monday,8,Drain Cleaning | Search,Enabled,82,5,29.85,0.47
+Monday,9,Drain Cleaning | Search,Enabled,91,6,34.26,0.63
+Monday,10,Drain Cleaning | Search,Enabled,94,7,40.89,0.72
+Monday,11,Drain Cleaning | Search,Enabled,95,6,39.06,0.68
+Monday,12,Drain Cleaning | Search,Enabled,73,5,32.84,0.43
+Monday,13,Drain Cleaning | Search,Enabled,91,6,35.73,0.73
+Monday,14,Drain Cleaning | Search,Enabled,99,6,34.33,0.50
+Monday,15,Drain Cleaning | Search,Enabled,88,7,46.82,0.73
+Monday,16,Drain Cleaning | Search,Enabled,78,5,34.14,0.55
+Monday,17,Drain Cleaning | Search,Enabled,78,6,41.24,0.66
+Monday,18,Drain Cleaning | Search,Enabled,58,4,23.13,0.43
+Monday,19,Drain Cleaning | Search,Enabled,60,4,24.61,0.29
+Monday,20,Drain Cleaning | Search,Enabled,59,4,23.48,0.35
+Monday,21,Drain Cleaning | Search,Enabled,46,3,19.52,0.24
+Monday,22,Drain Cleaning | Search,Enabled,32,2,12.40,0.18
+Monday,23,Drain Cleaning | Search,Enabled,14,1,6.37,0.11
+Tuesday,0,Drain Cleaning | Search,Enabled,16,1,6.13,0.09
+Tuesday,4,Drain Cleaning | Search,Enabled,15,1,6.08,0.10
+Tuesday,5,Drain Cleaning | Search,Enabled,14,1,6.79,0.09
+Tuesday,6,Drain Cleaning | Search,Enabled,29,2,11.81,0.22
+Tuesday,7,Drain Cleaning | Search,Enabled,70,5,30.63,0.64
+Tuesday,8,Drain Cleaning | Search,Enabled,110,8,51.68,0.93
+Tuesday,9,Drain Cleaning | Search,Enabled,91,7,42.13,0.66
+Tuesday,10,Drain Cleaning | Search,Enabled,132,8,54.53,0.74
+Tuesday,11,Drain Cleaning | Search,Enabled,74,5,30.29,0.50
+Tuesday,12,Drain Cleaning | Search,Enabled,108,7,41.39,0.55
+Tuesday,13,Drain Cleaning | Search,Enabled,99,7,39.70,0.59
+Tuesday,14,Drain Cleaning | Search,Enabled,82,6,37.75,0.51
+Tuesday,15,Drain Cleaning | Search,Enabled,78,6,38.26,0.64
+Tuesday,16,Drain Cleaning | Search,Enabled,90,7,42.75,0.63
+Tuesday,17,Drain Cleaning | Search,Enabled,68,5,32.73,0.56
+Tuesday,18,Drain Cleaning | Search,Enabled,83,6,35.23,0.72
+Tuesday,19,Drain Cleaning | Search,Enabled,61,4,24.54,0.42
+Tuesday,20,Drain Cleaning | Search,Enabled,62,4,23.87,0.41
+Tuesday,21,Drain Cleaning | Search,Enabled,32,2,12.63,0.16
+Tuesday,22,Drain Cleaning | Search,Enabled,13,1,5.80,0.07
+Tuesday,23,Drain Cleaning | Search,Enabled,14,1,6.64,0.10
+Wednesday,0,Drain Cleaning | Search,Enabled,16,1,6.77,0.12
+Wednesday,4,Drain Cleaning | Search,Enabled,13,1,5.99,0.11
+Wednesday,5,Drain Cleaning | Search,Enabled,13,1,6.63,0.09
+Wednesday,6,Drain Cleaning | Search,Enabled,40,3,18.60,0.31
+Wednesday,7,Drain Cleaning | Search,Enabled,80,5,33.40,0.60
+Wednesday,8,Drain Cleaning | Search,Enabled,94,6,35.77,0.66
+Wednesday,9,Drain Cleaning | Search,Enabled,63,5,34.28,0.53
+Wednesday,10,Drain Cleaning | Search,Enabled,69,5,30.99,0.56
+Wednesday,11,Drain Cleaning | Search,Enabled,98,6,41.50,0.76
+Wednesday,12,Drain Cleaning | Search,Enabled,91,6,34.34,0.46
+Wednesday,13,Drain Cleaning | Search,Enabled,90,6,34.93,0.78
+Wednesday,14,Drain Cleaning | Search,Enabled,74,5,31.39,0.51
+Wednesday,15,Drain Cleaning | Search,Enabled,76,5,33.63,0.59
+Wednesday,16,Drain Cleaning | Search,Enabled,63,5,33.17,0.54
+Wednesday,17,Drain Cleaning | Search,Enabled,66,5,31.79,0.56
+Wednesday,18,Drain Cleaning | Search,Enabled,51,4,23.22,0.32
+Wednesday,19,Drain Cleaning | Search,Enabled,45,3,17.46,0.30
+Wednesday,20,Drain Cleaning | Search,Enabled,41,3,17.55,0.31
+Wednesday,21,Drain Cleaning | Search,Enabled,30,2,12.56,0.17
+Wednesday,22,Drain Cleaning | Search,Enabled,13,1,5.75,0.07
+Wednesday,23,Drain Cleaning | Search,Enabled,14,1,5.90,0.07
+Thursday,0,Drain Cleaning | Search,Enabled,14,1,6.76,0.08
+Thursday,5,Drain Cleaning | Search,Enabled,15,1,6.46,0.11
+Thursday,6,Drain Cleaning | Search,Enabled,44,3,20.77,0.37
+Thursday,7,Drain Cleaning | Search,Enabled,83,5,29.46,0.57
+Thursday,8,Drain Cleaning | Search,Enabled,74,5,28.82,0.39
+Thursday,9,Drain Cleaning | Search,Enabled,133,8,50.54,0.71
+Thursday,10,Drain Cleaning | Search,Enabled,85,6,34.10,0.77
+Thursday,11,Drain Cleaning | Search,Enabled,103,7,46.18,0.82
+Thursday,12,Drain Cleaning | Search,Enabled,88,7,46.46,0.84
+Thursday,13,Drain Cleaning | Search,Enabled,67,5,30.88,0.64
+Thursday,14,Drain Cleaning | Search,Enabled,70,5,28.50,0.62
+Thursday,15,Drain Cleaning | Search,Enabled,68,5,30.68,0.47
+Thursday,16,Drain Cleaning | Search,Enabled,89,6,38.84,0.55
+Thursday,17,Drain Cleaning | Search,Enabled,81,5,30.38,0.62
+Thursday,18,Drain Cleaning | Search,Enabled,53,4,23.75,0.46
+Thursday,19,Drain Cleaning | Search,Enabled,64,4,23.57,0.44
+Thursday,20,Drain Cleaning | Search,Enabled,50,3,18.64,0.27
+Thursday,21,Drain Cleaning | Search,Enabled,42,3,18.23,0.28
+Thursday,22,Drain Cleaning | Search,Enabled,30,2,13.56,0.16
+Thursday,23,Drain Cleaning | Search,Enabled,15,1,6.91,0.08
+Friday,0,Drain Cleaning | Search,Enabled,13,1,6.18,0.08
+Friday,4,Drain Cleaning | Search,Enabled,15,1,5.90,0.09
+Friday,5,Drain Cleaning | Search,Enabled,15,1,6.47,0.08
+Friday,6,Drain Cleaning | Search,Enabled,39,3,19.34,0.25
+Friday,7,Drain Cleaning | Search,Enabled,70,5,31.53,0.54
+Friday,8,Drain Cleaning | Search,Enabled,58,4,26.16,0.48
+Friday,9,Drain Cleaning | Search,Enabled,108,7,43.08,0.67
+Friday,10,Drain Cleaning | Search,Enabled,99,6,37.92,0.63
+Friday,11,Drain Cleaning | Search,Enabled,83,6,38.51,0.58
+Friday,12,Drain Cleaning | Search,Enabled,75,6,37.56,0.47
+Friday,13,Drain Cleaning | Search,Enabled,75,6,39.59,0.53
+Friday,14,Drain Cleaning | Search,Enabled,63,5,29.15,0.61
+Friday,15,Drain Cleaning | Search,Enabled,69,5,33.64,0.42
+Friday,16,Drain Cleaning | Search,Enabled,85,6,40.05,0.72
+Friday,17,Drain Cleaning | Search,Enabled,81,6,40.60,0.44
+Friday,18,Drain Cleaning | Search,Enabled,57,4,24.97,0.47
+Friday,19,Drain Cleaning | Search,Enabled,55,4,24.09,0.33
+Friday,20,Drain Cleaning | Search,Enabled,29,2,13.32,0.21
+Friday,21,Drain Cleaning | Search,Enabled,27,2,13.49,0.24
+Friday,22,Drain Cleaning | Search,Enabled,32,2,13.35,0.25
+Friday,23,Drain Cleaning | Search,Enabled,15,1,5.72,0.08
+Saturday,0,Drain Cleaning | Search,Enabled,16,1,5.82,0.12
+Saturday,4,Drain Cleaning | Search,Enabled,16,1,6.91,0.07
+Saturday,5,Drain Cleaning | Search,Enabled,16,1,6.59,0.12
+Saturday,6,Drain Cleaning | Search,Enabled,30,2,11.38,0.19
+Saturday,7,Drain Cleaning | Search,Enabled,42,3,18.06,0.32
+Saturday,8,Drain Cleaning | Search,Enabled,68,5,29.16,0.40
+Saturday,9,Drain Cleaning | Search,Enabled,63,5,29.08,0.39
+Saturday,10,Drain Cleaning | Search,Enabled,63,5,29.59,0.46
+Saturday,11,Drain Cleaning | Search,Enabled,76,5,30.62,0.57
+Saturday,12,Drain Cleaning | Search,Enabled,58,4,25.86,0.32
+Saturday,13,Drain Cleaning | Search,Enabled,71,5,31.23,0.47
+Saturday,14,Drain Cleaning | Search,Enabled,77,5,32.78,0.45
+Saturday,15,Drain Cleaning | Search,Enabled,61,4,27.08,0.35
+Saturday,16,Drain Cleaning | Search,Enabled,64,5,31.22,0.55
+Saturday,17,Drain Cleaning | Search,Enabled,58,4,25.71,0.46
+Saturday,18,Drain Cleaning | Search,Enabled,44,3,18.07,0.29
+Saturday,19,Drain Cleaning | Search,Enabled,54,4,26.18,0.35
+Saturday,20,Drain Cleaning | Search,Enabled,26,2,11.67,0.19
+Saturday,21,Drain Cleaning | Search,Enabled,26,2,12.20,0.19
+Saturday,22,Drain Cleaning | Search,Enabled,16,1,6.36,0.11
+Saturday,23,Drain Cleaning | Search,Enabled,15,1,6.13,0.08
+Sunday,5,Drain Cleaning | Search,Enabled,15,1,6.26,0.04
+Sunday,6,Drain Cleaning | Search,Enabled,28,2,13.03,0.06
+Sunday,7,Drain Cleaning | Search,Enabled,59,4,27.68,0.17
+Sunday,8,Drain Cleaning | Search,Enabled,50,4,26.21,0.15
+Sunday,9,Drain Cleaning | Search,Enabled,41,3,18.53,0.10
+Sunday,10,Drain Cleaning | Search,Enabled,45,3,17.80,0.13
+Sunday,11,Drain Cleaning | Search,Enabled,49,3,19.81,0.09
+Sunday,12,Drain Cleaning | Search,Enabled,40,3,19.36,0.11
+Sunday,13,Drain Cleaning | Search,Enabled,40,3,19.77,0.12
+Sunday,14,Drain Cleaning | Search,Enabled,39,3,17.07,0.10
+Sunday,15,Drain Cleaning | Search,Enabled,60,4,22.80,0.16
+Sunday,16,Drain Cleaning | Search,Enabled,53,4,23.24,0.14
+Sunday,17,Drain Cleaning | Search,Enabled,42,3,17.48,0.10
+Sunday,18,Drain Cleaning | Search,Enabled,30,2,12.63,0.05
+Sunday,19,Drain Cleaning | Search,Enabled,49,3,18.57,0.08
+Sunday,20,Drain Cleaning | Search,Enabled,29,2,12.75,0.06
+Sunday,21,Drain Cleaning | Search,Enabled,32,2,13.48,0.05
+Sunday,22,Drain Cleaning | Search,Enabled,14,1,6.18,0.03
+Sunday,23,Drain Cleaning | Search,Enabled,17,1,6.19,0.04
+Monday,6,Brand,Enabled,13,1,1.39,0.17
+Monday,7,Brand,Enabled,29,2,2.64,0.53
+Monday,8,Brand,Enabled,26,2,2.67,0.38
+Monday,9,Brand,Enabled,26,2,2.99,0.44
+Monday,10,Brand,Enabled,38,3,4.35,0.69
+Monday,11,Brand,Enabled,31,2,3.04,0.39
+Monday,12,Brand,Enabled,30,2,2.89,0.42
+Monday,13,Brand,Enabled,26,2,2.64,0.43
+Monday,14,Brand,Enabled,29,2,2.93,0.45
+Monday,15,Brand,Enabled,30,2,2.83,0.33
+Monday,16,Brand,Enabled,29,2,3.04,0.37
+Monday,17,Brand,Enabled,17,1,1.59,0.21
+Monday,18,Brand,Enabled,28,2,2.82,0.56
+Monday,19,Brand,Enabled,14,1,1.48,0.19
+Monday,20,Brand,Enabled,13,1,1.45,0.22
+Monday,21,Brand,Enabled,15,1,1.38,0.17
+Monday,22,Brand,Enabled,15,1,1.55,0.21
+Tuesday,6,Brand,Enabled,16,1,1.49,0.26
+Tuesday,7,Brand,Enabled,28,2,2.97,0.32
+Tuesday,8,Brand,Enabled,25,2,2.62,0.48
+Tuesday,9,Brand,Enabled,27,2,2.61,0.46
+Tuesday,10,Brand,Enabled,26,2,3.18,0.49
+Tuesday,11,Brand,Enabled,27,2,2.87,0.51
+Tuesday,12,Brand,Enabled,32,2,2.86,0.43
+Tuesday,13,Brand,Enabled,32,2,2.65,0.50
+Tuesday,14,Brand,Enabled,32,2,2.93,0.48
+Tuesday,15,Brand,Enabled,28,2,3.16,0.39
+Tuesday,16,Brand,Enabled,28,2,2.85,0.36
+Tuesday,17,Brand,Enabled,29,2,3.12,0.34
+Tuesday,18,Brand,Enabled,14,1,1.41,0.21
+Tuesday,19,Brand,Enabled,30,2,3.01,0.44
+Tuesday,20,Brand,Enabled,16,1,1.52,0.17
+Tuesday,21,Brand,Enabled,16,1,1.41,0.18
+Tuesday,22,Brand,Enabled,15,1,1.46,0.23
+Wednesday,6,Brand,Enabled,13,1,1.38,0.18
+Wednesday,7,Brand,Enabled,26,2,2.65,0.38
+Wednesday,8,Brand,Enabled,28,2,2.86,0.50
+Wednesday,9,Brand,Enabled,29,2,3.14,0.57
+Wednesday,10,Brand,Enabled,32,2,3.05,0.37
+Wednesday,11,Brand,Enabled,27,2,2.63,0.53
+Wednesday,12,Brand,Enabled,32,2,2.80,0.45
+Wednesday,13,Brand,Enabled,32,2,3.08,0.51
+Wednesday,14,Brand,Enabled,28,2,2.73,0.37
+Wednesday,15,Brand,Enabled,28,2,3.05,0.34
+Wednesday,16,Brand,Enabled,30,2,3.01,0.55
+Wednesday,17,Brand,Enabled,26,2,2.78,0.50
+Wednesday,18,Brand,Enabled,33,2,2.75,0.38
+Wednesday,19,Brand,Enabled,15,1,1.39,0.19
+Wednesday,20,Brand,Enabled,15,1,1.38,0.22
+Wednesday,21,Brand,Enabled,16,1,1.56,0.22
+Wednesday,22,Brand,Enabled,14,1,1.48,0.27
+Thursday,6,Brand,Enabled,15,1,1.53,0.20
+Thursday,7,Brand,Enabled,13,1,1.52,0.20
+Thursday,8,Brand,Enabled,31,2,2.81,0.46
+Thursday,9,Brand,Enabled,41,3,4.73,0.51
+Thursday,10,Brand,Enabled,28,2,2.67,0.55
+Thursday,11,Brand,Enabled,26,2,2.79,0.57
+Thursday,12,Brand,Enabled,17,1,1.32,0.24
+Thursday,13,Brand,Enabled,26,2,3.01,0.57
+Thursday,14,Brand,Enabled,28,2,2.65,0.45
+Thursday,15,Brand,Enabled,29,2,2.82,0.45
+Thursday,16,Brand,Enabled,29,2,2.85,0.49
+Thursday,17,Brand,Enabled,13,1,1.47,0.22
+Thursday,18,Brand,Enabled,30,2,2.78,0.34
+Thursday,19,Brand,Enabled,13,1,1.59,0.28
+Thursday,20,Brand,Enabled,17,1,1.58,0.27
+Thursday,21,Brand,Enabled,14,1,1.50,0.23
+Thursday,22,Brand,Enabled,14,1,1.33,0.28
+Friday,6,Brand,Enabled,14,1,1.46,0.24
+Friday,7,Brand,Enabled,33,2,2.61,0.52
+Friday,8,Brand,Enabled,29,2,3.09,0.57
+Friday,9,Brand,Enabled,27,2,2.62,0.40
+Friday,10,Brand,Enabled,30,2,2.92,0.46
+Friday,11,Brand,Enabled,26,2,2.75,0.43
+Friday,12,Brand,Enabled,14,1,1.38,0.17
+Friday,13,Brand,Enabled,27,2,2.75,0.40
+Friday,14,Brand,Enabled,26,2,2.76,0.45
+Friday,15,Brand,Enabled,15,1,1.39,0.18
+Friday,16,Brand,Enabled,28,2,3.07,0.49
+Friday,17,Brand,Enabled,16,1,1.38,0.25
+Friday,18,Brand,Enabled,15,1,1.41,0.28
+Friday,19,Brand,Enabled,16,1,1.42,0.28
+Friday,20,Brand,Enabled,13,1,1.40,0.26
+Friday,21,Brand,Enabled,13,1,1.48,0.19
+Friday,22,Brand,Enabled,14,1,1.31,0.26
+Saturday,6,Brand,Enabled,16,1,1.57,0.20
+Saturday,7,Brand,Enabled,16,1,1.36,0.28
+Saturday,8,Brand,Enabled,25,2,3.03,0.54
+Saturday,9,Brand,Enabled,31,2,2.68,0.41
+Saturday,10,Brand,Enabled,30,2,2.72,0.33
+Saturday,11,Brand,Enabled,16,1,1.36,0.19
+Saturday,12,Brand,Enabled,13,1,1.47,0.23
+Saturday,13,Brand,Enabled,16,1,1.33,0.28
+Saturday,14,Brand,Enabled,13,1,1.53,0.19
+Saturday,15,Brand,Enabled,14,1,1.40,0.18
+Saturday,16,Brand,Enabled,14,1,1.59,0.26
+Saturday,17,Brand,Enabled,16,1,1.44,0.27
+Saturday,18,Brand,Enabled,13,1,1.31,0.28
+Saturday,19,Brand,Enabled,16,1,1.35,0.16
+Saturday,20,Brand,Enabled,16,1,1.31,0.18
+Saturday,21,Brand,Enabled,14,1,1.49,0.22
+Sunday,6,Brand,Enabled,13,1,1.41,0.07
+Sunday,7,Brand,Enabled,14,1,1.46,0.07
+Sunday,8,Brand,Enabled,13,1,1.37,0.09
+Sunday,9,Brand,Enabled,28,2,2.70,0.18
+Sunday,10,Brand,Enabled,27,2,2.71,0.13
+Sunday,11,Brand,Enabled,13,1,1.35,0.08
+Sunday,12,Brand,Enabled,15,1,1.50,0.06
+Sunday,13,Brand,Enabled,14,1,1.57,0.07
+Sunday,14,Brand,Enabled,15,1,1.45,0.05
+Sunday,15,Brand,Enabled,16,1,1.44,0.08
+Sunday,16,Brand,Enabled,13,1,1.49,0.07
+Sunday,17,Brand,Enabled,13,1,1.33,0.07
+Sunday,18,Brand,Enabled,15,1,1.54,0.09
+Sunday,19,Brand,Enabled,14,1,1.43,0.07
+Sunday,20,Brand,Enabled,15,1,1.44,0.07
+Sunday,21,Brand,Enabled,16,1,1.40,0.07
+Total: Account,,,,"34,130","2,357","17,072.34",221.45

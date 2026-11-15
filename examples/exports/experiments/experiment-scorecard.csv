@@ -1,0 +1,8 @@
+Experiment scorecard
+"October 1, 2026 - November 11, 2026"
+Metric,Control,Treatment,Difference,Confidence interval,Statistically significant
+Clicks,793,716,-9.7%,"[-20.1%, +2.1%]",Not statistically significant
+Conversions,94.00,110.00,+17.0%,"[-9.5%, +51.3%]",Not statistically significant
+Cost / conv.,63.72,56.45,-11.4%,"[-29.1%, +10.7%]",Not statistically significant
+Conv. rate,11.85%,15.36%,+29.6%,"[+4.0%, +61.5%]",Statistically significant
+Cost,"5,989.51","6,210.05",+3.7%,"[-8.5%, +17.5%]",Not statistically significant

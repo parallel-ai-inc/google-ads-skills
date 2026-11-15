@@ -1,0 +1,16 @@
+Search keyword report
+"October 14, 2026 - November 12, 2026"
+Keyword status,Keyword,Match type,Campaign,Ad group,Status,Final URL,Currency code,Impr.,Interactions,Cost,Conversions
+Enabled,[emergency plumber],Exact match,Plumbing | Emergency,Emergency,Eligible,https://www.northsideplumbing.example/emergency,USD,"2,904",242,"2,325.58",22.67
+Enabled,"""24 hour plumber""",Phrase match,Plumbing | Emergency,Emergency,Eligible,https://www.northsideplumbing.example/emergency,USD,"2,873",221,"1,942.48",15.71
+Enabled,plumber near me,Broad match,Plumbing | Emergency,Emergency,Eligible,https://www.northsideplumbing.example/emergency,USD,936,104,676.16,12.75
+Enabled,"""water heater repair""",Phrase match,Plumbing | Water Heaters,Water Heaters,Eligible,https://www.northsideplumbing.example/water-heaters,USD,"2,652",221,"2,101.43",16.47
+Enabled,[tankless water heater installation],Exact match,Plumbing | Water Heaters,Water Heaters,Eligible,https://www.northsideplumbing.example/water-heaters,USD,675,45,388.44,3.87
+Enabled,"""drain cleaning""",Phrase match,Drain Cleaning | Search,Drains,Eligible,https://www.northsideplumbing.example/drain-cleaning,USD,"4,455",297,"1,393.25",39.24
+Enabled,[clogged drain],Exact match,Drain Cleaning | Search,Drains,Eligible,https://www.northsideplumbing.example/drain-cleaning,USD,264,33,303.32,3.86
+Enabled,"""sewer line repair""",Phrase match,Drain Cleaning | Search,Sewer Repair,Eligible,https://www.northsideplumbing.example/drain-cleaning,USD,"3,650",365,"1,654.26",53.68
+Enabled,[northside plumbing],Exact match,Brand,Brand,Eligible,https://www.northsideplumbing.example/,USD,"1,023",93,623.28,10.66
+ --,Total: Keywords in your account, --, --, --, --, --,USD,"19,432","1,621","11,408.20",178.91
+ --,Total: All but removed keywords, --, --, --, --, --,USD,"19,432","1,621","11,408.20",178.91
+ --,Total: Account, --, --, --, --, --,USD,"19,432","1,621","11,408.20",178.91
+ --,Total: Search, --, --, --, --, --,USD,"19,432","1,621","11,408.20",178.91

@@ -1,0 +1,47 @@
+{
+ "report": "search-terms",
+ "file": "search-terms-report.csv",
+ "rows": 13,
+ "check": {
+  "rows_written": 13,
+  "rows_read_back": 13,
+  "date_range_read_back": [
+   "2026-10-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Impr.": 15273.0,
+   "Clicks": 797.0,
+   "Cost": 5362.2,
+   "Conversions": 117.0,
+   "Conv. value": 35100.0
+  },
+  "matches": true,
+  "by_column": {
+   "Impr.": {
+    "rows": 15273.0,
+    "total_row": 15273.0
+   },
+   "Clicks": {
+    "rows": 797.0,
+    "total_row": 797.0
+   },
+   "Cost": {
+    "rows": 5362.2,
+    "total_row": 5362.2
+   },
+   "Conversions": {
+    "rows": 117.0,
+    "total_row": 117.0
+   },
+   "Conv. value": {
+    "rows": 35100.0,
+    "total_row": 35100.0
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-10-14",
+ "end": "2026-11-12"
+}

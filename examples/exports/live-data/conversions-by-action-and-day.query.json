@@ -1,0 +1,153 @@
+{
+  "kind": "report",
+  "report": "conversions-by-action-and-day",
+  "title": "Conversions by action and day",
+  "file": "conversions-by-action-and-day.csv",
+  "total": "Total: Account",
+  "customer_id": "1234567890",
+  "start": "2026-09-14",
+  "end": "2026-11-12",
+  "tool": "search_search",
+  "parameters": {
+    "customer_id": "1234567890",
+    "resource": "campaign",
+    "fields": [
+      "segments.date",
+      "segments.conversion_action_name",
+      "campaign.name",
+      "campaign.status",
+      "metrics.conversions",
+      "metrics.all_conversions",
+      "metrics.conversions_value",
+      "metrics.all_conversions_value"
+    ],
+    "conditions": [
+      "segments.date BETWEEN '2026-09-14' AND '2026-11-12'"
+    ],
+    "orderings": [
+      "segments.date ASC"
+    ],
+    "limit": 10000
+  },
+  "result": "conversions-by-action-and-day.result.json",
+  "joins": [],
+  "join_key": null,
+  "columns": [
+    {
+      "header": "Day",
+      "field": "segments.date",
+      "kind": "text"
+    },
+    {
+      "header": "Conversion action",
+      "field": "segments.conversion_action_name",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign",
+      "field": "campaign.name",
+      "kind": "text"
+    },
+    {
+      "header": "Campaign status",
+      "field": "campaign.status",
+      "kind": "enum"
+    },
+    {
+      "header": "Conversions",
+      "field": "metrics.conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "All conv.",
+      "field": "metrics.all_conversions",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "Conv. value",
+      "field": "metrics.conversions_value",
+      "kind": "decimal",
+      "sum": true
+    },
+    {
+      "header": "All conv. value",
+      "field": "metrics.all_conversions_value",
+      "kind": "decimal",
+      "sum": true
+    }
+  ],
+  "needs": [
+    "segments.date",
+    "segments.conversion_action_name"
+  ],
+  "gaps": [
+    "Cost and clicks cannot be read in the same query as conversion actions. Use the campaigns by day report for them."
+  ],
+  "readers": [
+    "conversion tracking: python3 scripts/find_breaks.py FILE --out OUTPUT [--actions SUMMARY] [--clicks CAMPAIGNS_BY_DAY] [--changes CHANGE_HISTORY]"
+  ],
+  "field_checks": [
+    {
+      "field": "segments.date",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "segments.conversion_action_name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.name",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "campaign.status",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.all_conversions",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "metrics.all_conversions_value",
+      "used_in": "select",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "condition",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    },
+    {
+      "field": "segments.date",
+      "used_in": "ordering",
+      "status": "seen",
+      "note": "seen with campaign in working queries"
+    }
+  ]
+}

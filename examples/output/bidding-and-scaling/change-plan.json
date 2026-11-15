@@ -1,0 +1,208 @@
+{
+ "review": "campaigns-by-day.csv",
+ "read_end": "2026-11-05",
+ "steps": [
+  {
+   "step": 1,
+   "starts_on_day": 0,
+   "changes": [
+    {
+     "step": 1,
+     "campaign": "Plumbing | Emergency",
+     "change": "budget",
+     "why": "Beats its Target CPA of 60.00 and is limited by budget. Since August 17, 2026 more budget buys conversions at about the target, which the business accepts.",
+     "override": "",
+     "notes": [
+      "This step adds 40.00 a day (+16.7%). The review's Search lost top IS (budget) implies at most about 103.79 a day more at the same cost per click, an upper bound. After this step about 63.79 a day of that room is left for a next step, once this step's check is read. Google may bill up to 8,512.00 in a month at the new budget, against 7,296.00 now, 1,216.00 more, 30.4 times the daily budget (**Official**, references/scaling.md).",
+      "The reference files set no limit on the size of a budget change: there is no universal rule that budget changes stay under 20% (references/scaling.md). The step is a judgment.",
+      "**Official** (references/smart-bidding.md): since August 17, 2026 a budget limited Target CPA campaign bids toward its target, so the added budget buys conversions at about the target, not at today's figure. Confirm the target is the one the business wants."
+     ],
+     "warnings": [],
+     "family": "tcpa",
+     "campaign_type": "Search",
+     "category": "Scale candidate",
+     "editor": {
+      "Campaign daily budget": "280.00"
+     },
+     "from": 240.0,
+     "to": 280.0,
+     "pct": 0.16666666666666666,
+     "monthly_limit": 8512.0,
+     "added_per_day": 40.0,
+     "implied_extra_per_day_left": 103.79003769207723,
+     "room_left_after_step": 63.790037692077235,
+     "monthly_limit_change": 1216.0,
+     "check": {
+      "days": 14,
+      "needed": 30,
+      "conversions_per_day_before": 4.636415094339623,
+      "rollback_above": 60.0,
+      "rollback_below": null,
+      "rollback_without_goal": 70.95445115010332,
+      "what": "Cost / conv. against 60.00 and conversions a day against 4.64 in the review's read period, after about 14 days, once 30 conversions have come in.",
+      "rollback": "Roll back if cost / conv. is above 60.00, your goal, at that point. Your goal is the line: without it, the chance margin at 30 conversions would put it at 70.95."
+     }
+    },
+    {
+     "step": 1,
+     "campaign": "Plumbing | Water Heaters",
+     "change": "target_roas",
+     "why": "Beats its Target ROAS of 4.00 and loses impressions to rank, so a lower target lets it enter more auctions.",
+     "override": "",
+     "notes": [
+      "On Search and Shopping a target change moves bids at once and does not start learning, and a large move changes spend or volume by a similar amount (**Official**, references/smart-bidding.md). The reference files give no step size: this one is a judgment. Actual 5.12 (512%) against 4.00 (400%) (+27.9%).",
+      "So plan for spend near 126.52 a day after this step, against 115.02 a day in the review's read period, if the budget allows it.",
+      "Moved the unexpected way: its target was loosened from 4.50 (450%) to 4.00 (400%) on 2026-09-30, yet conv. value / cost went from 4.73 (473%) to 5.12 (512%) (+8.2%), and conversions a day from 1.95 to 2.12. A looser target usually trades efficiency for volume. The move is within what chance alone explains (about 17.9% on 31.2 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches."
+     ],
+     "warnings": [],
+     "family": "troas",
+     "campaign_type": "Search",
+     "category": "Scale candidate",
+     "editor": {
+      "Target ROAS": "360.00%"
+     },
+     "from": 4.0,
+     "to": 3.6,
+     "pct": -0.09999999999999998,
+     "looser": true,
+     "spend_near_per_day": 126.5238333333333,
+     "check": {
+      "days": 24,
+      "needed": 50,
+      "conversions_per_day_before": 2.1197222222222223,
+      "rollback_above": null,
+      "rollback_below": 3.090883117545686,
+      "rollback_without_goal": null,
+      "what": "Conv. value / cost against 3.60 (360%) and conversions a day against 2.12 in the review's read period, after about 24 days, once 50 conversions have come in.",
+      "rollback": "Roll back if conv. value / cost is below 3.09 (309%) at that point."
+     }
+    },
+    {
+     "step": 1,
+     "campaign": "Gas Line | Demand Gen",
+     "change": "pause",
+     "why": "No conversions since it was created.",
+     "override": "",
+     "notes": [
+      "Which wins here: the case for pausing, once tracking is confirmed. **Practitioner rule.** Google's caution protects a campaign that is gathering conversions to learn from. This one has recorded none after spending 11.7 times its reference cost per conversion, so the learning period has nothing to learn from, and Smart Bidding is a measurement system first (references/smart-bidding.md).",
+      "Confirm first that conversions are being recorded for it: the conversion actions it bids toward record conversions in other campaigns over the same days, and its goals include them. If tracking is broken, fix tracking instead of pausing."
+     ],
+     "warnings": [],
+     "family": "tcpa",
+     "campaign_type": "Demand Gen",
+     "category": "Pause candidate",
+     "editor": {
+      "Campaign status": "Paused"
+     },
+     "from": "Enabled",
+     "to": "Paused",
+     "pct": null,
+     "check": {
+      "days": 1,
+      "needed": 30,
+      "conversions_per_day_before": 0.0,
+      "rollback_above": null,
+      "rollback_below": null,
+      "what": "The next day: the campaign shows Paused and spent nothing. Then watch the other campaigns' conversions for a conversion cycle."
+     }
+    },
+    {
+     "step": 1,
+     "campaign": "Sewer Line | Search",
+     "change": "investigate",
+     "why": "Misses its Target CPA of 55.00. Check search terms, the landing page and call tracking before changing the target.",
+     "override": "",
+     "notes": [],
+     "warnings": [],
+     "family": "tcpa",
+     "campaign_type": "Search",
+     "category": "Missing its target",
+     "editor": null,
+     "from": null,
+     "to": null,
+     "pct": null,
+     "check": {
+      "days": null,
+      "needed": 30,
+      "conversions_per_day_before": 1.3813207547169812,
+      "rollback_above": null,
+      "rollback_below": null,
+      "what": "Fix what the investigation finds, then run the review again before changing the target or budget."
+     }
+    },
+    {
+     "step": 1,
+     "campaign": "Drain Cleaning | Search",
+     "change": "hold",
+     "why": "Learning after a switch to Target CPA and a budget change three days later.",
+     "override": "",
+     "notes": [
+      "Moved the unexpected way: a target of 50.00 was set on 2026-11-05, stricter than its earlier 56.41, yet cost / conv. went from 56.41 to 69.02 (+22.4%) in the early read, and conversions a day from 1.86 to 1.65. A stricter target usually trades volume for efficiency. The move is within what chance alone explains (about 29.5% on 11.5 conversions). Something else may have moved too: demand, competition, conversion values or the mix of searches."
+     ],
+     "warnings": [],
+     "family": "tcpa",
+     "campaign_type": "Search",
+     "category": "Hold: learning",
+     "editor": null,
+     "from": null,
+     "to": null,
+     "pct": null,
+     "check": {
+      "days": 19,
+      "needed": 30,
+      "conversions_per_day_before": 1.6457142857142857,
+      "rollback_above": null,
+      "rollback_below": null,
+      "what": "Run the review again around 2026-12-01, when a proper read of its latest change is possible."
+     }
+    }
+   ],
+   "editor_file": "step-1-for-google-ads-editor.csv"
+  },
+  {
+   "step": 2,
+   "starts_on_day": 24,
+   "changes": [
+    {
+     "step": 2,
+     "campaign": "Plumbing | Water Heaters",
+     "change": "target_roas",
+     "why": "A second step toward more volume, only if the first held its return.",
+     "override": "",
+     "notes": [
+      "Follows the change in step 1. Values start from that step.",
+      "On Search and Shopping a target change moves bids at once and does not start learning, and a large move changes spend or volume by a similar amount (**Official**, references/smart-bidding.md). The reference files give no step size: this one is a judgment."
+     ],
+     "warnings": [],
+     "family": "troas",
+     "campaign_type": "Search",
+     "category": "Scale candidate",
+     "editor": {
+      "Target ROAS": "330.00%"
+     },
+     "from": 3.6,
+     "to": 3.3,
+     "pct": -0.08333333333333341,
+     "looser": true,
+     "check": {
+      "days": 24,
+      "needed": 50,
+      "conversions_per_day_before": 2.1197222222222223,
+      "rollback_above": null,
+      "rollback_below": 2.8333095244168787,
+      "rollback_without_goal": null,
+      "what": "Conv. value / cost against 3.30 (330%) and conversions a day against 2.12 in the review's read period, after about 24 days, once 50 conversions have come in.",
+      "rollback": "Roll back if conv. value / cost is below 2.83 (283%) at that point."
+     }
+    }
+   ],
+   "editor_file": "step-2-for-google-ads-editor.csv"
+  }
+ ],
+ "editor_files": [
+  "step-1-for-google-ads-editor.csv",
+  "step-2-for-google-ads-editor.csv"
+ ],
+ "changes": 6,
+ "edits": 4
+}

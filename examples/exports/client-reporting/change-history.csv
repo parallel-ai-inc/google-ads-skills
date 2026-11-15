@@ -1,0 +1,11 @@
+Change history report
+"September 1, 2026 - November 12, 2026"
+Date & time,User,Campaign,Ad group,Changes
+"Sep 15, 2026, 2:10:00 PM",sam@northside.example,Plumbing | Emergency, --,Ad schedule changed
+"Oct 1, 2026, 9:02:13 AM",sam@northside.example,Plumbing | Emergency, --,Budget changed from 200.00 to 240.00
+"Oct 6, 2026, 4:41:55 PM",sam@northside.example,Plumbing | Water Heaters, --,"Bid strategy changed from Maximize conversions to Target CPA
+Target CPA set to 45.00"
+"Oct 14, 2026, 11:20:05 AM",Google Ads system,Plumbing | Emergency,Emergency,6 keywords added (broad match)
+"Oct 20, 2026, 8:15:40 AM",lee@northside.example,Drain Cleaning | Search, --,Campaign status changed from Enabled to Paused
+"Oct 27, 2026, 3:05:12 PM",lee@northside.example,Brand, --,Sitelink asset added
+"Nov 3, 2026, 10:00:41 AM",sam@northside.example,Plumbing | Water Heaters, --,Target CPA changed from 45.00 to 55.00

@@ -1,0 +1,415 @@
+{
+ "kind": "daily",
+ "report": "leads-by-city-by-day.csv",
+ "control_report": null,
+ "inferred": true,
+ "metric": "leads",
+ "test_group": [
+  "Evanston",
+  "Skokie",
+  "Oak Park"
+ ],
+ "control_group": [
+  "Berwyn",
+  "Cicero",
+  "Des Plaines",
+  "Niles",
+  "Park Ridge"
+ ],
+ "group_column": "city",
+ "test_kind": "go-dark",
+ "confidence": 0.95,
+ "margin": 0.4,
+ "stated": {
+  "pre": [
+   "2026-08-01",
+   "2026-10-21"
+  ],
+  "window": [
+   "2026-10-22",
+   "2026-11-04"
+  ],
+  "pre_days": 82,
+  "test_days": 14,
+  "pre_is_three_times_test": true,
+  "distinct": true,
+  "ads": {
+   "total": 128.05480452093326,
+   "low": 66.74207188323393,
+   "high": 189.3675371586326,
+   "per_day": 9.146771751495233
+  },
+  "placebo": {
+   "windows": 69,
+   "share_as_large": 0.0,
+   "typical_gap": 0.05099991856793755,
+   "largest_gap": 0.21014748729534952
+  },
+  "verdict": "Strong",
+  "verdict_reason": "a gap this large appeared in 0% of 69 placebo windows in the pre-period",
+  "value": {
+   "actual": 78073.11,
+   "predicted": 108698.70276334358,
+   "incremental": 30625.59276334358,
+   "low": 15399.697570942804,
+   "high": 45851.48795574435,
+   "source": "the revenue column"
+  },
+  "cost": {
+   "spend_change": 1934.33818700702,
+   "actual": 0.0,
+   "predicted": 1934.33818700702,
+   "cost_per_day_before": 137.5320731707317,
+   "attributed_per_day_before": 13.890243902439025,
+   "incremental_share_of_attributed": 0.6585033218811318,
+   "incremental_share_range": [
+    0.3432114570691824,
+    0.9737951866930812
+   ],
+   "cost_per_incremental": 15.105549489092473,
+   "cost_per_incremental_range": [
+    10.214729599543933,
+    28.98229156552359
+   ],
+   "incremental_value_per_spend": 15.832594821865259,
+   "incremental_value_per_spend_range": [
+    7.9612229517996465,
+    23.70396669193087
+   ],
+   "incremental_profit_per_spend": 5.333037928746104,
+   "incremental_profit_per_spend_range": [
+    2.1844891807198588,
+    8.481586676772348
+   ],
+   "breakeven_value_per_spend": 2.5,
+   "incremental_profit": 10315.898918330411
+  },
+  "fit": {
+   "intercept": 8.721262162455616,
+   "slope": 0.4687791309296063,
+   "r2": 0.3846921445770374,
+   "residual_sd": 7.566297768941229,
+   "df": 80
+  },
+  "effect": {
+   "actual": 310.0,
+   "predicted": 438.05480452093326,
+   "effect": -128.05480452093326,
+   "se": 30.80943651836754,
+   "low": -189.3675371586326,
+   "high": -66.74207188323393,
+   "p": 8.274571073352277e-05,
+   "relative": -0.29232599026274103,
+   "relative_low": -0.4322918849519965,
+   "relative_high": -0.15236009557348557
+  }
+ },
+ "length": {
+  "checked": true,
+  "usual_cost_per_day": 137.05,
+  "off_threshold": 13.705000000000002,
+  "cost_file_ends": "2026-11-11",
+  "off_from": "2026-10-22",
+  "off_to": "2026-11-11",
+  "off_days": 21,
+  "still_off_at_file_end": true,
+  "note": "The stated test and the data differ: cost stayed off until 2026-11-11 (when the cost file ends), after the stated end of 2026-11-04."
+ },
+ "full_off_period": {
+  "pre": [
+   "2026-08-01",
+   "2026-10-21"
+  ],
+  "window": [
+   "2026-10-22",
+   "2026-11-11"
+  ],
+  "pre_days": 82,
+  "test_days": 21,
+  "pre_is_three_times_test": true,
+  "distinct": true,
+  "ads": {
+   "total": 184.0197650432591,
+   "low": 106.02639998057352,
+   "high": 262.0131301059447,
+   "per_day": 8.762845954440909
+  },
+  "placebo": {
+   "windows": 62,
+   "share_as_large": 0.0,
+   "typical_gap": 0.04264498040816321,
+   "largest_gap": 0.1487346350921572
+  },
+  "verdict": "Strong",
+  "verdict_reason": "a gap this large appeared in 0% of 62 placebo windows in the pre-period",
+  "value": {
+   "actual": 118707.25,
+   "predicted": 163774.77238920066,
+   "incremental": 45067.52238920066,
+   "low": 25691.620487550405,
+   "high": 64443.42429085092,
+   "source": "the revenue column"
+  },
+  "cost": {
+   "spend_change": 2898.911074503392,
+   "actual": 0.0,
+   "predicted": 2898.911074503392,
+   "cost_per_day_before": 137.5320731707317,
+   "attributed_per_day_before": 13.890243902439025,
+   "incremental_share_of_attributed": 0.6308633610747625,
+   "incremental_share_range": [
+    0.3634836238307215,
+    0.8982430983188037
+   ],
+   "cost_per_incremental": 15.753259297021273,
+   "cost_per_incremental_range": [
+    11.063991614966856,
+    27.341408130753653
+   ],
+   "incremental_value_per_spend": 15.546362489550017,
+   "incremental_value_per_spend_range": [
+    8.862507275064171,
+    22.23021770403586
+   ],
+   "incremental_profit_per_spend": 5.218544995820007,
+   "incremental_profit_per_spend_range": [
+    2.5450029100256693,
+    7.892087081614346
+   ],
+   "breakeven_value_per_spend": 2.5,
+   "incremental_profit": 15128.097881176875
+  },
+  "fit": {
+   "intercept": 8.721262162455616,
+   "slope": 0.4687791309296063,
+   "r2": 0.3846921445770374,
+   "residual_sd": 7.566297768941229,
+   "df": 80
+  },
+  "effect": {
+   "actual": 474.0,
+   "predicted": 658.0197650432591,
+   "effect": -184.0197650432591,
+   "se": 39.1913967356788,
+   "low": -262.0131301059447,
+   "high": -106.02639998057352,
+   "p": 1.143119027258166e-05,
+   "relative": -0.2796568960677973,
+   "relative_low": -0.3981842856782875,
+   "relative_high": -0.1611295064573071
+  }
+ },
+ "controls_check": [
+  {
+   "region": "Berwyn",
+   "relative": -0.15504577110155437,
+   "relative_low": -0.3730432640301516,
+   "relative_high": 0.06295172182704281,
+   "placebo_share": 0.14492753623188406,
+   "moved": false
+  },
+  {
+   "region": "Cicero",
+   "relative": -0.10921896052367394,
+   "relative_low": -0.310728104997336,
+   "relative_high": 0.0922901839499881,
+   "placebo_share": 0.2028985507246377,
+   "moved": false
+  },
+  {
+   "region": "Des Plaines",
+   "relative": -0.027460542446269692,
+   "relative_low": -0.20938410267881355,
+   "relative_high": 0.15446301778627414,
+   "placebo_share": 0.5942028985507246,
+   "moved": false
+  },
+  {
+   "region": "Niles",
+   "relative": 0.4231098106948863,
+   "relative_low": 0.2374104613868078,
+   "relative_high": 0.6088091600029648,
+   "placebo_share": 0.0,
+   "moved": true
+  },
+  {
+   "region": "Park Ridge",
+   "relative": -0.02198348606535433,
+   "relative_low": -0.20722244402507453,
+   "relative_high": 0.16325547189436587,
+   "placebo_share": 0.855072463768116,
+   "moved": false
+  }
+ ],
+ "without_moved_controls": {
+  "pre": [
+   "2026-08-01",
+   "2026-10-21"
+  ],
+  "window": [
+   "2026-10-22",
+   "2026-11-04"
+  ],
+  "pre_days": 82,
+  "test_days": 14,
+  "pre_is_three_times_test": true,
+  "distinct": true,
+  "ads": {
+   "total": 102.06275655558568,
+   "low": 39.12895614671177,
+   "high": 164.9965569644596,
+   "per_day": 7.290196896827548
+  },
+  "placebo": {
+   "windows": 69,
+   "share_as_large": 0.0,
+   "typical_gap": 0.05948501998601694,
+   "largest_gap": 0.22716042298925948
+  },
+  "verdict": "Strong",
+  "verdict_reason": "a gap this large appeared in 0% of 69 placebo windows in the pre-period",
+  "value": {
+   "actual": 78073.11,
+   "predicted": 102372.36438825613,
+   "incremental": 24299.25438825613,
+   "low": 8648.80393821924,
+   "high": 39949.70483829302,
+   "source": "the revenue column"
+  },
+  "cost": {
+   "spend_change": 1932.860123962671,
+   "actual": 0.0,
+   "predicted": 1932.860123962671,
+   "cost_per_day_before": 137.5320731707317,
+   "attributed_per_day_before": 13.890243902439025,
+   "incremental_share_of_attributed": 0.5248429723791562,
+   "incremental_share_range": [
+    0.20121500087986738,
+    0.8484709438784451
+   ],
+   "cost_per_incremental": 18.93795728425179,
+   "cost_per_incremental_range": [
+    11.714548227688235,
+    49.39718086819191
+   ],
+   "incremental_value_per_spend": 12.571656938340054,
+   "incremental_value_per_spend_range": [
+    4.474614500550518,
+    20.66869937612959
+   ],
+   "incremental_profit_per_spend": 4.028662775336022,
+   "incremental_profit_per_spend_range": [
+    0.7898458002202073,
+    7.267479750451837
+   ],
+   "breakeven_value_per_spend": 2.5,
+   "incremental_profit": 7786.841631339781
+  },
+  "controls": [
+   "Berwyn",
+   "Cicero",
+   "Des Plaines",
+   "Park Ridge"
+  ],
+  "left_out": [
+   "Niles"
+  ],
+  "fit": {
+   "intercept": 10.574504091602762,
+   "slope": 0.5421349061050247,
+   "r2": 0.3443048604139157,
+   "residual_sd": 7.810668055958463,
+   "df": 80
+  },
+  "effect": {
+   "actual": 310.0,
+   "predicted": 412.0627565555857,
+   "effect": -102.06275655558568,
+   "se": 31.624017477971776,
+   "low": -164.9965569644596,
+   "high": -39.12895614671177,
+   "p": 0.0018243940303304118,
+   "relative": -0.24768740909448778,
+   "relative_low": -0.40041608793684363,
+   "relative_high": -0.09495873025213195
+  }
+ },
+ "reconcile": {
+  "checked": false,
+  "matches": null,
+  "rows_total": {},
+  "file_total": null,
+  "label": null
+ },
+ "cost_reconcile": {
+  "checked": true,
+  "matches": true,
+  "rows_total": {
+   "cost": 32144.68
+  },
+  "file_total": {
+   "cost": 32144.68
+  },
+  "label": "Total: Account (added up over 103 days)"
+ },
+ "pre": [
+  "2026-08-01",
+  "2026-10-21"
+ ],
+ "during": [
+  "2026-10-22",
+  "2026-11-04"
+ ],
+ "pre_days": 82,
+ "test_days": 14,
+ "pre_is_three_times_test": true,
+ "distinguishable_from_zero": true,
+ "verdict": "Strong",
+ "effect": {
+  "actual": 310.0,
+  "predicted": 438.05480452093326,
+  "effect": -128.05480452093326,
+  "se": 30.80943651836754,
+  "low": -189.3675371586326,
+  "high": -66.74207188323393,
+  "p": 8.274571073352277e-05,
+  "relative": -0.29232599026274103,
+  "relative_low": -0.4322918849519965,
+  "relative_high": -0.15236009557348557
+ },
+ "caused_by_ads": {
+  "total": 128.05480452093326,
+  "low": 66.74207188323393,
+  "high": 189.3675371586326,
+  "per_day": 9.146771751495233
+ },
+ "cost": {
+  "spend_change": 1934.33818700702,
+  "actual": 0.0,
+  "predicted": 1934.33818700702,
+  "cost_per_day_before": 137.5320731707317,
+  "attributed_per_day_before": 13.890243902439025,
+  "incremental_share_of_attributed": 0.6585033218811318,
+  "incremental_share_range": [
+   0.3432114570691824,
+   0.9737951866930812
+  ],
+  "cost_per_incremental": 15.105549489092473,
+  "cost_per_incremental_range": [
+   10.214729599543933,
+   28.98229156552359
+  ],
+  "incremental_value_per_spend": 15.832594821865259,
+  "incremental_value_per_spend_range": [
+   7.9612229517996465,
+   23.70396669193087
+  ],
+  "incremental_profit_per_spend": 5.333037928746104,
+  "incremental_profit_per_spend_range": [
+   2.1844891807198588,
+   8.481586676772348
+  ],
+  "breakeven_value_per_spend": 2.5,
+  "incremental_profit": 10315.898918330411
+ }
+}

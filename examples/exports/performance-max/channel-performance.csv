@@ -1,0 +1,20 @@
+Channel performance report
+"October 14, 2026 - November 12, 2026"
+Campaign,Channel,Status,Currency code,Impr.,Interactions,Cost,Conversions,Conv. value
+PMax | Plumbing Supplies,Google Search,Eligible,USD,"108,583","4,721","5,200.00",69.00,"25,000.00"
+PMax | Plumbing Supplies,Search partners,Eligible,USD,"2,660",133,300.00,3.00,900.00
+PMax | Plumbing Supplies,Google Display Network,Eligible,USD,"43,860","1,462","2,100.00",6.00,"2,000.00"
+PMax | Plumbing Supplies,YouTube,Eligible,USD,"27,570",919,"1,200.00",13.00,"4,800.00"
+PMax | Plumbing Supplies,Discover,Eligible (Limited),USD,"6,232",328,450.00,8.00,"2,110.00"
+PMax | Plumbing Supplies,Gmail,Eligible,USD,"4,641",119,200.00,5.00,"1,000.00"
+PMax | Plumbing Supplies,Maps,Eligible,USD,0,0,0.00,0.00,0.00
+PMax | Water Heater Leads,Google Search,Eligible,USD,"37,584","1,296","2,600.00",18.00,0.00
+PMax | Water Heater Leads,Search partners,Eligible,USD,"1,218",58,100.00,1.00,0.00
+PMax | Water Heater Leads,Google Display Network,Eligible,USD,"25,402",977,"1,300.00",3.00,0.00
+PMax | Water Heater Leads,YouTube,Eligible,USD,"14,674",638,600.00,4.00,0.00
+PMax | Water Heater Leads,Discover,Eligible,USD,"2,964",76,150.00,1.00,0.00
+PMax | Water Heater Leads,Gmail,Eligible,USD,572,26,50.00,1.00,0.00
+PMax | Water Heater Leads,Maps,Eligible,USD,0,0,0.00,0.00,0.00
+PMax | Spring Promo,Google Search,Eligible,USD,"2,262",78,80.00,1.00,0.00
+PMax | Spring Promo,Google Display Network,Eligible,USD,544,16,40.00,0.00,0.00
+ --,Total: Performance Max, --,USD,"278,766","10,847","14,370.00",133.00,"35,810.00"

@@ -1,0 +1,101 @@
+Experiment report
+"September 24, 2026 - November 11, 2026"
+Day,Experiment arm,Campaign,Currency code,Impr.,Clicks,Cost,Conversions,Conv. value
+2026-09-24,Control,Plumbing | Emergency,USD,285,21,160.72,0.00,0.00
+2026-09-24,Treatment,Plumbing | Emergency [trial],USD,273,18,158.91,0.00,0.00
+2026-09-25,Control,Plumbing | Emergency,USD,216,16,120.15,1.00,206.72
+2026-09-25,Treatment,Plumbing | Emergency [trial],USD,243,16,134.16,1.00,182.11
+2026-09-26,Control,Plumbing | Emergency,USD,275,17,131.12,2.00,410.70
+2026-09-26,Treatment,Plumbing | Emergency [trial],USD,152,10,84.36,1.00,213.82
+2026-09-27,Control,Plumbing | Emergency,USD,225,17,122.92,0.00,0.00
+2026-09-27,Treatment,Plumbing | Emergency [trial],USD,224,14,120.12,1.00,225.31
+2026-09-28,Control,Plumbing | Emergency,USD,438,33,249.26,5.00,"1,025.86"
+2026-09-28,Treatment,Plumbing | Emergency [trial],USD,291,20,168.85,1.00,187.70
+2026-09-29,Control,Plumbing | Emergency,USD,406,26,190.26,3.00,639.26
+2026-09-29,Treatment,Plumbing | Emergency [trial],USD,229,14,124.24,1.00,222.99
+2026-09-30,Control,Plumbing | Emergency,USD,262,20,151.94,2.00,423.57
+2026-09-30,Treatment,Plumbing | Emergency [trial],USD,302,22,188.68,0.00,0.00
+2026-10-01,Control,Plumbing | Emergency,USD,362,26,197.88,1.00,225.54
+2026-10-01,Treatment,Plumbing | Emergency [trial],USD,178,13,109.34,3.00,658.07
+2026-10-02,Control,Plumbing | Emergency,USD,163,10,72.48,1.00,222.32
+2026-10-02,Treatment,Plumbing | Emergency [trial],USD,250,15,129.43,1.00,189.47
+2026-10-03,Control,Plumbing | Emergency,USD,100,8,58.35,2.00,432.92
+2026-10-03,Treatment,Plumbing | Emergency [trial],USD,194,14,123.28,2.00,442.45
+2026-10-04,Control,Plumbing | Emergency,USD,150,11,84.93,2.00,377.52
+2026-10-04,Treatment,Plumbing | Emergency [trial],USD,261,17,152.36,2.00,434.18
+2026-10-05,Control,Plumbing | Emergency,USD,371,28,204.01,4.00,811.48
+2026-10-05,Treatment,Plumbing | Emergency [trial],USD,262,20,173.73,4.00,762.89
+2026-10-06,Control,Plumbing | Emergency,USD,465,32,246.56,2.00,429.98
+2026-10-06,Treatment,Plumbing | Emergency [trial],USD,315,19,159.94,1.00,183.63
+2026-10-07,Control,Plumbing | Emergency,USD,215,17,131.92,2.00,390.96
+2026-10-07,Treatment,Plumbing | Emergency [trial],USD,272,21,179.96,5.00,"1,035.37"
+2026-10-08,Control,Plumbing | Emergency,USD,317,20,147.98,1.00,196.29
+2026-10-08,Treatment,Plumbing | Emergency [trial],USD,297,20,167.87,2.00,434.03
+2026-10-09,Control,Plumbing | Emergency,USD,332,21,159.70,2.00,440.30
+2026-10-09,Treatment,Plumbing | Emergency [trial],USD,228,17,153.38,4.00,826.50
+2026-10-10,Control,Plumbing | Emergency,USD,261,16,115.27,2.00,387.06
+2026-10-10,Treatment,Plumbing | Emergency [trial],USD,354,24,216.15,3.00,655.50
+2026-10-11,Control,Plumbing | Emergency,USD,246,17,130.05,3.00,568.08
+2026-10-11,Treatment,Plumbing | Emergency [trial],USD,102,7,63.11,1.00,237.62
+2026-10-12,Control,Plumbing | Emergency,USD,279,19,146.34,1.00,232.73
+2026-10-12,Treatment,Plumbing | Emergency [trial],USD,317,22,195.50,4.00,865.64
+2026-10-13,Control,Plumbing | Emergency,USD,303,19,144.31,4.00,926.97
+2026-10-13,Treatment,Plumbing | Emergency [trial],USD,247,16,142.53,2.00,427.18
+2026-10-14,Control,Plumbing | Emergency,USD,251,16,121.97,2.00,441.50
+2026-10-14,Treatment,Plumbing | Emergency [trial],USD,248,19,159.48,3.00,648.34
+2026-10-15,Control,Plumbing | Emergency,USD,455,29,224.01,4.00,879.06
+2026-10-15,Treatment,Plumbing | Emergency [trial],USD,236,17,150.79,2.00,425.38
+2026-10-16,Control,Plumbing | Emergency,USD,294,20,144.45,2.00,449.88
+2026-10-16,Treatment,Plumbing | Emergency [trial],USD,302,21,180.68,3.00,610.16
+2026-10-17,Control,Plumbing | Emergency,USD,276,19,139.60,5.00,"1,019.86"
+2026-10-17,Treatment,Plumbing | Emergency [trial],USD,163,12,104.95,3.00,573.57
+2026-10-18,Control,Plumbing | Emergency,USD,211,15,109.64,1.00,224.53
+2026-10-18,Treatment,Plumbing | Emergency [trial],USD,82,6,53.47,1.00,205.61
+2026-10-19,Control,Plumbing | Emergency,USD,388,28,216.90,3.00,666.70
+2026-10-19,Treatment,Plumbing | Emergency [trial],USD,207,14,124.09,2.00,391.66
+2026-10-20,Control,Plumbing | Emergency,USD,425,27,205.40,2.00,417.91
+2026-10-20,Treatment,Plumbing | Emergency [trial],USD,354,23,197.45,1.00,184.36
+2026-10-21,Control,Plumbing | Emergency,USD,357,22,164.44,1.00,228.02
+2026-10-21,Treatment,Plumbing | Emergency [trial],USD,256,18,156.29,1.00,188.30
+2026-10-22,Control,Plumbing | Emergency,USD,325,24,174.85,0.00,0.00
+2026-10-22,Treatment,Plumbing | Emergency [trial],USD,267,16,136.80,2.00,391.88
+2026-10-23,Control,Plumbing | Emergency,USD,185,13,98.15,3.00,669.73
+2026-10-23,Treatment,Plumbing | Emergency [trial],USD,468,29,242.61,7.00,"1,490.88"
+2026-10-24,Control,Plumbing | Emergency,USD,126,9,65.77,1.00,195.93
+2026-10-24,Treatment,Plumbing | Emergency [trial],USD,144,11,95.17,1.00,180.60
+2026-10-25,Control,Plumbing | Emergency,USD,147,11,83.76,1.00,224.03
+2026-10-25,Treatment,Plumbing | Emergency [trial],USD,124,9,75.82,4.00,858.57
+2026-10-26,Control,Plumbing | Emergency,USD,334,23,170.56,6.00,"1,289.65"
+2026-10-26,Treatment,Plumbing | Emergency [trial],USD,266,21,180.96,3.00,598.12
+2026-10-27,Control,Plumbing | Emergency,USD,248,19,146.49,2.00,418.80
+2026-10-27,Treatment,Plumbing | Emergency [trial],USD,529,34,300.71,5.00,"1,023.75"
+2026-10-28,Control,Plumbing | Emergency,USD,358,24,186.53,3.00,584.18
+2026-10-28,Treatment,Plumbing | Emergency [trial],USD,224,16,135.04,3.00,653.78
+2026-10-29,Control,Plumbing | Emergency,USD,238,18,140.18,1.00,218.88
+2026-10-29,Treatment,Plumbing | Emergency [trial],USD,185,12,107.24,3.00,638.08
+2026-10-30,Control,Plumbing | Emergency,USD,255,19,147.61,4.00,839.44
+2026-10-30,Treatment,Plumbing | Emergency [trial],USD,182,11,92.07,1.00,216.84
+2026-10-31,Control,Plumbing | Emergency,USD,164,13,97.98,0.00,0.00
+2026-10-31,Treatment,Plumbing | Emergency [trial],USD,192,13,109.53,0.00,0.00
+2026-11-01,Control,Plumbing | Emergency,USD,200,14,108.14,0.00,0.00
+2026-11-01,Treatment,Plumbing | Emergency [trial],USD,293,20,168.32,4.00,865.52
+2026-11-02,Control,Plumbing | Emergency,USD,555,35,266.76,6.00,"1,179.78"
+2026-11-02,Treatment,Plumbing | Emergency [trial],USD,447,27,236.89,5.00,"1,063.65"
+2026-11-03,Control,Plumbing | Emergency,USD,282,19,141.11,2.00,440.40
+2026-11-03,Treatment,Plumbing | Emergency [trial],USD,226,17,152.32,2.00,391.49
+2026-11-04,Control,Plumbing | Emergency,USD,279,20,144.96,2.00,393.92
+2026-11-04,Treatment,Plumbing | Emergency [trial],USD,302,19,170.98,4.00,869.71
+2026-11-05,Control,Plumbing | Emergency,USD,261,16,119.17,2.00,417.31
+2026-11-05,Treatment,Plumbing | Emergency [trial],USD,284,19,164.98,3.00,616.38
+2026-11-06,Control,Plumbing | Emergency,USD,296,18,137.86,6.00,"1,280.60"
+2026-11-06,Treatment,Plumbing | Emergency [trial],USD,131,9,79.98,1.00,204.56
+2026-11-07,Control,Plumbing | Emergency,USD,191,14,108.70,1.00,213.33
+2026-11-07,Treatment,Plumbing | Emergency [trial],USD,158,11,92.85,2.00,452.04
+2026-11-08,Control,Plumbing | Emergency,USD,98,7,52.76,1.00,208.17
+2026-11-08,Treatment,Plumbing | Emergency [trial],USD,192,13,112.34,1.00,218.89
+2026-11-09,Control,Plumbing | Emergency,USD,270,20,153.22,2.00,457.83
+2026-11-09,Treatment,Plumbing | Emergency [trial],USD,295,19,158.75,5.00,"1,019.87"
+2026-11-10,Control,Plumbing | Emergency,USD,326,21,160.83,2.00,419.21
+2026-11-10,Treatment,Plumbing | Emergency [trial],USD,222,17,142.48,2.00,416.92
+2026-11-11,Control,Plumbing | Emergency,USD,202,16,117.93,2.00,399.31
+2026-11-11,Treatment,Plumbing | Emergency [trial],USD,267,18,160.43,2.00,435.48

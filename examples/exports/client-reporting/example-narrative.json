@@ -1,0 +1,44 @@
+{
+ "report_type": "monthly",
+ "title": "Northside Plumbing: Google Ads, October 2026",
+ "sections": [
+  {
+   "heading": "Month-over-month snapshot",
+   "tables": [
+    "account_without_brand",
+    "account",
+    "scorecard"
+   ],
+   "text": "October brought {acct.conv.cur} conversions at a cost of {acct.cost.cur}, against {acct.conv.prev} conversions in September. Conversions rose {acct.conv.chg_prev} while cost fell {acct.cost.chg_prev}.\n\nWithout Brand, cost per conversion was {nb.cpa.cur}, which is {score.cpa_nb.diff_pct} above the {target.cpa} target. Brand searches convert cheaply by nature, so the whole account's figure of {acct.cpa.cur} looks better than the rest of the account performs.",
+   "bullets": [
+    "Against October last year, conversions rose {acct.conv.chg_ly}.",
+    "Spend came in {score.cost.diff_pct} below the spend target of {target.cost}, mostly because Drain Cleaning | Search was paused."
+   ]
+  },
+  {
+   "heading": "Main drivers",
+   "tables": [
+    "movers",
+    "campaigns"
+   ],
+   "text": "Plumbing | Water Heaters was the biggest mover. Its conversions fell {c2.conv.chg_prev} after its bid strategy moved to Target CPA on {chg2.date}, with the target set at {chg2.n1}. That change is the first lead to check, not proven cause.\n\nPlumbing | Emergency grew. Its conversions rose {c1.conv.chg_prev} after its daily budget rose from {chg1.n1} to {chg1.n2} on {chg1.date}. Google's systems also added {chg3.n1} keywords to it on {chg3.date}.",
+   "bullets": [
+    "Drain Cleaning | Search was paused on {chg4.date} and its last day with cost was {c3.last_cost_day}, so its cost fell by {c3.cost.delta_prev.abs}. It did not decline; it stopped."
+   ]
+  },
+  {
+   "heading": "Budget shifts",
+   "tables": [],
+   "text": "Plumbing | Emergency took {c1.cost.share_cur} of October's cost and brought {c1.conv.share_cur} of its conversions. The pause of Drain Cleaning | Search freed budget that was not moved elsewhere."
+  },
+  {
+   "heading": "Recommended next actions",
+   "tables": [],
+   "bullets": [
+    "Review the Target CPA on Plumbing | Water Heaters. It was raised after the month closed, so November will show whether that helps.",
+    "Decide with you whether Drain Cleaning | Search comes back on, and on what budget.",
+    "Judge cost per conversion without Brand from now on, since Brand hides the gap to target."
+   ]
+  }
+ ]
+}

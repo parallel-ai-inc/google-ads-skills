@@ -1,0 +1,47 @@
+{
+ "report": "campaigns",
+ "file": "campaign-report.csv",
+ "rows": 4,
+ "check": {
+  "rows_written": 4,
+  "rows_read_back": 4,
+  "date_range_read_back": [
+   "2026-10-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Impr.": 30242.0,
+   "Clicks": 2089.0,
+   "Cost": 13370.49,
+   "Conversions": 407.18,
+   "Conv. value": 132427.8
+  },
+  "matches": true,
+  "by_column": {
+   "Impr.": {
+    "rows": 30242.0,
+    "total_row": 30242.0
+   },
+   "Clicks": {
+    "rows": 2089.0,
+    "total_row": 2089.0
+   },
+   "Cost": {
+    "rows": 13370.49,
+    "total_row": 13370.49
+   },
+   "Conversions": {
+    "rows": 407.18,
+    "total_row": 407.18
+   },
+   "Conv. value": {
+    "rows": 132427.8,
+    "total_row": 132427.8
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-10-14",
+ "end": "2026-11-12"
+}

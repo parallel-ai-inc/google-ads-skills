@@ -1,0 +1,47 @@
+{
+ "report": "keywords",
+ "file": "keyword-report.csv",
+ "rows": 8,
+ "check": {
+  "rows_written": 8,
+  "rows_read_back": 8,
+  "date_range_read_back": [
+   "2026-10-14",
+   "2026-11-12"
+  ],
+  "totals": {
+   "Impr.": 20085.0,
+   "Clicks": 1545.0,
+   "Cost": 9792.6,
+   "Conversions": 229.0,
+   "Conv. value": 68700.0
+  },
+  "matches": true,
+  "by_column": {
+   "Impr.": {
+    "rows": 20085.0,
+    "total_row": 20085.0
+   },
+   "Clicks": {
+    "rows": 1545.0,
+    "total_row": 1545.0
+   },
+   "Cost": {
+    "rows": 9792.6,
+    "total_row": 9792.6
+   },
+   "Conversions": {
+    "rows": 229.0,
+    "total_row": 229.0
+   },
+   "Conv. value": {
+    "rows": 68700.0,
+    "total_row": 68700.0
+   }
+  }
+ },
+ "warnings": [],
+ "notes": [],
+ "start": "2026-10-14",
+ "end": "2026-11-12"
+}
