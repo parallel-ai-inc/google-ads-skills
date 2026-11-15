@@ -299,7 +299,8 @@ class OnePackForEveryStore(unittest.TestCase):
             self.assertEqual(claude[key], cursor[key], key)
             self.assertEqual(claude[key], gemini[key], key)
         self.assertEqual(load(".claude-plugin/marketplace.json")["plugins"][0]["name"], claude["name"])
-        self.assertTrue(os.path.isfile(os.path.join(ROOT, cursor["logo"])))
+        # The Claude directory holds a plugin for review when another manifest names its image file.
+        self.assertNotIn("logo", cursor)
 
 
 if __name__ == "__main__":

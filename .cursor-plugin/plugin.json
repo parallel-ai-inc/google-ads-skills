@@ -8,6 +8,5 @@
   "homepage": "https://www.withparallel.ai/skills",
   "repository": "https://github.com/parallel-ai-inc/google-ads-skills",
   "license": "PolyForm-Shield-1.0.0",
-  "keywords": ["google-ads", "ppc", "paid-search", "performance-max", "google-ads-editor", "search-terms", "conversion-tracking"],
-  "logo": ".claude-plugin/icon.png"
+  "keywords": ["google-ads", "ppc", "paid-search", "performance-max", "google-ads-editor", "search-terms", "conversion-tracking"]
 }
