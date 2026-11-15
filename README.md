@@ -59,18 +59,19 @@ Add `--skill search-terms-for-google-ads` to install one skill, or `-a codex` (o
 
 | Part | Where |
 |---|---|
-| Reading exports, the math, negative keyword rules, workbooks | `engine/gads/`, copied into each skill so a skill works when installed alone |
+| Reading exports, the math, negative keyword rules, workbooks | `dev/engine/gads/`, copied into each skill so a skill works when installed alone |
 | Each job's scripts | `skills/*/scripts/` |
 | What the AI tool is told | `skills/*/SKILL.md` |
 | What Google documents, with the page behind each line | `skills/*/references/` |
 | What to decide from the numbers, how big a change, what goes wrong, what to tell the client | `skills/*/playbooks/` |
 | Real Google Ads download layouts | `REAL-EXPORT-LAYOUTS.md` |
+| Tests, and the scripts that make the sample files | `dev/tests/`, `dev/samples/` |
 
 To run the tests:
 
 ```
-python3 tools/build.py
-python3 -m unittest discover -s tests -p "test_*.py"
+python3 dev/tools/build.py
+python3 -m unittest discover -s dev/tests -p "test_*.py"
 ```
 
 ## License
