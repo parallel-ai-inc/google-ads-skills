@@ -1,7 +1,11 @@
 ---
 name: performance-reviews-for-google-ads
 description: Reviews Google Ads performance from exports, from the weekly review to keywords and Quality Score, ads, landing pages, devices, locations, ad schedule, audiences, placements, YouTube and Demand Gen, each judged against the account's own baseline. Use when someone asks for a weekly review or which keywords, ads, pages, devices, places, hours or audiences work.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/performance-reviews-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Performance reviews for Google Ads

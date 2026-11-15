@@ -1,7 +1,11 @@
 ---
 name: conversion-tracking-for-google-ads
 description: Audits Google Ads conversion tracking from exports. Checks the right actions are counted once with the right settings, finds the day an action stopped, dropped, doubled or left the Conversions column, and lists checks for the site, tag, consent or upload. Use when conversions stopped, dropped or doubled, or Google Ads does not match GA4, a CRM or the office.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/conversion-tracking-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Conversion tracking for Google Ads

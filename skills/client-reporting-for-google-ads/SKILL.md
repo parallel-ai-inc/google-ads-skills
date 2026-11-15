@@ -1,7 +1,11 @@
 ---
 name: client-reporting-for-google-ads
 description: Writes Google Ads client reports from exports, weekly, monthly or quarterly, as a Word document under the agency's name, with every number traced to the data before delivery. Also fact checks a report someone already wrote. Use when someone asks for a client report, a monthly or quarterly review, an executive summary or scorecard, or to check a report's numbers.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/client-reporting-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Client reporting for Google Ads

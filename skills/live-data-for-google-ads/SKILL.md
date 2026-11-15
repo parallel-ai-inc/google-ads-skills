@@ -1,7 +1,11 @@
 ---
 name: live-data-for-google-ads
 description: Reads live Google Ads data, read only, through Google's own Google Ads MCP server on the person's Google Cloud project, written in the same layout as a downloaded export so every other skill can use it. Use when someone wants live data instead of exports, asks to connect their AI tool to Google Ads, or wants a scheduled report.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/live-data-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Live data for Google Ads

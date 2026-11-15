@@ -1,7 +1,11 @@
 ---
 name: performance-diagnosis-for-google-ads
 description: Diagnoses a change in Google Ads performance from a campaign report by day. Finds the campaigns that carry it, the lever that moved (impressions, click through rate, cost per click or conversion rate), the day it started and the account changes just before. Use when someone asks why cost went up, why conversions or leads dropped, or what changed in the account.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/performance-diagnosis-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Performance diagnosis for Google Ads

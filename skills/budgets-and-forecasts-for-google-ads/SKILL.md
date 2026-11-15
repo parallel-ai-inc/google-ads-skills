@@ -1,7 +1,11 @@
 ---
 name: budgets-and-forecasts-for-google-ads
 description: Checks Google Ads budget pacing from a campaign report by day. Gives spend so far, the month end forecast with Google's monthly limits, campaigns limited by budget, and where a cut or move should come from. Use when someone asks how budgets are pacing, whether the account will overspend or underspend, where to move budget, or what to spend to hit a target.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/budgets-and-forecasts-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Budgets and forecasts for Google Ads

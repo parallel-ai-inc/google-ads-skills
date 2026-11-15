@@ -1,7 +1,11 @@
 ---
 name: campaign-build-for-google-ads
 description: Builds a new Google Ads Search campaign from a brief, with ad groups, keywords and match types, responsive search ads and negatives, checked against Google's limits and written as a Google Ads Editor file with everything paused, plus a launch checklist. Use when someone asks to build or plan a new Search campaign, write its ads and keywords, or prepare a launch.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/campaign-build-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Campaign build for Google Ads

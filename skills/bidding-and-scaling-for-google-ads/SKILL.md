@@ -1,7 +1,11 @@
 ---
 name: bidding-and-scaling-for-google-ads
 description: Reviews Google Ads bid strategies from a campaign report by day. Measures each campaign against its Target CPA or Target ROAS, its volume, learning and recent changes, finds what limits it, and plans target and budget changes in steps. Use when someone asks to review bid strategies, scale or rein in campaigns, or change targets or budgets.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/bidding-and-scaling-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Bidding and scaling for Google Ads

@@ -1,7 +1,11 @@
 ---
 name: search-terms-for-google-ads
 description: Reviews a Google Ads search terms report, gives every search a Keep, Watch or Exclude verdict with a reason, and proposes negative keywords tested so they block no converting search or the account's own keywords, as a Google Ads Editor file. Use when someone shares a search terms report or asks for negatives or where search spend is wasted.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/search-terms-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Search terms and negative keywords for Google Ads

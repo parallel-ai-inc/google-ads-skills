@@ -1,7 +1,11 @@
 ---
 name: competitive-and-market-for-google-ads
 description: Reads Google Ads auction insights and a campaign report by month to show who the account meets in the auction, who gained share, whether share was lost to rank or to budget, and seasonality against last year. Use when someone asks about competitors, auction insights, impression share, share of voice, seasonality or year on year changes.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/competitive-and-market-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Competition and market for Google Ads

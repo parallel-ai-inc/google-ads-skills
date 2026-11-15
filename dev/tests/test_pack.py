@@ -3,6 +3,7 @@
     python3 -m unittest discover -s tests -v
 """
 import csv
+import glob
 import json
 import os
 import shutil
@@ -259,6 +260,7 @@ class OnePackForEveryStore(unittest.TestCase):
     so one pack, with no promotional sentence, goes to every store."""
 
     def test_no_skill_or_playbook_promotes_a_product(self):
+        # The SKILL.md header names the source and the terms; the AI reads it, never says it.
         provenance = ("Written by hand from Parallel AI's operating knowledge", "<!-- Generated ")
         found = []
         for folder, _, files in os.walk(os.path.join(ROOT, "skills")):
@@ -267,10 +269,26 @@ class OnePackForEveryStore(unittest.TestCase):
                     continue
                 path = os.path.join(folder, name)
                 with open(path, encoding="utf-8") as handle:
-                    for number, line in enumerate(handle, 1):
-                        if ("withparallel" in line or "Parallel AI" in line) and not line.strip().startswith(provenance):
-                            found.append("%s:%d" % (os.path.relpath(path, ROOT), number))
+                    lines = handle.read().split("\n")
+                start = 0
+                if name == "SKILL.md" and lines[0] == "---":
+                    start = lines.index("---", 1) + 1
+                for number, line in enumerate(lines[start:], start + 1):
+                    if ("withparallel" in line or "Parallel AI" in line) and not line.strip().startswith(provenance):
+                        found.append("%s:%d" % (os.path.relpath(path, ROOT), number))
         self.assertEqual(found, [])
+
+    def test_a_copy_of_one_skill_still_names_its_source_and_terms(self):
+        # npx skills add --skill copies one folder without the README or LICENSE.
+        repo = "https://github.com/parallel-ai-inc/google-ads-skills"
+        for path in sorted(glob.glob(os.path.join(ROOT, "skills", "*", "SKILL.md"))):
+            name = os.path.basename(os.path.dirname(path))
+            with open(path, encoding="utf-8") as handle:
+                text = handle.read()
+            head = text.split("\n---\n", 1)[0]
+            self.assertIn('Terms: %s/blob/main/LICENSE"' % repo, head, name)
+            self.assertIn('  homepage: "https://www.withparallel.ai/skills/%s"' % name, head, name)
+            self.assertIn('  repository: "%s"' % repo, head, name)
 
     def test_every_store_manifest_names_the_same_pack(self):
         def load(path):

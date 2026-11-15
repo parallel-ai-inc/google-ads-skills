@@ -1,7 +1,11 @@
 ---
 name: performance-max-for-google-ads
 description: Reviews Performance Max and Shopping from Google Ads and Merchant Center exports. Covers channel mix, asset groups, brand share, searches and products that spend without converting, feed gaps and price against benchmark, plus a launch or clone checklist. Use when someone asks to audit Performance Max, find PMax waste, review a Shopping feed or plan a PMax launch.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/performance-max-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Performance Max and Shopping for Google Ads

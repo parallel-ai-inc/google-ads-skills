@@ -1,7 +1,11 @@
 ---
 name: experiments-for-google-ads
 description: Plans and reads Google Ads experiments and incrementality tests from exports. Sizes a custom, geo or on and off test, reads the lift with a trust verdict, and works out profit at the business's margin and whether the next dollar pays. Use when someone asks to plan or read a test, whether ads are incremental, or which campaigns make money.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/experiments-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Experiments for Google Ads

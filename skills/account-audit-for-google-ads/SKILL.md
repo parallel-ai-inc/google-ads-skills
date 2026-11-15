@@ -1,7 +1,11 @@
 ---
 name: account-audit-for-google-ads
 description: Audits a Google Ads account from its exports across conversion tracking, structure, keywords, ads, budgets, bidding, search terms and settings, ranks failures by the money at stake and orders the fixes. Use when someone asks for a Google Ads audit, whether an account is ready to scale, or a QA pass before or after changes.
-license: See LICENSE in the repository
+license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
+metadata:
+  author: "Parallel AI, Inc."
+  homepage: "https://www.withparallel.ai/skills/account-audit-for-google-ads"
+  repository: "https://github.com/parallel-ai-inc/google-ads-skills"
 ---
 
 # Account audit for Google Ads
