@@ -1,6 +1,6 @@
 ---
 name: demand-gen-2026-audit-for-google-ads
-description: Audit Google Ads Demand Gen campaigns against verified 2026 mechanics: silent OPTED_IN ad-level asset automation defaults, Video vs. Image channel isolation, SEARCH vs. AUTO custom segment dilution, optimized targeting, Secondary non-biddable early-funnel signals, and vertical-agnostic sample calibration. Use when auditing, troubleshooting, or launching Demand Gen campaigns.
+description: "Audit Google Ads Demand Gen campaigns against verified 2026 mechanics including silent OPTED_IN ad-level asset automation defaults, Video vs. Image channel isolation, SEARCH vs. AUTO custom segment dilution, optimized targeting, Secondary non-biddable early-funnel signals, and vertical-agnostic sample calibration. Use when auditing, troubleshooting, or launching Demand Gen campaigns."
 license: "PolyForm Shield 1.0.0 with an additional permission for Google Ads work. Terms: https://github.com/parallel-ai-inc/google-ads-skills/blob/main/LICENSE"
 metadata:
   author: "Parallel AI, Inc."
