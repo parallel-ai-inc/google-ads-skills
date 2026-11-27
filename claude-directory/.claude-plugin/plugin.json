@@ -1,0 +1,28 @@
+{
+  "name": "parallel-ai-for-google-ads",
+  "displayName": "Parallel AI for Google Ads",
+  "version": "0.2.0",
+  "description": "Nine read-only, zero-OAuth Google Ads MCP tools and seven operator skills for 30.4x budget pacing, Search Terms CSV and N-gram waste audits, negative keyword collision checks, GA4 conversion debugging, Performance Max waste triage, 2026 Demand Gen audits, API v26 GAQL validation, and MIT read-only Google Ads Scripts.",
+  "author": {
+    "name": "Parallel AI, Inc.",
+    "url": "https://www.withparallel.ai"
+  },
+  "homepage": "https://www.withparallel.ai/tools",
+  "repository": "https://github.com/parallel-ai-inc/google-ads-skills",
+  "documentationUrl": "https://github.com/parallel-ai-inc/google-ads-skills/tree/main/claude-directory#readme",
+  "supportUrl": "https://www.withparallel.ai/contact",
+  "privacyPolicyUrl": "https://www.withparallel.ai/privacy-policy",
+  "termsOfServiceUrl": "https://www.withparallel.ai/terms-of-use",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": [
+    "google-ads",
+    "ppc",
+    "paid-search",
+    "performance-max",
+    "demand-gen",
+    "gaql",
+    "search-terms",
+    "conversion-tracking"
+  ],
+  "mcpServers": "./.mcp.json"
+}

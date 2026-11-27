@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "parallel-ai-google-ads-tools": {
+      "type": "http",
+      "url": "https://www.withparallel.ai/api/mcp"
+    }
+  }
+}
